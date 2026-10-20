@@ -1,0 +1,20 @@
+
+DataStore_ReputationsDB = {
+	["profileKeys"] = {
+		["Priestmass - AzerothCore"] = "Priestmass - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Priestmass"] = {
+				["lastUpdate"] = 1776985258,
+				["Factions"] = {
+					["Undercity"] = "3000|9000|5275",
+					["Darkspear Trolls"] = "0|3000|819",
+					["Thunder Bluff"] = "0|3000|819",
+					["Silvermoon City"] = "3000|9000|3419",
+					["Orgrimmar"] = "0|3000|819",
+				},
+			},
+		},
+	},
+}

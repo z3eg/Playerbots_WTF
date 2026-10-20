@@ -1,0 +1,30 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
+	},
+	["profiles"] = {
+		["Wwl - AzerothCore"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Wwl"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Wwl"] = {
+		},
+	},
+}

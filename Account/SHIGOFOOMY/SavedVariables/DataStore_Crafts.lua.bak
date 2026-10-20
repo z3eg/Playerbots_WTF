@@ -1,0 +1,44 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Shigofooy - AzerothCore"] = "Shigofooy - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Shigofooy"] = {
+				["Professions"] = {
+					["Tailoring"] = {
+						["isPrimary"] = true,
+					},
+					["Blacksmithing"] = {
+						["isPrimary"] = true,
+					},
+					["Alchemy"] = {
+						["isPrimary"] = true,
+					},
+					["First Aid"] = {
+						["isSecondary"] = true,
+					},
+					["Cooking"] = {
+						["isSecondary"] = true,
+					},
+					["Inscription"] = {
+						["isPrimary"] = true,
+					},
+					["Engineering"] = {
+						["isPrimary"] = true,
+					},
+					["Leatherworking"] = {
+						["isPrimary"] = true,
+					},
+					["Jewelcrafting"] = {
+						["isPrimary"] = true,
+					},
+					["Enchanting"] = {
+						["isPrimary"] = true,
+					},
+				},
+			},
+		},
+	},
+}

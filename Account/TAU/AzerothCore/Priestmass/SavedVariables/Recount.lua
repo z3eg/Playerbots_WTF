@@ -1,0 +1,2609 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Triste"] = {
+			["GUID"] = "0x0000000000000A34",
+			["LastEventHealth"] = {
+				"109 (89%)", -- [1]
+				"110 (90%)", -- [2]
+				"108 (88%)", -- [3]
+				"110 (90%)", -- [4]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					51, -- [1]
+				},
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "Triste",
+			["level"] = 5,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				10.65573770491803, -- [1]
+				9.836065573770492, -- [2]
+				11.47540983606557, -- [3]
+				9.836065573770492, -- [4]
+			},
+			["type"] = "Ungrouped",
+			["LastAbility"] = 850664.4180000001,
+			["UnitLockout"] = 1778636931,
+			["Owner"] = false,
+			["LastDamageTaken"] = 12,
+			["NextEventNum"] = 5,
+			["LastEventHealthNum"] = {
+				89.34426229508196, -- [1]
+				90.1639344262295, -- [2]
+				88.52459016393442, -- [3]
+				90.1639344262295, -- [4]
+			},
+			["LastEvents"] = {
+				"Environment Fire Triste Hit -13 (Fire)", -- [1]
+				"Environment Fire Triste Hit -12 (Fire)", -- [2]
+				"Environment Fire Triste Hit -14 (Fire)", -- [3]
+				"Environment Fire Triste Hit -12 (Fire)", -- [4]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 51,
+					},
+					["DamageTaken"] = 51,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 1778636940,
+				["OVERALL"] = 1778636940,
+			},
+			["Name"] = "Triste",
+			["LastEventTimes"] = {
+				1597532.598, -- [1]
+				1597535.605, -- [2]
+				1597538.641, -- [3]
+				1597541.707, -- [4]
+			},
+			["LastActive"] = 1778636940,
+		},
+		["Mootylate"] = {
+			["GUID"] = "0x0000000000000A2A",
+			["LastEventHealth"] = {
+				"121 (88%)", -- [1]
+				"123 (90%)", -- [2]
+				"123 (90%)", -- [3]
+				"126 (92%)", -- [4]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					51, -- [1]
+				},
+			},
+			["enClass"] = "ROGUE",
+			["unit"] = "Mootylate",
+			["level"] = 5,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				11.02941176470588, -- [1]
+				9.558823529411765, -- [2]
+				9.558823529411765, -- [3]
+				7.352941176470588, -- [4]
+			},
+			["type"] = "Ungrouped",
+			["LastAbility"] = 850664.4180000001,
+			["UnitLockout"] = 1778636934,
+			["Owner"] = false,
+			["LastDamageTaken"] = 10,
+			["NextEventNum"] = 5,
+			["LastEventHealthNum"] = {
+				88.97058823529412, -- [1]
+				90.44117647058823, -- [2]
+				90.44117647058823, -- [3]
+				92.64705882352941, -- [4]
+			},
+			["LastEvents"] = {
+				"Environment Fire Mootylate Hit -15 (Fire)", -- [1]
+				"Environment Fire Mootylate Hit -13 (Fire)", -- [2]
+				"Environment Fire Mootylate Hit -13 (Fire)", -- [3]
+				"Environment Fire Mootylate Hit -10 (Fire)", -- [4]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 51,
+					},
+					["DamageTaken"] = 51,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 1778636943,
+				["OVERALL"] = 1778636943,
+			},
+			["Name"] = "Mootylate",
+			["LastEventTimes"] = {
+				1597535.607, -- [1]
+				1597538.641, -- [2]
+				1597541.708, -- [3]
+				1597544.685, -- [4]
+			},
+			["LastActive"] = 1778636943,
+		},
+		["Azovsteel"] = {
+			["GUID"] = "0x0000000000000A28",
+			["LastEventHealth"] = {
+				"139 (90%)", -- [1]
+				"138 (90%)", -- [2]
+				"140 (91%)", -- [3]
+				"138 (90%)", -- [4]
+				"143 (93%)", -- [5]
+				"142 (92%)", -- [6]
+				"142 (92%)", -- [7]
+				"142 (92%)", -- [8]
+				"141 (92%)", -- [9]
+				"140 (91%)", -- [10]
+				"139 (90%)", -- [11]
+				"143 (93%)", -- [12]
+				"138 (90%)", -- [13]
+				"138 (90%)", -- [14]
+				"141 (92%)", -- [15]
+				"143 (93%)", -- [16]
+				"139 (90%)", -- [17]
+				"125 (81%)", -- [18]
+				"142 (92%)", -- [19]
+				"141 (92%)", -- [20]
+				"138 (90%)", -- [21]
+				"143 (93%)", -- [22]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					277, -- [1]
+				},
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = "Azovsteel",
+			["level"] = 5,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				9.15032679738562, -- [1]
+				9.803921568627452, -- [2]
+				8.496732026143791, -- [3]
+				9.803921568627452, -- [4]
+				6.535947712418301, -- [5]
+				7.189542483660131, -- [6]
+				7.189542483660131, -- [7]
+				7.189542483660131, -- [8]
+				7.843137254901961, -- [9]
+				8.496732026143791, -- [10]
+				9.15032679738562, -- [11]
+				6.535947712418301, -- [12]
+				9.803921568627452, -- [13]
+				9.803921568627452, -- [14]
+				7.843137254901961, -- [15]
+				6.535947712418301, -- [16]
+				9.15032679738562, -- [17]
+				9.15032679738562, -- [18]
+				7.189542483660131, -- [19]
+				7.843137254901961, -- [20]
+				9.803921568627452, -- [21]
+				6.535947712418301, -- [22]
+			},
+			["type"] = "Ungrouped",
+			["LastAbility"] = 850664.4180000001,
+			["UnitLockout"] = 1778636931,
+			["Owner"] = false,
+			["LastDamageTaken"] = 10,
+			["NextEventNum"] = 23,
+			["LastEventHealthNum"] = {
+				90.84967320261438, -- [1]
+				90.19607843137256, -- [2]
+				91.50326797385621, -- [3]
+				90.19607843137256, -- [4]
+				93.46405228758169, -- [5]
+				92.81045751633987, -- [6]
+				92.81045751633987, -- [7]
+				92.81045751633987, -- [8]
+				92.15686274509804, -- [9]
+				91.50326797385621, -- [10]
+				90.84967320261438, -- [11]
+				93.46405228758169, -- [12]
+				90.19607843137256, -- [13]
+				90.19607843137256, -- [14]
+				92.15686274509804, -- [15]
+				93.46405228758169, -- [16]
+				90.84967320261438, -- [17]
+				81.69934640522875, -- [18]
+				92.81045751633987, -- [19]
+				92.15686274509804, -- [20]
+				90.19607843137256, -- [21]
+				93.46405228758169, -- [22]
+			},
+			["LastEvents"] = {
+				"Environment Fire Azovsteel Hit -14 (Fire)", -- [1]
+				"Environment Fire Azovsteel Hit -15 (Fire)", -- [2]
+				"Environment Fire Azovsteel Hit -13 (Fire)", -- [3]
+				"Environment Fire Azovsteel Hit -15 (Fire)", -- [4]
+				"Environment Fire Azovsteel Hit -10 (Fire)", -- [5]
+				"Environment Fire Azovsteel Hit -11 (Fire)", -- [6]
+				"Environment Fire Azovsteel Hit -11 (Fire)", -- [7]
+				"Environment Fire Azovsteel Hit -11 (Fire)", -- [8]
+				"Environment Fire Azovsteel Hit -12 (Fire)", -- [9]
+				"Environment Fire Azovsteel Hit -13 (Fire)", -- [10]
+				"Environment Fire Azovsteel Hit -14 (Fire)", -- [11]
+				"Environment Fire Azovsteel Hit -10 (Fire)", -- [12]
+				"Environment Fire Azovsteel Hit -15 (Fire)", -- [13]
+				"Environment Fire Azovsteel Hit -15 (Fire)", -- [14]
+				"Environment Fire Azovsteel Hit -12 (Fire)", -- [15]
+				"Environment Fire Azovsteel Hit -10 (Fire)", -- [16]
+				"Environment Fire Azovsteel Hit -14 (Fire)", -- [17]
+				"Environment Fire Azovsteel Hit -14 (Fire)", -- [18]
+				"Environment Fire Azovsteel Hit -11 (Fire)", -- [19]
+				"Environment Fire Azovsteel Hit -12 (Fire)", -- [20]
+				"Environment Fire Azovsteel Hit -15 (Fire)", -- [21]
+				"Environment Fire Azovsteel Hit -10 (Fire)", -- [22]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 22,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 22,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 277,
+								},
+							},
+							["amount"] = 277,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 277,
+					},
+					["DamageTaken"] = 277,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 1778637022,
+				["OVERALL"] = 1778637022,
+			},
+			["Name"] = "Azovsteel",
+			["LastEventTimes"] = {
+				1597532.599, -- [1]
+				1597535.607, -- [2]
+				1597538.641, -- [3]
+				1597541.708, -- [4]
+				1597544.685, -- [5]
+				1597547.712, -- [6]
+				1597550.796, -- [7]
+				1597553.826, -- [8]
+				1597556.819, -- [9]
+				1597559.843, -- [10]
+				1597562.864, -- [11]
+				1597565.887, -- [12]
+				1597568.91, -- [13]
+				1597571.981, -- [14]
+				1597574.973, -- [15]
+				1597578.033, -- [16]
+				1597581.043, -- [17]
+				1597611.851, -- [18]
+				1597614.865, -- [19]
+				1597617.943, -- [20]
+				1597620.927, -- [21]
+				1597623.996, -- [22]
+			},
+			["LastActive"] = 1778637022,
+		},
+		["Worldwarl"] = {
+			["GUID"] = "0x0000000000000A27",
+			["LastEventHealth"] = {
+				"135 (91%)", -- [1]
+				"138 (93%)", -- [2]
+				"137 (92%)", -- [3]
+				"133 (89%)", -- [4]
+				"134 (90%)", -- [5]
+				"138 (93%)", -- [6]
+				"134 (90%)", -- [7]
+				"133 (89%)", -- [8]
+				"135 (91%)", -- [9]
+				"137 (92%)", -- [10]
+				"134 (90%)", -- [11]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					140, -- [1]
+				},
+			},
+			["enClass"] = "WARRIOR",
+			["unit"] = "Worldwarl",
+			["level"] = 5,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				8.783783783783784, -- [1]
+				6.756756756756757, -- [2]
+				7.432432432432433, -- [3]
+				10.13513513513514, -- [4]
+				9.45945945945946, -- [5]
+				6.756756756756757, -- [6]
+				9.45945945945946, -- [7]
+				10.13513513513514, -- [8]
+				8.783783783783784, -- [9]
+				7.432432432432433, -- [10]
+				9.45945945945946, -- [11]
+			},
+			["type"] = "Ungrouped",
+			["LastAbility"] = 850664.4180000001,
+			["UnitLockout"] = 1778636931,
+			["Owner"] = false,
+			["LastDamageTaken"] = 14,
+			["NextEventNum"] = 12,
+			["LastEventHealthNum"] = {
+				91.21621621621621, -- [1]
+				93.24324324324324, -- [2]
+				92.56756756756757, -- [3]
+				89.86486486486487, -- [4]
+				90.54054054054055, -- [5]
+				93.24324324324324, -- [6]
+				90.54054054054055, -- [7]
+				89.86486486486487, -- [8]
+				91.21621621621621, -- [9]
+				92.56756756756757, -- [10]
+				90.54054054054055, -- [11]
+			},
+			["LastEvents"] = {
+				"Environment Fire Worldwarl Hit -13 (Fire)", -- [1]
+				"Environment Fire Worldwarl Hit -10 (Fire)", -- [2]
+				"Environment Fire Worldwarl Hit -11 (Fire)", -- [3]
+				"Environment Fire Worldwarl Hit -15 (Fire)", -- [4]
+				"Environment Fire Worldwarl Hit -14 (Fire)", -- [5]
+				"Environment Fire Worldwarl Hit -10 (Fire)", -- [6]
+				"Environment Fire Worldwarl Hit -14 (Fire)", -- [7]
+				"Environment Fire Worldwarl Hit -15 (Fire)", -- [8]
+				"Environment Fire Worldwarl Hit -13 (Fire)", -- [9]
+				"Environment Fire Worldwarl Hit -11 (Fire)", -- [10]
+				"Environment Fire Worldwarl Hit -14 (Fire)", -- [11]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 140,
+								},
+							},
+							["amount"] = 140,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 140,
+					},
+					["DamageTaken"] = 140,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 1778636961,
+				["OVERALL"] = 1778636961,
+			},
+			["Name"] = "Worldwarl",
+			["LastEventTimes"] = {
+				1597532.599, -- [1]
+				1597535.607, -- [2]
+				1597538.641, -- [3]
+				1597541.708, -- [4]
+				1597544.685, -- [5]
+				1597547.712, -- [6]
+				1597550.796, -- [7]
+				1597553.826, -- [8]
+				1597556.819, -- [9]
+				1597559.843, -- [10]
+				1597562.864, -- [11]
+			},
+			["LastActive"] = 1778636961,
+		},
+		["Cowhy"] = {
+			["GUID"] = "0x0000000000000A2C",
+			["LastEventHealth"] = {
+				"120 (88%)", -- [1]
+				"122 (90%)", -- [2]
+				"120 (88%)", -- [3]
+				"121 (89%)", -- [4]
+				"121 (89%)", -- [5]
+				"125 (92%)", -- [6]
+				"125 (92%)", -- [7]
+				"121 (89%)", -- [8]
+				"124 (91%)", -- [9]
+				"125 (92%)", -- [10]
+				"121 (89%)", -- [11]
+				"125 (92%)", -- [12]
+				"123 (91%)", -- [13]
+				"125 (92%)", -- [14]
+				"125 (92%)", -- [15]
+				"125 (92%)", -- [16]
+				"114 (84%)", -- [17]
+				"120 (88%)", -- [18]
+				"120 (88%)", -- [19]
+				"125 (92%)", -- [20]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					243, -- [1]
+				},
+			},
+			["enClass"] = "SHAMAN",
+			["unit"] = "Cowhy",
+			["level"] = 4,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				11.11111111111111, -- [1]
+				9.62962962962963, -- [2]
+				11.11111111111111, -- [3]
+				10.37037037037037, -- [4]
+				10.37037037037037, -- [5]
+				7.407407407407407, -- [6]
+				7.407407407407407, -- [7]
+				10.37037037037037, -- [8]
+				8.148148148148149, -- [9]
+				7.407407407407407, -- [10]
+				10.37037037037037, -- [11]
+				7.407407407407407, -- [12]
+				8.888888888888889, -- [13]
+				7.407407407407407, -- [14]
+				7.407407407407407, -- [15]
+				7.407407407407407, -- [16]
+				8.148148148148149, -- [17]
+				11.11111111111111, -- [18]
+				11.11111111111111, -- [19]
+				7.407407407407407, -- [20]
+			},
+			["type"] = "Ungrouped",
+			["LastAbility"] = 850664.4180000001,
+			["UnitLockout"] = 1778636934,
+			["Owner"] = false,
+			["LastDamageTaken"] = 10,
+			["NextEventNum"] = 21,
+			["LastEventHealthNum"] = {
+				88.88888888888889, -- [1]
+				90.37037037037037, -- [2]
+				88.88888888888889, -- [3]
+				89.62962962962963, -- [4]
+				89.62962962962963, -- [5]
+				92.5925925925926, -- [6]
+				92.5925925925926, -- [7]
+				89.62962962962963, -- [8]
+				91.85185185185185, -- [9]
+				92.5925925925926, -- [10]
+				89.62962962962963, -- [11]
+				92.5925925925926, -- [12]
+				91.11111111111111, -- [13]
+				92.5925925925926, -- [14]
+				92.5925925925926, -- [15]
+				92.5925925925926, -- [16]
+				84.44444444444444, -- [17]
+				88.88888888888889, -- [18]
+				88.88888888888889, -- [19]
+				92.5925925925926, -- [20]
+			},
+			["LastEvents"] = {
+				"Environment Fire Cowhy Hit -15 (Fire)", -- [1]
+				"Environment Fire Cowhy Hit -13 (Fire)", -- [2]
+				"Environment Fire Cowhy Hit -15 (Fire)", -- [3]
+				"Environment Fire Cowhy Hit -14 (Fire)", -- [4]
+				"Environment Fire Cowhy Hit -14 (Fire)", -- [5]
+				"Environment Fire Cowhy Hit -10 (Fire)", -- [6]
+				"Environment Fire Cowhy Hit -10 (Fire)", -- [7]
+				"Environment Fire Cowhy Hit -14 (Fire)", -- [8]
+				"Environment Fire Cowhy Hit -11 (Fire)", -- [9]
+				"Environment Fire Cowhy Hit -10 (Fire)", -- [10]
+				"Environment Fire Cowhy Hit -14 (Fire)", -- [11]
+				"Environment Fire Cowhy Hit -10 (Fire)", -- [12]
+				"Environment Fire Cowhy Hit -12 (Fire)", -- [13]
+				"Environment Fire Cowhy Hit -10 (Fire)", -- [14]
+				"Environment Fire Cowhy Hit -10 (Fire)", -- [15]
+				"Environment Fire Cowhy Hit -10 (Fire)", -- [16]
+				"Environment Fire Cowhy Hit -11 (Fire)", -- [17]
+				"Environment Fire Cowhy Hit -15 (Fire)", -- [18]
+				"Environment Fire Cowhy Hit -15 (Fire)", -- [19]
+				"Environment Fire Cowhy Hit -10 (Fire)", -- [20]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 20,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 20,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 243,
+								},
+							},
+							["amount"] = 243,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 243,
+					},
+					["DamageTaken"] = 243,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 1778637018,
+				["OVERALL"] = 1778637018,
+			},
+			["Name"] = "Cowhy",
+			["LastEventTimes"] = {
+				1597535.606, -- [1]
+				1597538.641, -- [2]
+				1597541.708, -- [3]
+				1597544.684, -- [4]
+				1597547.712, -- [5]
+				1597550.796, -- [6]
+				1597553.826, -- [7]
+				1597556.819, -- [8]
+				1597559.842, -- [9]
+				1597562.864, -- [10]
+				1597565.887, -- [11]
+				1597568.91, -- [12]
+				1597571.981, -- [13]
+				1597574.973, -- [14]
+				1597578.033, -- [15]
+				1597581.042, -- [16]
+				1597611.851, -- [17]
+				1597614.865, -- [18]
+				1597617.943, -- [19]
+				1597620.927, -- [20]
+			},
+			["LastActive"] = 1778637018,
+		},
+		["Mojomage"] = {
+			["GUID"] = "0x0000000000000A36",
+			["LastEventHealth"] = {
+				"97 (86%)", -- [1]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					15, -- [1]
+				},
+			},
+			["enClass"] = "MAGE",
+			["unit"] = "Mojomage",
+			["level"] = 5,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				13.39285714285714, -- [1]
+			},
+			["type"] = "Ungrouped",
+			["LastAbility"] = 850664.4180000001,
+			["UnitLockout"] = 1778636934,
+			["Owner"] = false,
+			["LastDamageTaken"] = 15,
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				86.60714285714286, -- [1]
+			},
+			["LastEvents"] = {
+				"Environment Fire Mojomage Hit -15 (Fire)", -- [1]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 15,
+					},
+					["DamageTaken"] = 15,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 1778636934,
+				["OVERALL"] = 1778636934,
+			},
+			["Name"] = "Mojomage",
+			["LastEventTimes"] = {
+				1597535.606, -- [1]
+			},
+			["LastActive"] = 1778636934,
+		},
+		["Loasome"] = {
+			["GUID"] = "0x0000000000000A31",
+			["LastEventHealth"] = {
+				"125 (89%)", -- [1]
+				"128 (91%)", -- [2]
+				"126 (90%)", -- [3]
+				"125 (89%)", -- [4]
+				"126 (90%)", -- [5]
+				"129 (92%)", -- [6]
+				"128 (91%)", -- [7]
+				"126 (90%)", -- [8]
+				"127 (90%)", -- [9]
+				"127 (90%)", -- [10]
+				"128 (91%)", -- [11]
+				"127 (90%)", -- [12]
+				"125 (89%)", -- [13]
+				"128 (91%)", -- [14]
+				"128 (91%)", -- [15]
+				"130 (92%)", -- [16]
+				"126 (90%)", -- [17]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					221, -- [1]
+				},
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = "Loasome",
+			["level"] = 5,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				10.71428571428571, -- [1]
+				8.571428571428571, -- [2]
+				10, -- [3]
+				10.71428571428571, -- [4]
+				10, -- [5]
+				7.857142857142857, -- [6]
+				8.571428571428571, -- [7]
+				10, -- [8]
+				9.285714285714287, -- [9]
+				9.285714285714287, -- [10]
+				8.571428571428571, -- [11]
+				9.285714285714287, -- [12]
+				10.71428571428571, -- [13]
+				8.571428571428571, -- [14]
+				8.571428571428571, -- [15]
+				7.142857142857143, -- [16]
+				10, -- [17]
+			},
+			["type"] = "Ungrouped",
+			["LastAbility"] = 850664.4180000001,
+			["UnitLockout"] = 1778636934,
+			["Owner"] = false,
+			["LastDamageTaken"] = 14,
+			["NextEventNum"] = 18,
+			["LastEventHealthNum"] = {
+				89.28571428571429, -- [1]
+				91.42857142857143, -- [2]
+				90, -- [3]
+				89.28571428571429, -- [4]
+				90, -- [5]
+				92.14285714285714, -- [6]
+				91.42857142857143, -- [7]
+				90, -- [8]
+				90.71428571428571, -- [9]
+				90.71428571428571, -- [10]
+				91.42857142857143, -- [11]
+				90.71428571428571, -- [12]
+				89.28571428571429, -- [13]
+				91.42857142857143, -- [14]
+				91.42857142857143, -- [15]
+				92.85714285714286, -- [16]
+				90, -- [17]
+			},
+			["LastEvents"] = {
+				"Environment Fire Loasome Hit -15 (Fire)", -- [1]
+				"Environment Fire Loasome Hit -12 (Fire)", -- [2]
+				"Environment Fire Loasome Hit -14 (Fire)", -- [3]
+				"Environment Fire Loasome Hit -15 (Fire)", -- [4]
+				"Environment Fire Loasome Hit -14 (Fire)", -- [5]
+				"Environment Fire Loasome Hit -11 (Fire)", -- [6]
+				"Environment Fire Loasome Hit -12 (Fire)", -- [7]
+				"Environment Fire Loasome Hit -14 (Fire)", -- [8]
+				"Environment Fire Loasome Hit -13 (Fire)", -- [9]
+				"Environment Fire Loasome Hit -13 (Fire)", -- [10]
+				"Environment Fire Loasome Hit -12 (Fire)", -- [11]
+				"Environment Fire Loasome Hit -13 (Fire)", -- [12]
+				"Environment Fire Loasome Hit -15 (Fire)", -- [13]
+				"Environment Fire Loasome Hit -12 (Fire)", -- [14]
+				"Environment Fire Loasome Hit -12 (Fire)", -- [15]
+				"Environment Fire Loasome Hit -10 (Fire)", -- [16]
+				"Environment Fire Loasome Hit -14 (Fire)", -- [17]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 221,
+								},
+							},
+							["amount"] = 221,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 221,
+					},
+					["DamageTaken"] = 221,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 1778637012,
+				["OVERALL"] = 1778637012,
+			},
+			["Name"] = "Loasome",
+			["LastEventTimes"] = {
+				1597535.606, -- [1]
+				1597538.641, -- [2]
+				1597541.708, -- [3]
+				1597544.684, -- [4]
+				1597547.712, -- [5]
+				1597550.796, -- [6]
+				1597553.825, -- [7]
+				1597556.819, -- [8]
+				1597559.842, -- [9]
+				1597562.864, -- [10]
+				1597565.887, -- [11]
+				1597568.91, -- [12]
+				1597571.981, -- [13]
+				1597574.973, -- [14]
+				1597578.032, -- [15]
+				1597581.042, -- [16]
+				1597614.865, -- [17]
+			},
+			["LastActive"] = 1778637012,
+		},
+		["Trogue"] = {
+			["GUID"] = "0x0000000000000A33",
+			["LastEventHealth"] = {
+				"110 (89%)", -- [1]
+				"108 (87%)", -- [2]
+				"113 (91%)", -- [3]
+				"108 (87%)", -- [4]
+				"111 (90%)", -- [5]
+				"108 (87%)", -- [6]
+				"110 (89%)", -- [7]
+				"112 (91%)", -- [8]
+				"110 (89%)", -- [9]
+				"108 (87%)", -- [10]
+				"110 (89%)", -- [11]
+				"110 (89%)", -- [12]
+				"110 (89%)", -- [13]
+				"109 (88%)", -- [14]
+				"113 (91%)", -- [15]
+				"111 (90%)", -- [16]
+				"97 (78%)", -- [17]
+				"108 (87%)", -- [18]
+				"111 (90%)", -- [19]
+				"108 (87%)", -- [20]
+				"111 (90%)", -- [21]
+				"109 (88%)", -- [22]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					289, -- [1]
+				},
+			},
+			["enClass"] = "ROGUE",
+			["unit"] = "Trogue",
+			["level"] = 5,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				10.56910569105691, -- [1]
+				12.19512195121951, -- [2]
+				8.130081300813009, -- [3]
+				12.19512195121951, -- [4]
+				9.75609756097561, -- [5]
+				12.19512195121951, -- [6]
+				10.56910569105691, -- [7]
+				8.943089430894309, -- [8]
+				10.56910569105691, -- [9]
+				12.19512195121951, -- [10]
+				10.56910569105691, -- [11]
+				10.56910569105691, -- [12]
+				10.56910569105691, -- [13]
+				11.38211382113821, -- [14]
+				8.130081300813009, -- [15]
+				9.75609756097561, -- [16]
+				11.38211382113821, -- [17]
+				12.19512195121951, -- [18]
+				9.75609756097561, -- [19]
+				12.19512195121951, -- [20]
+				9.75609756097561, -- [21]
+				11.38211382113821, -- [22]
+			},
+			["type"] = "Ungrouped",
+			["LastAbility"] = 850664.4180000001,
+			["UnitLockout"] = 1778636934,
+			["Owner"] = false,
+			["LastDamageTaken"] = 14,
+			["NextEventNum"] = 23,
+			["LastEventHealthNum"] = {
+				89.4308943089431, -- [1]
+				87.8048780487805, -- [2]
+				91.869918699187, -- [3]
+				87.8048780487805, -- [4]
+				90.2439024390244, -- [5]
+				87.8048780487805, -- [6]
+				89.4308943089431, -- [7]
+				91.0569105691057, -- [8]
+				89.4308943089431, -- [9]
+				87.8048780487805, -- [10]
+				89.4308943089431, -- [11]
+				89.4308943089431, -- [12]
+				89.4308943089431, -- [13]
+				88.6178861788618, -- [14]
+				91.869918699187, -- [15]
+				90.2439024390244, -- [16]
+				78.86178861788618, -- [17]
+				87.8048780487805, -- [18]
+				90.2439024390244, -- [19]
+				87.8048780487805, -- [20]
+				90.2439024390244, -- [21]
+				88.6178861788618, -- [22]
+			},
+			["LastEvents"] = {
+				"Environment Fire Trogue Hit -13 (Fire)", -- [1]
+				"Environment Fire Trogue Hit -15 (Fire)", -- [2]
+				"Environment Fire Trogue Hit -10 (Fire)", -- [3]
+				"Environment Fire Trogue Hit -15 (Fire)", -- [4]
+				"Environment Fire Trogue Hit -12 (Fire)", -- [5]
+				"Environment Fire Trogue Hit -15 (Fire)", -- [6]
+				"Environment Fire Trogue Hit -13 (Fire)", -- [7]
+				"Environment Fire Trogue Hit -11 (Fire)", -- [8]
+				"Environment Fire Trogue Hit -13 (Fire)", -- [9]
+				"Environment Fire Trogue Hit -15 (Fire)", -- [10]
+				"Environment Fire Trogue Hit -13 (Fire)", -- [11]
+				"Environment Fire Trogue Hit -13 (Fire)", -- [12]
+				"Environment Fire Trogue Hit -13 (Fire)", -- [13]
+				"Environment Fire Trogue Hit -14 (Fire)", -- [14]
+				"Environment Fire Trogue Hit -10 (Fire)", -- [15]
+				"Environment Fire Trogue Hit -12 (Fire)", -- [16]
+				"Environment Fire Trogue Hit -14 (Fire)", -- [17]
+				"Environment Fire Trogue Hit -15 (Fire)", -- [18]
+				"Environment Fire Trogue Hit -12 (Fire)", -- [19]
+				"Environment Fire Trogue Hit -15 (Fire)", -- [20]
+				"Environment Fire Trogue Hit -12 (Fire)", -- [21]
+				"Environment Fire Trogue Hit -14 (Fire)", -- [22]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 22,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 22,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 289,
+								},
+							},
+							["amount"] = 289,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 289,
+					},
+					["DamageTaken"] = 289,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 1778637052,
+				["OVERALL"] = 1778637052,
+			},
+			["Name"] = "Trogue",
+			["LastEventTimes"] = {
+				1597535.606, -- [1]
+				1597538.641, -- [2]
+				1597541.708, -- [3]
+				1597544.684, -- [4]
+				1597547.712, -- [5]
+				1597550.796, -- [6]
+				1597553.825, -- [7]
+				1597556.819, -- [8]
+				1597559.842, -- [9]
+				1597562.864, -- [10]
+				1597565.887, -- [11]
+				1597568.91, -- [12]
+				1597571.981, -- [13]
+				1597574.973, -- [14]
+				1597578.032, -- [15]
+				1597581.042, -- [16]
+				1597611.85, -- [17]
+				1597614.865, -- [18]
+				1597617.943, -- [19]
+				1597620.926, -- [20]
+				1597623.996, -- [21]
+				1597654.345, -- [22]
+			},
+			["LastActive"] = 1778637052,
+		},
+		["Jbeans"] = {
+			["GUID"] = "0x0000000000000A32",
+			["LastEventHealth"] = {
+				"120 (89%)", -- [1]
+				"123 (91%)", -- [2]
+				"122 (91%)", -- [3]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					37, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "Jbeans",
+			["level"] = 5,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				10.44776119402985, -- [1]
+				8.208955223880597, -- [2]
+				8.955223880597014, -- [3]
+			},
+			["type"] = "Ungrouped",
+			["LastAbility"] = 850664.4180000001,
+			["UnitLockout"] = 1778636931,
+			["Owner"] = false,
+			["LastDamageTaken"] = 12,
+			["NextEventNum"] = 4,
+			["LastEventHealthNum"] = {
+				89.55223880597015, -- [1]
+				91.79104477611941, -- [2]
+				91.04477611940298, -- [3]
+			},
+			["LastEvents"] = {
+				"Environment Fire Jbeans Hit -14 (Fire)", -- [1]
+				"Environment Fire Jbeans Hit -11 (Fire)", -- [2]
+				"Environment Fire Jbeans Hit -12 (Fire)", -- [3]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 37,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 37,
+					},
+					["DamageTaken"] = 37,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 1778636937,
+				["OVERALL"] = 1778636937,
+			},
+			["Name"] = "Jbeans",
+			["LastEventTimes"] = {
+				1597532.598, -- [1]
+				1597535.605, -- [2]
+				1597538.641, -- [3]
+			},
+			["LastActive"] = 1778636937,
+		},
+		["Mojohead"] = {
+			["GUID"] = "0x0000000000000A30",
+			["LastEventHealth"] = {
+				"104 (88%)", -- [1]
+				"103 (88%)", -- [2]
+				"104 (88%)", -- [3]
+				"104 (88%)", -- [4]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					53, -- [1]
+				},
+			},
+			["enClass"] = "WARRIOR",
+			["unit"] = "Mojohead",
+			["level"] = 4,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				11.11111111111111, -- [1]
+				11.96581196581197, -- [2]
+				11.11111111111111, -- [3]
+				11.11111111111111, -- [4]
+			},
+			["type"] = "Ungrouped",
+			["LastAbility"] = 850664.4180000001,
+			["UnitLockout"] = 1778636934,
+			["Owner"] = false,
+			["LastDamageTaken"] = 13,
+			["NextEventNum"] = 5,
+			["LastEventHealthNum"] = {
+				88.88888888888889, -- [1]
+				88.03418803418803, -- [2]
+				88.88888888888889, -- [3]
+				88.88888888888889, -- [4]
+			},
+			["LastEvents"] = {
+				"Environment Fire Mojohead Hit -13 (Fire)", -- [1]
+				"Environment Fire Mojohead Hit -14 (Fire)", -- [2]
+				"Environment Fire Mojohead Hit -13 (Fire)", -- [3]
+				"Environment Fire Mojohead Hit -13 (Fire)", -- [4]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 53,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 53,
+					},
+					["DamageTaken"] = 53,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 1778636943,
+				["OVERALL"] = 1778636943,
+			},
+			["Name"] = "Mojohead",
+			["LastEventTimes"] = {
+				1597535.606, -- [1]
+				1597538.641, -- [2]
+				1597541.708, -- [3]
+				1597544.684, -- [4]
+			},
+			["LastActive"] = 1778636943,
+		},
+		["Moorlock"] = {
+			["GUID"] = "0x0000000000000A2E",
+			["LastEventHealth"] = {
+				"113 (89%)", -- [1]
+				"116 (92%)", -- [2]
+				"114 (90%)", -- [3]
+				"114 (90%)", -- [4]
+				"111 (88%)", -- [5]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					62, -- [1]
+				},
+			},
+			["enClass"] = "WARLOCK",
+			["unit"] = "Moorlock",
+			["level"] = 5,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				10.31746031746032, -- [1]
+				7.936507936507937, -- [2]
+				9.523809523809524, -- [3]
+				9.523809523809524, -- [4]
+				11.90476190476191, -- [5]
+			},
+			["type"] = "Ungrouped",
+			["LastAbility"] = 850664.4180000001,
+			["UnitLockout"] = 1778636934,
+			["Owner"] = false,
+			["LastDamageTaken"] = 15,
+			["NextEventNum"] = 6,
+			["LastEventHealthNum"] = {
+				89.68253968253968, -- [1]
+				92.06349206349206, -- [2]
+				90.47619047619048, -- [3]
+				90.47619047619048, -- [4]
+				88.0952380952381, -- [5]
+			},
+			["LastEvents"] = {
+				"Environment Fire Moorlock Hit -13 (Fire)", -- [1]
+				"Environment Fire Moorlock Hit -10 (Fire)", -- [2]
+				"Environment Fire Moorlock Hit -12 (Fire)", -- [3]
+				"Environment Fire Moorlock Hit -12 (Fire)", -- [4]
+				"Environment Fire Moorlock Hit -15 (Fire)", -- [5]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 62,
+					},
+					["DamageTaken"] = 62,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 1778636946,
+				["OVERALL"] = 1778636946,
+			},
+			["Name"] = "Moorlock",
+			["LastEventTimes"] = {
+				1597535.606, -- [1]
+				1597538.641, -- [2]
+				1597541.708, -- [3]
+				1597544.684, -- [4]
+				1597547.712, -- [5]
+			},
+			["LastActive"] = 1778636946,
+		},
+		["Priestmass"] = {
+			["GUID"] = "0x0000000000000A2B",
+			["LastEventHealth"] = {
+				"122 (89%)", -- [1]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					14, -- [1]
+				},
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "Priestmass",
+			["level"] = 5,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				10.29411764705882, -- [1]
+			},
+			["type"] = "Self",
+			["LastAbility"] = 850664.4180000001,
+			["UnitLockout"] = 1778636934,
+			["Owner"] = false,
+			["LastDamageTaken"] = 14,
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				89.70588235294117, -- [1]
+			},
+			["LastEvents"] = {
+				"Environment Fire Priestmass Hit -14 (Fire)", -- [1]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 14,
+					},
+					["DamageTaken"] = 14,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 1778636934,
+				["OVERALL"] = 1778636934,
+			},
+			["Name"] = "Priestmass",
+			["LastEventTimes"] = {
+				1597535.608, -- [1]
+			},
+			["LastActive"] = 1778636934,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

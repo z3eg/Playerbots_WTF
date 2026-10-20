@@ -1,0 +1,10 @@
+
+ARLDB2 = {
+	["profileKeys"] = {
+		["Priestmass - AzerothCore"] = "Priestmass - AzerothCore",
+	},
+	["profiles"] = {
+		["Priestmass - AzerothCore"] = {
+		},
+	},
+}

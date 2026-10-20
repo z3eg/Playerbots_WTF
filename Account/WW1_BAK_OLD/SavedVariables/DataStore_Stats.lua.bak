@@ -1,0 +1,24 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Wwl"] = {
+				["lastUpdate"] = 1777054563,
+				["Stats"] = {
+					["Ranged"] = "2-4|2.0000000949949|8|0|7.3869996070862",
+					["Spell"] = "0|0|0|0|0|0",
+					["Melee"] = "10-13|2.9000001377426|35|0|7.5869994163513|5",
+					["MaxPower"] = "1|100",
+					["PVP"] = "0|0|0|0",
+					["HealthMax"] = 70,
+					["Resistances"] = "0|0|0|0|0|0",
+					["Base"] = "26|17|23|19|22|36",
+					["Defense"] = "36|5|6.9146213531494|0|5|0",
+				},
+			},
+		},
+	},
+}

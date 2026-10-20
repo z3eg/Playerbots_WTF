@@ -1,0 +1,29 @@
+
+DataStore_SpellsDB = {
+	["profileKeys"] = {
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Wwl"] = {
+				["lastUpdate"] = 1777053701,
+				["Spells"] = {
+					["General"] = {
+						"6603|", -- [1]
+						"20574|Racial Passive", -- [2]
+						"107|Passive", -- [3]
+						"20572|Racial", -- [4]
+						"21563|Racial Passive", -- [5]
+						"81|Passive", -- [6]
+						"20573|Racial Passive", -- [7]
+						"2764|", -- [8]
+					},
+					["Arms"] = {
+						"2457|", -- [1]
+						"78|Rank 1", -- [2]
+					},
+				},
+			},
+		},
+	},
+}

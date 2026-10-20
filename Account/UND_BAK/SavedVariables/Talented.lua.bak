@@ -1,0 +1,18 @@
+
+TalentedDB = {
+	["profileKeys"] = {
+		["Shigo - AzerothCore"] = "Shigo - AzerothCore",
+	},
+	["profiles"] = {
+		["Shigo - AzerothCore"] = {
+			["framepos"] = {
+				["TalentedFrame"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchorTo"] = "CENTER",
+					["anchor"] = "CENTER",
+				},
+			},
+		},
+	},
+}

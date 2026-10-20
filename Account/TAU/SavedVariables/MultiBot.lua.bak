@@ -1,0 +1,8 @@
+
+MultiBotGlobalSave = {
+	["Priestmass"] = "Undead,[F],Discipline,0/0/0,Priest,5,1",
+	["Shigofoomy"] = "Undead,[M],Arcane,0/0/0,Mage,5,1",
+	["Terra"] = "Undead,[M],Enhancement,25/29/26,Shaman,5,2",
+	["Azovsteel"] = "Undead,[M],Holy,0/0/0,Paladin,5,2",
+	["Wwll"] = "Undead,[F],Arms,0/0/0,Warrior,4,1",
+}

@@ -1,0 +1,10 @@
+
+ARLDB2 = {
+	["profileKeys"] = {
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
+	},
+	["profiles"] = {
+		["Wwl - AzerothCore"] = {
+		},
+	},
+}

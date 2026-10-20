@@ -1,0 +1,56 @@
+
+XPerl_Roster = {
+	["Triste"] = {
+		["offline"] = 1597282.003,
+	},
+	["Ouija"] = {
+		["offline"] = 1597282.017,
+	},
+	["Oshio"] = {
+		["offline"] = 1597282.003,
+	},
+	["Jbeans"] = {
+		["offline"] = 1597281.965,
+	},
+	["Boostershotx"] = {
+		["offline"] = 1597281.962,
+	},
+	["Cowhy"] = {
+		["offline"] = 1597281.964,
+	},
+	["Moorlock"] = {
+		["offline"] = 1597281.964,
+	},
+	["Priestmass"] = {
+		["offline"] = 1597281.963,
+	},
+	["Mootylate"] = {
+		["offline"] = 1597281.963,
+	},
+	["Worldwarl"] = {
+		["offline"] = 1597281.961,
+	},
+	["Azovsteel"] = {
+	},
+	["Mojomage"] = {
+		["offline"] = 1597282.003,
+	},
+	["Jellyblinks"] = {
+		["offline"] = 1597281.964,
+	},
+	["Zeeg"] = {
+		["offline"] = 1597281.965,
+	},
+	["Totemhamon"] = {
+		["offline"] = 1597282.003,
+	},
+	["Loasome"] = {
+		["offline"] = 1597281.965,
+	},
+	["Mojohead"] = {
+		["offline"] = 1597281.965,
+	},
+	["Trogue"] = {
+		["offline"] = 1597281.966,
+	},
+}

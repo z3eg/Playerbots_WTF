@@ -1,0 +1,33 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Lavaaddams - AzerothCore"] = "Lavaaddams - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Lavaaddams"] = {
+				["XPMax"] = 15000,
+				["played"] = 20379,
+				["guildRankName"] = "Officer",
+				["isResting"] = 1,
+				["lastUpdate"] = 1790809565,
+				["class"] = "Shaman",
+				["race"] = "Blood Elf",
+				["level"] = 16,
+				["XP"] = 10307,
+				["RestXP"] = 300000,
+				["money"] = 35875,
+				["gender"] = 3,
+				["subZone"] = "Ruins of Lordaeron",
+				["zone"] = "Undercity",
+				["guildRankIndex"] = 1,
+				["name"] = "Lavaaddams",
+				["faction"] = "Horde",
+				["englishRace"] = "BloodElf",
+				["guildName"] = "Rage Against the Machine",
+				["lastLogoutTimestamp"] = 1790809565,
+				["englishClass"] = "SHAMAN",
+			},
+		},
+	},
+}

@@ -1,0 +1,41 @@
+
+XPerl_Roster = {
+	["Triste"] = {
+	},
+	["Ouija"] = {
+	},
+	["Oshio"] = {
+		["offline"] = 1597581.758,
+	},
+	["Jbeans"] = {
+	},
+	["Boostershotx"] = {
+	},
+	["Cowhy"] = {
+	},
+	["Moorlock"] = {
+	},
+	["Priestmass"] = {
+	},
+	["Mootylate"] = {
+	},
+	["Worldwarl"] = {
+		["offline"] = 1597581.758,
+	},
+	["Azovsteel"] = {
+	},
+	["Mojomage"] = {
+	},
+	["Jellyblinks"] = {
+	},
+	["Zeeg"] = {
+	},
+	["Totemhamon"] = {
+	},
+	["Loasome"] = {
+	},
+	["Mojohead"] = {
+	},
+	["Trogue"] = {
+	},
+}

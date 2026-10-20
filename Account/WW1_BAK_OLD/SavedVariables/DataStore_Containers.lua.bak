@@ -1,0 +1,39 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Wwl"] = {
+				["lastUpdate"] = 1777054564,
+				["Containers"] = {
+					["Bag0"] = {
+						["ids"] = {
+							6948, -- [1]
+							4865, -- [2]
+							7074, -- [3]
+							7073, -- [4]
+							3260, -- [5]
+							2070, -- [6]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["counts"] = {
+							[3] = 2,
+							[6] = 2,
+						},
+						["freeslots"] = 10,
+					},
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
+				},
+				["numFreeBagSlots"] = 10,
+				["numBagSlots"] = 16,
+			},
+		},
+		["Version"] = 1,
+	},
+}

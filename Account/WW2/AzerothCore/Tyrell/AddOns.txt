@@ -1,0 +1,4 @@
+GearScore: disabled
+CrapAway: disabled
+XPerl_TeamSpeak: disabled
+Bagnon_GuildBank: enabled

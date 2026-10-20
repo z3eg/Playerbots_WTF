@@ -1,0 +1,23 @@
+MACRO 16777220 "1h+sh" INV_Misc_QuestionMark
+/equipslot 16 Cookie's Tenderizer
+/equipslot 17 War Paint Shield
+END
+MACRO 16777218 "1h+sh" INV_Misc_QuestionMark
+#showtooltip Shield Bash
+/equipslot 16 Cookie's Tenderizer
+/equipslot 17 War Paint Shield
+/cast Shield Bash
+END
+MACRO 16777217 "party" INV_Misc_QuestionMark
+.playerbots bot add terra
+.playerbots bot add azovsteel
+.playerbots bot add priestmass
+.playerbots bot add shigofoomy 
+END
+MACRO 16777219 "SB" INV_Misc_QuestionMark
+#showtooltip Shield Block
+/equipslot 16 Cookie's Tenderizer
+/equipslot 17 War Paint Shield
+/cast Defensive Stance
+/cast Shield Block
+END

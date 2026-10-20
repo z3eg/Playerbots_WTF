@@ -1,0 +1,20 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Lavaaddams - AzerothCore"] = "Lavaaddams - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Lavaaddams"] = {
+				["guildName"] = "Rage Against the Machine",
+				["faction"] = "Horde",
+			},
+		},
+		["Guilds"] = {
+			["Default.AzerothCore.Rage Against the Machine"] = {
+				["faction"] = "Horde",
+			},
+		},
+		["Version"] = 1,
+	},
+}

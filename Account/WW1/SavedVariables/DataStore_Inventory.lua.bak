@@ -1,0 +1,23 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Priestmass - AzerothCore"] = "Priestmass - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Priestmass"] = {
+				["Inventory"] = {
+					[5] = 6144,
+					[16] = 35,
+					[7] = 1378,
+					[15] = 1372,
+					[10] = 3275,
+					[8] = 1374,
+					[4] = 53,
+				},
+				["averageItemLvl"] = 2.833333333333334,
+				["lastUpdate"] = 1776985258,
+			},
+		},
+	},
+}

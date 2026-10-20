@@ -1,0 +1,10 @@
+
+DrDamageDB = {
+	["profileKeys"] = {
+		["Shigofoomy - AzerothCore"] = "Shigofoomy - AzerothCore",
+	},
+	["profiles"] = {
+		["Shigofoomy - AzerothCore"] = {
+		},
+	},
+}

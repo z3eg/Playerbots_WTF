@@ -1,0 +1,26 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Lavaaddams - AzerothCore"] = "Lavaaddams - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Lavaaddams"] = {
+				["QuestLinks"] = {
+					[2] = "|cffffff00|Hquest:11966:-1|h[Incense for the Festival Scorchlings]|h|r",
+					[3] = "|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r",
+				},
+				["lastUpdate"] = 1790807751,
+				["Rewards"] = {
+					[2] = "r|23247|1|1",
+					[3] = "r|34599|5|1,r|23247|5|1",
+				},
+				["Quests"] = {
+					"0|Midsummer", -- [1]
+					"1||0|0|1", -- [2]
+					"1||0|290000|0", -- [3]
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,13 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Wwl"] = {
+				["lastUpdate"] = 1777053701,
+			},
+		},
+	},
+}

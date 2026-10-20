@@ -1,0 +1,4 @@
+XPerl_TeamSpeak: disabled
+XPerl_Options: enabled
+Bagnon_AllRed: disabled
+Bagnon_UnusableRed: disabled

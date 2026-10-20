@@ -1,0 +1,6 @@
+MACRO 16777217 "party" INV_Misc_QuestionMark
+.playerbots add terra
+.playerbots add azovsteel
+.playerbots add priestmass
+.playerbots add shigofoomy 
+END

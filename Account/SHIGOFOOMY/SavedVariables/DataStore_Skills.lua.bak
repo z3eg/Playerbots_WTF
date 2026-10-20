@@ -1,0 +1,47 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Shigofooy - AzerothCore"] = "Shigofooy - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Shigofooy"] = {
+				["lastUpdate"] = 1777053958,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "1|450",
+						["First Aid"] = "1|450",
+					},
+					["Class Skills"] = {
+						["Fire"] = "1|1",
+						["Frost"] = "1|1",
+						["Arcane"] = "1|1",
+					},
+					["Professions"] = {
+						["Inscription"] = "1|450",
+						["Blacksmithing"] = "1|450",
+						["Tailoring"] = "1|450",
+						["Jewelcrafting"] = "1|450",
+						["Engineering"] = "1|450",
+						["Leatherworking"] = "1|450",
+						["Alchemy"] = "1|450",
+						["Enchanting"] = "1|450",
+					},
+					["Languages"] = {
+						["Language: Orcish"] = "300|300",
+						["Language: Gutterspeak"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Wands"] = "400|400",
+						["Defense"] = "379|400",
+						["Staves"] = "11|400",
+						["Unarmed"] = "1|400",
+					},
+				},
+			},
+		},
+	},
+}

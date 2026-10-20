@@ -1,0 +1,140 @@
+MACRO 23 "+loot" Ability_Druid_CatFormAttack
+nc +loot
+/run SetLootMethod("group")
+END
+MACRO 22 "-loot" Ability_Druid_CatFormAttack
+nc -loot
+/ffa
+END
+MACRO 35 "ALLACC" Ability_Creature_Disease_03
+.playerbots bot addaccount ww1
+.playerbots bot addaccount ww2
+.playerbots bot addaccount tro
+.playerbots bot addaccount tau
+.playerbots bot addaccount be
+.playerbots bot addaccount und
+.playerbots bot addaccount thp 
+END
+MACRO 40 "AMZ" Spell_DeathKnight_AntiMagicZone
+/raid cast Anti-magic Zone
+END
+MACRO 2 "AQA" INV_Misc_QuestionMark
+accept *
+END
+MACRO 9 "AQL" Ability_Spy
+quests all
+END
+MACRO 13 "Attack" Ability_BackStab
+/petattack
+/petdefensive
+attack
+pet defensive
+END
+MACRO 15 "b1" Ability_Druid_Dreamstate
+/p u Rough Sharpening Stone
+/p u Rough Sharpening Stone
+/p u Rough Weightstone
+/p u Rough Weightstone
+/p u Weak Troll's Blood Elixir
+/p u Spiced Wolf Meat
+END
+MACRO 25 "COPY" Ability_Mage_IncantersAbsorbtion
+/cpyt ChatFrame1
+END
+MACRO 36 "DKP" Ability_Creature_Cursed_05
+.playerbots bot add Dorc
+.playerbots bot add Coughin
+.playerbots bot add Rothoof
+.playerbots bot add Bwonsamdi
+.playerbots bot add Tyrot
+END
+MACRO 31 "druid" Ability_BullRush
+.playerbots bot add Zeeg
+.playerbots bot add Orcshio
+.playerbots bot add Oshi
+.playerbots bot add Oshio
+.playerbots bot add Elundrah
+END
+MACRO 4 "f" Ability_Kick
+follow
+END
+MACRO 18 "flee" Ability_HeroicLeap
+flee
+pet passive
+/petpassive
+END
+MACRO 3 "g" Ability_Creature_Cursed_02
+grind
+END
+MACRO 34 "GEO" INV_Misc_QuestionMark
+/p [Grime-Encrusted Object]
+END
+MACRO 19 "herb" INV_Misc_QuestionMark
+#showtooltip Find Herbs
+who herbalism
+END
+MACRO 33 "lthr" INV_Misc_QuestionMark
+.playerbots bot add Mbbmmbmm
+.playerbots bot add Orcshio
+.playerbots bot add Terrapewtist
+.playerbots bot add Chokerx
+END
+MACRO 20 "mining" INV_Misc_QuestionMark
+#showtooltip Find Minerals
+who mining
+END
+MACRO 1 "partyf" INV_Misc_QuestionMark
+.playerbots bot add Chaosballz
+.playerbots bot add Hawktuahrion
+.playerbots bot add Shigo
+.playerbots bot add Orcshio
+.playerbots bot add Mbbmmbmm
+END
+MACRO 16 "played" INV_Misc_QuestionMark
+/played
+END
+MACRO 12 "QL" INV_Misc_QuestionMark
+quests all
+END
+MACRO 24 "reload" Spell_Totem_WardOfDraining
+/reload
+END
+MACRO 8 "sell" Ability_Creature_Cursed_01
+s *
+END
+MACRO 21 "skin" INV_Misc_QuestionMark
+#showtooltip Skinning
+who skinning
+END
+MACRO 39 "ST" Ability_Creature_Disease_05
+/run if UnitExists("target") then SendChatMessage("stay","WHISPER",nil,UnitName("target")) end
+END
+MACRO 10 "stats" Ability_Vehicle_ShellShieldGenerator
+stats
+END
+MACRO 17 "stay" INV_Misc_QuestionMark
+stay
+pet passive
+/petpassive
+END
+MACRO 6 "t" INV_Misc_QuestionMark
+talk
+END
+MACRO 28 "TCLOTH" INV_Misc_QuestionMark
+/run t=1 for b=0,4 do for s=1,GetContainerNumSlots(b)do l=GetContainerItemLink(b,s)if l and select(6,GetItemInfo(l))=="Armor"and select(7,GetItemInfo(l))=="Cloth"and t<7 then PickupContainerItem(b,s)ClickTradeButton(t)t=t+1 end end end
+END
+MACRO 14 "TL" Ability_Creature_Disease_05
+trainer learn
+END
+MACRO 27 "TLEATHER" INV_Misc_QuestionMark
+/run t=1 for b=0,4 do for s=1,GetContainerNumSlots(b)do l=GetContainerItemLink(b,s)if l and select(6,GetItemInfo(l))=="Armor"and select(7,GetItemInfo(l))=="Leather"and t<7 then PickupContainerItem(b,s)ClickTradeButton(t)t=t+1 end end end
+END
+MACRO 26 "TMAIL" INV_Misc_QuestionMark
+/run t=1 for b=0,4 do for s=1,GetContainerNumSlots(b)do l=GetContainerItemLink(b,s)if l and select(6,GetItemInfo(l))=="Armor"and select(7,GetItemInfo(l))=="Mail"and t<7 then PickupContainerItem(b,s)ClickTradeButton(t)t=t+1 end end end
+END
+MACRO 37 "TPLATE" INV_Misc_QuestionMark
+/run t=1 for b=0,4 do for s=1,GetContainerNumSlots(b)do l=GetContainerItemLink(b,s)if l and select(6,GetItemInfo(l))=="Armor"and select(7,GetItemInfo(l))=="Plate"and t<7 then PickupContainerItem(b,s)ClickTradeButton(t)t=t+1 end end end
+END
+MACRO 38 "W" Ability_Creature_Cursed_03
+/run if UnitExists("target") then SendChatMessage("follow","WHISPER",nil,UnitName("target")) end
+END

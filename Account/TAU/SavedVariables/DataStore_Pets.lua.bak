@@ -1,0 +1,13 @@
+
+DataStore_PetsDB = {
+	["profileKeys"] = {
+		["Priestmass - AzerothCore"] = "Priestmass - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Priestmass"] = {
+				["lastUpdate"] = 1776985258,
+			},
+		},
+	},
+}

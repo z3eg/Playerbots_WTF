@@ -1,0 +1,10 @@
+
+TalentedDB = {
+	["profileKeys"] = {
+		["Boostershotx - AzerothCore"] = "Boostershotx - AzerothCore",
+	},
+	["profiles"] = {
+		["Boostershotx - AzerothCore"] = {
+		},
+	},
+}

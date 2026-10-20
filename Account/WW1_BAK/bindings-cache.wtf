@@ -1,0 +1,67 @@
+BINDINGMODE 0
+bind BUTTON3 CLICK BT4Button51:LeftButton
+bind Q CLICK BT4Button37:LeftButton
+bind E CLICK BT4Button53:LeftButton
+bind X CLICK BT4Button40:LeftButton
+bind Z CLICK BT4Button38:LeftButton
+bind R CLICK BT4Button54:LeftButton
+bind SHIFT-R CLICK BT4Button55:LeftButton
+bind 6 NONE
+bind 7 CLICK BT4Button113:LeftButton
+bind 8 CLICK BT4Button111:LeftButton
+bind 9 CLICK BT4Button109:LeftButton
+bind 0 NONE
+bind - CLICK BT4Button20:LeftButton
+bind = CLICK BT4Button19:LeftButton
+bind CTRL-1 CLICK BT4Button13:LeftButton
+bind CTRL-2 CLICK BT4Button14:LeftButton
+bind CTRL-3 CLICK BT4Button15:LeftButton
+bind CTRL-4 CLICK BT4Button16:LeftButton
+bind CTRL-5 CLICK BT4Button17:LeftButton
+bind SHIFT-1 ACTIONBUTTON6
+bind SHIFT-2 ACTIONBUTTON7
+bind SHIFT-3 ACTIONBUTTON8
+bind SHIFT-4 ACTIONBUTTON9
+bind SHIFT-5 ACTIONBUTTON10
+bind F1 CLICK BT4Button110:LeftButton
+bind F2 CLICK BT4Button112:LeftButton
+bind F3 CLICK BT4Button114:LeftButton
+bind G CLICK BT4Button47:LeftButton
+bind F CLICK BT4Button45:LeftButton
+bind V CLICK BT4Button43:LeftButton
+bind SHIFT-V CLICK BT4Button44:LeftButton
+bind T CLICK BT4Button57:LeftButton
+bind SHIFT-T CLICK BT4Button24:LeftButton
+bind C CLICK BT4Button42:LeftButton
+bind H CLICK BT4Button49:LeftButton
+bind SHIFT-C TOGGLECHARACTER0
+bind NUMPADPLUS CLICK BT4Button118:LeftButton
+bind NUMPADMINUS CLICK BT4Button116:LeftButton
+bind CTRL-S CLICK BT4Button18:LeftButton
+bind CTRL-R CLICK BT4Button56:LeftButton
+bind CTRL-E CLICK BT4Button22:LeftButton
+bind CTRL-T CLICK BT4Button23:LeftButton
+bind SHIFT-G CLICK BT4Button48:LeftButton
+bind SHIFT-E ACTIONBUTTON11
+bind SHIFT-Q ACTIONBUTTON12
+bind SHIFT-Z CLICK BT4Button39:LeftButton
+bind SHIFT-X CLICK BT4Button41:LeftButton
+bind SHIFT-F CLICK BT4Button46:LeftButton
+bind SHIFT-H CLICK BT4Button50:LeftButton
+bind CAPSLOCK CLICK BT4Button58:LeftButton
+bind CTRL-CAPSLOCK CLICK BT4Button59:LeftButton
+bind SHIFT-BUTTON3 CLICK BT4Button52:LeftButton
+bind ALT-1 CLICK BT4Button25:LeftButton
+bind ALT-2 CLICK BT4Button26:LeftButton
+bind ALT-3 CLICK BT4Button27:LeftButton
+bind ALT-4 CLICK BT4Button28:LeftButton
+bind ALT-5 CLICK BT4Button29:LeftButton
+bind ` CLICK BT4Button36:LeftButton
+bind SHIFT-` CLICK BT4Button35:LeftButton
+bind [ PAWN_COMPARE_LEFT
+bind ] TOGGLESHEATH
+bind SHIFT-S CLICK BT4Button31:LeftButton
+bind CTRL-SHIFT-S CLICK BT4Button30:LeftButton
+bind CTRL-SHIFT-H CLICK BT4Button60:LeftButton
+bind CTRL-SPACE CLICK BT4Button69:LeftButton
+bind ¸ TOGGLESHEATH

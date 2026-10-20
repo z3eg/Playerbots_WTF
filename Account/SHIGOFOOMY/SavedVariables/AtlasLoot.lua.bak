@@ -1,0 +1,30 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Shigofooy - AzerothCore"] = "Shigofooy - AzerothCore",
+	},
+	["profiles"] = {
+		["Shigofooy - AzerothCore"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Shigofooy"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Shigofooy"] = {
+		},
+	},
+}

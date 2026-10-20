@@ -1,0 +1,365 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Lord Marrowgar"] = {
+			["GUID"] = "0xF130008F04000C9B",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					140213, -- [1]
+				},
+				["TimeDamage"] = {
+					14, -- [1]
+				},
+				["ActiveTime"] = {
+					14, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["level"] = -1,
+			["LastFightIn"] = 0,
+			["type"] = "Boss",
+			["TimeLast"] = {
+				["Damage"] = 1777041251,
+				["OVERALL"] = 1777041251,
+				["TimeDamage"] = 1777041251,
+				["ActiveTime"] = 1777041251,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 1773.106,
+			["NextEventNum"] = 5,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["LastEvents"] = {
+				"Lord Marrowgar Melee Midanon Hit -29095 (Physical)", -- [1]
+				"Lord Marrowgar Melee Renia Crit -55566 (Physical)", -- [2]
+				"Lord Marrowgar Melee Demanus Hit -28264 (Physical)", -- [3]
+				"Lord Marrowgar Melee Pelarion Hit -27288 (Physical)", -- [4]
+			},
+			["Name"] = "Lord Marrowgar",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+			},
+			["LastEventTimes"] = {
+				1710.921, -- [1]
+				1735.417, -- [2]
+				1768.918, -- [3]
+				1773.106, -- [4]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["TimeSpent"] = {
+						["Renia"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Demanus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Pelarion"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Midanon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 140213,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DamagedWho"] = {
+						["Renia"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 55566,
+								},
+							},
+							["amount"] = 55566,
+						},
+						["Demanus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 28264,
+								},
+							},
+							["amount"] = 28264,
+						},
+						["Pelarion"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 27288,
+								},
+							},
+							["amount"] = 27288,
+						},
+						["Midanon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 29095,
+								},
+							},
+							["amount"] = 29095,
+						},
+					},
+					["TimeDamage"] = 14,
+					["TimeDamaging"] = {
+						["Renia"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Demanus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Pelarion"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Midanon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 55566,
+									["min"] = 55566,
+									["count"] = 1,
+									["amount"] = 55566,
+								},
+								["Hit"] = {
+									["max"] = 29095,
+									["min"] = 27288,
+									["count"] = 3,
+									["amount"] = 84647,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 140213,
+						},
+					},
+					["ActiveTime"] = 14,
+					["Damage"] = 140213,
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Renia"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Demanus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Pelarion"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Midanon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 140213,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DamagedWho"] = {
+						["Renia"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 55566,
+								},
+							},
+							["amount"] = 55566,
+						},
+						["Demanus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 28264,
+								},
+							},
+							["amount"] = 28264,
+						},
+						["Pelarion"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 27288,
+								},
+							},
+							["amount"] = 27288,
+						},
+						["Midanon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 29095,
+								},
+							},
+							["amount"] = 29095,
+						},
+					},
+					["TimeDamage"] = 14,
+					["TimeDamaging"] = {
+						["Renia"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Demanus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Pelarion"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Midanon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 55566,
+									["min"] = 55566,
+									["count"] = 1,
+									["amount"] = 55566,
+								},
+								["Hit"] = {
+									["max"] = 29095,
+									["min"] = 27288,
+									["count"] = 3,
+									["amount"] = 84647,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 140213,
+						},
+					},
+					["ActiveTime"] = 14,
+					["Damage"] = 140213,
+				},
+			},
+			["UnitLockout"] = 1777041251,
+			["LastActive"] = 1777041251,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

@@ -1,0 +1,6 @@
+XPerl_Options: enabled
+XPerl_TeamSpeak: disabled
+GearScore: disabled
+CrapAway: disabled
+Grid: disabled
+Quartz: disabled

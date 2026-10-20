@@ -1,0 +1,32 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Shigofooy - AzerothCore"] = "Shigofooy - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Shigofooy"] = {
+				["XPMax"] = 1670900,
+				["played"] = 9722,
+				["guildRankName"] = "Officer",
+				["lastUpdate"] = 1777054280,
+				["class"] = "Mage",
+				["race"] = "Undead",
+				["level"] = 80,
+				["XP"] = 0,
+				["RestXP"] = 164970,
+				["money"] = 12130407,
+				["gender"] = 2,
+				["guildRankIndex"] = 1,
+				["guildName"] = "Disciples of the Light",
+				["subZone"] = "Deathknell",
+				["name"] = "Shigofooy",
+				["faction"] = "Horde",
+				["englishRace"] = "Scourge",
+				["zone"] = "Tirisfal Glades",
+				["lastLogoutTimestamp"] = 1777054280,
+				["englishClass"] = "MAGE",
+			},
+		},
+	},
+}

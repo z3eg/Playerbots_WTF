@@ -1,0 +1,9 @@
+
+MultiBotGatherDB = {
+	["y"] = -112.5961824464865,
+	["x"] = -82.37046694328393,
+	["sort"] = "mining",
+	["angle"] = 220,
+	["descending"] = true,
+	["point"] = "TOP",
+}

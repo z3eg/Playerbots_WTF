@@ -1,0 +1,8 @@
+XPerl_TeamSpeak: disabled
+Bagnon: enabled
+GearScore: enabled
+Grid: disabled
+Bagnon_UnusableRed: disabled
+XPerl_Options: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

@@ -1,0 +1,8 @@
+
+PawnOptions = {
+	["LastPlayerFullName"] = "Terra-AzerothCore",
+	["LastKeybindingsSet"] = 1,
+}
+PawnWowheadScaleProviderOptions = {
+	["LastAdded"] = 2,
+}

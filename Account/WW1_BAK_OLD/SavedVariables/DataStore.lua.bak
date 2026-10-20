@@ -1,0 +1,20 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Wwl"] = {
+				["guildName"] = "Westworld",
+				["faction"] = "Horde",
+			},
+		},
+		["Guilds"] = {
+			["Default.AzerothCore.Westworld"] = {
+				["faction"] = "Horde",
+			},
+		},
+		["Version"] = 1,
+	},
+}

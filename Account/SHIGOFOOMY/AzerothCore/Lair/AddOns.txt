@@ -1,0 +1,3 @@
+Bartender4: enabled
+Details_Vanguard: enabled
+Plater: enabled

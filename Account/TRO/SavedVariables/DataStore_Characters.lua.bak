@@ -1,0 +1,29 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Priestmass - AzerothCore"] = "Priestmass - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Priestmass"] = {
+				["XPMax"] = 1400,
+				["played"] = 2506,
+				["zone"] = "Tirisfal Glades",
+				["lastUpdate"] = 1776985459,
+				["class"] = "Priest",
+				["race"] = "Undead",
+				["level"] = 3,
+				["XP"] = 214,
+				["RestXP"] = 0,
+				["money"] = 90,
+				["gender"] = 3,
+				["name"] = "Priestmass",
+				["faction"] = "Horde",
+				["englishRace"] = "Scourge",
+				["subZone"] = "Deathknell",
+				["lastLogoutTimestamp"] = 1776985459,
+				["englishClass"] = "PRIEST",
+			},
+		},
+	},
+}

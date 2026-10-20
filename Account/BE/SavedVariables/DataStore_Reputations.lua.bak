@@ -1,0 +1,20 @@
+
+DataStore_ReputationsDB = {
+	["profileKeys"] = {
+		["Lavaaddams - AzerothCore"] = "Lavaaddams - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Lavaaddams"] = {
+				["lastUpdate"] = 1790807751,
+				["Factions"] = {
+					["Undercity"] = "3000|9000|8931",
+					["Darkspear Trolls"] = "3000|9000|7061",
+					["Thunder Bluff"] = "3000|9000|6894",
+					["Silvermoon City"] = "21000|42000|24175",
+					["Orgrimmar"] = "3000|9000|8188",
+				},
+			},
+		},
+	},
+}

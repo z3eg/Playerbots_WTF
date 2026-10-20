@@ -1,0 +1,319 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Bepal"] = {
+			["GUID"] = "0x0000000000000A39",
+			["LastEventHealth"] = {
+				"290 (100%)", -- [1]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = "Bepal",
+			["level"] = 10,
+			["LastFightIn"] = 0,
+			["type"] = "Grouped",
+			["Owner"] = false,
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+			},
+			["LastEvents"] = {
+				"Bepal Holy Light Bloc Hit +130 (104 overheal)", -- [1]
+			},
+			["Name"] = "Bepal",
+			["LastEventIncoming"] = {
+				false, -- [1]
+			},
+			["LastEventTimes"] = {
+				321051.828, -- [1]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 1778971517,
+			["LastActive"] = 1778971517,
+		},
+		["Elundrah"] = {
+			["GUID"] = "0x0000000000000A40",
+			["LastEventHealth"] = {
+				"257 (100%)", -- [1]
+				"257 (100%)", -- [2]
+				"257 (100%)", -- [3]
+				"257 (100%)", -- [4]
+				"257 (100%)", -- [5]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+			},
+			["enClass"] = "DRUID",
+			["unit"] = "Elundrah",
+			["level"] = 10,
+			["LastFightIn"] = 0,
+			["type"] = "Grouped",
+			["Owner"] = false,
+			["NextEventNum"] = 6,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+			},
+			["LastEvents"] = {
+				"Elundrah Rejuvenation Bloc Tick +16 (16 overheal)", -- [1]
+				"Elundrah Rejuvenation Bloc Tick +16 (16 overheal)", -- [2]
+				"Elundrah Rejuvenation Bloc Tick +16 (16 overheal)", -- [3]
+				"Elundrah Rejuvenation Bloc Tick +16 (16 overheal)", -- [4]
+				"Elundrah Rejuvenation Bloc Tick +16 (16 overheal)", -- [5]
+			},
+			["Name"] = "Elundrah",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+			},
+			["LastEventTimes"] = {
+				321052.36, -- [1]
+				321055.359, -- [2]
+				321058.362, -- [3]
+				321061.39, -- [4]
+				321064.39, -- [5]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 1778971518,
+			["LastActive"] = 1778971530,
+		},
+		["Bloc"] = {
+			["GUID"] = "0x0000000000000A3F",
+			["TimeLast"] = {
+				["OVERALL"] = 1778971515,
+				["ManaGain"] = 1778971515,
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+				"HEAL", -- [11]
+			},
+			["TimeWindows"] = {
+				["ManaGain"] = {
+					54, -- [1]
+				},
+			},
+			["enClass"] = "WARLOCK",
+			["unit"] = "Bloc",
+			["level"] = 10,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				54.6218487394958, -- [1]
+				4.201680672268908, -- [2]
+				6.722689075630252, -- [3]
+				4.201680672268908, -- [4]
+				6.722689075630252, -- [5]
+				4.201680672268908, -- [6]
+				6.722689075630252, -- [7]
+				4.201680672268908, -- [8]
+				6.722689075630252, -- [9]
+				4.201680672268908, -- [10]
+				6.722689075630252, -- [11]
+			},
+			["type"] = "Grouped",
+			["Owner"] = false,
+			["LastEventHealth"] = {
+				"238 (100%)", -- [1]
+				"238 (100%)", -- [2]
+				"238 (100%)", -- [3]
+				"238 (100%)", -- [4]
+				"238 (100%)", -- [5]
+				"238 (100%)", -- [6]
+				"238 (100%)", -- [7]
+				"238 (100%)", -- [8]
+				"238 (100%)", -- [9]
+				"238 (100%)", -- [10]
+				"238 (100%)", -- [11]
+			},
+			["NextEventNum"] = 12,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+			},
+			["LastEvents"] = {
+				"Bepal Holy Light Bloc Hit +130 (104 overheal)", -- [1]
+				"Xalatath Renew Bloc Tick +10 (10 overheal)", -- [2]
+				"Elundrah Rejuvenation Bloc Tick +16 (16 overheal)", -- [3]
+				"Xalatath Renew Bloc Tick +10 (10 overheal)", -- [4]
+				"Elundrah Rejuvenation Bloc Tick +16 (16 overheal)", -- [5]
+				"Xalatath Renew Bloc Tick +10 (10 overheal)", -- [6]
+				"Elundrah Rejuvenation Bloc Tick +16 (16 overheal)", -- [7]
+				"Xalatath Renew Bloc Tick +10 (10 overheal)", -- [8]
+				"Elundrah Rejuvenation Bloc Tick +16 (16 overheal)", -- [9]
+				"Xalatath Renew Bloc Tick +10 (10 overheal)", -- [10]
+				"Elundrah Rejuvenation Bloc Tick +16 (16 overheal)", -- [11]
+			},
+			["Name"] = "Bloc",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+			},
+			["LastEventTimes"] = {
+				321051.828, -- [1]
+				321052.29, -- [2]
+				321052.36, -- [3]
+				321055.28, -- [4]
+				321055.359, -- [5]
+				321058.297, -- [6]
+				321058.362, -- [7]
+				321061.323, -- [8]
+				321061.39, -- [9]
+				321064.29, -- [10]
+				321064.39, -- [11]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["ManaGain"] = 54,
+					["ManaGainedFrom"] = {
+						["Bloc"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 54,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Bloc"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 54,
+						},
+					},
+				},
+				["OverallData"] = {
+					["ManaGain"] = 54,
+					["ManaGainedFrom"] = {
+						["Bloc"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 54,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Bloc"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 54,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1778971517,
+			["LastActive"] = 1778971530,
+		},
+		["Xalatath"] = {
+			["GUID"] = "0x0000000000000A3C",
+			["LastEventHealth"] = {
+				"237 (100%)", -- [1]
+				"237 (100%)", -- [2]
+				"237 (100%)", -- [3]
+				"237 (100%)", -- [4]
+				"237 (100%)", -- [5]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "Xalatath",
+			["level"] = 10,
+			["LastFightIn"] = 0,
+			["type"] = "Grouped",
+			["Owner"] = false,
+			["NextEventNum"] = 6,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+			},
+			["LastEvents"] = {
+				"Xalatath Renew Bloc Tick +10 (10 overheal)", -- [1]
+				"Xalatath Renew Bloc Tick +10 (10 overheal)", -- [2]
+				"Xalatath Renew Bloc Tick +10 (10 overheal)", -- [3]
+				"Xalatath Renew Bloc Tick +10 (10 overheal)", -- [4]
+				"Xalatath Renew Bloc Tick +10 (10 overheal)", -- [5]
+			},
+			["Name"] = "Xalatath",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+			},
+			["LastEventTimes"] = {
+				321052.29, -- [1]
+				321055.28, -- [2]
+				321058.297, -- [3]
+				321061.323, -- [4]
+				321064.29, -- [5]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 1778971518,
+			["LastActive"] = 1778971530,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

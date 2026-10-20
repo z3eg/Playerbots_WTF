@@ -1,0 +1,24 @@
+
+TalentedDB = {
+	["profileKeys"] = {
+		["Wwz - AzerothCore"] = "Wwz - AzerothCore",
+	},
+	["profiles"] = {
+		["Wwz - AzerothCore"] = {
+			["framepos"] = {
+				["TalentedGlyphs"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchorTo"] = "CENTER",
+					["anchor"] = "CENTER",
+				},
+				["TalentedFrame"] = {
+					["y"] = 23.06296515718021,
+					["x"] = -7.11137238076018,
+					["anchorTo"] = "CENTER",
+					["anchor"] = "CENTER",
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,10 @@
+
+SellOMaticDB = {
+	["profileKeys"] = {
+		["Priestmass - AzerothCore"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

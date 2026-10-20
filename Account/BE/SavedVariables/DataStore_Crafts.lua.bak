@@ -1,0 +1,42 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Lavaaddams - AzerothCore"] = "Lavaaddams - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Lavaaddams"] = {
+				["Professions"] = {
+					["Jewelcrafting"] = {
+						["isPrimary"] = true,
+					},
+					["Mining"] = {
+						["isPrimary"] = true,
+					},
+					["Skinning"] = {
+						["isPrimary"] = true,
+					},
+					["Herbalism"] = {
+						["isPrimary"] = true,
+					},
+				},
+			},
+		},
+		["Guilds"] = {
+			["Default.AzerothCore.Rage Against the Machine"] = {
+				["Members"] = {
+					["Lavaaddams"] = {
+						["Professions"] = {
+							25229, -- [1]
+							2575, -- [2]
+							8613, -- [3]
+							13614, -- [4]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1790807758,
+					},
+				},
+			},
+		},
+	},
+}

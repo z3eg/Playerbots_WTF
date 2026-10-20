@@ -1,0 +1,493 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Rotbeam"] = {
+			["GUID"] = "0x0000000000000D89",
+			["LastEventHealth"] = {
+				"435 (100%)", -- [1]
+				"435 (100%)", -- [2]
+				"435 (100%)", -- [3]
+				"435 (100%)", -- [4]
+				"435 (100%)", -- [5]
+				"435 (100%)", -- [6]
+				"435 (100%)", -- [7]
+				"435 (100%)", -- [8]
+				"435 (100%)", -- [9]
+				"435 (100%)", -- [10]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+			},
+			["enClass"] = "DRUID",
+			["unit"] = "Rotbeam",
+			["level"] = 14,
+			["LastFightIn"] = 0,
+			["type"] = "Ungrouped",
+			["Owner"] = false,
+			["LastAbility"] = 1112275.582,
+			["NextEventNum"] = 11,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+			},
+			["LastEvents"] = {
+				"Rotbeam Rejuvenation Worldwarl Tick +14 (14 overheal)", -- [1]
+				"Rotbeam Rejuvenation Worldwarl Tick +14 (14 overheal)", -- [2]
+				"Rotbeam Rejuvenation Worldwarl Tick +14 (14 overheal)", -- [3]
+				"Rotbeam Rejuvenation Hawkeyecough Tick +14 (14 overheal)", -- [4]
+				"Rotbeam Rejuvenation Worldwarl Tick +14 (14 overheal)", -- [5]
+				"Rotbeam Rejuvenation Hawkeyecough Tick +14 (14 overheal)", -- [6]
+				"Rotbeam Rejuvenation Worldwarl Tick +14 (14 overheal)", -- [7]
+				"Rotbeam Rejuvenation Hawkeyecough Tick +14 (14 overheal)", -- [8]
+				"Rotbeam Rejuvenation Hawkeyecough Tick +14 (14 overheal)", -- [9]
+				"Rotbeam Rejuvenation Hawkeyecough Tick +14 (14 overheal)", -- [10]
+			},
+			["Name"] = "Rotbeam",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+			},
+			["UnitLockout"] = 1790130709,
+			["Fights"] = {
+			},
+			["LastEventTimes"] = {
+				162037.627, -- [1]
+				162040.622, -- [2]
+				162043.62, -- [3]
+				162045.71, -- [4]
+				162046.621, -- [5]
+				162048.707, -- [6]
+				162049.645, -- [7]
+				162051.69, -- [8]
+				162054.731, -- [9]
+				162057.699, -- [10]
+			},
+			["LastActive"] = 1790130729,
+		},
+		["Corpsecratio"] = {
+			["GUID"] = "0x0000000000000D8D",
+			["LastEventHealth"] = {
+				"306 (100%)", -- [1]
+				"306 (100%)", -- [2]
+				"406 (100%)", -- [3]
+				"406 (100%)", -- [4]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = "Corpsecratio",
+			["level"] = 12,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				[3] = 29.31034482758621,
+			},
+			["type"] = "Ungrouped",
+			["Owner"] = false,
+			["LastAbility"] = 1112275.582,
+			["NextEventNum"] = 5,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+			},
+			["LastEvents"] = {
+				"Corpsecratio Holy Light Worldwarl Hit +108 (65 overheal)", -- [1]
+				"Corpsecratio Holy Light Hawkeyecough Hit +104 (60 overheal)", -- [2]
+				"Corpsecratio Holy Light Corpsecratio Hit +119 (81 overheal)", -- [3]
+				"Corpsecratio Holy Light Stepdead Hit +110 (59 overheal)", -- [4]
+			},
+			["Name"] = "Corpsecratio",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+			},
+			["UnitLockout"] = 1790130709,
+			["Fights"] = {
+			},
+			["LastEventTimes"] = {
+				162037.069, -- [1]
+				162045.158, -- [2]
+				162053.222, -- [3]
+				162069.387, -- [4]
+			},
+			["LastActive"] = 1790130741,
+		},
+		["Stepdead"] = {
+			["GUID"] = "0x0000000000000D87",
+			["LastEventHealth"] = {
+				"432 (100%)", -- [1]
+				"432 (100%)", -- [2]
+				"432 (100%)", -- [3]
+				"432 (100%)", -- [4]
+				"432 (100%)", -- [5]
+				"432 (100%)", -- [6]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+			},
+			["enClass"] = "ROGUE",
+			["unit"] = "Stepdead",
+			["level"] = 12,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				25.46296296296296, -- [1]
+				2.083333333333334, -- [2]
+				2.083333333333334, -- [3]
+				2.083333333333334, -- [4]
+				2.083333333333334, -- [5]
+				2.083333333333334, -- [6]
+			},
+			["type"] = "Ungrouped",
+			["Owner"] = false,
+			["LastAbility"] = 1112275.582,
+			["NextEventNum"] = 7,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+			},
+			["LastEvents"] = {
+				"Corpsecratio Holy Light Stepdead Hit +110 (59 overheal)", -- [1]
+				"Lightweight Renew Stepdead Tick +9 (9 overheal)", -- [2]
+				"Lightweight Renew Stepdead Tick +9 (9 overheal)", -- [3]
+				"Lightweight Renew Stepdead Tick +9 (9 overheal)", -- [4]
+				"Lightweight Renew Stepdead Tick +9 (9 overheal)", -- [5]
+				"Lightweight Renew Stepdead Tick +9 (9 overheal)", -- [6]
+			},
+			["Name"] = "Stepdead",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+			},
+			["UnitLockout"] = 1790130741,
+			["Fights"] = {
+			},
+			["LastEventTimes"] = {
+				162069.387, -- [1]
+				162071.359, -- [2]
+				162074.36, -- [3]
+				162077.355, -- [4]
+				162080.356, -- [5]
+				162083.355, -- [6]
+			},
+			["LastActive"] = 1790130755,
+		},
+		["Worldwarl"] = {
+			["GUID"] = "0x0000000000000D8C",
+			["LastEventHealth"] = {
+				"409 (100%)", -- [1]
+				"409 (100%)", -- [2]
+				"409 (100%)", -- [3]
+				"409 (100%)", -- [4]
+				"409 (100%)", -- [5]
+				"409 (100%)", -- [6]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+			},
+			["enClass"] = "WARRIOR",
+			["unit"] = "Worldwarl",
+			["level"] = 12,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				26.40586797066015, -- [1]
+				3.422982885085574, -- [2]
+				3.422982885085574, -- [3]
+				3.422982885085574, -- [4]
+				3.422982885085574, -- [5]
+				3.422982885085574, -- [6]
+			},
+			["type"] = "Self",
+			["Owner"] = false,
+			["LastAbility"] = 1112275.582,
+			["NextEventNum"] = 7,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+			},
+			["LastEvents"] = {
+				"Corpsecratio Holy Light Worldwarl Hit +108 (65 overheal)", -- [1]
+				"Rotbeam Rejuvenation Worldwarl Tick +14 (14 overheal)", -- [2]
+				"Rotbeam Rejuvenation Worldwarl Tick +14 (14 overheal)", -- [3]
+				"Rotbeam Rejuvenation Worldwarl Tick +14 (14 overheal)", -- [4]
+				"Rotbeam Rejuvenation Worldwarl Tick +14 (14 overheal)", -- [5]
+				"Rotbeam Rejuvenation Worldwarl Tick +14 (14 overheal)", -- [6]
+			},
+			["Name"] = "Worldwarl",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+			},
+			["UnitLockout"] = 1790130709,
+			["Fights"] = {
+			},
+			["LastEventTimes"] = {
+				162037.069, -- [1]
+				162037.627, -- [2]
+				162040.622, -- [3]
+				162043.62, -- [4]
+				162046.621, -- [5]
+				162049.645, -- [6]
+			},
+			["LastActive"] = 1790130721,
+		},
+		["Hawkeyecough"] = {
+			["GUID"] = "0x0000000000000D8B",
+			["LastEventHealth"] = {
+				"393 (100%)", -- [1]
+				"393 (100%)", -- [2]
+				"393 (100%)", -- [3]
+				"393 (100%)", -- [4]
+				"393 (100%)", -- [5]
+				"393 (100%)", -- [6]
+				"393 (100%)", -- [7]
+				"393 (100%)", -- [8]
+				"393 (100%)", -- [9]
+				"393 (100%)", -- [10]
+				"393 (100%)", -- [11]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+				"HEAL", -- [11]
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "Hawkeyecough",
+			["level"] = 12,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				26.46310432569975, -- [1]
+				3.56234096692112, -- [2]
+				2.290076335877862, -- [3]
+				3.56234096692112, -- [4]
+				2.290076335877862, -- [5]
+				3.56234096692112, -- [6]
+				2.290076335877862, -- [7]
+				3.56234096692112, -- [8]
+				2.290076335877862, -- [9]
+				3.56234096692112, -- [10]
+				2.290076335877862, -- [11]
+			},
+			["type"] = "Ungrouped",
+			["Owner"] = false,
+			["LastAbility"] = 1112275.582,
+			["NextEventNum"] = 12,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+			},
+			["LastEvents"] = {
+				"Corpsecratio Holy Light Hawkeyecough Hit +104 (60 overheal)", -- [1]
+				"Rotbeam Rejuvenation Hawkeyecough Tick +14 (14 overheal)", -- [2]
+				"Lightweight Renew Hawkeyecough Tick +9 (9 overheal)", -- [3]
+				"Rotbeam Rejuvenation Hawkeyecough Tick +14 (14 overheal)", -- [4]
+				"Lightweight Renew Hawkeyecough Tick +9 (9 overheal)", -- [5]
+				"Rotbeam Rejuvenation Hawkeyecough Tick +14 (14 overheal)", -- [6]
+				"Lightweight Renew Hawkeyecough Tick +9 (9 overheal)", -- [7]
+				"Rotbeam Rejuvenation Hawkeyecough Tick +14 (14 overheal)", -- [8]
+				"Lightweight Renew Hawkeyecough Tick +9 (9 overheal)", -- [9]
+				"Rotbeam Rejuvenation Hawkeyecough Tick +14 (14 overheal)", -- [10]
+				"Lightweight Renew Hawkeyecough Tick +9 (9 overheal)", -- [11]
+			},
+			["Name"] = "Hawkeyecough",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+			},
+			["UnitLockout"] = 1790130717,
+			["Fights"] = {
+			},
+			["LastEventTimes"] = {
+				162045.158, -- [1]
+				162045.71, -- [2]
+				162047.173, -- [3]
+				162048.707, -- [4]
+				162050.185, -- [5]
+				162051.69, -- [6]
+				162053.185, -- [7]
+				162054.731, -- [8]
+				162056.206, -- [9]
+				162057.699, -- [10]
+				162059.203, -- [11]
+			},
+			["LastActive"] = 1790130731,
+		},
+		["Lightweight"] = {
+			["GUID"] = "0x0000000000000D85",
+			["LastEventHealth"] = {
+				"337 (100%)", -- [1]
+				"337 (100%)", -- [2]
+				"337 (100%)", -- [3]
+				"337 (100%)", -- [4]
+				"337 (100%)", -- [5]
+				"337 (100%)", -- [6]
+				"337 (100%)", -- [7]
+				"337 (100%)", -- [8]
+				"337 (100%)", -- [9]
+				"337 (100%)", -- [10]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "Lightweight",
+			["level"] = 12,
+			["LastFightIn"] = 0,
+			["type"] = "Ungrouped",
+			["Owner"] = false,
+			["LastAbility"] = 1112275.582,
+			["NextEventNum"] = 11,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+			},
+			["LastEvents"] = {
+				"Lightweight Renew Hawkeyecough Tick +9 (9 overheal)", -- [1]
+				"Lightweight Renew Hawkeyecough Tick +9 (9 overheal)", -- [2]
+				"Lightweight Renew Hawkeyecough Tick +9 (9 overheal)", -- [3]
+				"Lightweight Renew Hawkeyecough Tick +9 (9 overheal)", -- [4]
+				"Lightweight Renew Hawkeyecough Tick +9 (9 overheal)", -- [5]
+				"Lightweight Renew Stepdead Tick +9 (9 overheal)", -- [6]
+				"Lightweight Renew Stepdead Tick +9 (9 overheal)", -- [7]
+				"Lightweight Renew Stepdead Tick +9 (9 overheal)", -- [8]
+				"Lightweight Renew Stepdead Tick +9 (9 overheal)", -- [9]
+				"Lightweight Renew Stepdead Tick +9 (9 overheal)", -- [10]
+			},
+			["Name"] = "Lightweight",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+			},
+			["UnitLockout"] = 1790130719,
+			["Fights"] = {
+			},
+			["LastEventTimes"] = {
+				162047.173, -- [1]
+				162050.185, -- [2]
+				162053.185, -- [3]
+				162056.206, -- [4]
+				162059.203, -- [5]
+				162071.359, -- [6]
+				162074.36, -- [7]
+				162077.355, -- [8]
+				162080.356, -- [9]
+				162083.354, -- [10]
+			},
+			["LastActive"] = 1790130755,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

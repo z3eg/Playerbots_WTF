@@ -1,0 +1,5 @@
+GearScore: disabled
+CrapAway: disabled
+XPerl_TeamSpeak: disabled
+DrDamage: enabled
+XPerl_Options: enabled

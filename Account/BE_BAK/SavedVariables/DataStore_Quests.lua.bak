@@ -1,0 +1,26 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Priestmass - AzerothCore"] = "Priestmass - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Priestmass"] = {
+				["QuestLinks"] = {
+					[2] = "|cffffff00|Hquest:376:2|h[The Damned]|h|r",
+					[3] = "|cffffff00|Hquest:3901:3|h[Rattling the Rattlecages]|h|r",
+				},
+				["lastUpdate"] = 1776985258,
+				["Rewards"] = {
+					[2] = "c|6060|1|1,c|2173|1|0",
+					[3] = "c|3274|1|1,c|11851|1|0,c|11852|1|0",
+				},
+				["Quests"] = {
+					"0|Deathknell", -- [1]
+					"1||0|90|0", -- [2]
+					"1||0|0|0", -- [3]
+				},
+			},
+		},
+	},
+}

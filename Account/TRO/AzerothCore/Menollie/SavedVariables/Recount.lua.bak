@@ -1,0 +1,397 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Lord Marrowgar"] = {
+			["GUID"] = "0xF130008F040007FA",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+				"???", -- [5]
+				"???", -- [6]
+				"???", -- [7]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					219999, -- [1]
+				},
+				["TimeDamage"] = {
+					20.64, -- [1]
+				},
+				["ActiveTime"] = {
+					20.64, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["level"] = -1,
+			["LastFightIn"] = 0,
+			["type"] = "Boss",
+			["TimeLast"] = {
+				["Damage"] = 1776965745,
+				["OVERALL"] = 1776965745,
+				["TimeDamage"] = 1776965745,
+				["ActiveTime"] = 1776965745,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 16447.809,
+			["NextEventNum"] = 8,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+			},
+			["LastEvents"] = {
+				"Lord Marrowgar Melee Stavo Hit -32369 (Physical)", -- [1]
+				"Lord Marrowgar Melee Salenata Hit -34154 (Physical)", -- [2]
+				"Lord Marrowgar Melee Loreor Crit -70506 (Physical)", -- [3]
+				"Lord Marrowgar Melee Salenata Hit -26610 (Physical)", -- [4]
+				"Lord Marrowgar Melee Fabin Hit -27544 (Physical)", -- [5]
+				"Lord Marrowgar Melee Fabin Dodge", -- [6]
+				"Lord Marrowgar Melee Fabin Hit -28816 (Physical)", -- [7]
+			},
+			["Name"] = "Lord Marrowgar",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+			},
+			["LastEventTimes"] = {
+				16359.125, -- [1]
+				16363.615, -- [2]
+				16405.746, -- [3]
+				16407.876, -- [4]
+				16412.031, -- [5]
+				16446.802, -- [6]
+				16447.809, -- [7]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["TimeSpent"] = {
+						["Fabin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8.01,
+								},
+							},
+							["amount"] = 8.01,
+						},
+						["Stavo"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Loreor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Salenata"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.63,
+								},
+							},
+							["amount"] = 5.63,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 219999,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["DamagedWho"] = {
+						["Fabin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 56360,
+								},
+							},
+							["amount"] = 56360,
+						},
+						["Stavo"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 32369,
+								},
+							},
+							["amount"] = 32369,
+						},
+						["Loreor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 70506,
+								},
+							},
+							["amount"] = 70506,
+						},
+						["Salenata"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 60764,
+								},
+							},
+							["amount"] = 60764,
+						},
+					},
+					["TimeDamage"] = 20.64,
+					["TimeDamaging"] = {
+						["Fabin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8.01,
+								},
+							},
+							["amount"] = 8.01,
+						},
+						["Stavo"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Loreor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Salenata"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.63,
+								},
+							},
+							["amount"] = 5.63,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 70506,
+									["min"] = 70506,
+									["count"] = 1,
+									["amount"] = 70506,
+								},
+								["Hit"] = {
+									["max"] = 34154,
+									["min"] = 26610,
+									["count"] = 5,
+									["amount"] = 149493,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 219999,
+						},
+					},
+					["ActiveTime"] = 20.64,
+					["Damage"] = 219999,
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Fabin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8.01,
+								},
+							},
+							["amount"] = 8.01,
+						},
+						["Stavo"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Loreor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Salenata"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.63,
+								},
+							},
+							["amount"] = 5.63,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 219999,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["DamagedWho"] = {
+						["Fabin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 56360,
+								},
+							},
+							["amount"] = 56360,
+						},
+						["Stavo"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 32369,
+								},
+							},
+							["amount"] = 32369,
+						},
+						["Loreor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 70506,
+								},
+							},
+							["amount"] = 70506,
+						},
+						["Salenata"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 60764,
+								},
+							},
+							["amount"] = 60764,
+						},
+					},
+					["TimeDamage"] = 20.64,
+					["TimeDamaging"] = {
+						["Fabin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8.01,
+								},
+							},
+							["amount"] = 8.01,
+						},
+						["Stavo"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Loreor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Salenata"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.63,
+								},
+							},
+							["amount"] = 5.63,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 70506,
+									["min"] = 70506,
+									["count"] = 1,
+									["amount"] = 70506,
+								},
+								["Hit"] = {
+									["max"] = 34154,
+									["min"] = 26610,
+									["count"] = 5,
+									["amount"] = 149493,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 219999,
+						},
+					},
+					["ActiveTime"] = 20.64,
+					["Damage"] = 219999,
+				},
+			},
+			["UnitLockout"] = 1776965745,
+			["LastActive"] = 1776965745,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

@@ -1,0 +1,41 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Wwl"] = {
+				["lastUpdate"] = 1777054393,
+				["Skills"] = {
+					["Languages"] = {
+						["Language: Orcish"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Shield"] = "1|1",
+						["Mail"] = "1|1",
+						["Cloth"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Two-Handed Maces"] = "1|5",
+						["Defense"] = "5|5",
+						["Maces"] = "1|5",
+						["Two-Handed Swords"] = "1|5",
+						["Thrown"] = "1|5",
+						["Swords"] = "1|5",
+						["Unarmed"] = "1|5",
+						["Axes"] = "1|5",
+						["Daggers"] = "1|5",
+						["Two-Handed Axes"] = "5|5",
+					},
+					["Class Skills"] = {
+						["Fury"] = "1|1",
+						["Protection"] = "1|1",
+						["Arms"] = "1|1",
+					},
+				},
+			},
+		},
+	},
+}

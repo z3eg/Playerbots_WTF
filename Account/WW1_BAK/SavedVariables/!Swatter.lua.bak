@@ -1,0 +1,151 @@
+
+SwatterData = {
+	["enabled"] = true,
+	["autoshow"] = true,
+	["errors"] = {
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridCore.lua:19: AceAddon: AceOO-2.0: Library \"AceDebug-2.0\" does not exist.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\n[C]: in function `error'\n...\\AtlasLoot\\Libs\\DewdropLib\\AceLibrary\\AceLibrary.lua:122: in function <...\\AtlasLoot\\Libs\\DewdropLib\\AceLibrary\\AceLibrary.lua:75>\n(tail call): ?\n(tail call): ?\n...ddOns\\AtlasLootFu\\Libs\\AceAddon-2.0\\AceAddon-2.0.lua:1026: in function `new'\nInterface\\AddOns\\Grid\\GridCore.lua:19: in main chunk\n",
+		}, -- [1]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridRoster.lua:6: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridRoster.lua:6: in main chunk\n",
+		}, -- [2]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridRange.lua:8: Cannot find a library instance of \"LibGratuity-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\n[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibRevision.lua:47: in function `GetLibrary'\nInterface\\AddOns\\Grid\\GridRange.lua:8: in main chunk\n",
+		}, -- [3]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridLayout.lua:10: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridLayout.lua:10: in main chunk\n",
+		}, -- [4]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridLayoutLayouts.lua:9: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridLayoutLayouts.lua:9: in main chunk\n",
+		}, -- [5]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridFrame.lua:9: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridFrame.lua:9: in main chunk\n",
+		}, -- [6]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridStatus.lua:8: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridStatus.lua:8: in main chunk\n",
+		}, -- [7]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridStatusAggro.lua:9: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridStatusAggro.lua:9: in main chunk\n",
+		}, -- [8]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridStatusAuras.lua:10: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridStatusAuras.lua:10: in main chunk\n",
+		}, -- [9]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridStatusHealth.lua:9: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridStatusHealth.lua:9: in main chunk\n",
+		}, -- [10]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridStatusMana.lua:9: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridStatusMana.lua:9: in main chunk\n",
+		}, -- [11]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridStatusName.lua:9: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridStatusName.lua:9: in main chunk\n",
+		}, -- [12]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridStatusRange.lua:10: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridStatusRange.lua:10: in main chunk\n",
+		}, -- [13]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridStatusReadyCheck.lua:10: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridStatusReadyCheck.lua:10: in main chunk\n",
+		}, -- [14]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridStatusTarget.lua:10: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridStatusTarget.lua:10: in main chunk\n",
+		}, -- [15]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridStatusVehicle.lua:8: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridStatusVehicle.lua:8: in main chunk\n",
+		}, -- [16]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridStatusVoiceComm.lua:11: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=20b)\n",
+			["timestamp"] = "2026-04-23 11:46:16",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridStatusVoiceComm.lua:11: in main chunk\n",
+		}, -- [17]
+		{
+			["message"] = "Interface\\AddOns\\Grid\\GridLDB.lua:47: attempt to index global 'Grid' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  ACP, v3.2.0.118 \n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  Bartender4, v4.4.2-12-g94f3b58\n  Configator, v5.1.DEV.278\n  CrapAway, v\n  Gatherer, v3.1.16\n  Grid, v1.30300.1308\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v2.0.0\n  OmniCC, v3.0.4\n  Quartz, v3.0.3.1\n  Recount, v\n  SlideBar, v3.1.16 (<%codename%>)\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=2ca)\n",
+			["timestamp"] = "2026-04-23 11:46:17",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\nInterface\\AddOns\\Grid\\GridLDB.lua:47: in function <Interface\\AddOns\\Grid\\GridLDB.lua:44>\n",
+		}, -- [18]
+	},
+}

@@ -1,0 +1,37 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Lavaaddams - AzerothCore"] = "Lavaaddams - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Lavaaddams"] = {
+				["Inventory"] = {
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					154, -- [4]
+					23375, -- [5]
+					4666, -- [6]
+					22951, -- [7]
+					21010, -- [8]
+					1420, -- [9]
+					20993, -- [10]
+					[16] = 23371,
+					[15] = 6549,
+				},
+				["averageItemLvl"] = 7.375,
+				["lastUpdate"] = 1790808915,
+			},
+		},
+		["Guilds"] = {
+			["Default.AzerothCore.Rage Against the Machine"] = {
+				["Members"] = {
+					["Lavaaddams"] = {
+						["averageItemLvl"] = 7,
+					},
+				},
+			},
+		},
+	},
+}

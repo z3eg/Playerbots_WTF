@@ -1,0 +1,24 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Shigofooy - AzerothCore"] = "Shigofooy - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Shigofooy"] = {
+				["lastUpdate"] = 1777054214,
+				["Stats"] = {
+					["Ranged"] = "314-581|1.5470000734786|31|147|10.553073883057",
+					["Spell"] = "1269|1129|147|15.806972503662|535|158",
+					["Melee"] = "100-246|1.5470000734786|25|147|10.553073883057|0",
+					["MaxPower"] = "0|16998",
+					["PVP"] = "0|0|0|0",
+					["HealthMax"] = 13193,
+					["Resistances"] = "0|80|80|80|80|80",
+					["Base"] = "35|41|641|934|311|3287",
+					["Defense"] = "3287|400|0|0|0|0",
+				},
+			},
+		},
+	},
+}

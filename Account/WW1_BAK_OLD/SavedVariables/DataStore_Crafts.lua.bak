@@ -1,0 +1,17 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.AzerothCore.Westworld"] = {
+				["Members"] = {
+					["Wwl"] = {
+						["Version"] = 12340,
+					},
+				},
+			},
+		},
+	},
+}

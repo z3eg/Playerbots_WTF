@@ -1,0 +1,20 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Shigofooy - AzerothCore"] = "Shigofooy - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Shigofooy"] = {
+				["guildName"] = "Disciples of the Light",
+				["faction"] = "Horde",
+			},
+		},
+		["Guilds"] = {
+			["Default.AzerothCore.Disciples of the Light"] = {
+				["faction"] = "Horde",
+			},
+		},
+		["Version"] = 1,
+	},
+}

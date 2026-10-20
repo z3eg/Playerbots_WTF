@@ -1,0 +1,7 @@
+Bartender4: enabled
+Details_Vanguard: enabled
+Plater: enabled
+XPerl_Options: enabled
+XPerl_TeamSpeak: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

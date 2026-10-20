@@ -1,0 +1,57 @@
+
+IceCoreDB = {
+	["profileKeys"] = {
+		["Shigofooy - AzerothCore"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["updatedOocNotFull"] = true,
+			["modules"] = {
+				["TargetInfo"] = {
+					["myTagVersion"] = 3,
+				},
+				["TargetCast"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+				},
+				["PetHealth"] = {
+					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
+				},
+				["CastBar"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+				},
+				["TargetHealth"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+				},
+				["PlayerMana"] = {
+					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
+				},
+				["PetMana"] = {
+					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
+				},
+				["TargetMana"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+				},
+				["PlayerHealth"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+				},
+			},
+			["colors"] = {
+				["ScaledManaColor"] = {
+					["r"] = 1,
+				},
+				["ScaledHealthColor"] = {
+					["g"] = 0,
+					["r"] = 1,
+				},
+			},
+		},
+	},
+}

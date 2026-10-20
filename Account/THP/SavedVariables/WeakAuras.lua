@@ -1,0 +1,173 @@
+
+WeakAurasSaved = {
+	["dynamicIconCache"] = {
+	},
+	["editor_tab_spaces"] = 4,
+	["displays"] = {
+		["Show rested XP 1.0.3"] = {
+			["outline"] = "OUTLINE",
+			["wagoID"] = "4lDRnMpOt",
+			["authorOptions"] = {
+			},
+			["displayText"] = "%c",
+			["customText"] = "function()\n    local restedXP\n    if GetXPExhaustion() == nil then\n        restedXP = 0\n    else\n        restedXP = GetXPExhaustion()\n    end\n    \n    local restpercent = math.floor((restedXP / UnitXPMax(\"player\") * 100)+0.5)\n    return \"Rested: \" .. restpercent .. \"% / 150%\"\nend",
+			["shadowYOffset"] = -1,
+			["anchorPoint"] = "CENTER",
+			["displayText_format_p_time_format"] = 0,
+			["customTextUpdate"] = "event",
+			["automaticWidth"] = "Auto",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["level_operator"] = "<",
+						["unit"] = "player",
+						["level"] = "70",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["use_level"] = true,
+						["custom_type"] = "event",
+						["event"] = "Unit Characteristics",
+						["custom_hide"] = "timed",
+						["subeventSuffix"] = "_CAST_START",
+						["events"] = "PLAYER_XP_UPDATE PLAYER_LOGIN ",
+						["spellIds"] = {
+						},
+						["custom"] = "function()\nreturn true\nend",
+						["check"] = "event",
+						["use_unit"] = true,
+						["subeventPrefix"] = "SPELL",
+						["names"] = {
+						},
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				{
+					["trigger"] = {
+						["type"] = "unit",
+						["use_hostility"] = false,
+						["level_operator"] = "<",
+						["event"] = "Unit Characteristics",
+						["unit"] = "player",
+						["use_level"] = true,
+						["level"] = "80",
+						["use_unit"] = true,
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [2]
+				["disjunctive"] = "any",
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 53,
+			["selfPoint"] = "BOTTOM",
+			["desc"] = "Shows the current rested bonus as text.",
+			["font"] = "Friz Quadrata TT",
+			["version"] = 4,
+			["displayText_format_c_format"] = "none",
+			["load"] = {
+				["level"] = "80",
+				["use_level"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["level_operator"] = "<",
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["source"] = "import",
+			["shadowXOffset"] = 1,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "text",
+			["preferToUpdate"] = false,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+			},
+			["conditions"] = {
+			},
+			["displayText_format_p_time_precision"] = 1,
+			["displayText_format_p_time_dynamic_threshold"] = 60,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["semver"] = "1.0.3",
+			["tocversion"] = 30400,
+			["id"] = "Show rested XP 1.0.3",
+			["justify"] = "LEFT",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["yOffset"] = 392.69140625,
+			["uid"] = "yiow425VWaL",
+			["wordWrap"] = "WordWrap",
+			["xOffset"] = 3.1605224609375,
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["fixedWidth"] = 200,
+			["information"] = {
+			},
+			["url"] = "https://wago.io/4lDRnMpOt/4",
+		},
+	},
+	["lastArchiveClear"] = 1779754999,
+	["minimap"] = {
+		["hide"] = false,
+	},
+	["lastUpgrade"] = 1779755000,
+	["dbVersion"] = 52,
+	["registered"] = {
+	},
+	["login_squelch_time"] = 10,
+	["editor_theme"] = "Monokai",
+}

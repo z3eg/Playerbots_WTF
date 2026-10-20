@@ -1,0 +1,13 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Lavaaddams - AzerothCore"] = "Lavaaddams - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Lavaaddams"] = {
+				["lastUpdate"] = 1790807751,
+			},
+		},
+	},
+}

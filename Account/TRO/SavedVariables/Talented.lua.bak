@@ -1,0 +1,10 @@
+
+TalentedDB = {
+	["profileKeys"] = {
+		["Mojohead - AzerothCore"] = "Mojohead - AzerothCore",
+	},
+	["profiles"] = {
+		["Mojohead - AzerothCore"] = {
+		},
+	},
+}

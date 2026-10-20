@@ -1,0 +1,103 @@
+MACRO 23 "+loot" Ability_Druid_CatFormAttack
+nc +loot
+/run SetLootMethod("group")
+END
+MACRO 22 "-loot" Ability_Druid_CatFormAttack
+nc -loot
+/ffa
+END
+MACRO 27 "accAdd" Ability_Creature_Cursed_04
+.playerbots bot addaccount be
+END
+MACRO 2 "AQA" INV_Misc_QuestionMark
+accept *
+END
+MACRO 9 "AQL" Ability_Spy
+quests all
+END
+MACRO 13 "Attack" Ability_BackStab
+attack
+pet attack
+/petattack
+END
+MACRO 15 "b1" Ability_Druid_Dreamstate
+/p u Rough Sharpening Stone
+/p u Rough Sharpening Stone
+/p u Rough Weightstone
+/p u Rough Weightstone
+/p u Weak Troll's Blood Elixir
+/p u Spiced Wolf Meat
+END
+MACRO 4 "f" Ability_Kick
+follow
+pet follow
+END
+MACRO 18 "flee" Ability_HeroicLeap
+flee
+pet passive
+/petpassive
+END
+MACRO 3 "g" Ability_Creature_Cursed_02
+grind
+END
+MACRO 19 "herb" INV_Misc_QuestionMark
+#showtooltip Find Herbs
+who herbalism
+END
+MACRO 20 "mining" INV_Misc_QuestionMark
+#showtooltip Find Minerals
+who mining
+END
+MACRO 11 "P2" INV_Misc_QuestionMark
+.playerbots bot add Oshi
+.playerbots bot add Terra
+.playerbots bot add Shigo
+.playerbots bot add Tyrell
+.playerbots bot add Boostershot
+END
+MACRO 1 "partyf" INV_Misc_QuestionMark
+.playerbots bot add Terra
+.playerbots bot add Tyrell
+.playerbots bot add Wwll
+.playerbots bot add Chokesaside
+.playerbots bot add Priestmass
+END
+MACRO 16 "played" INV_Misc_QuestionMark
+/played
+END
+MACRO 7 "ql" INV_Misc_QuestionMark
+quests
+END
+MACRO 12 "QL" INV_Misc_QuestionMark
+/p quests all
+END
+MACRO 8 "sell" Ability_Creature_Cursed_01
+s *
+END
+MACRO 21 "skin" INV_Misc_QuestionMark
+#showtooltip Skinning
+who skinning
+END
+MACRO 10 "stats" Ability_Vehicle_ShellShieldGenerator
+stats
+END
+MACRO 17 "stay" INV_Misc_QuestionMark
+stay
+pet passive
+/petpassive
+END
+MACRO 6 "t" INV_Misc_QuestionMark
+talk
+END
+MACRO 26 "TCLOTH" INV_Misc_QuestionMark
+/run t=1 for b=0,4 do for s=1,GetContainerNumSlots(b)do l=GetContainerItemLink(b,s)if l and select(6,GetItemInfo(l))=="Armor"and select(7,GetItemInfo(l))=="Cloth"and t<7 then PickupContainerItem(b,s)ClickTradeButton(t)t=t+1 end end end
+END
+MACRO 14 "TL" Ability_Creature_Disease_05
+/p trainer learn
+END
+MACRO 25 "TLEATHER" INV_Misc_QuestionMark
+/run t=1 for b=0,4 do for s=1,GetContainerNumSlots(b)do l=GetContainerItemLink(b,s)if l and select(6,GetItemInfo(l))=="Armor"and select(7,GetItemInfo(l))=="Leather"and t<7 then PickupContainerItem(b,s)ClickTradeButton(t)t=t+1 end end end
+END
+MACRO 24 "TMAIL" INV_Misc_QuestionMark
+/run t=1 for b=0,4 do for s=1,GetContainerNumSlots(b)do l=GetContainerItemLink(b,s)if l and select(6,GetItemInfo(l))=="Armor"and select(7,GetItemInfo(l))=="Mail"and t<7 then PickupContainerItem(b,s)ClickTradeButton(t)t=t+1 end end end
+END

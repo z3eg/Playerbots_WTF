@@ -1,0 +1,4 @@
+Bartender4: enabled
+Details_Vanguard: enabled
+Plater: enabled
+XPerl_TeamSpeak: disabled

@@ -1,0 +1,34 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Shigofooy - AzerothCore"] = "Shigofooy - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Shigofooy"] = {
+				["Inventory"] = {
+					37715, -- [1]
+					45207, -- [2]
+					37655, -- [3]
+					nil, -- [4]
+					37222, -- [5]
+					45209, -- [6]
+					41553, -- [7]
+					37730, -- [8]
+					37725, -- [9]
+					43287, -- [10]
+					37651, -- [11]
+					37371, -- [12]
+					37660, -- [13]
+					37390, -- [14]
+					37291, -- [15]
+					37377, -- [16]
+					37134, -- [17]
+					37177, -- [18]
+				},
+				["averageItemLvl"] = 199.2352941176471,
+				["lastUpdate"] = 1777054214,
+			},
+		},
+	},
+}

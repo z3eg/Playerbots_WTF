@@ -1,0 +1,32 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Wwl"] = {
+				["XPMax"] = 400,
+				["played"] = 620,
+				["guildRankName"] = "Initiate",
+				["zone"] = "Tirisfal Glades",
+				["lastUpdate"] = 1777054609,
+				["englishClass"] = "WARRIOR",
+				["race"] = "Orc",
+				["level"] = 1,
+				["XP"] = 166,
+				["RestXP"] = 0,
+				["money"] = 35,
+				["gender"] = 3,
+				["subZone"] = "Deathknell",
+				["guildRankIndex"] = 4,
+				["name"] = "Wwl",
+				["faction"] = "Horde",
+				["englishRace"] = "Orc",
+				["guildName"] = "Westworld",
+				["lastLogoutTimestamp"] = 1777054609,
+				["class"] = "Warrior",
+			},
+		},
+	},
+}

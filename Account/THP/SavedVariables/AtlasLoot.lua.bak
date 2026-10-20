@@ -1,0 +1,30 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Terra - AzerothCore"] = "Terra - AzerothCore",
+	},
+	["profiles"] = {
+		["Terra - AzerothCore"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Terra"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Terra"] = {
+		},
+	},
+}

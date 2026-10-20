@@ -1,0 +1,60 @@
+MACRO 12 "!!" INV_Misc_QuestionMark
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+.additem 12360
+END
+MACRO 8 "bag" INV_Misc_QuestionMark
+#showtooltip Portable Hole
+.additem 51809
+.additem 51809
+.additem 51809
+.additem 51809
+.additem 51809
+END
+MACRO 13 "bqwt" INV_Misc_QuestionMark
+.cast self 25953
+END
+MACRO 4 "fly" INV_Misc_QuestionMark
+.gm fly
+END
+MACRO 10 "forge" Ability_Creature_Cursed_01
+.gobject add 1685
+END
+MACRO 9 "GB" Ability_Warrior_ShieldGuard
+.gobject add 187295
+END
+MACRO 1 "HP" Ability_Creature_Disease_04
+.modify hp 100000000
+END
+MACRO 11 "knife" INV_Misc_QuestionMark
+.npc add item 7005
+END
+MACRO 6 "mog" Ability_Creature_Cursed_05
+.npc add 190010
+END
+MACRO 7 "NPC" Ability_Creature_Disease_02
+.npc add 16680
+END
+MACRO 3 "sp1" INV_Misc_QuestionMark
+.modify speed 1
+END
+MACRO 2 "sp10" INV_Misc_QuestionMark
+.modify speed 10
+END
+MACRO 5 "sp2" INV_Misc_QuestionMark
+.modify speed 2
+END

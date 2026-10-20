@@ -1,0 +1,561 @@
+
+_details_database = {
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Rotbeam-AzerothCore",
+	["last_realversion"] = 12,
+	["table_instances"] = {
+	},
+	["combat_counter"] = 8,
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["opened"] = 0,
+			["max_emote_segments"] = 3,
+			["show_icon"] = 5,
+			["hide_on_combat"] = false,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["useclasscolors"] = false,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["showamount"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["enabled"] = true,
+		},
+	},
+	["character_data"] = {
+		["logons"] = 1,
+	},
+	["table_history"] = {
+		["tables"] = {
+			{
+				{
+					["type"] = 2,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["group"] = true,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+									{
+										["total"] = 229,
+										["name"] = "Rat",
+									}, -- [1]
+								},
+							},
+							["name"] = "Rotbeam",
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["placing"] = 1,
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 229.00547,
+							["serial"] = "0x0000000000000D89",
+							["dps_started"] = false,
+							["type"] = 1,
+							["class"] = "DRUID",
+							["friendlyfire"] = {
+								["type"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["spell_tables"] = {
+								["type"] = 2,
+								["_ActorTable"] = {
+									[8928] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 229,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 229,
+													["name"] = "Rat",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 229,
+										["c_max"] = 229,
+										["id"] = 8928,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["c_min"] = 229,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["end_time"] = 1792429793,
+							["last_dps"] = 229.00547,
+							["custom"] = 0,
+							["last_event"] = 1792429792,
+							["damage_taken"] = 0.00547,
+							["start_time"] = 1792429792,
+							["delay"] = 0,
+							["total"] = 229.00547,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["type"] = 3,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["type"] = 7,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["type"] = 9,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["type"] = 4,
+							["group"] = true,
+							["class"] = "MAGE",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["name"] = "Fdore",
+							["last_event"] = 1792429793,
+							["buff_uptime_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[6117] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 6117,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[1461] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 1461,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 2,
+							["serial"] = "0x0000000000000D84",
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["type"] = 4,
+							["group"] = true,
+							["class"] = "WARLOCK",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["name"] = "Deadmonology",
+							["last_event"] = 1792429793,
+							["buff_uptime_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[20762] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 20762,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[696] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 696,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 2,
+							["serial"] = "0x0000000000000D86",
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["type"] = 4,
+							["group"] = true,
+							["class"] = "SHAMAN",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["name"] = "Widowfury",
+							["last_event"] = 1792429793,
+							["buff_uptime_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[52131] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 52131,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[51470] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 51470,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 2,
+							["serial"] = "0x0000000000000D8A",
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["type"] = 4,
+							["group"] = true,
+							["class"] = "PALADIN",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["name"] = "Corpsecratio",
+							["last_event"] = 1792429793,
+							["buff_uptime_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[20911] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 20911,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[10290] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 10290,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[25780] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 25780,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 3,
+							["serial"] = "0x0000000000000D8D",
+						}, -- [4]
+						{
+							["flag_original"] = 1047,
+							["type"] = 4,
+							["group"] = true,
+							["class"] = "DRUID",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["name"] = "Rotbeam",
+							["last_event"] = 1792429793,
+							["buff_uptime_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[24907] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 24907,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[16886] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 16886,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[24858] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 24858,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 3,
+							["serial"] = "0x0000000000000D89",
+						}, -- [5]
+					},
+				}, -- [4]
+				{
+					["_NameIndexTable"] = {
+					},
+					["type"] = 2,
+					["creation_func"] = nil --[[ skipped inline function ]],
+					["combatId"] = 1,
+					["_ActorTable"] = {
+					},
+					["need_refresh"] = true,
+				}, -- [5]
+				["raid_roster"] = {
+					["Widowfury"] = true,
+					["Fdore"] = true,
+					["Corpsecratio"] = true,
+					["Rotbeam"] = true,
+					["Deadmonology"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["data_start"] = "13:09:52",
+				["enemy"] = "Rat",
+				["combat_counter"] = 6,
+				["totals"] = {
+					228.994755, -- [1]
+					0, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 0,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["totals_group"] = {
+					229, -- [1]
+					0, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 0,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["data_end"] = "13:09:53",
+				["combat_id"] = 1,
+				["resincked"] = true,
+				["frags"] = {
+					["Rat"] = 1,
+				},
+				["instance_type"] = "none",
+				["end_time"] = 1792429793,
+				["CombatSkillCache"] = {
+				},
+				["start_time"] = 1792429792,
+				["TimeData"] = {
+				},
+				["pvp"] = true,
+			}, -- [1]
+		},
+	},
+	["combat_id"] = 1,
+	["savedStyles"] = {
+	},
+	["savedbuffs"] = {
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["last_version"] = "v1.3.0",
+	["last_instance_time"] = 0,
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["sub_attribute_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -83.21448583977245,
+					["x"] = 586.2966672641431,
+					["w"] = 201.4815263840363,
+					["h"] = 131.8699605699694,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1793725745,
+		["last_version"] = 6,
+	},
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_instance_id"] = 0,
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DPS_TUNING",
+		["Mode"] = 1,
+	},
+}

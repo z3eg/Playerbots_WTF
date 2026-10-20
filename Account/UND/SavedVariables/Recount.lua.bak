@@ -1,0 +1,32 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Terra - AzerothCore"] = "Terra - AzerothCore",
+	},
+	["profiles"] = {
+		["Terra - AzerothCore"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -362.8927567039841,
+					["x"] = 454.4447040272082,
+					["w"] = 293.9257553934793,
+					["h"] = 134.1612416551326,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowWidth"] = 293.9257904077459,
+			["MainWindowHeight"] = 134.1612504086992,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

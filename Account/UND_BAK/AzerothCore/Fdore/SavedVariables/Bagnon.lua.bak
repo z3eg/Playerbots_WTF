@@ -1,0 +1,15 @@
+
+BagnonFrameSettings = {
+	["frames"] = {
+		["inventory"] = {
+			["point"] = "TOPRIGHT",
+			["y"] = -51.33336584006793,
+		},
+		["guildbank"] = {
+			["point"] = "TOPRIGHT",
+			["y"] = -189.6322258726572,
+			["x"] = -463.1849652568887,
+		},
+	},
+	["version"] = "2.13.4",
+}

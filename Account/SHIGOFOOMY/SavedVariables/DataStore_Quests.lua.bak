@@ -1,0 +1,13 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Shigofooy - AzerothCore"] = "Shigofooy - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Shigofooy"] = {
+				["lastUpdate"] = 1777053958,
+			},
+		},
+	},
+}

@@ -1,0 +1,1464 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Terra - AzerothCore"] = "Terra - AzerothCore",
+		["Shigo - AzerothCore"] = "Shigo - AzerothCore",
+		["Shigofoomy - AzerothCore"] = "Shigofoomy - AzerothCore",
+		["Coughin - AzerothCore"] = "Coughin - AzerothCore",
+		["Boostershot - AzerothCore"] = "Boostershot - AzerothCore",
+		["Widowfury - AzerothCore"] = "Widowfury - AzerothCore",
+		["Stepdead - AzerothCore"] = "Stepdead - AzerothCore",
+		["Chokesaside - AzerothCore"] = "Chokesaside - AzerothCore",
+		["Chokerx - AzerothCore"] = "Chokerx - AzerothCore",
+		["Oshi - AzerothCore"] = "Oshi - AzerothCore",
+		["Deadmonology - AzerothCore"] = "Deadmonology - AzerothCore",
+		["Orcshio - AzerothCore"] = "Orcshio - AzerothCore",
+		["Chaosballz - AzerothCore"] = "Chaosballz - AzerothCore",
+		["Dorc - AzerothCore"] = "Dorc - AzerothCore",
+		["Mbbmmbmm - AzerothCore"] = "Mbbmmbmm - AzerothCore",
+		["Wwll - AzerothCore"] = "Wwll - AzerothCore",
+		["Hawktuahrion - AzerothCore"] = "Hawktuahrion - AzerothCore",
+		["Fdore - AzerothCore"] = "Fdore - AzerothCore",
+		["Lightweight - AzerothCore"] = "Lightweight - AzerothCore",
+		["Tyrell - AzerothCore"] = "Tyrell - AzerothCore",
+		["Rotbeam - AzerothCore"] = "Rotbeam - AzerothCore",
+		["Priestmass - AzerothCore"] = "Priestmass - AzerothCore",
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
+		["Terrapewtist - AzerothCore"] = "Terrapewtist - AzerothCore",
+		["Naarc - AzerothCore"] = "Naarc - AzerothCore",
+		["Foomyshigo - AzerothCore"] = "Foomyshigo - AzerothCore",
+		["Bellfromhell - AzerothCore"] = "Bellfromhell - AzerothCore",
+		["Corpsecratio - AzerothCore"] = "Corpsecratio - AzerothCore",
+		["Worldwarl - AzerothCore"] = "Worldwarl - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Hawktuahrion"] = {
+				["History"] = {
+					[11922] = true,
+					[11926] = true,
+					[7810] = true,
+					[8054] = true,
+					[8055] = true,
+					[4602] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:5047:60|h[Finkle Einhorn, At Your Service!]|h|r", -- [2]
+					"|cffffff00|Hquest:5160:60|h[The Matron Protectorate]|h|r", -- [3]
+					"|cffffff00|Hquest:4867:60|h[Urok Doomhowl]|h|r", -- [4]
+					nil, -- [5]
+					"|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r", -- [6]
+					"|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r", -- [7]
+					[10] = "|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r",
+					[12] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
+					[14] = "|cffffff00|Hquest:8053:60|h[Paragons of Power: The Freethinker's Armguards]|h|r",
+					[9] = "|cffffff00|Hquest:8731:60|h[Field Duty]|h|r",
+					[13] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
+				},
+				["lastUpdate"] = 1788691970,
+				["Rewards"] = {
+					[10] = "r|20403|1|1",
+					[6] = "r|34599|5|1,r|23247|5|1",
+					[7] = "r|23247|5|1",
+					[9] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
+					[12] = "c|20213|1|1,c|20215|1|1,c|20216|1|1,c|20217|1|1",
+					[4] = "r|15867|1|1",
+					[14] = "r|19827|1|1",
+				},
+				["Quests"] = {
+					"0|Blackrock Spire", -- [1]
+					"1|Dungeon|0|0|1", -- [2]
+					"1|Dungeon|0|0|1", -- [3]
+					"1|Dungeon|0|0|0", -- [4]
+					"0|Midsummer", -- [5]
+					"1||0|40000|0", -- [6]
+					"1||0|0|0", -- [7]
+					"0|Silithus", -- [8]
+					"1||0|0|0", -- [9]
+					"1||0|0|0", -- [10]
+					"0|Zul'Gurub", -- [11]
+					"1|Raid|0|270000|0", -- [12]
+					"1|Raid|0|0|1", -- [13]
+					"1|Raid|0|0|0", -- [14]
+				},
+			},
+			["Default.AzerothCore.Orcshio"] = {
+				["History"] = {
+					[7810] = true,
+					[7784] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:5047:60|h[Finkle Einhorn, At Your Service!]|h|r", -- [2]
+					"|cffffff00|Hquest:5160:60|h[The Matron Protectorate]|h|r", -- [3]
+					"|cffffff00|Hquest:4867:60|h[Urok Doomhowl]|h|r", -- [4]
+					nil, -- [5]
+					"|cffffff00|Hquest:27:-1|h[A Lesson to Learn]|h|r", -- [6]
+					"|cffffff00|Hquest:6126:-1|h[Lessons Anew]|h|r", -- [7]
+					[10] = "|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r",
+					[12] = "|cffffff00|Hquest:7487:60|h[Attunement to the Core]|h|r",
+					[14] = "|cffffff00|Hquest:8731:60|h[Field Duty]|h|r",
+					[17] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
+					[18] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
+					[15] = "|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r",
+					[9] = "|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r",
+				},
+				["lastUpdate"] = 1788692075,
+				["Rewards"] = {
+					[10] = "r|23247|5|1",
+					[14] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
+					[9] = "r|34599|5|1,r|23247|5|1",
+					[15] = "r|20403|1|1",
+					[4] = "r|15867|1|1",
+					[17] = "c|20213|1|0,c|20215|1|0,c|20216|1|1,c|20217|1|1",
+				},
+				["Quests"] = {
+					"0|Blackrock Spire", -- [1]
+					"1|Dungeon|0|0|1", -- [2]
+					"1|Dungeon|0|0|1", -- [3]
+					"1|Dungeon|0|0|0", -- [4]
+					"0|Druid", -- [5]
+					"1||0|0|0", -- [6]
+					"1||0|0|0", -- [7]
+					"0|Midsummer", -- [8]
+					"1||0|40000|0", -- [9]
+					"1||0|0|0", -- [10]
+					"0|Molten Core", -- [11]
+					"1|Dungeon|0|0|0", -- [12]
+					"0|Silithus", -- [13]
+					"1||0|0|0", -- [14]
+					"1||0|0|0", -- [15]
+					"0|Zul'Gurub", -- [16]
+					"1|Raid|0|270000|0", -- [17]
+					"1|Raid|0|0|1", -- [18]
+				},
+			},
+			["Default.AzerothCore.Chokesaside"] = {
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffff2020|Hquest:1014:27|h[Arugal Must Die]|h|r", -- [2]
+					nil, -- [3]
+					"|cff40c040|Hquest:477:14|h[Border Crossings]|h|r", -- [4]
+					"|cff40c040|Hquest:437:14|h[The Dead Fields]|h|r", -- [5]
+					"|cffffff00|Hquest:493:20|h[Journey to Hillsbrad Foothills]|h|r", -- [6]
+					"|cffffff00|Hquest:516:21|h[Beren's Peril]|h|r", -- [7]
+					[9] = "|cffff2020|Hquest:6981:26|h[The Glowing Shard]|h|r",
+				},
+				["lastUpdate"] = 1778017494,
+				["Rewards"] = {
+					[2] = "r|6414|1|1",
+					[5] = "r|3454|1|1",
+					[7] = "r|5252|1|0",
+				},
+				["Quests"] = {
+					"0|Shadowfang Keep", -- [1]
+					"1|Dungeon|0|0|1", -- [2]
+					"0|Silverpine Forest", -- [3]
+					"1||0|0|0", -- [4]
+					"1||0|1200|0", -- [5]
+					"1||0|1800|1", -- [6]
+					"1||0|0|0", -- [7]
+					"0|Wailing Caverns", -- [8]
+					"1||0|0|0", -- [9]
+				},
+			},
+			["Default.AzerothCore.Wwl"] = {
+				["History"] = {
+					[1820] = true,
+					[638] = true,
+					[581] = true,
+					[583] = true,
+					[11922] = true,
+					[185] = true,
+					[607] = true,
+					[672] = true,
+					[1144] = true,
+					[8058] = true,
+					[1719] = true,
+					[14352] = true,
+					[3801] = true,
+					[1164] = true,
+					[629] = true,
+					[568] = true,
+					[194] = true,
+					[2440] = true,
+					[1712] = true,
+					[582] = true,
+					[8078] = true,
+					[11966] = true,
+					[1791] = true,
+					[655] = true,
+					[596] = true,
+					[201] = true,
+					[606] = true,
+					[674] = true,
+					[1713] = true,
+					[1718] = true,
+					[675] = true,
+					[575] = true,
+					[11926] = true,
+					[189] = true,
+					[7810] = true,
+					[9436] = true,
+					[1819] = true,
+					[11915] = true,
+					[2278] = true,
+					[2280] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:5160:60|h[The Matron Protectorate]|h|r", -- [2]
+					"|cffffff00|Hquest:4867:60|h[Urok Doomhowl]|h|r", -- [3]
+					nil, -- [4]
+					"|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r", -- [5]
+					"|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r", -- [6]
+					[9] = "|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r",
+					[16] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
+					[8] = "|cffffff00|Hquest:8731:60|h[Field Duty]|h|r",
+					[17] = "|cffffff00|Hquest:8079:60|h[Paragons of Power: The Vindicator's Breastplate]|h|r",
+					[11] = "|cffffff00|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r",
+					[13] = "|cffffff00|Hquest:9209:60|h[The Savage Guard - Arcanum of Rapidity]|h|r",
+					[15] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
+					[12] = "|cffffff00|Hquest:9208:60|h[The Savage Guard - Arcanum of Protection]|h|r",
+				},
+				["lastUpdate"] = 1788811195,
+				["Rewards"] = {
+					[12] = "r|22635|1|1",
+					[6] = "r|23247|5|1",
+					[13] = "r|22635|1|1",
+					[3] = "r|15867|1|1",
+					[15] = "c|20213|1|1,c|20215|1|1,c|20216|1|1,c|20217|1|1",
+					[8] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
+					[17] = "r|19822|1|1",
+					[9] = "r|20403|1|1",
+					[5] = "r|34599|5|1,r|23247|5|1",
+					[11] = "r|22635|1|1",
+				},
+				["Quests"] = {
+					"0|Blackrock Spire", -- [1]
+					"1|Dungeon|0|0|1", -- [2]
+					"1|Dungeon|0|0|0", -- [3]
+					"0|Midsummer", -- [4]
+					"1||0|40000|0", -- [5]
+					"1||0|0|0", -- [6]
+					"0|Silithus", -- [7]
+					"1||0|0|0", -- [8]
+					"1||0|0|0", -- [9]
+					"0|Zul'Gurub", -- [10]
+					"1|Raid|0|0|0", -- [11]
+					"1|Raid|0|0|0", -- [12]
+					"1|Raid|0|0|0", -- [13]
+					"0|Zul'Gurub", -- [14]
+					"1|Raid|0|270000|0", -- [15]
+					"1|Raid|0|0|1", -- [16]
+					"1|Raid|0|0|0", -- [17]
+				},
+			},
+			["Default.AzerothCore.Lightweight"] = {
+				["QuestLinks"] = {
+					[4] = "|cffffff00|Hquest:11966:-1|h[Incense for the Festival Scorchlings]|h|r",
+					[2] = "|cffffff00|Hquest:11446:-1|h[Brewfest!]|h|r",
+					[6] = "|cff40c040|Hquest:445:10|h[Delivery to Silverpine Forest]|h|r",
+					[7] = "|cff40c040|Hquest:369:11|h[A New Plague]|h|r",
+				},
+				["lastUpdate"] = 1791575638,
+				["Rewards"] = {
+					[4] = "r|23247|1|1",
+					[2] = "c|34017|1|1,c|34020|1|0,c|33034|1|0",
+					[7] = "r|3442|1|1",
+				},
+				["Quests"] = {
+					"0|Brewfest", -- [1]
+					"1||0|800|1", -- [2]
+					"0|Midsummer", -- [3]
+					"1||0|0|1", -- [4]
+					"0|Tirisfal Glades", -- [5]
+					"1||0|2500|1", -- [6]
+					"1||0|0|0", -- [7]
+				},
+			},
+			["Default.AzerothCore.Priestmass"] = {
+				["History"] = {
+					[380] = true,
+					[381] = true,
+					[382] = true,
+					[376] = true,
+					[6395] = true,
+					[3902] = true,
+					[3901] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffff2020|Hquest:1014:27|h[Arugal Must Die]|h|r", -- [2]
+					nil, -- [3]
+					"|cff40c040|Hquest:477:14|h[Border Crossings]|h|r", -- [4]
+					"|cff40c040|Hquest:437:14|h[The Dead Fields]|h|r", -- [5]
+					"|cffffff00|Hquest:493:20|h[Journey to Hillsbrad Foothills]|h|r", -- [6]
+					"|cffffff00|Hquest:516:21|h[Beren's Peril]|h|r", -- [7]
+					[9] = "|cffffff00|Hquest:1061:17|h[The Spirits of Stonetalon]|h|r",
+					[11] = "|cffff2020|Hquest:6981:26|h[The Glowing Shard]|h|r",
+				},
+				["lastUpdate"] = 1777942089,
+				["Rewards"] = {
+					[2] = "r|6414|1|1",
+					[5] = "r|3454|1|1",
+					[7] = "r|5252|1|1",
+				},
+				["Quests"] = {
+					"0|Shadowfang Keep", -- [1]
+					"1|Dungeon|0|0|0", -- [2]
+					"0|Silverpine Forest", -- [3]
+					"1||0|0|0", -- [4]
+					"1||0|1200|0", -- [5]
+					"1||0|1800|1", -- [6]
+					"1||0|0|0", -- [7]
+					"0|Stonetalon Mountains", -- [8]
+					"1||0|0|0", -- [9]
+					"0|Wailing Caverns", -- [10]
+					"1||0|0|0", -- [11]
+				},
+			},
+			["Default.AzerothCore.Oshi"] = {
+				["History"] = {
+					[363] = true,
+					[364] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cff40c040|Hquest:5482:6|h[Doom Weed]|h|r", -- [2]
+					"|cff40c040|Hquest:374:7|h[Proof of Demise]|h|r", -- [3]
+					"|cffffff00|Hquest:358:8|h[Graverobbers]|h|r", -- [4]
+					"|cffffff00|Hquest:375:8|h[The Chill of Death]|h|r", -- [5]
+					"|cffffff00|Hquest:368:9|h[A New Plague]|h|r", -- [6]
+					"|cffffff00|Hquest:370:9|h[At War With The Scarlet Crusade]|h|r", -- [7]
+					"|cffffff00|Hquest:445:10|h[Delivery to Silverpine Forest]|h|r", -- [8]
+					"|cffffff00|Hquest:398:10|h[Wanted: Maggot Eye]|h|r", -- [9]
+				},
+				["lastUpdate"] = 1777942769,
+				["Rewards"] = {
+					[5] = "c|3833|1|1,c|5939|1|1",
+					[6] = "r|3434|5|1",
+					[9] = "c|5941|1|0,c|3444|1|1",
+					[3] = "c|3435|1|1,c|3437|1|0,c|12299|1|1",
+					[4] = "c|6063|1|0,c|3439|1|1",
+				},
+				["Quests"] = {
+					"0|Tirisfal Glades", -- [1]
+					"1||0|250|0", -- [2]
+					"1||0|350|0", -- [3]
+					"1||0|450|0", -- [4]
+					"1||0|450|0", -- [5]
+					"1||0|600|0", -- [6]
+					"1||0|600|0", -- [7]
+					"1||0|500|1", -- [8]
+					"1||0|700|0", -- [9]
+				},
+			},
+			["Default.AzerothCore.Shigofoomy"] = {
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:1881:10|h[Speak with Anastasia]|h|r", -- [2]
+					nil, -- [3]
+					"|cff40c040|Hquest:374:7|h[Proof of Demise]|h|r", -- [4]
+					"|cff40c040|Hquest:405:8|h[The Prodigal Lich]|h|r", -- [5]
+					"|cffffff00|Hquest:368:9|h[A New Plague]|h|r", -- [6]
+					"|cffffff00|Hquest:371:10|h[At War With The Scarlet Crusade]|h|r", -- [7]
+					"|cffffff00|Hquest:445:10|h[Delivery to Silverpine Forest]|h|r", -- [8]
+					"|cffffff00|Hquest:362:10|h[The Haunted Mills]|h|r", -- [9]
+					"|cffffff00|Hquest:354:11|h[Deaths in the Family]|h|r", -- [10]
+					"|cffffff00|Hquest:356:11|h[Rear Guard Patrol]|h|r", -- [11]
+				},
+				["lastUpdate"] = 1778017433,
+				["Rewards"] = {
+					[6] = "r|3434|5|1",
+					[4] = "c|3435|1|0,c|3437|1|0,c|12299|1|1",
+				},
+				["Quests"] = {
+					"0|Mage", -- [1]
+					"1||0|0|0", -- [2]
+					"0|Tirisfal Glades", -- [3]
+					"1||0|350|0", -- [4]
+					"1||0|0|1", -- [5]
+					"1||0|600|0", -- [6]
+					"1||0|700|0", -- [7]
+					"1||0|500|1", -- [8]
+					"1||0|0|0", -- [9]
+					"1||0|800|0", -- [10]
+					"1||0|600|0", -- [11]
+				},
+			},
+			["Default.AzerothCore.Stepdead"] = {
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:11446:-1|h[Brewfest!]|h|r", -- [2]
+					nil, -- [3]
+					"|cffffff00|Hquest:11966:-1|h[Incense for the Festival Scorchlings]|h|r", -- [4]
+					nil, -- [5]
+					"|cff40c040|Hquest:426:8|h[The Mills Overrun]|h|r", -- [6]
+					"|cff40c040|Hquest:368:9|h[A New Plague]|h|r", -- [7]
+					"|cffffff00|Hquest:371:10|h[At War With The Scarlet Crusade]|h|r", -- [8]
+					"|cffffff00|Hquest:362:10|h[The Haunted Mills]|h|r", -- [9]
+					"|cffffff00|Hquest:354:11|h[Deaths in the Family]|h|r", -- [10]
+					"|cffffff00|Hquest:356:11|h[Rear Guard Patrol]|h|r", -- [11]
+					nil, -- [12]
+					"|cff40c040|Hquest:357:8|h[The Lich's Identity]|h|r", -- [13]
+				},
+				["lastUpdate"] = 1790163683,
+				["Rewards"] = {
+					[4] = "r|23247|1|1",
+					[7] = "r|3434|5|1",
+					[6] = "c|3447|1|0,c|3834|1|1",
+					[2] = "c|34017|1|1,c|34020|1|0,c|33034|1|0",
+				},
+				["Quests"] = {
+					"0|Brewfest", -- [1]
+					"1||0|500|1", -- [2]
+					"0|Midsummer", -- [3]
+					"1||0|0|1", -- [4]
+					"0|Tirisfal Glades", -- [5]
+					"1||0|900|0", -- [6]
+					"1||0|600|0", -- [7]
+					"1||0|700|0", -- [8]
+					"1||0|0|0", -- [9]
+					"1||0|800|0", -- [10]
+					"1||0|600|0", -- [11]
+					"0|Undercity", -- [12]
+					"1||0|875|0", -- [13]
+				},
+			},
+			["Default.AzerothCore.Terrapewtist"] = {
+				["History"] = {
+					[827] = true,
+					[829] = true,
+					[831] = true,
+					[1525] = true,
+					[837] = true,
+					[784] = true,
+					[8056] = true,
+					[11922] = true,
+					[493] = true,
+					[855] = true,
+					[1518] = true,
+					[1526] = true,
+					[1530] = true,
+					[1534] = true,
+					[96] = true,
+					[2951] = true,
+					[6548] = true,
+					[828] = true,
+					[830] = true,
+					[1527] = true,
+					[6629] = true,
+					[1535] = true,
+					[840] = true,
+					[842] = true,
+					[8074] = true,
+					[100] = true,
+					[11966] = true,
+					[850] = true,
+					[7810] = true,
+					[14100] = true,
+					[2985] = true,
+					[1149] = true,
+					[1516] = true,
+					[1531] = true,
+					[1524] = true,
+					[63] = true,
+					[2984] = true,
+					[1536] = true,
+					[809] = true,
+					[4602] = true,
+					[14086] = true,
+					[806] = true,
+					[220] = true,
+					[1517] = true,
+					[1061] = true,
+					[11926] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:5047:60|h[Finkle Einhorn, At Your Service!]|h|r", -- [2]
+					"|cffffff00|Hquest:5160:60|h[The Matron Protectorate]|h|r", -- [3]
+					"|cffffff00|Hquest:4867:60|h[Urok Doomhowl]|h|r", -- [4]
+					nil, -- [5]
+					"|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r", -- [6]
+					"|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r", -- [7]
+					nil, -- [8]
+					"|cffffff00|Hquest:1103:-1|h[Call of Water]|h|r", -- [9]
+					nil, -- [10]
+					"|cffffff00|Hquest:8731:60|h[Field Duty]|h|r", -- [11]
+					"|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r", -- [12]
+					nil, -- [13]
+					"|cffffff00|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r", -- [14]
+					"|cffffff00|Hquest:9208:60|h[The Savage Guard - Arcanum of Protection]|h|r", -- [15]
+					"|cffffff00|Hquest:9209:60|h[The Savage Guard - Arcanum of Rapidity]|h|r", -- [16]
+					[20] = "|cffffff00|Hquest:8075:60|h[Paragons of Power: The Augur's Hauberk]|h|r",
+					[18] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
+					[19] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
+				},
+				["lastUpdate"] = 1788693540,
+				["Rewards"] = {
+					[12] = "r|20403|1|1",
+					[6] = "r|34599|5|1,r|23247|5|1",
+					[14] = "r|22635|1|1",
+					[7] = "r|23247|5|1",
+					[15] = "r|22635|1|1",
+					[16] = "r|22635|1|1",
+					[4] = "r|15867|1|1",
+					[18] = "c|20213|1|0,c|20215|1|1,c|20216|1|1,c|20217|1|1",
+					[20] = "r|19828|1|1",
+					[11] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
+				},
+				["Quests"] = {
+					"0|Blackrock Spire", -- [1]
+					"1|Dungeon|0|0|1", -- [2]
+					"1|Dungeon|0|0|1", -- [3]
+					"1|Dungeon|0|0|0", -- [4]
+					"0|Midsummer", -- [5]
+					"1||0|40000|0", -- [6]
+					"1||0|0|0", -- [7]
+					"0|Shaman", -- [8]
+					"1||0|0|0", -- [9]
+					"0|Silithus", -- [10]
+					"1||0|0|0", -- [11]
+					"1||0|0|0", -- [12]
+					"0|Zul'Gurub", -- [13]
+					"1|Raid|0|0|0", -- [14]
+					"1|Raid|0|0|0", -- [15]
+					"1|Raid|0|0|0", -- [16]
+					"0|Zul'Gurub", -- [17]
+					"1|Raid|0|270000|0", -- [18]
+					"1|Raid|0|0|1", -- [19]
+					"1|Raid|0|0|0", -- [20]
+				},
+			},
+			["Default.AzerothCore.Deadmonology"] = {
+				["QuestLinks"] = {
+					[4] = "|cffffff00|Hquest:11966:-1|h[Incense for the Festival Scorchlings]|h|r",
+					[7] = "|cff40c040|Hquest:369:11|h[A New Plague]|h|r",
+					[6] = "|cff40c040|Hquest:445:10|h[Delivery to Silverpine Forest]|h|r",
+					[2] = "|cffffff00|Hquest:11446:-1|h[Brewfest!]|h|r",
+				},
+				["lastUpdate"] = 1791575374,
+				["Rewards"] = {
+					[4] = "r|23247|1|1",
+					[7] = "r|3442|1|1",
+					[2] = "c|34017|1|1,c|34020|1|0,c|33034|1|0",
+				},
+				["Quests"] = {
+					"0|Brewfest", -- [1]
+					"1||0|800|1", -- [2]
+					"0|Midsummer", -- [3]
+					"1||0|0|1", -- [4]
+					"0|Tirisfal Glades", -- [5]
+					"1||0|2500|1", -- [6]
+					"1||0|0|0", -- [7]
+				},
+			},
+			["Default.AzerothCore.Rotbeam"] = {
+				["History"] = {
+					[5481] = true,
+					[370] = true,
+					[371] = true,
+					[364] = true,
+					[363] = true,
+					[8] = true,
+					[3901] = true,
+					[356] = true,
+					[5482] = true,
+					[372] = true,
+					[380] = true,
+					[367] = true,
+					[427] = true,
+					[404] = true,
+					[381] = true,
+					[358] = true,
+					[383] = true,
+					[405] = true,
+					[382] = true,
+					[359] = true,
+					[398] = true,
+					[375] = true,
+					[3902] = true,
+					[360] = true,
+					[368] = true,
+					[407] = true,
+					[376] = true,
+					[6395] = true,
+					[365] = true,
+					[14089] = true,
+				},
+				["QuestLinks"] = {
+					[4] = "|cff808080|Hquest:14088:20|h[Learn to Ride in Durotar]|h|r",
+					[6] = "|cff808080|Hquest:14087:20|h[Learn to Ride in Mulgore]|h|r",
+					[2] = "|cffffff00|Hquest:11446:-1|h[Brewfest!]|h|r",
+				},
+				["lastUpdate"] = 1791090470,
+				["Rewards"] = {
+					[2] = "c|34017|1|1,c|34020|1|1,c|33034|1|0",
+				},
+				["Quests"] = {
+					"0|Brewfest", -- [1]
+					"1||0|800|1", -- [2]
+					"0|Durotar", -- [3]
+					"1||0|0|1", -- [4]
+					"0|Mulgore", -- [5]
+					"1||0|0|1", -- [6]
+				},
+			},
+			["Default.AzerothCore.Mbbmmbmm"] = {
+				["History"] = {
+					[823] = true,
+					[354] = true,
+					[355] = true,
+					[356] = true,
+					[3082] = true,
+					[421] = true,
+					[359] = true,
+					[360] = true,
+					[361] = true,
+					[362] = true,
+					[5441] = true,
+					[427] = true,
+					[365] = true,
+					[788] = true,
+					[367] = true,
+					[792] = true,
+					[794] = true,
+					[370] = true,
+					[371] = true,
+					[372] = true,
+					[8240] = true,
+					[804] = true,
+					[375] = true,
+					[439] = true,
+					[429] = true,
+					[443] = true,
+					[7487] = true,
+					[445] = true,
+					[786] = true,
+					[2280] = true,
+					[425] = true,
+					[424] = true,
+					[2440] = true,
+					[8067] = true,
+					[7810] = true,
+					[6062] = true,
+					[423] = true,
+					[6082] = true,
+					[437] = true,
+					[655] = true,
+					[6394] = true,
+					[426] = true,
+					[3087] = true,
+					[789] = true,
+					[4402] = true,
+					[430] = true,
+					[368] = true,
+					[2161] = true,
+					[6081] = true,
+					[404] = true,
+					[8066] = true,
+					[805] = true,
+					[407] = true,
+					[408] = true,
+					[4602] = true,
+					[438] = true,
+					[6083] = true,
+					[790] = true,
+					[2951] = true,
+					[2278] = true,
+					[422] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:5047:60|h[Finkle Einhorn, At Your Service!]|h|r", -- [2]
+					"|cffffff00|Hquest:5160:60|h[The Matron Protectorate]|h|r", -- [3]
+					"|cffffff00|Hquest:4867:60|h[Urok Doomhowl]|h|r", -- [4]
+					[12] = "|cffffff00|Hquest:8731:60|h[Field Duty]|h|r",
+					[6] = "|cffffff00|Hquest:7632:60|h[The Ancient Leaf]|h|r",
+					[13] = "|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r",
+					[7] = "|cffffff00|Hquest:9617:-1|h[Seek the Farstriders]|h|r",
+					[15] = "|cffffff00|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r",
+					[16] = "|cffffff00|Hquest:9208:60|h[The Savage Guard - Arcanum of Protection]|h|r",
+					[17] = "|cffffff00|Hquest:9209:60|h[The Savage Guard - Arcanum of Rapidity]|h|r",
+					[9] = "|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r",
+					[19] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
+					[10] = "|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r",
+					[21] = "|cffffff00|Hquest:8062:60|h[Paragons of Power: The Predator's Bracers]|h|r",
+					[20] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
+				},
+				["lastUpdate"] = 1788693265,
+				["Rewards"] = {
+					[12] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
+					[13] = "r|20403|1|1",
+					[15] = "r|22635|1|1",
+					[16] = "r|22635|1|1",
+					[17] = "r|22635|1|1",
+					[9] = "r|34599|5|1,r|23247|5|1",
+					[19] = "c|20213|1|0,c|20215|1|1,c|20216|1|1,c|20217|1|1",
+					[10] = "r|23247|5|1",
+					[21] = "r|19833|1|1",
+					[4] = "r|15867|1|1",
+				},
+				["Quests"] = {
+					"0|Blackrock Spire", -- [1]
+					"1|Dungeon|0|0|1", -- [2]
+					"1|Dungeon|0|0|1", -- [3]
+					"1|Dungeon|0|0|0", -- [4]
+					"0|Hunter", -- [5]
+					"1||0|0|1", -- [6]
+					"1||0|0|0", -- [7]
+					"0|Midsummer", -- [8]
+					"1||0|40000|0", -- [9]
+					"1||0|0|0", -- [10]
+					"0|Silithus", -- [11]
+					"1||0|0|0", -- [12]
+					"1||0|0|0", -- [13]
+					"0|Zul'Gurub", -- [14]
+					"1|Raid|0|0|0", -- [15]
+					"1|Raid|0|0|0", -- [16]
+					"1|Raid|0|0|0", -- [17]
+					"0|Zul'Gurub", -- [18]
+					"1|Raid|0|270000|0", -- [19]
+					"1|Raid|0|0|1", -- [20]
+					"1|Raid|0|0|0", -- [21]
+				},
+			},
+			["Default.AzerothCore.Terra"] = {
+				["History"] = {
+					[1098] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffff2020|Hquest:1014:27|h[Arugal Must Die]|h|r", -- [2]
+					nil, -- [3]
+					"|cffffff00|Hquest:1522:-1|h[Call of Fire]|h|r", -- [4]
+					nil, -- [5]
+					"|cff40c040|Hquest:477:14|h[Border Crossings]|h|r", -- [6]
+					"|cff40c040|Hquest:437:14|h[The Dead Fields]|h|r", -- [7]
+					"|cffffff00|Hquest:493:20|h[Journey to Hillsbrad Foothills]|h|r", -- [8]
+					"|cffffff00|Hquest:516:21|h[Beren's Peril]|h|r", -- [9]
+					[11] = "|cffffff00|Hquest:1061:17|h[The Spirits of Stonetalon]|h|r",
+					[13] = "|cffff2020|Hquest:6981:26|h[The Glowing Shard]|h|r",
+				},
+				["lastUpdate"] = 1777938163,
+				["Rewards"] = {
+					[7] = "r|3454|1|1",
+					[9] = "r|5252|1|0",
+					[2] = "r|6414|1|1",
+				},
+				["Quests"] = {
+					"0|Shadowfang Keep", -- [1]
+					"1|Dungeon|0|0|0", -- [2]
+					"0|Shaman", -- [3]
+					"1||0|0|0", -- [4]
+					"0|Silverpine Forest", -- [5]
+					"1||0|0|0", -- [6]
+					"1||0|1200|0", -- [7]
+					"1||0|1800|1", -- [8]
+					"1||0|0|0", -- [9]
+					"0|Stonetalon Mountains", -- [10]
+					"1||0|0|0", -- [11]
+					"0|Wailing Caverns", -- [12]
+					"1||0|0|0", -- [13]
+				},
+			},
+			["Default.AzerothCore.Bellfromhell"] = {
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cff40c040|Hquest:374:7|h[Proof of Demise]|h|r", -- [2]
+					"|cff40c040|Hquest:405:8|h[The Prodigal Lich]|h|r", -- [3]
+					"|cffffff00|Hquest:368:9|h[A New Plague]|h|r", -- [4]
+					"|cffffff00|Hquest:371:10|h[At War With The Scarlet Crusade]|h|r", -- [5]
+					"|cffffff00|Hquest:445:10|h[Delivery to Silverpine Forest]|h|r", -- [6]
+					"|cffffff00|Hquest:356:11|h[Rear Guard Patrol]|h|r", -- [7]
+					"|cffffff00|Hquest:408:13|h[The Family Crypt]|h|r", -- [8]
+					[10] = "|cffffff00|Hquest:1478:-1|h[Halgar's Summons]|h|r",
+				},
+				["lastUpdate"] = 1777939177,
+				["Rewards"] = {
+					[4] = "r|3434|5|1",
+					[8] = "c|3446|1|1,c|3440|1|0",
+					[2] = "c|3435|1|0,c|3437|1|0,c|12299|1|1",
+				},
+				["Quests"] = {
+					"0|Tirisfal Glades", -- [1]
+					"1||0|350|0", -- [2]
+					"1||0|0|1", -- [3]
+					"1||0|600|0", -- [4]
+					"1||0|700|0", -- [5]
+					"1||0|500|1", -- [6]
+					"1||0|600|0", -- [7]
+					"1||0|0|0", -- [8]
+					"0|Warlock", -- [9]
+					"1||0|170|1", -- [10]
+				},
+			},
+			["Default.AzerothCore.Boostershot"] = {
+				["History"] = {
+					[354] = true,
+					[5481] = true,
+					[370] = true,
+					[355] = true,
+					[363] = true,
+					[8] = true,
+					[3901] = true,
+					[364] = true,
+					[5482] = true,
+					[380] = true,
+					[365] = true,
+					[427] = true,
+					[404] = true,
+					[381] = true,
+					[358] = true,
+					[6395] = true,
+					[3902] = true,
+					[382] = true,
+					[359] = true,
+					[367] = true,
+					[375] = true,
+					[383] = true,
+					[360] = true,
+					[376] = true,
+					[407] = true,
+					[398] = true,
+					[361] = true,
+					[362] = true,
+					[426] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cff40c040|Hquest:374:7|h[Proof of Demise]|h|r", -- [2]
+					"|cff40c040|Hquest:405:8|h[The Prodigal Lich]|h|r", -- [3]
+					"|cffffff00|Hquest:368:9|h[A New Plague]|h|r", -- [4]
+					"|cffffff00|Hquest:371:10|h[At War With The Scarlet Crusade]|h|r", -- [5]
+					"|cffffff00|Hquest:445:10|h[Delivery to Silverpine Forest]|h|r", -- [6]
+					"|cffffff00|Hquest:356:11|h[Rear Guard Patrol]|h|r", -- [7]
+					"|cffffff00|Hquest:408:13|h[The Family Crypt]|h|r", -- [8]
+				},
+				["lastUpdate"] = 1777941696,
+				["Rewards"] = {
+					[4] = "r|3434|5|1",
+					[8] = "c|3446|1|0,c|3440|1|0",
+					[2] = "c|3435|1|1,c|3437|1|0,c|12299|1|1",
+				},
+				["Quests"] = {
+					"0|Tirisfal Glades", -- [1]
+					"1||0|350|0", -- [2]
+					"1||0|0|1", -- [3]
+					"1||0|600|0", -- [4]
+					"1||0|700|0", -- [5]
+					"1||0|500|1", -- [6]
+					"1||0|600|0", -- [7]
+					"1||0|0|0", -- [8]
+				},
+			},
+			["Default.AzerothCore.Naarc"] = {
+				["History"] = {
+					[4602] = true,
+					[361] = true,
+					[3221] = true,
+					[421] = true,
+					[7761] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:5047:60|h[Finkle Einhorn, At Your Service!]|h|r", -- [2]
+					"|cffffff00|Hquest:5160:60|h[The Matron Protectorate]|h|r", -- [3]
+					"|cffffff00|Hquest:4867:60|h[Urok Doomhowl]|h|r", -- [4]
+					nil, -- [5]
+					"|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r", -- [6]
+					"|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r", -- [7]
+					nil, -- [8]
+					"|cffffff00|Hquest:8731:60|h[Field Duty]|h|r", -- [9]
+					"|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r", -- [10]
+					[12] = "|cffffff00|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r",
+					[14] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
+					[17] = "|cffffff00|Hquest:8071:60|h[Paragons of Power: The Confessor's Mantle]|h|r",
+					[15] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
+					[16] = "|cffffff00|Hquest:8070:60|h[Paragons of Power: The Confessor's Bindings]|h|r",
+				},
+				["lastUpdate"] = 1788809549,
+				["Rewards"] = {
+					[12] = "r|22635|1|1",
+					[6] = "r|34599|5|1,r|23247|5|1",
+					[14] = "c|20213|1|0,c|20215|1|0,c|20216|1|0,c|20217|1|1",
+					[7] = "r|23247|5|1",
+					[16] = "r|19842|1|1",
+					[4] = "r|15867|1|1",
+					[9] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
+					[10] = "r|20403|1|1",
+					[17] = "r|19841|1|1",
+				},
+				["Quests"] = {
+					"0|Blackrock Spire", -- [1]
+					"1|Dungeon|0|0|1", -- [2]
+					"1|Dungeon|0|0|1", -- [3]
+					"1|Dungeon|0|0|0", -- [4]
+					"0|Midsummer", -- [5]
+					"1||0|40000|0", -- [6]
+					"1||0|0|0", -- [7]
+					"0|Silithus", -- [8]
+					"1||0|0|0", -- [9]
+					"1||0|0|0", -- [10]
+					"0|Zul'Gurub", -- [11]
+					"1|Raid|0|0|0", -- [12]
+					"0|Zul'Gurub", -- [13]
+					"1|Raid|0|270000|0", -- [14]
+					"1|Raid|0|0|1", -- [15]
+					"1|Raid|0|0|0", -- [16]
+					"1|Raid|0|0|0", -- [17]
+				},
+			},
+			["Default.AzerothCore.Fdore"] = {
+				["QuestLinks"] = {
+					[5] = "|cffffff00|Hquest:1959:15|h[Report to Anastasia]|h|r",
+					[7] = "|cffffff00|Hquest:11966:-1|h[Incense for the Festival Scorchlings]|h|r",
+					[2] = "|cffffff00|Hquest:11446:-1|h[Brewfest!]|h|r",
+					[9] = "|cff40c040|Hquest:445:10|h[Delivery to Silverpine Forest]|h|r",
+					[4] = "|cff40c040|Hquest:1881:10|h[Speak with Anastasia]|h|r",
+					[10] = "|cff40c040|Hquest:369:11|h[A New Plague]|h|r",
+				},
+				["lastUpdate"] = 1791575679,
+				["Rewards"] = {
+					[7] = "r|23247|1|1",
+					[2] = "c|34017|1|1,c|34020|1|0,c|33034|1|0",
+					[10] = "r|3442|1|1",
+				},
+				["Quests"] = {
+					"0|Brewfest", -- [1]
+					"1||0|800|1", -- [2]
+					"0|Mage", -- [3]
+					"1||0|0|0", -- [4]
+					"1||0|0|0", -- [5]
+					"0|Midsummer", -- [6]
+					"1||0|0|1", -- [7]
+					"0|Tirisfal Glades", -- [8]
+					"1||0|2500|1", -- [9]
+					"1||0|0|0", -- [10]
+				},
+			},
+			["Default.AzerothCore.Tyrell"] = {
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffff2020|Hquest:1014:27|h[Arugal Must Die]|h|r", -- [2]
+					nil, -- [3]
+					"|cff40c040|Hquest:477:14|h[Border Crossings]|h|r", -- [4]
+					"|cff40c040|Hquest:437:14|h[The Dead Fields]|h|r", -- [5]
+					"|cffffff00|Hquest:493:20|h[Journey to Hillsbrad Foothills]|h|r", -- [6]
+					"|cffffff00|Hquest:516:21|h[Beren's Peril]|h|r", -- [7]
+					[9] = "|cffffff00|Hquest:1061:17|h[The Spirits of Stonetalon]|h|r",
+					[11] = "|cffff2020|Hquest:6981:26|h[The Glowing Shard]|h|r",
+				},
+				["lastUpdate"] = 1777938033,
+				["Rewards"] = {
+					[2] = "r|6414|1|1",
+					[5] = "r|3454|1|1",
+					[7] = "r|5252|1|0",
+				},
+				["Quests"] = {
+					"0|Shadowfang Keep", -- [1]
+					"1|Dungeon|0|0|0", -- [2]
+					"0|Silverpine Forest", -- [3]
+					"1||0|0|0", -- [4]
+					"1||0|1200|0", -- [5]
+					"1||0|1800|1", -- [6]
+					"1||0|0|0", -- [7]
+					"0|Stonetalon Mountains", -- [8]
+					"1||0|0|0", -- [9]
+					"0|Wailing Caverns", -- [10]
+					"1||0|0|0", -- [11]
+				},
+			},
+			["Default.AzerothCore.Chaosballz"] = {
+				["History"] = {
+					[11926] = true,
+					[1478] = true,
+					[398] = true,
+					[5481] = true,
+					[2951] = true,
+					[533] = true,
+					[1472] = true,
+					[7810] = true,
+					[535] = true,
+					[5482] = true,
+					[358] = true,
+					[11922] = true,
+					[8059] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:8694:60|h[Shroud of Unspoken Names]|h|r", -- [2]
+					nil, -- [3]
+					"|cffffff00|Hquest:5047:60|h[Finkle Einhorn, At Your Service!]|h|r", -- [4]
+					"|cffffff00|Hquest:5160:60|h[The Matron Protectorate]|h|r", -- [5]
+					"|cffffff00|Hquest:4867:60|h[Urok Doomhowl]|h|r", -- [6]
+					nil, -- [7]
+					"|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r", -- [8]
+					"|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r", -- [9]
+					nil, -- [10]
+					"|cffffff00|Hquest:8731:60|h[Field Duty]|h|r", -- [11]
+					"|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r", -- [12]
+					[23] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
+					[24] = "|cffffff00|Hquest:8076:60|h[Paragons of Power: The Demoniac's Mantle]|h|r",
+					[25] = "|cffffff00|Hquest:8077:60|h[Paragons of Power: The Demoniac's Robes]|h|r",
+					[14] = "|cffffff00|Hquest:1473:-1|h[Creature of the Void]|h|r",
+					[15] = "|cffffff00|Hquest:1476:-1|h[Hearts of the Pure]|h|r",
+					[16] = "|cffffff00|Hquest:10790:-1|h[Return to Gan'rul Bloodeye]|h|r",
+					[17] = "|cffffff00|Hquest:10788:-1|h[Return to Talionia]|h|r",
+					[18] = "|cffffff00|Hquest:3001:-1|h[Seeking Strahad]|h|r",
+					[20] = "|cffffff00|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r",
+					[22] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
+				},
+				["lastUpdate"] = 1788693939,
+				["Rewards"] = {
+					[12] = "r|20403|1|1",
+					[6] = "r|15867|1|1",
+					[8] = "r|34599|5|1,r|23247|5|1",
+					[20] = "r|22635|1|1",
+					[9] = "r|23247|5|1",
+					[11] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
+					[2] = "r|21418|1|1",
+					[24] = "r|19849|1|1",
+					[22] = "c|20213|1|0,c|20215|1|0,c|20216|1|0,c|20217|1|1",
+					[25] = "r|20033|1|1",
+				},
+				["Quests"] = {
+					"0|Ahn'Qiraj", -- [1]
+					"1|Raid|0|0|0", -- [2]
+					"0|Blackrock Spire", -- [3]
+					"1|Dungeon|0|0|1", -- [4]
+					"1|Dungeon|0|0|1", -- [5]
+					"1|Dungeon|0|0|0", -- [6]
+					"0|Midsummer", -- [7]
+					"1||0|40000|0", -- [8]
+					"1||0|0|0", -- [9]
+					"0|Silithus", -- [10]
+					"1||0|0|0", -- [11]
+					"1||0|0|0", -- [12]
+					"0|Warlock", -- [13]
+					"1||0|0|0", -- [14]
+					"1||0|0|0", -- [15]
+					"1||0|0|0", -- [16]
+					"1||0|0|0", -- [17]
+					"1||0|0|0", -- [18]
+					"0|Zul'Gurub", -- [19]
+					"1|Raid|0|0|0", -- [20]
+					"0|Zul'Gurub", -- [21]
+					"1|Raid|0|270000|0", -- [22]
+					"1|Raid|0|0|1", -- [23]
+					"1|Raid|0|0|0", -- [24]
+					"1|Raid|0|0|0", -- [25]
+				},
+			},
+			["Default.AzerothCore.Dorc"] = {
+				["History"] = {
+					[7785] = true,
+					[12641] = true,
+					[7786] = true,
+					[7487] = true,
+					[12800] = true,
+					[12706] = true,
+					[12738] = true,
+					[12739] = true,
+					[8800] = true,
+					[12742] = true,
+					[12733] = true,
+					[12678] = true,
+					[8301] = true,
+					[12679] = true,
+					[8183] = true,
+					[12680] = true,
+					[12715] = true,
+					[12842] = true,
+					[12748] = true,
+					[12619] = true,
+					[12714] = true,
+					[12746] = true,
+					[12778] = true,
+					[12747] = true,
+					[12716] = true,
+					[13189] = true,
+					[12717] = true,
+					[12749] = true,
+					[12657] = true,
+					[12750] = true,
+					[12719] = true,
+					[12751] = true,
+					[12720] = true,
+					[12593] = true,
+					[12698] = true,
+					[12725] = true,
+					[12848] = true,
+					[12754] = true,
+					[12723] = true,
+					[12755] = true,
+					[13165] = true,
+					[12756] = true,
+					[13166] = true,
+					[12757] = true,
+					[12697] = true,
+					[12722] = true,
+					[12727] = true,
+					[8286] = true,
+					[12724] = true,
+					[8791] = true,
+					[12850] = true,
+					[8288] = true,
+					[12743] = true,
+					[12636] = true,
+					[12687] = true,
+					[12700] = true,
+					[12779] = true,
+					[12701] = true,
+					[12670] = true,
+					[12801] = true,
+					[7787] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:7241:-1|h[In Defense of Frostwolf]|h|r", -- [2]
+					nil, -- [3]
+					"|cffffff00|Hquest:7761:60|h[Blackhand's Command]|h|r", -- [4]
+					nil, -- [5]
+					"|cffffff00|Hquest:8731:60|h[Field Duty]|h|r", -- [6]
+					"|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r", -- [7]
+					[10] = "|cffffff00|Hquest:9208:60|h[The Savage Guard - Arcanum of Protection]|h|r",
+					[14] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
+					[9] = "|cffffff00|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r",
+					[11] = "|cffffff00|Hquest:9209:60|h[The Savage Guard - Arcanum of Rapidity]|h|r",
+					[13] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
+				},
+				["lastUpdate"] = 1788811388,
+				["Rewards"] = {
+					[10] = "r|22635|1|1",
+					[6] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
+					[7] = "r|20403|1|1",
+					[9] = "r|22635|1|1",
+					[11] = "r|22635|1|1",
+					[13] = "c|20213|1|1,c|20215|1|1,c|20216|1|1,c|20217|1|1",
+				},
+				["Quests"] = {
+					"0|Alterac Valley", -- [1]
+					"1|PvP|0|0|0", -- [2]
+					"0|Blackrock Spire", -- [3]
+					"1|Dungeon|0|0|0", -- [4]
+					"0|Silithus", -- [5]
+					"1||0|0|0", -- [6]
+					"1||0|0|0", -- [7]
+					"0|Zul'Gurub", -- [8]
+					"1|Raid|0|0|0", -- [9]
+					"1|Raid|0|0|0", -- [10]
+					"1|Raid|0|0|0", -- [11]
+					"0|Zul'Gurub", -- [12]
+					"1|Raid|0|270000|0", -- [13]
+					"1|Raid|0|0|1", -- [14]
+				},
+			},
+			["Default.AzerothCore.Widowfury"] = {
+				["QuestLinks"] = {
+					[4] = "|cff40c040|Hquest:14088:20|h[Learn to Ride in Durotar]|h|r",
+					[6] = "|cffffff00|Hquest:11966:-1|h[Incense for the Festival Scorchlings]|h|r",
+					[8] = "|cff40c040|Hquest:14087:20|h[Learn to Ride in Mulgore]|h|r",
+					[2] = "|cffffff00|Hquest:11446:-1|h[Brewfest!]|h|r",
+				},
+				["lastUpdate"] = 1790821943,
+				["Rewards"] = {
+					[2] = "c|34017|1|1,c|34020|1|1,c|33034|1|0",
+					[6] = "r|23247|1|1",
+				},
+				["Quests"] = {
+					"0|Brewfest", -- [1]
+					"1||0|800|1", -- [2]
+					"0|Durotar", -- [3]
+					"1||0|0|1", -- [4]
+					"0|Midsummer", -- [5]
+					"1||0|0|1", -- [6]
+					"0|Mulgore", -- [7]
+					"1||0|0|1", -- [8]
+				},
+			},
+			["Default.AzerothCore.Foomyshigo"] = {
+				["History"] = {
+					[501] = true,
+					[569] = true,
+					[9436] = true,
+					[502] = true,
+					[185] = true,
+					[4602] = true,
+					[11926] = true,
+					[7784] = true,
+					[190] = true,
+					[1960] = true,
+					[8800] = true,
+					[568] = true,
+					[8068] = true,
+					[8784] = true,
+					[552] = true,
+					[9457] = true,
+					[581] = true,
+					[11922] = true,
+					[7783] = true,
+					[629] = true,
+					[2951] = true,
+					[4601] = true,
+					[583] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:8707:60|h[Blade of Vaulted Secrets]|h|r", -- [2]
+					"|cffffff00|Hquest:8691:60|h[Drape of Vaulted Secrets]|h|r", -- [3]
+					"|cffffff00|Hquest:8634:60|h[Enigma Boots]|h|r", -- [4]
+					"|cffffff00|Hquest:8632:60|h[Enigma Circlet]|h|r", -- [5]
+					"|cffffff00|Hquest:8631:60|h[Enigma Leggings]|h|r", -- [6]
+					"|cffffff00|Hquest:8633:60|h[Enigma Robes]|h|r", -- [7]
+					"|cffffff00|Hquest:8625:60|h[Enigma Shoulderpads]|h|r", -- [8]
+					nil, -- [9]
+					"|cffffff00|Hquest:5047:60|h[Finkle Einhorn, At Your Service!]|h|r", -- [10]
+					"|cffffff00|Hquest:5160:60|h[The Matron Protectorate]|h|r", -- [11]
+					"|cffffff00|Hquest:4867:60|h[Urok Doomhowl]|h|r", -- [12]
+					nil, -- [13]
+					"|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r", -- [14]
+					"|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r", -- [15]
+					[19] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
+					[20] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
+					[17] = "|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r",
+					[21] = "|cffffff00|Hquest:8069:60|h[Paragons of Power: The Illusionist's Robes]|h|r",
+					[22] = "|cffffff00|Hquest:8060:60|h[Paragons of Power: The Illusionist's Wraps]|h|r",
+				},
+				["lastUpdate"] = 1788817196,
+				["Rewards"] = {
+					nil, -- [1]
+					"r|21413|1|1", -- [2]
+					"r|21415|1|1", -- [3]
+					"r|21344|1|1", -- [4]
+					"r|21347|1|1", -- [5]
+					"r|21346|1|1", -- [6]
+					"r|21343|1|1", -- [7]
+					"r|21345|1|1", -- [8]
+					nil, -- [9]
+					nil, -- [10]
+					nil, -- [11]
+					"r|15867|1|1", -- [12]
+					nil, -- [13]
+					"r|34599|5|1,r|23247|5|1", -- [14]
+					"r|23247|5|1", -- [15]
+					[17] = "r|20403|1|1",
+					[21] = "r|20034|1|1",
+					[19] = "c|20213|1|0,c|20215|1|0,c|20216|1|0,c|20217|1|1",
+					[22] = "r|19846|1|1",
+				},
+				["Quests"] = {
+					"0|Ahn'Qiraj", -- [1]
+					"1|Raid|0|0|0", -- [2]
+					"1|Raid|0|0|0", -- [3]
+					"1|Raid|0|0|0", -- [4]
+					"1|Raid|0|0|0", -- [5]
+					"1|Raid|0|0|0", -- [6]
+					"1|Raid|0|0|0", -- [7]
+					"1|Raid|0|0|0", -- [8]
+					"0|Blackrock Spire", -- [9]
+					"1|Dungeon|0|0|1", -- [10]
+					"1|Dungeon|0|0|1", -- [11]
+					"1|Dungeon|0|0|0", -- [12]
+					"0|Midsummer", -- [13]
+					"1||0|40000|0", -- [14]
+					"1||0|0|0", -- [15]
+					"0|Silithus", -- [16]
+					"1||0|0|0", -- [17]
+					"0|Zul'Gurub", -- [18]
+					"1|Raid|0|270000|0", -- [19]
+					"1|Raid|0|0|1", -- [20]
+					"1|Raid|0|0|0", -- [21]
+					"1|Raid|0|0|0", -- [22]
+				},
+			},
+			["Default.AzerothCore.Coughin"] = {
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:8784:60|h[Secrets of the Qiraji]|h|r", -- [2]
+					nil, -- [3]
+					"|cffffff00|Hquest:7241:-1|h[In Defense of Frostwolf]|h|r", -- [4]
+					nil, -- [5]
+					"|cffffff00|Hquest:8731:60|h[Field Duty]|h|r", -- [6]
+					"|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r", -- [7]
+					[10] = "|cffffff00|Hquest:9208:60|h[The Savage Guard - Arcanum of Protection]|h|r",
+					[14] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
+					[9] = "|cffffff00|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r",
+					[11] = "|cffffff00|Hquest:9209:60|h[The Savage Guard - Arcanum of Rapidity]|h|r",
+					[13] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
+				},
+				["lastUpdate"] = 1789680310,
+				["Rewards"] = {
+					[10] = "r|22635|1|1",
+					[6] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
+					[7] = "r|20403|1|1",
+					[9] = "r|22635|1|1",
+					[11] = "r|22635|1|1",
+					[13] = "c|20213|1|1,c|20215|1|1,c|20216|1|1,c|20217|1|1",
+				},
+				["Quests"] = {
+					"0|Ahn'Qiraj", -- [1]
+					"1||0|0|1", -- [2]
+					"0|Alterac Valley", -- [3]
+					"1|PvP|0|0|0", -- [4]
+					"0|Silithus", -- [5]
+					"1||0|0|0", -- [6]
+					"1||0|0|0", -- [7]
+					"0|Zul'Gurub", -- [8]
+					"1|Raid|0|0|0", -- [9]
+					"1|Raid|0|0|0", -- [10]
+					"1|Raid|0|0|0", -- [11]
+					"0|Zul'Gurub", -- [12]
+					"1|Raid|0|270000|0", -- [13]
+					"1|Raid|0|0|1", -- [14]
+				},
+			},
+			["Default.AzerothCore.Worldwarl"] = {
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:11446:-1|h[Brewfest!]|h|r", -- [2]
+					[4] = "|cffffff00|Hquest:11966:-1|h[Incense for the Festival Scorchlings]|h|r",
+					[6] = "|cff40c040|Hquest:369:11|h[A New Plague]|h|r",
+				},
+				["lastUpdate"] = 1791080893,
+				["Rewards"] = {
+					[4] = "r|23247|1|1",
+					[6] = "r|3442|1|1",
+					[2] = "c|34017|1|1,c|34020|1|0,c|33034|1|0",
+				},
+				["Quests"] = {
+					"0|Brewfest", -- [1]
+					"1||0|800|1", -- [2]
+					"0|Midsummer", -- [3]
+					"1||0|0|1", -- [4]
+					"0|Tirisfal Glades", -- [5]
+					"1||0|0|0", -- [6]
+				},
+			},
+			["Default.AzerothCore.Corpsecratio"] = {
+				["QuestLinks"] = {
+					[4] = "|cffffff00|Hquest:11966:-1|h[Incense for the Festival Scorchlings]|h|r",
+					[2] = "|cffffff00|Hquest:11446:-1|h[Brewfest!]|h|r",
+					[6] = "|cff40c040|Hquest:445:10|h[Delivery to Silverpine Forest]|h|r",
+					[7] = "|cff40c040|Hquest:369:11|h[A New Plague]|h|r",
+				},
+				["lastUpdate"] = 1791575609,
+				["Rewards"] = {
+					[4] = "r|23247|1|1",
+					[2] = "c|34017|1|1,c|34020|1|0,c|33034|1|0",
+					[7] = "r|3442|1|1",
+				},
+				["Quests"] = {
+					"0|Brewfest", -- [1]
+					"1||0|800|1", -- [2]
+					"0|Midsummer", -- [3]
+					"1||0|0|1", -- [4]
+					"0|Tirisfal Glades", -- [5]
+					"1||0|2500|1", -- [6]
+					"1||0|0|0", -- [7]
+				},
+			},
+			["Default.AzerothCore.Chokerx"] = {
+				["History"] = {
+					[823] = true,
+					[354] = true,
+					[355] = true,
+					[356] = true,
+					[358] = true,
+					[359] = true,
+					[2161] = true,
+					[361] = true,
+					[362] = true,
+					[5441] = true,
+					[4402] = true,
+					[11922] = true,
+					[790] = true,
+					[792] = true,
+					[794] = true,
+					[8073] = true,
+					[435] = true,
+					[11926] = true,
+					[4641] = true,
+					[445] = true,
+					[449] = true,
+					[6394] = true,
+					[398] = true,
+					[8072] = true,
+					[3088] = true,
+					[805] = true,
+					[3801] = true,
+					[788] = true,
+					[4602] = true,
+					[786] = true,
+					[3083] = true,
+					[789] = true,
+					[804] = true,
+					[429] = true,
+					[360] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:8693:60|h[Cloak of Veiled Shadows]|h|r", -- [2]
+					"|cffffff00|Hquest:8709:60|h[Dagger of Veiled Shadows]|h|r", -- [3]
+					nil, -- [4]
+					"|cffffff00|Hquest:5047:60|h[Finkle Einhorn, At Your Service!]|h|r", -- [5]
+					"|cffffff00|Hquest:4867:60|h[Urok Doomhowl]|h|r", -- [6]
+					[13] = "|cffffff00|Hquest:8731:60|h[Field Duty]|h|r",
+					[14] = "|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r",
+					[9] = "|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r",
+					[16] = "|cffffff00|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r",
+					[17] = "|cffffff00|Hquest:9208:60|h[The Savage Guard - Arcanum of Protection]|h|r",
+					[18] = "|cffffff00|Hquest:9209:60|h[The Savage Guard - Arcanum of Rapidity]|h|r",
+					[11] = "|cffffff00|Hquest:7487:60|h[Attunement to the Core]|h|r",
+					[20] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
+					[21] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
+					[22] = "|cffffff00|Hquest:8063:60|h[Paragons of Power: The Madcap's Bracers]|h|r",
+					[8] = "|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r",
+				},
+				["lastUpdate"] = 1788694053,
+				["Rewards"] = {
+					nil, -- [1]
+					"r|21406|1|1", -- [2]
+					"r|21404|1|1", -- [3]
+					[6] = "r|15867|1|1",
+					[13] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
+					[14] = "r|20403|1|1",
+					[16] = "r|22635|1|1",
+					[17] = "r|22635|1|1",
+					[18] = "r|22635|1|1",
+					[20] = "c|20213|1|0,c|20215|1|0,c|20216|1|1,c|20217|1|1",
+					[9] = "r|23247|5|1",
+					[22] = "r|19836|1|1",
+					[8] = "r|34599|5|1,r|23247|5|1",
+				},
+				["Quests"] = {
+					"0|Ahn'Qiraj", -- [1]
+					"1|Raid|0|0|0", -- [2]
+					"1|Raid|0|0|0", -- [3]
+					"0|Blackrock Spire", -- [4]
+					"1|Dungeon|0|0|1", -- [5]
+					"1|Dungeon|0|0|0", -- [6]
+					"0|Midsummer", -- [7]
+					"1||0|40000|0", -- [8]
+					"1||0|0|0", -- [9]
+					"0|Molten Core", -- [10]
+					"1|Dungeon|0|0|0", -- [11]
+					"0|Silithus", -- [12]
+					"1||0|0|0", -- [13]
+					"1||0|0|0", -- [14]
+					"0|Zul'Gurub", -- [15]
+					"1|Raid|0|0|0", -- [16]
+					"1|Raid|0|0|0", -- [17]
+					"1|Raid|0|0|0", -- [18]
+					"0|Zul'Gurub", -- [19]
+					"1|Raid|0|270000|0", -- [20]
+					"1|Raid|0|0|1", -- [21]
+					"1|Raid|0|0|0", -- [22]
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,418 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Lord Marrowgar"] = {
+			["GUID"] = "0xF130008F040007FA",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+				"???", -- [5]
+				"???", -- [6]
+			},
+			["LastAttackedBy"] = "Manustan",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					66385, -- [1]
+				},
+				["TimeDamage"] = {
+					9.02, -- [1]
+				},
+				["DamageTaken"] = {
+					2, -- [1]
+				},
+				["ActiveTime"] = {
+					9.02, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 2,
+			["level"] = -1,
+			["LastDamageAbility"] = "Sinister Strike",
+			["LastFightIn"] = 0,
+			["type"] = "Boss",
+			["TimeLast"] = {
+				["ActiveTime"] = 1776959369,
+				["TimeDamage"] = 1776959369,
+				["OVERALL"] = 1776959369,
+				["DamageTaken"] = 1776959286,
+				["Damage"] = 1776959369,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 10071.731,
+			["NextEventNum"] = 7,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+			},
+			["LastEvents"] = {
+				"Lord Marrowgar Melee Manustan Miss", -- [1]
+				"Manustan Melee Lord Marrowgar Dodge", -- [2]
+				"Manustan Sinister Strike Lord Marrowgar Hit -2 (Physical)", -- [3]
+				"Lord Marrowgar Melee Manustan Hit -35490 (Physical)", -- [4]
+				"Lord Marrowgar Melee Manustan Dodge", -- [5]
+				"Lord Marrowgar Melee Manustan Hit -30895 (Physical)", -- [6]
+			},
+			["Name"] = "Lord Marrowgar",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+			},
+			["LastEventTimes"] = {
+				9988.177, -- [1]
+				9988.496000000001, -- [2]
+				9989.154000000001, -- [3]
+				9989.190000000001, -- [4]
+				10070.725, -- [5]
+				10071.731, -- [6]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DamagedWho"] = {
+						["Manustan"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 66385,
+								},
+							},
+							["amount"] = 66385,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 66385,
+					},
+					["ActiveTime"] = 9.02,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 35490,
+									["min"] = 30895,
+									["count"] = 2,
+									["amount"] = 66385,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 66385,
+						},
+					},
+					["TimeSpent"] = {
+						["Manustan"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.02,
+								},
+							},
+							["amount"] = 9.02,
+						},
+					},
+					["DamageTaken"] = 2,
+					["WhoDamaged"] = {
+						["Manustan"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["TimeDamage"] = 9.02,
+					["TimeDamaging"] = {
+						["Manustan"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.02,
+								},
+							},
+							["amount"] = 9.02,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 2,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["Damage"] = 66385,
+				},
+				["OverallData"] = {
+					["DamagedWho"] = {
+						["Manustan"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 66385,
+								},
+							},
+							["amount"] = 66385,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 66385,
+					},
+					["ActiveTime"] = 9.02,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 35490,
+									["min"] = 30895,
+									["count"] = 2,
+									["amount"] = 66385,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 66385,
+						},
+					},
+					["TimeSpent"] = {
+						["Manustan"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.02,
+								},
+							},
+							["amount"] = 9.02,
+						},
+					},
+					["DamageTaken"] = 2,
+					["WhoDamaged"] = {
+						["Manustan"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["TimeDamage"] = 9.02,
+					["TimeDamaging"] = {
+						["Manustan"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.02,
+								},
+							},
+							["amount"] = 9.02,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 2,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["Damage"] = 66385,
+				},
+			},
+			["UnitLockout"] = 1776959369,
+			["LastActive"] = 1776959369,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

@@ -1,0 +1,4 @@
+
+ZPerlRaidMonConfig = {
+	["enabled"] = false,
+}

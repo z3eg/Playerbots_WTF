@@ -1,0 +1,129 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Lavaaddams - AzerothCore"] = "Lavaaddams - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Lavaaddams"] = {
+				["lastUpdate"] = 1790808915,
+				["Containers"] = {
+					["Bag4"] = {
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:16|h[Portable Hole]|h|r",
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["size"] = 24,
+						["freeslots"] = 24,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							2901, -- [1]
+							7005, -- [2]
+							2842, -- [3]
+							7108, -- [4]
+							20841, -- [5]
+							2070, -- [6]
+							4604, -- [7]
+							159, -- [8]
+							4536, -- [9]
+							787, -- [10]
+							4540, -- [11]
+							117, -- [12]
+							23334, -- [13]
+							118, -- [14]
+							3013, -- [15]
+							1181, -- [16]
+						},
+						["links"] = {
+							[4] = "|cff1eff00|Hitem:7108:0:0:0:0:0:6:0:16|h[Infantry Shield of Strength]|h|r",
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["counts"] = {
+							nil, -- [1]
+							nil, -- [2]
+							2, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							3, -- [6]
+							7, -- [7]
+							13, -- [8]
+							3, -- [9]
+							9, -- [10]
+							20, -- [11]
+							2, -- [12]
+							nil, -- [13]
+							nil, -- [14]
+							2, -- [15]
+							2, -- [16]
+						},
+					},
+					["Bag1"] = {
+						["ids"] = {
+							51809, -- [1]
+							22976, -- [2]
+							774, -- [3]
+							4496, -- [4]
+							6948, -- [5]
+							2589, -- [6]
+							22710, -- [7]
+							4496, -- [8]
+							4496, -- [9]
+							4496, -- [10]
+							765, -- [11]
+							5572, -- [12]
+							2770, -- [13]
+							[17] = 27668,
+							[18] = 35725,
+							[24] = 6636,
+							[23] = 2835,
+						},
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:16|h[Portable Hole]|h|r",
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["size"] = 24,
+						["counts"] = {
+							[6] = 15,
+							[7] = 7,
+							[17] = 9,
+							[11] = 7,
+							[3] = 3,
+							[23] = 16,
+							[13] = 18,
+						},
+						["freeslots"] = 7,
+					},
+					["Bag2"] = {
+						["ids"] = {
+							5176, -- [1]
+							nil, -- [2]
+							4671, -- [3]
+							3642, -- [4]
+							4658, -- [5]
+							4663, -- [6]
+							15475, -- [7]
+							5345, -- [8]
+							6635, -- [9]
+							5175, -- [10]
+						},
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:16|h[Portable Hole]|h|r",
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["size"] = 24,
+						["freeslots"] = 15,
+					},
+					["Bag3"] = {
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:16|h[Portable Hole]|h|r",
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["size"] = 24,
+						["freeslots"] = 24,
+					},
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
+				},
+				["numFreeBagSlots"] = 70,
+				["numBagSlots"] = 112,
+			},
+		},
+		["Version"] = 1,
+	},
+}

@@ -1,0 +1,29 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Wwl"] = {
+				["Inventory"] = {
+					[7] = 139,
+					[16] = 12282,
+					[8] = 140,
+					[4] = 6125,
+				},
+				["averageItemLvl"] = 1.333333333333333,
+				["lastUpdate"] = 1777054563,
+			},
+		},
+		["Guilds"] = {
+			["Default.AzerothCore.Westworld"] = {
+				["Members"] = {
+					["Wwl"] = {
+						["averageItemLvl"] = 1,
+					},
+				},
+			},
+		},
+	},
+}

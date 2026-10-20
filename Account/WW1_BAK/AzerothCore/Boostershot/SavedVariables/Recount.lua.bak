@@ -1,0 +1,9142 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Shigofoomy"] = {
+			["GUID"] = "0x0000000000000A1A",
+			["LastEventHealth"] = {
+				"142 (100%)", -- [1]
+				"142 (100%)", -- [2]
+				"142 (100%)", -- [3]
+				"142 (100%)", -- [4]
+				"142 (100%)", -- [5]
+				"142 (100%)", -- [6]
+				"142 (100%)", -- [7]
+				"142 (100%)", -- [8]
+				"142 (100%)", -- [9]
+				"142 (100%)", -- [10]
+				"142 (100%)", -- [11]
+				"142 (100%)", -- [12]
+				"142 (100%)", -- [13]
+				"142 (100%)", -- [14]
+				"142 (100%)", -- [15]
+				"142 (100%)", -- [16]
+				"142 (100%)", -- [17]
+				"142 (100%)", -- [18]
+				"142 (100%)", -- [19]
+				"142 (100%)", -- [20]
+				"142 (100%)", -- [21]
+				"142 (100%)", -- [22]
+				"142 (100%)", -- [23]
+				"142 (100%)", -- [24]
+				"142 (100%)", -- [25]
+				"142 (100%)", -- [26]
+				"142 (100%)", -- [27]
+				"142 (100%)", -- [28]
+				"142 (100%)", -- [29]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					588, -- [1]
+				},
+				["TimeDamage"] = {
+					96.63999999999999, -- [1]
+				},
+				["ActiveTime"] = {
+					96.63999999999999, -- [1]
+				},
+			},
+			["enClass"] = "MAGE",
+			["unit"] = "Shigofoomy",
+			["level"] = 7,
+			["LastFightIn"] = 24,
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["TimeLast"] = {
+				["Damage"] = 1777074892,
+				["OVERALL"] = 1777074892,
+				["TimeDamage"] = 1777074892,
+				["ActiveTime"] = 1777074892,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 35413.288,
+			["NextEventNum"] = 30,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+			},
+			["LastEvents"] = {
+				"Shigofoomy Fireball Wretched Ghoul Hit -18 (Fire)", -- [1]
+				"Shigofoomy Fireball Mindless Zombie Crit -31 (Fire)", -- [2]
+				"Shigofoomy Fireball Wretched Ghoul Hit -20 (Fire)", -- [3]
+				"Shigofoomy Fireball Wretched Ghoul Hit -24 (Fire)", -- [4]
+				"Shigofoomy Fireball Mindless Zombie Hit -21 (Fire)", -- [5]
+				"Shigofoomy Fireball Wretched Ghoul Hit -16 (Fire)", -- [6]
+				"Shigofoomy Fireball Wretched Ghoul Hit -20 (Fire)", -- [7]
+				"Shigofoomy Fireball Wretched Ghoul Hit -18 (2 resisted) (Fire)", -- [8]
+				"Shigofoomy Fireball Wretched Ghoul Hit -18 (Fire)", -- [9]
+				"Shigofoomy Fireball Wretched Ghoul Hit -18 (2 resisted) (Fire)", -- [10]
+				"Shigofoomy Fireball Mindless Zombie Hit -23 (Fire)", -- [11]
+				"Shigofoomy Fireball Duskbat Hit -16 (Fire)", -- [12]
+				"Shigofoomy Fireball Duskbat Hit -16 (Fire)", -- [13]
+				"Shigofoomy Fireball Duskbat Hit -19 (Fire)", -- [14]
+				"Shigofoomy Fireball Young Scavenger Hit -21 (Fire)", -- [15]
+				"Shigofoomy Fireball Duskbat Hit -21 (Fire)", -- [16]
+				"Shigofoomy Fireball Duskbat Hit -24 (Fire)", -- [17]
+				"Shigofoomy Fireball Young Scavenger Hit -24 (Fire)", -- [18]
+				"Shigofoomy Fireball Duskbat Hit -18 (Fire)", -- [19]
+				"Shigofoomy Fireball Young Scavenger Hit -17 (Fire)", -- [20]
+				"Shigofoomy Fireball Rattlecage Skeleton Crit -25 (Fire)", -- [21]
+				"Shigofoomy Fireball Rattlecage Skeleton Hit -19 (Fire)", -- [22]
+				"Shigofoomy Fireball Rattlecage Skeleton Hit -21 (Fire)", -- [23]
+				"Shigofoomy Fireball Rattlecage Skeleton Hit -18 (Fire)", -- [24]
+				"Shigofoomy Fireball Young Scavenger Hit -24 (Fire)", -- [25]
+				"Shigofoomy Fireball Rattlecage Skeleton Hit -18 (Fire)", -- [26]
+				"Shigofoomy Fireball Rattlecage Skeleton Hit -19 (Fire)", -- [27]
+				"Shigofoomy Fireball Rattlecage Skeleton Hit -20 (Fire)", -- [28]
+				"Shigofoomy Fireball Rattlecage Skeleton Hit -21 (Fire)", -- [29]
+			},
+			["Name"] = "Shigofoomy",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+			},
+			["LastEventTimes"] = {
+				34630.427, -- [1]
+				34651.257, -- [2]
+				34666.418, -- [3]
+				34669.593, -- [4]
+				34672.679, -- [5]
+				34685.118, -- [6]
+				34690.556, -- [7]
+				34868.578, -- [8]
+				34872.229, -- [9]
+				34876.231, -- [10]
+				34886.717, -- [11]
+				34990.343, -- [12]
+				34993.808, -- [13]
+				35171.557, -- [14]
+				35177.08, -- [15]
+				35202.919, -- [16]
+				35233.288, -- [17]
+				35253.816, -- [18]
+				35263.976, -- [19]
+				35291.319, -- [20]
+				35298.566, -- [21]
+				35304.33, -- [22]
+				35305.792, -- [23]
+				35325.222, -- [24]
+				35385.133, -- [25]
+				35399.975, -- [26]
+				35406.347, -- [27]
+				35407.801, -- [28]
+				35413.288, -- [29]
+			},
+			["Fights"] = {
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 24,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 24,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 24,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 24,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 18,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 18,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 18,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 0,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 40,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 40,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 4.96,
+								},
+							},
+							["amount"] = 4.96,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 4.96,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 21,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 40,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 40,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 4.96,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 4.96,
+								},
+							},
+							["amount"] = 4.96,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 18,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 18,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 18,
+									["count"] = 1,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 18,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 60,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 60,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 8.449999999999999,
+								},
+							},
+							["amount"] = 8.449999999999999,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 8.449999999999999,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 21,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 60,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 60,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 8.449999999999999,
+					["TimeDamaging"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 8.449999999999999,
+								},
+							},
+							["amount"] = 8.449999999999999,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 60,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 60,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 8.449999999999999,
+								},
+							},
+							["amount"] = 8.449999999999999,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 8.449999999999999,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 21,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 60,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 60,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 8.449999999999999,
+					["TimeDamaging"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 8.449999999999999,
+								},
+							},
+							["amount"] = 8.449999999999999,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementDoneResist"] = {
+						["Fire"] = 4,
+					},
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 10.09,
+								},
+							},
+							["amount"] = 10.09,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 20.96,
+								},
+							},
+							["amount"] = 20.96,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 23.91,
+								},
+							},
+							["amount"] = 23.91,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 27.68,
+								},
+							},
+							["amount"] = 27.68,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 588,
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 75,
+								},
+							},
+							["amount"] = 75,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 114,
+								},
+							},
+							["amount"] = 114,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 161,
+								},
+							},
+							["amount"] = 161,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 86,
+								},
+							},
+							["amount"] = 86,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 152,
+								},
+							},
+							["amount"] = 152,
+						},
+					},
+					["TimeDamage"] = 96.63999999999999,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 10.09,
+								},
+							},
+							["amount"] = 10.09,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 20.96,
+								},
+							},
+							["amount"] = 20.96,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 23.91,
+								},
+							},
+							["amount"] = 23.91,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 27.68,
+								},
+							},
+							["amount"] = 27.68,
+						},
+					},
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 31,
+									["min"] = 25,
+									["count"] = 2,
+									["amount"] = 56,
+								},
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 16,
+									["count"] = 27,
+									["amount"] = 532,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 588,
+						},
+					},
+					["ActiveTime"] = 96.63999999999999,
+					["Damage"] = 588,
+				},
+			},
+			["UnitLockout"] = 1777074109,
+			["LastActive"] = 1777074892,
+		},
+		["Chokesaside"] = {
+			["GUID"] = "0x0000000000000A19",
+			["LastEventHealth"] = {
+				"89 (100%)", -- [1]
+				"89 (100%)", -- [2]
+				"89 (100%)", -- [3]
+				"89 (100%)", -- [4]
+				"89 (100%)", -- [5]
+				"89 (100%)", -- [6]
+				"89 (100%)", -- [7]
+				"89 (100%)", -- [8]
+				"89 (100%)", -- [9]
+				"89 (100%)", -- [10]
+				"89 (100%)", -- [11]
+				"87 (97%)", -- [12]
+				"87 (97%)", -- [13]
+				"87 (97%)", -- [14]
+				"87 (97%)", -- [15]
+				"89 (100%)", -- [16]
+				"89 (100%)", -- [17]
+				"89 (100%)", -- [18]
+				"89 (100%)", -- [19]
+				"87 (97%)", -- [20]
+				"87 (97%)", -- [21]
+				"87 (97%)", -- [22]
+				"87 (97%)", -- [23]
+				"89 (100%)", -- [24]
+				"89 (100%)", -- [25]
+				"89 (100%)", -- [26]
+				"89 (100%)", -- [27]
+				"89 (100%)", -- [28]
+				"89 (100%)", -- [29]
+				"89 (100%)", -- [30]
+				"89 (100%)", -- [31]
+				"89 (100%)", -- [32]
+				"89 (100%)", -- [33]
+				"89 (100%)", -- [34]
+				"89 (100%)", -- [35]
+				"89 (100%)", -- [36]
+				"89 (100%)", -- [37]
+				"89 (100%)", -- [38]
+				"89 (100%)", -- [39]
+				"89 (100%)", -- [40]
+				"89 (100%)", -- [41]
+				"89 (100%)", -- [42]
+				"89 (100%)", -- [43]
+				"89 (100%)", -- [44]
+				"89 (100%)", -- [45]
+				"89 (100%)", -- [46]
+				"89 (100%)", -- [47]
+				"89 (100%)", -- [48]
+				"89 (100%)", -- [49]
+				"89 (100%)", -- [50]
+			},
+			["LastAttackedBy"] = "Rattlecage Skeleton",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					186.27, -- [1]
+				},
+				["Damage"] = {
+					759, -- [1]
+				},
+				["DamageTaken"] = {
+					10, -- [1]
+				},
+				["ActiveTime"] = {
+					186.27, -- [1]
+				},
+			},
+			["enClass"] = "ROGUE",
+			["unit"] = "Chokesaside",
+			["level"] = 3,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 24,
+			["LastEventNum"] = {
+				[15] = 2.247191011235955,
+				[11] = 2.247191011235955,
+				[19] = 2.247191011235955,
+			},
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 2,
+			["TimeLast"] = {
+				["ActiveTime"] = 1777074891,
+				["TimeDamage"] = 1777074891,
+				["OVERALL"] = 1777074891,
+				["DamageTaken"] = 1777074889,
+				["Damage"] = 1777074890,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 35413.116,
+			["NextEventNum"] = 24,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				97.75280898876405, -- [12]
+				97.75280898876405, -- [13]
+				97.75280898876405, -- [14]
+				97.75280898876405, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				97.75280898876405, -- [20]
+				97.75280898876405, -- [21]
+				97.75280898876405, -- [22]
+				97.75280898876405, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Chokesaside Sinister Strike Young Scavenger Hit -7 (Physical)", -- [1]
+				"Chokesaside Melee Young Scavenger Miss", -- [2]
+				"Chokesaside Melee Young Scavenger Miss", -- [3]
+				"Chokesaside Sinister Strike Young Scavenger Hit -8 (Physical)", -- [4]
+				"Chokesaside Sinister Strike Rattlecage Skeleton Hit -8 (Physical)", -- [5]
+				"Chokesaside Melee Rattlecage Skeleton Crit -10 (Physical)", -- [6]
+				"Chokesaside Sinister Strike Rattlecage Skeleton Hit -8 (Physical)", -- [7]
+				"Chokesaside Melee Rattlecage Skeleton Miss", -- [8]
+				"Chokesaside Melee Rattlecage Skeleton Hit -2 (Physical)", -- [9]
+				"Chokesaside Sinister Strike Rattlecage Skeleton Hit -8 (Physical)", -- [10]
+				"Rattlecage Skeleton Melee Chokesaside Hit -2 (Physical)", -- [11]
+				"Chokesaside Melee Rattlecage Skeleton Hit -5 (Physical)", -- [12]
+				"Chokesaside Melee Rattlecage Skeleton Hit -2 (Physical)", -- [13]
+				"Chokesaside Melee Rattlecage Skeleton Miss", -- [14]
+				"Rattlecage Skeleton Melee Chokesaside Hit -2 (Physical)", -- [15]
+				"Chokesaside Sinister Strike Rattlecage Skeleton Hit -8 (Physical)", -- [16]
+				"Chokesaside Melee Rattlecage Skeleton Crit -10 (Physical)", -- [17]
+				"Chokesaside Melee Rattlecage Skeleton Hit -1 (Physical)", -- [18]
+				"Rattlecage Skeleton Melee Chokesaside Hit -2 (Physical)", -- [19]
+				"Chokesaside Melee Rattlecage Skeleton Hit -4 (Physical)", -- [20]
+				"Chokesaside Melee Rattlecage Skeleton Hit -2 (Physical)", -- [21]
+				"Chokesaside Melee Rattlecage Skeleton Miss", -- [22]
+				"Rattlecage Skeleton Melee Chokesaside Dodge", -- [23]
+				"Chokesaside Melee Rattlecage Skeleton Hit -2 (Physical)", -- [24]
+				"Chokesaside Melee Rattlecage Skeleton Hit -5 (Physical)", -- [25]
+				"Chokesaside Sinister Strike Rattlecage Skeleton Hit -8 (Physical)", -- [26]
+				"Chokesaside Melee Rattlecage Skeleton Miss", -- [27]
+				"Chokesaside Melee Rattlecage Skeleton Hit -2 (Physical)", -- [28]
+				"Chokesaside Sinister Strike Rattlecage Skeleton Hit -7 (Physical)", -- [29]
+				"Chokesaside Melee Rattlecage Skeleton Hit -4 (Physical)", -- [30]
+				"Chokesaside Melee Rattlecage Skeleton Hit -2 (Physical)", -- [31]
+				"Chokesaside Sinister Strike Rattlecage Skeleton Crit -16 (Physical)", -- [32]
+				"Chokesaside Melee Rattlecage Skeleton Hit -5 (Physical)", -- [33]
+				"Chokesaside Melee Rattlecage Skeleton Hit -2 (Physical)", -- [34]
+				"Chokesaside Sinister Strike Rattlecage Skeleton Hit -7 (Physical)", -- [35]
+				"Chokesaside Melee Rattlecage Skeleton Crit -10 (Physical)", -- [36]
+				"Chokesaside Melee Young Scavenger Hit -4 (Physical)", -- [37]
+				"Chokesaside Melee Young Scavenger Dodge", -- [38]
+				"Chokesaside Melee Young Scavenger Hit -5 (Physical)", -- [39]
+				"Chokesaside Melee Young Scavenger Hit -2 (Physical)", -- [40]
+				"Chokesaside Sinister Strike Young Scavenger Hit -8 (Physical)", -- [41]
+				"Chokesaside Melee Rattlecage Skeleton Hit -4 (Physical)", -- [42]
+				"Chokesaside Melee Rattlecage Skeleton Hit -1 (Physical)", -- [43]
+				"Chokesaside Melee Rattlecage Skeleton Hit -4 (Physical)", -- [44]
+				"Chokesaside Melee Rattlecage Skeleton Hit -2 (Physical)", -- [45]
+				"Chokesaside Melee Rattlecage Skeleton Hit -2 (Physical)", -- [46]
+				"Chokesaside Melee Rattlecage Skeleton Hit -5 (Physical)", -- [47]
+				"Chokesaside Sinister Strike Rattlecage Skeleton Hit -8 (Physical)", -- [48]
+				"Chokesaside Melee Rattlecage Skeleton Hit -5 (Physical)", -- [49]
+				"Chokesaside Melee Rattlecage Skeleton Hit -2 (Physical)", -- [50]
+			},
+			["Name"] = "Chokesaside",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				true, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				true, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				35384.074, -- [1]
+				35384.245, -- [2]
+				35384.445, -- [3]
+				35385.072, -- [4]
+				35398.87, -- [5]
+				35399.783, -- [6]
+				35403.855, -- [7]
+				35404.345, -- [8]
+				35404.565, -- [9]
+				35405.057, -- [10]
+				35405.67, -- [11]
+				35405.964, -- [12]
+				35406.22, -- [13]
+				35407.566, -- [14]
+				35407.696, -- [15]
+				35409.742, -- [16]
+				35409.898, -- [17]
+				35410.151, -- [18]
+				35411.135, -- [19]
+				35411.493, -- [20]
+				35411.768, -- [21]
+				35413.116, -- [22]
+				35413.143, -- [23]
+				35298.089, -- [24]
+				35298.297, -- [25]
+				35302.598, -- [26]
+				35302.854, -- [27]
+				35303.055, -- [28]
+				35303.686, -- [29]
+				35304.474, -- [30]
+				35304.679, -- [31]
+				35310.767, -- [32]
+				35310.824, -- [33]
+				35311.145, -- [34]
+				35312.362, -- [35]
+				35312.428, -- [36]
+				35314.028, -- [37]
+				35314.834, -- [38]
+				35315.658, -- [39]
+				35316.473, -- [40]
+				35317.039, -- [41]
+				35318.208, -- [42]
+				35318.415, -- [43]
+				35319.819, -- [44]
+				35320.013, -- [45]
+				35321.624, -- [46]
+				35321.832, -- [47]
+				35322.033, -- [48]
+				35324.161, -- [49]
+				35324.383, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 23,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 8,
+						["Physical"] = 15,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 15,
+								},
+								["Melee"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 4.13,
+								},
+								["Melee"] = {
+									["count"] = 1.46,
+								},
+							},
+							["amount"] = 5.59,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.59,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Sinister Strike"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 15,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 4,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 8,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 8,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.59,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 4.13,
+								},
+								["Melee"] = {
+									["count"] = 1.46,
+								},
+							},
+							["amount"] = 5.59,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 18,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 10,
+						["Physical"] = 8,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 8,
+								},
+								["Melee"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 0.91,
+								},
+							},
+							["amount"] = 4.41,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 4.41,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 1,
+									["amount"] = 10,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 10,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 8,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 8,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 4.41,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 0.91,
+								},
+							},
+							["amount"] = 4.41,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 15,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 15,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 15,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 4.13,
+								},
+								["Melee"] = {
+									["count"] = 0.37,
+								},
+							},
+							["amount"] = 4.5,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 4.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Sinister Strike"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 15,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 4.5,
+					["TimeDamaging"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 4.13,
+								},
+								["Melee"] = {
+									["count"] = 0.37,
+								},
+							},
+							["amount"] = 4.5,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 92,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 53,
+						["Physical"] = 39,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 31,
+								},
+								["Melee"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 73,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11,
+								},
+								["Sinister Strike"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 1,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 4.92,
+								},
+								["Melee"] = {
+									["count"] = 7.589999999999999,
+								},
+							},
+							["amount"] = 12.51,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.04,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0.57,
+								},
+							},
+							["amount"] = 4.61,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 17.12,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Sinister Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 23,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 39,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 42,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 1,
+									["amount"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 10,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 53,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 17.12,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 4.92,
+								},
+								["Melee"] = {
+									["count"] = 7.589999999999999,
+								},
+							},
+							["amount"] = 12.51,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.04,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0.57,
+								},
+							},
+							["amount"] = 4.61,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 1,
+						["Physical"] = 0,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Sinister Strike"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 24,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 24,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 1,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 10,
+								},
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 26,
+						},
+					},
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 6.17,
+								},
+								["Melee"] = {
+									["count"] = 6.610000000000001,
+								},
+							},
+							["amount"] = 12.78,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 6,
+					["WhoDamaged"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 26,
+						["Physical"] = 24,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 24,
+								},
+								["Melee"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 50,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 12.78,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 6.17,
+								},
+								["Melee"] = {
+									["count"] = 6.610000000000001,
+								},
+							},
+							["amount"] = 12.78,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 6,
+					},
+					["ActiveTime"] = 12.78,
+					["Damage"] = 50,
+				},
+				["Fight1"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 1,
+						["Physical"] = 0,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Sinister Strike"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 24,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 24,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 1,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 10,
+								},
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 26,
+						},
+					},
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 6.17,
+								},
+								["Melee"] = {
+									["count"] = 6.610000000000001,
+								},
+							},
+							["amount"] = 12.78,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 6,
+					["WhoDamaged"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 26,
+						["Physical"] = 24,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 24,
+								},
+								["Melee"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 50,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 12.78,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 6.17,
+								},
+								["Melee"] = {
+									["count"] = 6.610000000000001,
+								},
+							},
+							["amount"] = 12.78,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 6,
+					},
+					["ActiveTime"] = 12.78,
+					["Damage"] = 50,
+				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 3,
+						["Physical"] = 1,
+					},
+					["Attacks"] = {
+						["Sinister Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 7,
+									["count"] = 46,
+									["amount"] = 353,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 6,
+									["min"] = 6,
+									["count"] = 1,
+									["amount"] = 6,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 16,
+									["min"] = 14,
+									["count"] = 5,
+									["amount"] = 78,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 55,
+							["amount"] = 437,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 2,
+									["count"] = 70,
+									["amount"] = 230,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 4,
+									["min"] = 1,
+									["count"] = 3,
+									["amount"] = 6,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 10,
+									["min"] = 4,
+									["count"] = 11,
+									["amount"] = 86,
+								},
+								["Miss"] = {
+									["count"] = 25,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 110,
+							["amount"] = 322,
+						},
+					},
+					["WhoDamaged"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 23.7,
+								},
+								["Melee"] = {
+									["count"] = 13.97,
+								},
+							},
+							["amount"] = 37.67,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 22.37,
+								},
+								["Melee"] = {
+									["count"] = 12.63,
+								},
+							},
+							["amount"] = 35,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 22.22,
+								},
+								["Melee"] = {
+									["count"] = 16.99,
+								},
+							},
+							["amount"] = 39.20999999999999,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 20.77,
+								},
+								["Melee"] = {
+									["count"] = 8.440000000000001,
+								},
+							},
+							["amount"] = 29.21,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 29.12,
+								},
+								["Melee"] = {
+									["count"] = 16.06,
+								},
+							},
+							["amount"] = 45.18,
+						},
+					},
+					["DamageTaken"] = 10,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 322,
+						["Physical"] = 437,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 25,
+								},
+								["Crit"] = {
+									["count"] = 11,
+								},
+								["Hit"] = {
+									["count"] = 73,
+								},
+							},
+							["amount"] = 110,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 55,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 92,
+								},
+								["Melee"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 144,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 93,
+								},
+								["Melee"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 141,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 86,
+								},
+								["Melee"] = {
+									["count"] = 93,
+								},
+							},
+							["amount"] = 179,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 61,
+								},
+								["Melee"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 103,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 105,
+								},
+								["Melee"] = {
+									["count"] = 87,
+								},
+							},
+							["amount"] = 192,
+						},
+					},
+					["TimeDamage"] = 186.27,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 23.7,
+								},
+								["Melee"] = {
+									["count"] = 13.97,
+								},
+							},
+							["amount"] = 37.67,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 22.37,
+								},
+								["Melee"] = {
+									["count"] = 12.63,
+								},
+							},
+							["amount"] = 35,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 22.22,
+								},
+								["Melee"] = {
+									["count"] = 16.99,
+								},
+							},
+							["amount"] = 39.20999999999999,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 20.77,
+								},
+								["Melee"] = {
+									["count"] = 8.440000000000001,
+								},
+							},
+							["amount"] = 29.21,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 29.12,
+								},
+								["Melee"] = {
+									["count"] = 16.06,
+								},
+							},
+							["amount"] = 45.18,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 10,
+					},
+					["ActiveTime"] = 186.27,
+					["Damage"] = 759,
+				},
+			},
+			["UnitLockout"] = 1777074102,
+			["LastActive"] = 1777074891,
+		},
+		["Boostershot"] = {
+			["GUID"] = "0x0000000000000A20",
+			["LastEventHealth"] = {
+				"93 (100%)", -- [1]
+				"93 (100%)", -- [2]
+				"93 (100%)", -- [3]
+				"93 (100%)", -- [4]
+				"93 (100%)", -- [5]
+				"93 (100%)", -- [6]
+				"92 (98%)", -- [7]
+				"92 (98%)", -- [8]
+				"90 (96%)", -- [9]
+				"90 (96%)", -- [10]
+				"93 (100%)", -- [11]
+				"93 (100%)", -- [12]
+				"91 (97%)", -- [13]
+				"93 (100%)", -- [14]
+				"93 (100%)", -- [15]
+				"93 (100%)", -- [16]
+				"92 (98%)", -- [17]
+				"93 (100%)", -- [18]
+				"93 (100%)", -- [19]
+				"93 (100%)", -- [20]
+				"93 (100%)", -- [21]
+				"93 (100%)", -- [22]
+				"93 (100%)", -- [23]
+				"93 (100%)", -- [24]
+				"93 (100%)", -- [25]
+				"91 (97%)", -- [26]
+				"91 (97%)", -- [27]
+				"93 (100%)", -- [28]
+				"93 (100%)", -- [29]
+				"93 (100%)", -- [30]
+				"91 (97%)", -- [31]
+				"90 (96%)", -- [32]
+				"90 (96%)", -- [33]
+				"89 (95%)", -- [34]
+				"89 (95%)", -- [35]
+				"88 (94%)", -- [36]
+				"84 (90%)", -- [37]
+				"82 (88%)", -- [38]
+				"80 (86%)", -- [39]
+				"80 (86%)", -- [40]
+				"93 (100%)", -- [41]
+				"93 (100%)", -- [42]
+				"93 (100%)", -- [43]
+				"93 (100%)", -- [44]
+				"93 (100%)", -- [45]
+				"93 (100%)", -- [46]
+				"91 (97%)", -- [47]
+				"93 (100%)", -- [48]
+				"92 (98%)", -- [49]
+				"93 (100%)", -- [50]
+			},
+			["LastAttackedBy"] = "Rattlecage Skeleton",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					192.53, -- [1]
+				},
+				["Damage"] = {
+					924, -- [1]
+				},
+				["DamageTaken"] = {
+					50, -- [1]
+				},
+				["ActiveTime"] = {
+					192.53, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "Boostershot",
+			["level"] = 1,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 24,
+			["LastEventNum"] = {
+				[30] = 2.150537634408602,
+				[31] = 1.075268817204301,
+				[16] = 1.075268817204301,
+				[8] = 2.150537634408602,
+				[35] = 1.075268817204301,
+				[36] = 4.301075268817204,
+				[37] = 2.150537634408602,
+				[38] = 2.150537634408602,
+				[40] = 2.150537634408602,
+				[10] = 2.150537634408602,
+				[44] = 2.150537634408602,
+				[46] = 2.150537634408602,
+				[48] = 1.075268817204301,
+				[12] = 2.150537634408602,
+				[25] = 2.150537634408602,
+				[6] = 1.075268817204301,
+				[13] = 2.150537634408602,
+				[27] = 3.225806451612903,
+				[33] = 1.075268817204301,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 2,
+			["TimeLast"] = {
+				["ActiveTime"] = 1777074883,
+				["TimeDamage"] = 1777074883,
+				["OVERALL"] = 1777074883,
+				["DamageTaken"] = 1777074882,
+				["Damage"] = 1777074883,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 35405.058,
+			["NextEventNum"] = 48,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				98.9247311827957, -- [7]
+				98.9247311827957, -- [8]
+				96.7741935483871, -- [9]
+				96.7741935483871, -- [10]
+				100, -- [11]
+				100, -- [12]
+				97.84946236559139, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				98.9247311827957, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				97.84946236559139, -- [26]
+				97.84946236559139, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				97.84946236559139, -- [31]
+				96.7741935483871, -- [32]
+				96.7741935483871, -- [33]
+				95.6989247311828, -- [34]
+				95.6989247311828, -- [35]
+				94.6236559139785, -- [36]
+				90.3225806451613, -- [37]
+				88.17204301075269, -- [38]
+				86.02150537634408, -- [39]
+				86.02150537634408, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				97.84946236559139, -- [47]
+				100, -- [48]
+				98.9247311827957, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Boostershot Auto Shot Young Scavenger Hit -14 (Physical)", -- [1]
+				"Boostershot Auto Shot Young Scavenger Hit -16 (Physical)", -- [2]
+				"Boostershot Auto Shot Duskbat Hit -14 (Physical)", -- [3]
+				"Boostershot Auto Shot Duskbat Hit -14 (Physical)", -- [4]
+				"Boostershot Auto Shot Young Scavenger Hit -13 (Physical)", -- [5]
+				"Young Scavenger Melee Boostershot Hit -1 (Physical)", -- [6]
+				"Boostershot Auto Shot Duskbat Hit -16 (Physical)", -- [7]
+				"Duskbat Melee Boostershot Hit -2 (Physical)", -- [8]
+				"Boostershot Auto Shot Young Scavenger Hit -16 (Physical)", -- [9]
+				"Duskbat Melee Boostershot Hit -2 (Physical)", -- [10]
+				"Boostershot Auto Shot Duskbat Hit -12 (Physical)", -- [11]
+				"Duskbat Melee Boostershot Hit -2 (Physical)", -- [12]
+				"Duskbat Melee Boostershot Hit -2 (Physical)", -- [13]
+				"Boostershot Auto Shot Duskbat Hit -13 (Physical)", -- [14]
+				"Boostershot Auto Shot Duskbat Hit -12 (Physical)", -- [15]
+				"Duskbat Melee Boostershot Hit -1 (Physical)", -- [16]
+				"Boostershot Melee Duskbat Hit -10 (Physical)", -- [17]
+				"Boostershot Auto Shot Young Scavenger Hit -12 (Physical)", -- [18]
+				"Boostershot Auto Shot Young Scavenger Hit -13 (Physical)", -- [19]
+				"Boostershot Auto Shot Duskbat Hit -13 (Physical)", -- [20]
+				"Boostershot Auto Shot Duskbat Hit -13 (Physical)", -- [21]
+				"Boostershot Auto Shot Young Scavenger Hit -16 (Physical)", -- [22]
+				"Boostershot Auto Shot Young Scavenger Hit -11 (Physical)", -- [23]
+				"Boostershot Auto Shot Rattlecage Skeleton Hit -15 (Physical)", -- [24]
+				"Rattlecage Skeleton Melee Boostershot Hit -2 (Physical)", -- [25]
+				"Boostershot Auto Shot Rattlecage Skeleton Hit -14 (Physical)", -- [26]
+				"Rattlecage Skeleton Melee Boostershot Hit -3 (Physical)", -- [27]
+				"Boostershot Auto Shot Rattlecage Skeleton Hit -15 (Physical)", -- [28]
+				"Boostershot Auto Shot Young Scavenger Hit -14 (Physical)", -- [29]
+				"Rattlecage Skeleton Melee Boostershot Hit -2 (Physical)", -- [30]
+				"Young Scavenger Melee Boostershot Hit -1 (Physical)", -- [31]
+				"Boostershot Auto Shot Rattlecage Skeleton Hit -14 (Physical)", -- [32]
+				"Young Scavenger Melee Boostershot Hit -1 (Physical)", -- [33]
+				"Boostershot Auto Shot Rattlecage Skeleton Hit -13 (Physical)", -- [34]
+				"Young Scavenger Melee Boostershot Hit -1 (Physical)", -- [35]
+				"Rattlecage Skeleton Melee Boostershot Crit -4 (Physical)", -- [36]
+				"Rattlecage Skeleton Melee Boostershot Hit -2 (Physical)", -- [37]
+				"Rattlecage Skeleton Melee Boostershot Hit -2 (Physical)", -- [38]
+				"Boostershot Melee Rattlecage Skeleton Hit -9 (Physical)", -- [39]
+				"Rattlecage Skeleton Melee Boostershot Hit -2 (Physical)", -- [40]
+				"Boostershot Auto Shot Young Scavenger Hit -15 (Physical)", -- [41]
+				"Boostershot Auto Shot Young Scavenger Hit -11 (Physical)", -- [42]
+				"Boostershot Auto Shot Rattlecage Skeleton Hit -16 (Physical)", -- [43]
+				"Rattlecage Skeleton Melee Boostershot Hit -2 (Physical)", -- [44]
+				"Boostershot Auto Shot Rattlecage Skeleton Hit -12 (Physical)", -- [45]
+				"Rattlecage Skeleton Melee Boostershot Hit -2 (Physical)", -- [46]
+				"Boostershot Auto Shot Rattlecage Skeleton Hit -12 (Physical)", -- [47]
+				"Duskbat Melee Boostershot Hit -1 (Physical)", -- [48]
+				"Boostershot Auto Shot Duskbat Hit -15 (Physical)", -- [49]
+				"Boostershot Auto Shot Young Scavenger Hit -12 (Physical)", -- [50]
+			},
+			["Name"] = "Boostershot",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				true, -- [8]
+				false, -- [9]
+				true, -- [10]
+				false, -- [11]
+				true, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				true, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				true, -- [27]
+				false, -- [28]
+				false, -- [29]
+				true, -- [30]
+				true, -- [31]
+				false, -- [32]
+				true, -- [33]
+				false, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				false, -- [39]
+				true, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				true, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				true, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				35161.654, -- [1]
+				35163.425, -- [2]
+				35168.119, -- [3]
+				35170.55, -- [4]
+				35173.752, -- [5]
+				35176.46, -- [6]
+				35178.335, -- [7]
+				35180.62, -- [8]
+				35181.882, -- [9]
+				35182.703, -- [10]
+				35199.725, -- [11]
+				35201.259, -- [12]
+				35203.302, -- [13]
+				35207.051, -- [14]
+				35229.67, -- [15]
+				35232.935, -- [16]
+				35233.025, -- [17]
+				35250.712, -- [18]
+				35253.164, -- [19]
+				35260.712, -- [20]
+				35264.33, -- [21]
+				35288.334, -- [22]
+				35290.008, -- [23]
+				35296.3, -- [24]
+				35297.835, -- [25]
+				35300.186, -- [26]
+				35304.087, -- [27]
+				35308.13, -- [28]
+				35309.988, -- [29]
+				35311.063, -- [30]
+				35311.688, -- [31]
+				35312.829, -- [32]
+				35313.739, -- [33]
+				35315.525, -- [34]
+				35315.744, -- [35]
+				35317.902, -- [36]
+				35319.895, -- [37]
+				35322.482, -- [38]
+				35323.917, -- [39]
+				35324.529, -- [40]
+				35381.668, -- [41]
+				35383.507, -- [42]
+				35396.357, -- [43]
+				35398.779, -- [44]
+				35401.597, -- [45]
+				35403.627, -- [46]
+				35405.058, -- [47]
+				34988.344, -- [48]
+				34989.385, -- [49]
+				35159.822, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 3,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 3,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 14,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 14,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 14,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 14,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 2,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 2,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 16,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 16,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 16,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 26,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 26,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 5.34,
+								},
+							},
+							["amount"] = 5.34,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.34,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 26,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.34,
+					["TimeDamaging"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 5.34,
+								},
+							},
+							["amount"] = 5.34,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 15,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 15,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 65,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 9,
+						["Physical"] = 56,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 42,
+								},
+								["Melee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 51,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 1,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 9.039999999999999,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 12.54,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 1.86,
+								},
+							},
+							["amount"] = 1.86,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 14.4,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 56,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 56,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 9,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 14.4,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 9.039999999999999,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 12.54,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 1.86,
+								},
+							},
+							["amount"] = 1.86,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 24,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 24,
+						},
+					},
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 6.96,
+								},
+							},
+							["amount"] = 6.96,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 2,
+					["WhoDamaged"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Physical"] = 24,
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 6.96,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 6.96,
+								},
+							},
+							["amount"] = 6.96,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 2,
+					},
+					["ActiveTime"] = 6.96,
+					["Damage"] = 24,
+				},
+				["Fight1"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 24,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 24,
+						},
+					},
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 6.96,
+								},
+							},
+							["amount"] = 6.96,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 2,
+					["WhoDamaged"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Physical"] = 24,
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 6.96,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 6.96,
+								},
+							},
+							["amount"] = 6.96,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 2,
+					},
+					["ActiveTime"] = 6.96,
+					["Damage"] = 24,
+				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 1,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 29,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 29,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 32,
+									["min"] = 30,
+									["count"] = 3,
+									["amount"] = 92,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 10,
+									["count"] = 61,
+									["amount"] = 813,
+								},
+							},
+							["count"] = 66,
+							["amount"] = 905,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 1,
+									["amount"] = 10,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 19,
+						},
+					},
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 49.51,
+								},
+							},
+							["amount"] = 49.51,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 33.39,
+								},
+								["Melee"] = {
+									["count"] = 3.36,
+								},
+							},
+							["amount"] = 36.75,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 26.5,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 30,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 32.12000000000001,
+								},
+							},
+							["amount"] = 32.12000000000001,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 44.15,
+								},
+							},
+							["amount"] = 44.15,
+						},
+					},
+					["DamageTaken"] = 50,
+					["WhoDamaged"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 19,
+						["Physical"] = 905,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 61,
+								},
+							},
+							["amount"] = 66,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 295,
+								},
+							},
+							["amount"] = 295,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 134,
+								},
+								["Melee"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 144,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 111,
+								},
+								["Melee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 120,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 163,
+								},
+							},
+							["amount"] = 163,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 202,
+								},
+							},
+							["amount"] = 202,
+						},
+					},
+					["TimeDamage"] = 192.53,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 49.51,
+								},
+							},
+							["amount"] = 49.51,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 33.39,
+								},
+								["Melee"] = {
+									["count"] = 3.36,
+								},
+							},
+							["amount"] = 36.75,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 26.5,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 30,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 32.12000000000001,
+								},
+							},
+							["amount"] = 32.12000000000001,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 44.15,
+								},
+							},
+							["amount"] = 44.15,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 50,
+					},
+					["ActiveTime"] = 192.53,
+					["Damage"] = 924,
+				},
+			},
+			["UnitLockout"] = 1777074100,
+			["LastActive"] = 1777074883,
+		},
+		["Lord Marrowgar"] = {
+			["GUID"] = "0xF130008F040017C4",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					90699, -- [1]
+				},
+				["TimeDamage"] = {
+					10.5, -- [1]
+				},
+				["ActiveTime"] = {
+					10.5, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["level"] = -1,
+			["LastFightIn"] = 25,
+			["type"] = "Boss",
+			["FightsSaved"] = 3,
+			["TimeLast"] = {
+				["Damage"] = 1777074948,
+				["OVERALL"] = 1777074948,
+				["TimeDamage"] = 1777074948,
+				["ActiveTime"] = 1777074948,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 35469.921,
+			["NextEventNum"] = 4,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["LastEvents"] = {
+				"Lord Marrowgar Melee Talerald Hit -29360 (Physical)", -- [1]
+				"Lord Marrowgar Melee Talerald Hit -31125 (Physical)", -- [2]
+				"Lord Marrowgar Melee Talerald Hit -30214 (Physical)", -- [3]
+			},
+			["Name"] = "Lord Marrowgar",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+			},
+			["LastEventTimes"] = {
+				35383.798, -- [1]
+				35459.304, -- [2]
+				35469.921, -- [3]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 61339,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 61339,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Talerald"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 61339,
+								},
+							},
+							["amount"] = 61339,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Talerald"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 7,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 31125,
+									["min"] = 30214,
+									["count"] = 2,
+									["amount"] = 61339,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 61339,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 7,
+					["TimeDamaging"] = {
+						["Talerald"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["TimeSpent"] = {
+						["Talerald"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 29360,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Talerald"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 29360,
+								},
+							},
+							["amount"] = 29360,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Talerald"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 29360,
+									["min"] = 29360,
+									["count"] = 1,
+									["amount"] = 29360,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 29360,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["Damage"] = 29360,
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Talerald"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 90699,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamagedWho"] = {
+						["Talerald"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 90699,
+								},
+							},
+							["amount"] = 90699,
+						},
+					},
+					["TimeDamage"] = 10.5,
+					["TimeDamaging"] = {
+						["Talerald"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 31125,
+									["min"] = 29360,
+									["count"] = 3,
+									["amount"] = 90699,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 90699,
+						},
+					},
+					["ActiveTime"] = 10.5,
+					["Damage"] = 90699,
+				},
+			},
+			["UnitLockout"] = 1777074948,
+			["LastActive"] = 1777074948,
+		},
+		["Bellfromhell"] = {
+			["GUID"] = "0x0000000000000A1F",
+			["LastEventHealth"] = {
+				"53 (100%)", -- [1]
+				"53 (100%)", -- [2]
+				"53 (100%)", -- [3]
+				"53 (100%)", -- [4]
+				"53 (100%)", -- [5]
+				"53 (100%)", -- [6]
+				"53 (100%)", -- [7]
+				"53 (100%)", -- [8]
+				"53 (100%)", -- [9]
+				"68 (100%)", -- [10]
+				"68 (100%)", -- [11]
+				"68 (100%)", -- [12]
+				"68 (100%)", -- [13]
+				"68 (100%)", -- [14]
+				"68 (100%)", -- [15]
+				"68 (100%)", -- [16]
+				"68 (100%)", -- [17]
+				"68 (100%)", -- [18]
+				"68 (100%)", -- [19]
+				"68 (100%)", -- [20]
+				"68 (100%)", -- [21]
+				"68 (100%)", -- [22]
+				"68 (100%)", -- [23]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					300, -- [1]
+				},
+				["TimeDamage"] = {
+					76.95, -- [1]
+				},
+				["ActiveTime"] = {
+					76.95, -- [1]
+				},
+			},
+			["enClass"] = "WARLOCK",
+			["unit"] = "Bellfromhell",
+			["level"] = 1,
+			["LastFightIn"] = 24,
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["TimeLast"] = {
+				["Damage"] = 1777074891,
+				["OVERALL"] = 1777074891,
+				["TimeDamage"] = 1777074891,
+				["ActiveTime"] = 1777074891,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 35413.229,
+			["NextEventNum"] = 24,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+			},
+			["LastEvents"] = {
+				"Bellfromhell Shadow Bolt Mindless Zombie Hit -12 (2 resisted) (Shadow)", -- [1]
+				"Bellfromhell Shadow Bolt Wretched Ghoul Hit -15 (1 resisted) (Shadow)", -- [2]
+				"Bellfromhell Shadow Bolt Wretched Ghoul Hit -12 (2 resisted) (Shadow)", -- [3]
+				"Bellfromhell Shadow Bolt Wretched Ghoul Hit -14 (1 resisted) (Shadow)", -- [4]
+				"Bellfromhell Shadow Bolt Mindless Zombie Hit -16 (Shadow)", -- [5]
+				"Bellfromhell Shadow Bolt Wretched Ghoul Hit -15 (1 resisted) (Shadow)", -- [6]
+				"Bellfromhell Shadow Bolt Mindless Zombie Hit -13 (1 resisted) (Shadow)", -- [7]
+				"Bellfromhell Shadow Bolt Wretched Ghoul Crit -17 (1 resisted) (Shadow)", -- [8]
+				"Bellfromhell Shadow Bolt Wretched Ghoul Hit -14 (Shadow)", -- [9]
+				"Bellfromhell Shadow Bolt Duskbat Hit -15 (Shadow)", -- [10]
+				"Bellfromhell Shadow Bolt Young Scavenger Miss (Shadow)", -- [11]
+				"Bellfromhell Shadow Bolt Duskbat Hit -16 (Shadow)", -- [12]
+				"Bellfromhell Shadow Bolt Young Scavenger Hit -16 (Shadow)", -- [13]
+				"Bellfromhell Shadow Bolt Duskbat Hit -16 (Shadow)", -- [14]
+				"Bellfromhell Shadow Bolt Duskbat Hit -16 (Shadow)", -- [15]
+				"Bellfromhell Shadow Bolt Rattlecage Skeleton Hit -10 (2 resisted) (Shadow)", -- [16]
+				"Bellfromhell Shadow Bolt Rattlecage Skeleton Miss (Shadow)", -- [17]
+				"Bellfromhell Shadow Bolt Young Scavenger Hit -14 (Shadow)", -- [18]
+				"Bellfromhell Shadow Bolt Rattlecage Skeleton Hit -14 (Shadow)", -- [19]
+				"Bellfromhell Shadow Bolt Rattlecage Skeleton Hit -16 (Shadow)", -- [20]
+				"Bellfromhell Shadow Bolt Rattlecage Skeleton Hit -16 (Shadow)", -- [21]
+				"Bellfromhell Shadow Bolt Rattlecage Skeleton Hit -11 (1 resisted) (Shadow)", -- [22]
+				"Bellfromhell Shadow Bolt Rattlecage Skeleton Hit -12 (Shadow)", -- [23]
+			},
+			["Name"] = "Bellfromhell",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+			},
+			["LastEventTimes"] = {
+				34644.499, -- [1]
+				34685.299, -- [2]
+				34838.804, -- [3]
+				34844.576, -- [4]
+				34852.55, -- [5]
+				34857.062, -- [6]
+				34865.51, -- [7]
+				34869.068, -- [8]
+				34872.937, -- [9]
+				34990.053, -- [10]
+				35164.427, -- [11]
+				35183.44, -- [12]
+				35188.884, -- [13]
+				35203.274, -- [14]
+				35213.128, -- [15]
+				35304.614, -- [16]
+				35306.724, -- [17]
+				35316.811, -- [18]
+				35321.04, -- [19]
+				35322.376, -- [20]
+				35399.782, -- [21]
+				35407.182, -- [22]
+				35413.229, -- [23]
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 16,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 16,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 16,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 2,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 10,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 10,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 10,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 10,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 44,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 44,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 4.84,
+								},
+							},
+							["amount"] = 4.84,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 8.34,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 44,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 44,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 8.34,
+					["TimeDamaging"] = {
+						["Duskbat"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 4.84,
+								},
+							},
+							["amount"] = 4.84,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 1,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 23,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 23,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 7,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 11,
+									["count"] = 2,
+									["amount"] = 23,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 23,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 7,
+					["TimeDamaging"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 1,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 23,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 23,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 7,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 11,
+									["count"] = 2,
+									["amount"] = 23,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 23,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 7,
+					["TimeDamaging"] = {
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementDoneResist"] = {
+						["Shadow"] = 12,
+					},
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 20.95,
+								},
+							},
+							["amount"] = 20.95,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 300,
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 41,
+								},
+							},
+							["amount"] = 41,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 63,
+								},
+							},
+							["amount"] = 63,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 79,
+								},
+							},
+							["amount"] = 79,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 87,
+								},
+							},
+							["amount"] = 87,
+						},
+					},
+					["TimeDamage"] = 76.95,
+					["TimeDamaging"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 20.95,
+								},
+							},
+							["amount"] = 20.95,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
+					["Attacks"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 17,
+									["min"] = 17,
+									["count"] = 1,
+									["amount"] = 17,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 10,
+									["count"] = 20,
+									["amount"] = 283,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 300,
+						},
+					},
+					["ActiveTime"] = 76.95,
+					["Damage"] = 300,
+				},
+			},
+			["UnitLockout"] = 1777074123,
+			["LastActive"] = 1777074891,
+		},
+	},
+	["FightNum"] = 25,
+	["CombatTimes"] = {
+		{
+			1777074106, -- [1]
+			1777074110, -- [2]
+			"19:41:46", -- [3]
+			"19:41:50", -- [4]
+			"Wretched Ghoul", -- [5]
+		}, -- [1]
+		{
+			1777074120, -- [1]
+			1777074124, -- [2]
+			"19:42:00", -- [3]
+			"19:42:04", -- [4]
+			"Mindless Zombie", -- [5]
+		}, -- [2]
+		{
+			1777074126, -- [1]
+			1777074131, -- [2]
+			"19:42:07", -- [3]
+			"19:42:11", -- [4]
+			"Mindless Zombie", -- [5]
+		}, -- [3]
+		{
+			1777074141, -- [1]
+			1777074152, -- [2]
+			"19:42:22", -- [3]
+			"19:42:32", -- [4]
+			"Wretched Ghoul", -- [5]
+		}, -- [4]
+		{
+			1777074160, -- [1]
+			1777074171, -- [2]
+			"19:42:40", -- [3]
+			"19:42:51", -- [4]
+			"Wretched Ghoul", -- [5]
+		}, -- [5]
+		{
+			1777074314, -- [1]
+			1777074318, -- [2]
+			"19:45:15", -- [3]
+			"19:45:18", -- [4]
+			"Wretched Ghoul", -- [5]
+		}, -- [6]
+		{
+			1777074320, -- [1]
+			1777074324, -- [2]
+			"19:45:20", -- [3]
+			"19:45:24", -- [4]
+			"Wretched Ghoul", -- [5]
+		}, -- [7]
+		{
+			1777074341, -- [1]
+			1777074355, -- [2]
+			"19:45:41", -- [3]
+			"19:45:55", -- [4]
+			"Mindless Zombie", -- [5]
+		}, -- [8]
+		{
+			1777074362, -- [1]
+			1777074366, -- [2]
+			"19:46:02", -- [3]
+			"19:46:06", -- [4]
+			"Mindless Zombie", -- [5]
+		}, -- [9]
+		{
+			1777074465, -- [1]
+			1777074473, -- [2]
+			"19:47:45", -- [3]
+			"19:47:53", -- [4]
+			"Duskbat", -- [5]
+		}, -- [10]
+		{
+			1777074638, -- [1]
+			1777074643, -- [2]
+			"19:50:38", -- [3]
+			"19:50:43", -- [4]
+			"Young Scavenger", -- [5]
+		}, -- [11]
+		{
+			1777074646, -- [1]
+			1777074651, -- [2]
+			"19:50:47", -- [3]
+			"19:50:51", -- [4]
+			"Duskbat", -- [5]
+		}, -- [12]
+		{
+			1777074652, -- [1]
+			1777074656, -- [2]
+			"19:50:52", -- [3]
+			"19:50:56", -- [4]
+			"Young Scavenger", -- [5]
+		}, -- [13]
+		{
+			1777074657, -- [1]
+			1777074668, -- [2]
+			"19:50:57", -- [3]
+			"19:51:08", -- [4]
+			"Duskbat", -- [5]
+		}, -- [14]
+		{
+			1777074678, -- [1]
+			1777074684, -- [2]
+			"19:51:18", -- [3]
+			"19:51:24", -- [4]
+			"Duskbat", -- [5]
+		}, -- [15]
+		{
+			1777074685, -- [1]
+			1777074693, -- [2]
+			"19:51:26", -- [3]
+			"19:51:33", -- [4]
+			"Duskbat", -- [5]
+		}, -- [16]
+		{
+			1777074708, -- [1]
+			1777074713, -- [2]
+			"19:51:48", -- [3]
+			"19:51:53", -- [4]
+			"Duskbat", -- [5]
+		}, -- [17]
+		{
+			1777074729, -- [1]
+			1777074733, -- [2]
+			"19:52:09", -- [3]
+			"19:52:13", -- [4]
+			"Young Scavenger", -- [5]
+		}, -- [18]
+		{
+			1777074739, -- [1]
+			1777074744, -- [2]
+			"19:52:19", -- [3]
+			"19:52:24", -- [4]
+			"Duskbat", -- [5]
+		}, -- [19]
+		{
+			1777074767, -- [1]
+			1777074771, -- [2]
+			"19:52:47", -- [3]
+			"19:52:51", -- [4]
+			"Young Scavenger", -- [5]
+		}, -- [20]
+		{
+			1777074778, -- [1]
+			1777074785, -- [2]
+			"19:52:59", -- [3]
+			"19:53:05", -- [4]
+			"Rattlecage Skeleton", -- [5]
+		}, -- [21]
+		{
+			1777074786, -- [1]
+			1777074804, -- [2]
+			"19:53:07", -- [3]
+			"19:53:24", -- [4]
+			"Rattlecage Skeleton", -- [5]
+		}, -- [22]
+		{
+			1777074860, -- [1]
+			1777074864, -- [2]
+			"19:54:20", -- [3]
+			"19:54:24", -- [4]
+			"Young Scavenger", -- [5]
+		}, -- [23]
+		{
+			1777074875, -- [1]
+			1777074879, -- [2]
+			"19:54:35", -- [3]
+			"19:54:39", -- [4]
+			"Rattlecage Skeleton", -- [5]
+		}, -- [24]
+		{
+			1777074880, -- [1]
+			1777074893, -- [2]
+			"19:54:40", -- [3]
+			"19:54:53", -- [4]
+			"Rattlecage Skeleton", -- [5]
+		}, -- [25]
+	},
+	["FoughtWho"] = {
+		"Rattlecage Skeleton 19:54:40-19:54:53", -- [1]
+		"Rattlecage Skeleton 19:54:35-19:54:39", -- [2]
+		"Young Scavenger 19:54:20-19:54:24", -- [3]
+		"Rattlecage Skeleton 19:53:07-19:53:24", -- [4]
+		"Rattlecage Skeleton 19:52:59-19:53:05", -- [5]
+	},
+}

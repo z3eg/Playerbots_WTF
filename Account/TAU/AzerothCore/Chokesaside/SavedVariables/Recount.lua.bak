@@ -1,0 +1,239 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Lord Marrowgar"] = {
+			["GUID"] = "0xF130008F0400046F",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					64729, -- [1]
+				},
+				["TimeDamage"] = {
+					7, -- [1]
+				},
+				["ActiveTime"] = {
+					7, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["level"] = -1,
+			["LastFightIn"] = 0,
+			["type"] = "Boss",
+			["TimeLast"] = {
+				["Damage"] = 1777058291,
+				["OVERALL"] = 1777058291,
+				["TimeDamage"] = 1777058291,
+				["ActiveTime"] = 1777058291,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 18812.644,
+			["NextEventNum"] = 3,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+			},
+			["LastEvents"] = {
+				"Lord Marrowgar Melee Antalain Hit -34231 (Physical)", -- [1]
+				"Lord Marrowgar Melee Danto Hit -30498 (Physical)", -- [2]
+			},
+			["Name"] = "Lord Marrowgar",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+			},
+			["LastEventTimes"] = {
+				18798.534, -- [1]
+				18812.643, -- [2]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["TimeSpent"] = {
+						["Antalain"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Danto"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 64729,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DamagedWho"] = {
+						["Antalain"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 34231,
+								},
+							},
+							["amount"] = 34231,
+						},
+						["Danto"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 30498,
+								},
+							},
+							["amount"] = 30498,
+						},
+					},
+					["TimeDamage"] = 7,
+					["TimeDamaging"] = {
+						["Antalain"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Danto"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 34231,
+									["min"] = 30498,
+									["count"] = 2,
+									["amount"] = 64729,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 64729,
+						},
+					},
+					["ActiveTime"] = 7,
+					["Damage"] = 64729,
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Antalain"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Danto"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 64729,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DamagedWho"] = {
+						["Antalain"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 34231,
+								},
+							},
+							["amount"] = 34231,
+						},
+						["Danto"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 30498,
+								},
+							},
+							["amount"] = 30498,
+						},
+					},
+					["TimeDamage"] = 7,
+					["TimeDamaging"] = {
+						["Antalain"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Danto"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 34231,
+									["min"] = 30498,
+									["count"] = 2,
+									["amount"] = 64729,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 64729,
+						},
+					},
+					["ActiveTime"] = 7,
+					["Damage"] = 64729,
+				},
+			},
+			["UnitLockout"] = 1777058291,
+			["LastActive"] = 1777058291,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

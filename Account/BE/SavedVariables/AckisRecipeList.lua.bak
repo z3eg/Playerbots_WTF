@@ -1,0 +1,10 @@
+
+ARLDB2 = {
+	["profileKeys"] = {
+		["Lavaaddams - AzerothCore"] = "Lavaaddams - AzerothCore",
+	},
+	["profiles"] = {
+		["Lavaaddams - AzerothCore"] = {
+		},
+	},
+}

@@ -1,0 +1,15 @@
+MACRO 16777220 "!!!" INV_Misc_QuestionMark
+#showtooltip Icy Touch(Rank 2)
+/cast Deathchill
+/cast Icy Touch(Rank 2)
+END
+MACRO 16777219 "!!!!" INV_Misc_QuestionMark
+#showtooltip Obliterate
+/cast Deathchill
+/cast Obliterate(Rank 1)
+END
+MACRO 16777218 "stun" INV_Misc_QuestionMark
+#showtooltip Gnaw
+/petattack
+/cast Gnaw
+END

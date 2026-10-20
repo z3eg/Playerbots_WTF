@@ -1,0 +1,42 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Lavaaddams - AzerothCore"] = "Lavaaddams - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Lavaaddams"] = {
+				["lastUpdate"] = 1790807751,
+				["Skills"] = {
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Shield"] = "1|1",
+						["Cloth"] = "1|1",
+					},
+					["Class Skills"] = {
+						["Enhancement"] = "1|1",
+						["Elemental Combat"] = "1|1",
+						["Restoration"] = "1|1",
+					},
+					["Professions"] = {
+						["Jewelcrafting"] = "1|75",
+						["Mining"] = "91|150",
+						["Skinning"] = "91|150",
+						["Herbalism"] = "75|150",
+					},
+					["Languages"] = {
+						["Language: Thalassian"] = "300|300",
+						["Language: Orcish"] = "300|300",
+					},
+					["Weapon Skills"] = {
+						["Defense"] = "61|80",
+						["Unarmed"] = "1|80",
+						["Maces"] = "3|80",
+						["Staves"] = "33|80",
+						["Daggers"] = "1|80",
+					},
+				},
+			},
+		},
+	},
+}

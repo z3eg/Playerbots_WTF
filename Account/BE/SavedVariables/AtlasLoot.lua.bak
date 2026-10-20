@@ -1,0 +1,30 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Lavaaddams - AzerothCore"] = "Lavaaddams - AzerothCore",
+	},
+	["profiles"] = {
+		["Lavaaddams - AzerothCore"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Lavaaddams"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Lavaaddams"] = {
+		},
+	},
+}

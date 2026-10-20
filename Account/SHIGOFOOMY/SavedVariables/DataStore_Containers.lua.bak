@@ -1,0 +1,90 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Shigofooy - AzerothCore"] = "Shigofooy - AzerothCore",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.AzerothCore.Shigofooy"] = {
+				["lastUpdate"] = 1777054214,
+				["Containers"] = {
+					["Bag4"] = {
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:80|h[Portable Hole]|h|r",
+						["size"] = 24,
+						["freeslots"] = 24,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							6948, -- [1]
+							42431, -- [2]
+							40202, -- [3]
+							43236, -- [4]
+							43236, -- [5]
+							33447, -- [6]
+							33448, -- [7]
+							17031, -- [8]
+							17032, -- [9]
+							17020, -- [10]
+							5976, -- [11]
+							33312, -- [12]
+							7073, -- [13]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["counts"] = {
+							nil, -- [1]
+							20, -- [2]
+							20, -- [3]
+							20, -- [4]
+							20, -- [5]
+							10, -- [6]
+							16, -- [7]
+							20, -- [8]
+							20, -- [9]
+							19, -- [10]
+							[13] = 2,
+						},
+						["freeslots"] = 3,
+					},
+					["Bag1"] = {
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:80|h[Portable Hole]|h|r",
+						["size"] = 24,
+						["freeslots"] = 24,
+					},
+					["Bag2"] = {
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:80|h[Portable Hole]|h|r",
+						["size"] = 24,
+						["freeslots"] = 24,
+					},
+					["Bag3"] = {
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:80|h[Portable Hole]|h|r",
+						["size"] = 24,
+						["freeslots"] = 24,
+					},
+					["Bag-2"] = {
+						["ids"] = {
+							30633, -- [1]
+							30623, -- [2]
+							30635, -- [3]
+							30634, -- [4]
+							30637, -- [5]
+							28395, -- [6]
+							27991, -- [7]
+							31084, -- [8]
+							24490, -- [9]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
+				},
+				["numFreeBagSlots"] = 99,
+				["numBagSlots"] = 112,
+			},
+		},
+		["Version"] = 1,
+	},
+}

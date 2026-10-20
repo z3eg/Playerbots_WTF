@@ -1,0 +1,10 @@
+MACRO 2 "AQA" INV_Misc_QuestionMark
+.accept *
+END
+MACRO 1 "partyf" INV_Misc_QuestionMark
+.playerbots bot add Wwll
+.playerbots bot add Terra
+.playerbots bot add Azovsteel
+.playerbots bot add Priestmass
+.playerbots bot add Shigofoomy 
+END

@@ -1,0 +1,7 @@
+MACRO 16777217 "DKP" Ability_Rogue_FeignDeath
+.playerbots bot add Dorc
+.playerbots bot add Coughin
+.playerbots bot add Rothoof
+.playerbots bot add Bonsamdi
+.playerbots bot add Anemia
+END
