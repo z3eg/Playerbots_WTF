@@ -98,8 +98,8 @@ DataStore_QuestsDB = {
 					[14] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
 					[9] = "r|34599|5|1,r|23247|5|1",
 					[17] = "c|20213|1|0,c|20215|1|0,c|20216|1|1,c|20217|1|1",
-					[4] = "r|15867|1|1",
 					[15] = "r|20403|1|1",
+					[4] = "r|15867|1|1",
 				},
 				["Quests"] = {
 					"0|Blackrock Spire", -- [1]
@@ -201,14 +201,14 @@ DataStore_QuestsDB = {
 					nil, -- [4]
 					"|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r", -- [5]
 					"|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r", -- [6]
-					[16] = "|cff40c040|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
 					[12] = "|cff40c040|Hquest:9208:60|h[The Savage Guard - Arcanum of Protection]|h|r",
+					[16] = "|cff40c040|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
 					[15] = "|cff40c040|Hquest:8201:60|h[A Collection of Heads]|h|r",
-					[9] = "|cff40c040|Hquest:8302:60|h[The Hand of the Righteous]|h|r",
+					[17] = "|cff40c040|Hquest:8079:60|h[Paragons of Power: The Vindicator's Breastplate]|h|r",
 					[11] = "|cff40c040|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r",
 					[13] = "|cff40c040|Hquest:9209:60|h[The Savage Guard - Arcanum of Rapidity]|h|r",
 					[8] = "|cff40c040|Hquest:8731:60|h[Field Duty]|h|r",
-					[17] = "|cff40c040|Hquest:8079:60|h[Paragons of Power: The Vindicator's Breastplate]|h|r",
+					[9] = "|cff40c040|Hquest:8302:60|h[The Hand of the Righteous]|h|r",
 				},
 				["lastUpdate"] = 1792536657,
 				["Rewards"] = {
@@ -616,23 +616,23 @@ DataStore_QuestsDB = {
 					[426] = true,
 					[380] = true,
 					[362] = true,
-					[427] = true,
+					[365] = true,
 					[404] = true,
 					[381] = true,
 					[358] = true,
 					[361] = true,
-					[367] = true,
+					[398] = true,
 					[382] = true,
 					[359] = true,
-					[398] = true,
+					[367] = true,
 					[375] = true,
-					[383] = true,
+					[3902] = true,
 					[360] = true,
 					[407] = true,
 					[376] = true,
-					[3902] = true,
+					[383] = true,
 					[6395] = true,
-					[365] = true,
+					[427] = true,
 					[5482] = true,
 				},
 				["QuestLinks"] = {
@@ -754,97 +754,68 @@ DataStore_QuestsDB = {
 			["Default.AzerothCore.Chaosballz"] = {
 				["History"] = {
 					[11926] = true,
-					[1478] = true,
 					[10790] = true,
+					[1478] = true,
 					[398] = true,
 					[8784] = true,
 					[5481] = true,
 					[2951] = true,
 					[533] = true,
-					[535] = true,
+					[1472] = true,
 					[7810] = true,
 					[8059] = true,
 					[5482] = true,
 					[358] = true,
 					[11922] = true,
-					[1472] = true,
+					[535] = true,
 				},
 				["QuestLinks"] = {
 					nil, -- [1]
-					"|cffffff00|Hquest:8662:60|h[Doomcaller's Circlet]|h|r", -- [2]
-					"|cffffff00|Hquest:8660:60|h[Doomcaller's Footwraps]|h|r", -- [3]
-					"|cffffff00|Hquest:8664:60|h[Doomcaller's Mantle]|h|r", -- [4]
-					"|cffffff00|Hquest:8661:60|h[Doomcaller's Robes]|h|r", -- [5]
-					"|cffffff00|Hquest:8663:60|h[Doomcaller's Trousers]|h|r", -- [6]
-					"|cffffff00|Hquest:8694:60|h[Shroud of Unspoken Names]|h|r", -- [7]
+					"|cff40c040|Hquest:5047:60|h[Finkle Einhorn, At Your Service!]|h|r", -- [2]
+					"|cff40c040|Hquest:5160:60|h[The Matron Protectorate]|h|r", -- [3]
+					"|cff40c040|Hquest:4867:60|h[Urok Doomhowl]|h|r", -- [4]
+					nil, -- [5]
+					"|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r", -- [6]
+					"|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r", -- [7]
 					nil, -- [8]
-					"|cffffff00|Hquest:5047:60|h[Finkle Einhorn, At Your Service!]|h|r", -- [9]
-					"|cffffff00|Hquest:5160:60|h[The Matron Protectorate]|h|r", -- [10]
-					"|cffffff00|Hquest:4867:60|h[Urok Doomhowl]|h|r", -- [11]
-					nil, -- [12]
-					"|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r", -- [13]
-					"|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r", -- [14]
-					[24] = "|cffffff00|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r",
-					[26] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
-					[27] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
-					[28] = "|cffffff00|Hquest:8076:60|h[Paragons of Power: The Demoniac's Mantle]|h|r",
-					[29] = "|cffffff00|Hquest:8077:60|h[Paragons of Power: The Demoniac's Robes]|h|r",
-					[16] = "|cffffff00|Hquest:8731:60|h[Field Duty]|h|r",
-					[17] = "|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r",
-					[19] = "|cffffff00|Hquest:1473:-1|h[Creature of the Void]|h|r",
-					[20] = "|cffffff00|Hquest:1476:-1|h[Hearts of the Pure]|h|r",
-					[21] = "|cffffff00|Hquest:10788:-1|h[Return to Talionia]|h|r",
-					[22] = "|cffffff00|Hquest:3001:-1|h[Seeking Strahad]|h|r",
+					"|cff40c040|Hquest:8731:60|h[Field Duty]|h|r", -- [9]
+					"|cff40c040|Hquest:8302:60|h[The Hand of the Righteous]|h|r", -- [10]
+					nil, -- [11]
+					"|cff40c040|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r", -- [12]
+					nil, -- [13]
+					"|cff40c040|Hquest:8201:60|h[A Collection of Heads]|h|r", -- [14]
+					"|cff40c040|Hquest:8227:60|h[Nat's Measuring Tape]|h|r", -- [15]
 				},
-				["lastUpdate"] = 1790462498,
+				["lastUpdate"] = 1792540389,
 				["Rewards"] = {
 					nil, -- [1]
-					"r|21337|1|1", -- [2]
-					"r|21338|1|1", -- [3]
-					"r|21335|1|1", -- [4]
-					"r|21334|1|1", -- [5]
-					"r|21336|1|1", -- [6]
-					"r|21418|1|1", -- [7]
-					[24] = "r|22635|1|1",
-					[13] = "r|34599|5|1,r|23247|5|1",
-					[14] = "r|23247|5|1",
-					[29] = "r|20033|1|1",
-					[16] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
-					[17] = "r|20403|1|1",
-					[28] = "r|19849|1|1",
-					[11] = "r|15867|1|1",
-					[26] = "c|20213|1|0,c|20215|1|0,c|20216|1|0,c|20217|1|1",
+					nil, -- [2]
+					nil, -- [3]
+					"r|15867|1|1", -- [4]
+					nil, -- [5]
+					"r|34599|5|1,r|23247|5|1", -- [6]
+					"r|23247|5|1", -- [7]
+					[10] = "r|20403|1|1",
+					[12] = "r|22635|1|1",
+					[14] = "c|20213|1|0,c|20215|1|0,c|20216|1|0,c|20217|1|1",
+					[9] = "c|20808|1|1,c|21266|1|1,c|20809|1|1",
 				},
 				["Quests"] = {
-					"0|Ahn'Qiraj", -- [1]
-					"1|Raid|0|0|0", -- [2]
-					"1|Raid|0|0|0", -- [3]
-					"1|Raid|0|0|0", -- [4]
-					"1|Raid|0|0|0", -- [5]
-					"1|Raid|0|0|0", -- [6]
-					"1|Raid|0|0|0", -- [7]
-					"0|Blackrock Spire", -- [8]
-					"1|Dungeon|0|0|1", -- [9]
-					"1|Dungeon|0|0|1", -- [10]
-					"1|Dungeon|0|0|0", -- [11]
-					"0|Midsummer", -- [12]
-					"1||0|40000|0", -- [13]
-					"1||0|0|0", -- [14]
-					"0|Silithus", -- [15]
-					"1||0|0|0", -- [16]
-					"1||0|0|0", -- [17]
-					"0|Warlock", -- [18]
-					"1||0|0|0", -- [19]
-					"1||0|0|0", -- [20]
-					"1||0|0|0", -- [21]
-					"1||0|0|0", -- [22]
-					"0|Zul'Gurub", -- [23]
-					"1|Raid|0|0|0", -- [24]
-					"0|Zul'Gurub", -- [25]
-					"1|Raid|0|270000|0", -- [26]
-					"1|Raid|0|0|1", -- [27]
-					"1|Raid|0|0|0", -- [28]
-					"1|Raid|0|0|0", -- [29]
+					"0|Blackrock Spire", -- [1]
+					"1|Dungeon|0|0|1", -- [2]
+					"1|Dungeon|0|0|1", -- [3]
+					"1|Dungeon|0|0|0", -- [4]
+					"0|Midsummer", -- [5]
+					"1||0|290000|0", -- [6]
+					"1||0|0|0", -- [7]
+					"0|Silithus", -- [8]
+					"1||0|0|0", -- [9]
+					"1||0|0|0", -- [10]
+					"0|Zul'Gurub", -- [11]
+					"1|Raid|0|0|0", -- [12]
+					"0|Zul'Gurub", -- [13]
+					"1|Raid|0|270000|0", -- [14]
+					"1|Raid|0|0|1", -- [15]
 				},
 			},
 			["Default.AzerothCore.Dorc"] = {
@@ -862,36 +833,36 @@ DataStore_QuestsDB = {
 					[12670] = true,
 					[12678] = true,
 					[8183] = true,
-					[12679] = true,
+					[12742] = true,
 					[8301] = true,
 					[12680] = true,
-					[12716] = true,
 					[12779] = true,
-					[12750] = true,
+					[12716] = true,
+					[12687] = true,
 					[12619] = true,
 					[12714] = true,
 					[12746] = true,
-					[12778] = true,
+					[12715] = true,
 					[12747] = true,
 					[12842] = true,
-					[13189] = true,
+					[12748] = true,
 					[12717] = true,
 					[12749] = true,
 					[12720] = true,
-					[12687] = true,
+					[12750] = true,
 					[12719] = true,
 					[12751] = true,
 					[12657] = true,
 					[12743] = true,
 					[8288] = true,
-					[13165] = true,
+					[12850] = true,
 					[12848] = true,
 					[12754] = true,
 					[12723] = true,
 					[12755] = true,
-					[12850] = true,
+					[13165] = true,
 					[12756] = true,
-					[13166] = true,
+					[12725] = true,
 					[12757] = true,
 					[8791] = true,
 					[12724] = true,
@@ -899,16 +870,16 @@ DataStore_QuestsDB = {
 					[8286] = true,
 					[12722] = true,
 					[12697] = true,
-					[12725] = true,
+					[13166] = true,
 					[12698] = true,
 					[12593] = true,
 					[12636] = true,
-					[12748] = true,
+					[13189] = true,
 					[12700] = true,
-					[12715] = true,
+					[12778] = true,
 					[12701] = true,
 					[12733] = true,
-					[12742] = true,
+					[12679] = true,
 					[8800] = true,
 				},
 				["QuestLinks"] = {
@@ -1009,15 +980,15 @@ DataStore_QuestsDB = {
 					"|cffffff00|Hquest:4867:60|h[Urok Doomhowl]|h|r", -- [6]
 					[13] = "|cffffff00|Hquest:8731:60|h[Field Duty]|h|r",
 					[14] = "|cffffff00|Hquest:8302:60|h[The Hand of the Righteous]|h|r",
-					[16] = "|cffffff00|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r",
 					[8] = "|cffffff00|Hquest:11923:-1|h[Torch Catching]|h|r",
+					[16] = "|cffffff00|Hquest:9210:60|h[The Savage Guard - Arcanum of Focus]|h|r",
 					[17] = "|cffffff00|Hquest:9208:60|h[The Savage Guard - Arcanum of Protection]|h|r",
-					[18] = "|cffffff00|Hquest:9209:60|h[The Savage Guard - Arcanum of Rapidity]|h|r",
+					[9] = "|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r",
 					[22] = "|cffffff00|Hquest:8063:60|h[Paragons of Power: The Madcap's Bracers]|h|r",
 					[20] = "|cffffff00|Hquest:8201:60|h[A Collection of Heads]|h|r",
 					[21] = "|cffffff00|Hquest:8227:60|h[Nat's Measuring Tape]|h|r",
 					[11] = "|cffffff00|Hquest:7487:60|h[Attunement to the Core]|h|r",
-					[9] = "|cffffff00|Hquest:11886:-1|h[Unusual Activity]|h|r",
+					[18] = "|cffffff00|Hquest:9209:60|h[The Savage Guard - Arcanum of Rapidity]|h|r",
 				},
 				["lastUpdate"] = 1790044018,
 				["Rewards"] = {
@@ -1072,10 +1043,10 @@ DataStore_QuestsDB = {
 					[7784] = true,
 					[190] = true,
 					[1960] = true,
-					[2951] = true,
+					[583] = true,
 					[4601] = true,
 					[8068] = true,
-					[583] = true,
+					[2951] = true,
 					[552] = true,
 					[9457] = true,
 					[581] = true,

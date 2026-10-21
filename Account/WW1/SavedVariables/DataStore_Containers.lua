@@ -36,16 +36,60 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_14",
 						["size"] = 18,
 					},
-					["Bag-2"] = {
+					["Bag100"] = {
+						["links"] = {
+							nil, -- [1]
+							"|cff1eff00|Hitem:4562:0:0:0:0:0:24:0:63|h[Severing Axe of Strength]|h|r", -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							"|cff1eff00|Hitem:10120:0:0:0:0:0:1607:0:63|h[Ornate Cloak of Defense]|h|r", -- [8]
+							"|cff1eff00|Hitem:14321:0:0:0:0:0:1031:0:63|h[Resplendent Cloak of the Whale]|h|r", -- [9]
+							"|cff1eff00|Hitem:6563:0:0:0:0:0:1012:0:63|h[Shimmering Bracers of the Whale]|h|r", -- [10]
+							"|cff1eff00|Hitem:15519:0:0:0:0:0:1183:0:63|h[Spiked Chain Cloak of the Bear]|h|r", -- [11]
+							"|cff1eff00|Hitem:10109:0:0:0:0:0:784:0:63|h[Wanderer's Belt of the Owl]|h|r", -- [12]
+							"|cff1eff00|Hitem:15641:0:0:0:0:0:613:0:63|h[Ironhide Belt of the Monkey]|h|r", -- [13]
+							"|cff1eff00|Hitem:15939:0:0:0:0:0:779:0:63|h[Councillor's Scepter of the Owl]|h|r", -- [14]
+							nil, -- [15]
+							"|cff0070dd|Hitem:51990:0:0:0:0:0:-75:24:63|h[Stalwart Treads of the Champion]|h|r", -- [16]
+							"|cff1eff00|Hitem:14955:0:0:0:0:0:287:0:63|h[Bloodforged Shoulder Pads of Stamina]|h|r", -- [17]
+							nil, -- [18]
+							"|cff1eff00|Hitem:10380:0:0:0:0:0:1214:0:63|h[Commander's Gauntlets of the Bear]|h|r", -- [19]
+							"|cff1eff00|Hitem:10277:0:0:0:0:0:310:0:63|h[Emerald Gauntlets of Strength]|h|r", -- [20]
+						},
 						["ids"] = {
-							11078, -- [1]
-							11140, -- [2]
+							46880, -- [1]
+							4562, -- [2]
+							9383, -- [3]
+							18301, -- [4]
+							11626, -- [5]
+							11812, -- [6]
+							18306, -- [7]
+							10120, -- [8]
+							14321, -- [9]
+							6563, -- [10]
+							15519, -- [11]
+							10109, -- [12]
+							15641, -- [13]
+							15939, -- [14]
+							13371, -- [15]
+							51990, -- [16]
+							14955, -- [17]
+							8143, -- [18]
+							10380, -- [19]
+							10277, -- [20]
+							46880, -- [21]
+							11625, -- [22]
+							46880, -- [23]
+							2881, -- [24]
+							3610, -- [25]
+							3610, -- [26]
+							3609, -- [27]
+							3609, -- [28]
 						},
-						["counts"] = {
-							2, -- [1]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
+						["size"] = 28,
 					},
 					["Bag3"] = {
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:63|h[Portable Hole]|h|r",
@@ -64,47 +108,20 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["freeslots"] = 20,
 					},
-					["Bag1"] = {
+					["Bag7"] = {
 						["ids"] = {
-							51992, -- [1]
-							12058, -- [2]
-							12057, -- [3]
-							12034, -- [4]
-							11965, -- [5]
-							21704, -- [6]
-							19143, -- [7]
-							16956, -- [8]
-							16956, -- [9]
-							16858, -- [10]
-							16858, -- [11]
-							16859, -- [12]
-							16853, -- [13]
-							16860, -- [14]
-							21667, -- [15]
-							19826, -- [16]
-							19825, -- [17]
-							16736, -- [18]
-							21503, -- [19]
-							19878, -- [20]
-							11632, -- [21]
-							10763, -- [22]
-							51989, -- [23]
-							51990, -- [24]
+							20973, -- [1]
+							12219, -- [2]
+							12923, -- [3]
+							3434, -- [4]
 						},
-						["links"] = {
-							"|cff0070dd|Hitem:51992:0:0:0:0:0:-72:14:63|h[Tumultuous Ring of the Battle]|h|r", -- [1]
-							[5] = "|cff1eff00|Hitem:11965:0:0:0:0:0:1357:0:63|h[Quartz Ring of Frost Resistance]|h|r",
-							[23] = "|cff0070dd|Hitem:51989:0:0:0:0:0:-86:18:63|h[Stalwart Bands of the Soldier]|h|r",
-							[20] = "|cff0070dd|Hitem:19878:2606:0:0:0:0:0:0:63|h[Bloodsoaked Pauldrons]|h|r",
-							[17] = "|cffa335ee|Hitem:19825:908:0:0:0:0:0:0:63|h[Zandalar Freethinker's Breastplate]|h|r",
-							[9] = "|cffa335ee|Hitem:16956:1843:0:0:0:0:0:0:63|h[Judgement Gauntlets]|h|r",
-							[24] = "|cff0070dd|Hitem:51990:0:0:0:0:0:-17:24:63|h[Stalwart Treads of Strength]|h|r",
-							[4] = "|cff1eff00|Hitem:12034:0:0:0:0:0:1200:0:63|h[Marble Necklace of the Bear]|h|r",
-							[12] = "|cffa335ee|Hitem:16859:1843:0:0:0:0:0:0:63|h[Lawbringer Boots]|h|r",
+						["link"] = "|cffffffff|Hitem:805:0:0:0:0:0:0:0:63|h[Small Red Pouch]|h|r",
+						["size"] = 6,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09_Red",
+						["counts"] = {
+							[4] = 5,
 						},
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:63|h[Portable Hole]|h|r",
-						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
-						["size"] = 24,
+						["freeslots"] = 2,
 					},
 					["Bag5"] = {
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:63|h[Portable Hole]|h|r",
@@ -184,20 +201,47 @@ DataStore_ContainersDB = {
 							[16] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-68:14:63|h[Tumultuous Ring of the Bear]|h|r",
 						},
 					},
-					["Bag7"] = {
+					["Bag1"] = {
 						["ids"] = {
-							20973, -- [1]
-							12219, -- [2]
-							12923, -- [3]
-							3434, -- [4]
+							51992, -- [1]
+							12058, -- [2]
+							12057, -- [3]
+							12034, -- [4]
+							11965, -- [5]
+							21704, -- [6]
+							19143, -- [7]
+							16956, -- [8]
+							16956, -- [9]
+							16858, -- [10]
+							16858, -- [11]
+							16859, -- [12]
+							16853, -- [13]
+							16860, -- [14]
+							21667, -- [15]
+							19826, -- [16]
+							19825, -- [17]
+							16736, -- [18]
+							21503, -- [19]
+							19878, -- [20]
+							11632, -- [21]
+							10763, -- [22]
+							51989, -- [23]
+							51990, -- [24]
 						},
-						["link"] = "|cffffffff|Hitem:805:0:0:0:0:0:0:0:63|h[Small Red Pouch]|h|r",
-						["size"] = 6,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09_Red",
-						["counts"] = {
-							[4] = 5,
+						["links"] = {
+							"|cff0070dd|Hitem:51992:0:0:0:0:0:-72:14:63|h[Tumultuous Ring of the Battle]|h|r", -- [1]
+							[5] = "|cff1eff00|Hitem:11965:0:0:0:0:0:1357:0:63|h[Quartz Ring of Frost Resistance]|h|r",
+							[23] = "|cff0070dd|Hitem:51989:0:0:0:0:0:-86:18:63|h[Stalwart Bands of the Soldier]|h|r",
+							[20] = "|cff0070dd|Hitem:19878:2606:0:0:0:0:0:0:63|h[Bloodsoaked Pauldrons]|h|r",
+							[17] = "|cffa335ee|Hitem:19825:908:0:0:0:0:0:0:63|h[Zandalar Freethinker's Breastplate]|h|r",
+							[9] = "|cffa335ee|Hitem:16956:1843:0:0:0:0:0:0:63|h[Judgement Gauntlets]|h|r",
+							[24] = "|cff0070dd|Hitem:51990:0:0:0:0:0:-17:24:63|h[Stalwart Treads of Strength]|h|r",
+							[4] = "|cff1eff00|Hitem:12034:0:0:0:0:0:1200:0:63|h[Marble Necklace of the Bear]|h|r",
+							[12] = "|cffa335ee|Hitem:16859:1843:0:0:0:0:0:0:63|h[Lawbringer Boots]|h|r",
 						},
-						["freeslots"] = 2,
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:63|h[Portable Hole]|h|r",
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["size"] = 24,
 					},
 					["Bag2"] = {
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:63|h[Portable Hole]|h|r",
@@ -248,60 +292,16 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_08",
 						["size"] = 16,
 					},
-					["Bag100"] = {
-						["links"] = {
-							nil, -- [1]
-							"|cff1eff00|Hitem:4562:0:0:0:0:0:24:0:63|h[Severing Axe of Strength]|h|r", -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							"|cff1eff00|Hitem:10120:0:0:0:0:0:1607:0:63|h[Ornate Cloak of Defense]|h|r", -- [8]
-							"|cff1eff00|Hitem:14321:0:0:0:0:0:1031:0:63|h[Resplendent Cloak of the Whale]|h|r", -- [9]
-							"|cff1eff00|Hitem:6563:0:0:0:0:0:1012:0:63|h[Shimmering Bracers of the Whale]|h|r", -- [10]
-							"|cff1eff00|Hitem:15519:0:0:0:0:0:1183:0:63|h[Spiked Chain Cloak of the Bear]|h|r", -- [11]
-							"|cff1eff00|Hitem:10109:0:0:0:0:0:784:0:63|h[Wanderer's Belt of the Owl]|h|r", -- [12]
-							"|cff1eff00|Hitem:15641:0:0:0:0:0:613:0:63|h[Ironhide Belt of the Monkey]|h|r", -- [13]
-							"|cff1eff00|Hitem:15939:0:0:0:0:0:779:0:63|h[Councillor's Scepter of the Owl]|h|r", -- [14]
-							nil, -- [15]
-							"|cff0070dd|Hitem:51990:0:0:0:0:0:-75:24:63|h[Stalwart Treads of the Champion]|h|r", -- [16]
-							"|cff1eff00|Hitem:14955:0:0:0:0:0:287:0:63|h[Bloodforged Shoulder Pads of Stamina]|h|r", -- [17]
-							nil, -- [18]
-							"|cff1eff00|Hitem:10380:0:0:0:0:0:1214:0:63|h[Commander's Gauntlets of the Bear]|h|r", -- [19]
-							"|cff1eff00|Hitem:10277:0:0:0:0:0:310:0:63|h[Emerald Gauntlets of Strength]|h|r", -- [20]
-						},
+					["Bag-2"] = {
 						["ids"] = {
-							46880, -- [1]
-							4562, -- [2]
-							9383, -- [3]
-							18301, -- [4]
-							11626, -- [5]
-							11812, -- [6]
-							18306, -- [7]
-							10120, -- [8]
-							14321, -- [9]
-							6563, -- [10]
-							15519, -- [11]
-							10109, -- [12]
-							15641, -- [13]
-							15939, -- [14]
-							13371, -- [15]
-							51990, -- [16]
-							14955, -- [17]
-							8143, -- [18]
-							10380, -- [19]
-							10277, -- [20]
-							46880, -- [21]
-							11625, -- [22]
-							46880, -- [23]
-							2881, -- [24]
-							3610, -- [25]
-							3610, -- [26]
-							3609, -- [27]
-							3609, -- [28]
+							11078, -- [1]
+							11140, -- [2]
 						},
-						["size"] = 28,
+						["counts"] = {
+							2, -- [1]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
 					},
 					["Bag6"] = {
 						["ids"] = {
@@ -406,8 +406,8 @@ DataStore_ContainersDB = {
 							[18] = "|cff0070dd|Hitem:51962:0:0:0:0:0:-82:18:60|h[Vigorous Bracers of the Vision]|h|r",
 							[10] = "|cff1eff00|Hitem:15303:0:0:0:0:0:586:0:60|h[Grizzly Pants of the Monkey]|h|r",
 							[28] = "|cff0070dd|Hitem:51962:0:0:0:0:0:-78:18:60|h[Vigorous Bracers of the Monkey]|h|r",
-							[22] = "|cff0070dd|Hitem:51962:0:0:0:0:0:-79:18:60|h[Vigorous Bracers of the Moon]|h|r",
 							[11] = "|cff1eff00|Hitem:4571:0:0:0:0:0:1990:0:60|h[War Knife of Nature's Wrath]|h|r",
+							[22] = "|cff0070dd|Hitem:51962:0:0:0:0:0:-79:18:60|h[Vigorous Bracers of the Moon]|h|r",
 						},
 						["ids"] = {
 							51962, -- [1]
@@ -602,8 +602,8 @@ DataStore_ContainersDB = {
 							[15] = "|cff1eff00|Hitem:10183:0:0:0:0:0:1039:0:62|h[Swashbuckler's Boots of the Whale]|h|r",
 							[8] = "|cff0070dd|Hitem:12960:0:0:0:0:0:1505:0:62|h[Tribal War Feathers of Nature Resistance]|h|r",
 							[9] = "|cff1eff00|Hitem:12045:0:0:0:0:0:1746:0:62|h[Swamp Pendant of Eluding]|h|r",
-							[10] = "|cff1eff00|Hitem:15390:0:0:0:0:0:798:0:62|h[Jadefire Chestguard of the Owl]|h|r",
 							[20] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-79:14:62|h[Tumultuous Ring of the Moon]|h|r",
+							[10] = "|cff1eff00|Hitem:15390:0:0:0:0:0:798:0:62|h[Jadefire Chestguard of the Owl]|h|r",
 							[21] = "|cff1eff00|Hitem:12027:0:0:0:0:0:1036:0:62|h[Vermilion Necklace of the Whale]|h|r",
 							[22] = "|cff1eff00|Hitem:15267:0:0:0:0:0:888:0:62|h[Brutehammer of the Eagle]|h|r",
 							[24] = "|cff1eff00|Hitem:15987:0:0:0:0:0:1035:0:62|h[Astral Orb of the Whale]|h|r",
@@ -825,12 +825,31 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_08",
 						["size"] = 16,
 					},
-					["Bag-2"] = {
+					["Bag0"] = {
 						["ids"] = {
-							11140, -- [1]
+							5956, -- [1]
+							7005, -- [2]
+							19362, -- [3]
+							19362, -- [4]
+							13036, -- [5]
+							10803, -- [6]
+							9477, -- [7]
+							19354, -- [8]
+							19353, -- [9]
+							21856, -- [10]
+							21856, -- [11]
+							17730, -- [12]
+							13003, -- [13]
+							6975, -- [14]
+							19358, -- [15]
+							19358, -- [16]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
+						["links"] = {
+							[11] = "|cffa335ee|Hitem:21856:963:0:0:0:0:0:0:63|h[Neretzek, The Blood Drinker]|h|r",
+							[15] = "|cffa335ee|Hitem:19358:1897:0:0:0:0:0:0:63|h[Draconic Maul]|h|r",
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
 					},
 					["Bag3"] = {
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:63|h[Portable Hole]|h|r",
@@ -881,41 +900,34 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["size"] = 24,
 					},
-					["Bag1"] = {
-						["ids"] = {
-							13167, -- [1]
-							17766, -- [2]
-							17766, -- [3]
-							12463, -- [4]
-							9418, -- [5]
-							21701, -- [6]
-							19436, -- [7]
-							19888, -- [8]
-							12551, -- [9]
-							16681, -- [10]
-							8308, -- [11]
-							21505, -- [12]
-							19341, -- [13]
-							22722, -- [14]
-							19948, -- [15]
-							19949, -- [16]
-							17713, -- [17]
-							12929, -- [18]
-							21809, -- [19]
-							17744, -- [20]
-							13091, -- [21]
-							1973, -- [22]
-							12005, -- [23]
-							11979, -- [24]
-						},
+					["Bag7"] = {
+						["link"] = "|cffffffff|Hitem:3914:0:0:0:0:0:0:0:63|h[Journeyman's Backpack]|h|r",
 						["links"] = {
-							[23] = "|cff1eff00|Hitem:12005:0:0:0:0:0:1206:0:63|h[Granite Ring of the Bear]|h|r",
-							[24] = "|cff1eff00|Hitem:11979:0:0:0:0:0:1373:0:63|h[Peridot Circle of Frost Resistance]|h|r",
-							[7] = "|cffa335ee|Hitem:19436:884:0:0:0:0:0:0:63|h[Cloak of Draconic Might]|h|r",
+							"|cff1eff00|Hitem:12002:0:0:0:0:0:1118:0:63|h[Marble Circle of the Boar]|h|r", -- [1]
+							"|cff1eff00|Hitem:15638:0:0:0:0:0:384:0:63|h[Formidable Shoulder Pads of Intellect]|h|r", -- [2]
+							[10] = "|cff1eff00|Hitem:14929:0:0:0:0:0:614:0:63|h[Lofty Shoulder Pads of the Monkey]|h|r",
+							[5] = "|cff1eff00|Hitem:14308:0:0:0:0:0:888:0:63|h[Celestial Tunic of the Eagle]|h|r",
+							[6] = "|cff1eff00|Hitem:9779:0:0:0:0:0:18:0:63|h[Bandit Cloak of Agility]|h|r",
+							[14] = "|cff1eff00|Hitem:15274:0:0:0:0:0:1972:0:63|h[Diviner Long Staff of Frozen Wrath]|h|r",
 						},
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:63|h[Portable Hole]|h|r",
-						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
-						["size"] = 24,
+						["ids"] = {
+							12002, -- [1]
+							15638, -- [2]
+							16673, -- [3]
+							16673, -- [4]
+							14308, -- [5]
+							9779, -- [6]
+							16703, -- [7]
+							10454, -- [8]
+							12923, -- [9]
+							14929, -- [10]
+							7919, -- [11]
+							13030, -- [12]
+							16717, -- [13]
+							15274, -- [14]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_07_Black",
+						["size"] = 14,
 					},
 					["Bag5"] = {
 						["ids"] = {
@@ -980,18 +992,7 @@ DataStore_ContainersDB = {
 						["freeslots"] = 16,
 					},
 					["Bag100"] = {
-						["links"] = {
-							[23] = "|cff1eff00|Hitem:15509:0:0:0:0:0:1184:0:63|h[Grunt's Handwraps of the Bear]|h|r",
-							[24] = "|cff1eff00|Hitem:14097:0:0:0:0:0:756:0:63|h[Native Pants of the Owl]|h|r",
-							[25] = "|cff1eff00|Hitem:15146:0:0:0:0:0:781:0:63|h[Ghostwalker Crown of the Owl]|h|r",
-							[26] = "|cff1eff00|Hitem:15378:0:0:0:0:0:780:0:63|h[Rageclaw Belt of the Owl]|h|r",
-							[27] = "|cff1eff00|Hitem:7482:0:0:0:0:0:606:0:63|h[Ranger Shoulders of the Monkey]|h|r",
-							[3] = "|cff1eff00|Hitem:15524:0:0:0:0:0:1030:0:63|h[Sentry's Surcoat of the Whale]|h|r",
-							[17] = "|cff1eff00|Hitem:14168:0:0:0:0:0:759:0:63|h[Buccaneer's Gloves of the Owl]|h|r",
-							[20] = "|cff1eff00|Hitem:14175:0:0:0:0:0:153:0:63|h[Buccaneer's Vest of Spirit]|h|r",
-							[5] = "|cff1eff00|Hitem:15333:0:0:0:0:0:1012:0:63|h[Wrangler's Cloak of the Whale]|h|r",
-							[22] = "|cff1eff00|Hitem:14252:0:0:0:0:0:1855:0:63|h[Lunar Coronet of Shadow Wrath]|h|r",
-						},
+						["freeslots"] = 1,
 						["ids"] = {
 							nil, -- [1]
 							14364, -- [2]
@@ -1022,37 +1023,55 @@ DataStore_ContainersDB = {
 							7482, -- [27]
 							5574, -- [28]
 						},
-						["size"] = 28,
-						["freeslots"] = 1,
-					},
-					["Bag7"] = {
-						["link"] = "|cffffffff|Hitem:3914:0:0:0:0:0:0:0:63|h[Journeyman's Backpack]|h|r",
 						["links"] = {
-							"|cff1eff00|Hitem:12002:0:0:0:0:0:1118:0:63|h[Marble Circle of the Boar]|h|r", -- [1]
-							"|cff1eff00|Hitem:15638:0:0:0:0:0:384:0:63|h[Formidable Shoulder Pads of Intellect]|h|r", -- [2]
-							[10] = "|cff1eff00|Hitem:14929:0:0:0:0:0:614:0:63|h[Lofty Shoulder Pads of the Monkey]|h|r",
-							[5] = "|cff1eff00|Hitem:14308:0:0:0:0:0:888:0:63|h[Celestial Tunic of the Eagle]|h|r",
-							[6] = "|cff1eff00|Hitem:9779:0:0:0:0:0:18:0:63|h[Bandit Cloak of Agility]|h|r",
-							[14] = "|cff1eff00|Hitem:15274:0:0:0:0:0:1972:0:63|h[Diviner Long Staff of Frozen Wrath]|h|r",
+							[23] = "|cff1eff00|Hitem:15509:0:0:0:0:0:1184:0:63|h[Grunt's Handwraps of the Bear]|h|r",
+							[24] = "|cff1eff00|Hitem:14097:0:0:0:0:0:756:0:63|h[Native Pants of the Owl]|h|r",
+							[25] = "|cff1eff00|Hitem:15146:0:0:0:0:0:781:0:63|h[Ghostwalker Crown of the Owl]|h|r",
+							[26] = "|cff1eff00|Hitem:15378:0:0:0:0:0:780:0:63|h[Rageclaw Belt of the Owl]|h|r",
+							[27] = "|cff1eff00|Hitem:7482:0:0:0:0:0:606:0:63|h[Ranger Shoulders of the Monkey]|h|r",
+							[3] = "|cff1eff00|Hitem:15524:0:0:0:0:0:1030:0:63|h[Sentry's Surcoat of the Whale]|h|r",
+							[17] = "|cff1eff00|Hitem:14168:0:0:0:0:0:759:0:63|h[Buccaneer's Gloves of the Owl]|h|r",
+							[20] = "|cff1eff00|Hitem:14175:0:0:0:0:0:153:0:63|h[Buccaneer's Vest of Spirit]|h|r",
+							[5] = "|cff1eff00|Hitem:15333:0:0:0:0:0:1012:0:63|h[Wrangler's Cloak of the Whale]|h|r",
+							[22] = "|cff1eff00|Hitem:14252:0:0:0:0:0:1855:0:63|h[Lunar Coronet of Shadow Wrath]|h|r",
 						},
+						["size"] = 28,
+					},
+					["Bag1"] = {
 						["ids"] = {
-							12002, -- [1]
-							15638, -- [2]
-							16673, -- [3]
-							16673, -- [4]
-							14308, -- [5]
-							9779, -- [6]
-							16703, -- [7]
-							10454, -- [8]
-							12923, -- [9]
-							14929, -- [10]
-							7919, -- [11]
-							13030, -- [12]
-							16717, -- [13]
-							15274, -- [14]
+							13167, -- [1]
+							17766, -- [2]
+							17766, -- [3]
+							12463, -- [4]
+							9418, -- [5]
+							21701, -- [6]
+							19436, -- [7]
+							19888, -- [8]
+							12551, -- [9]
+							16681, -- [10]
+							8308, -- [11]
+							21505, -- [12]
+							19341, -- [13]
+							22722, -- [14]
+							19948, -- [15]
+							19949, -- [16]
+							17713, -- [17]
+							12929, -- [18]
+							21809, -- [19]
+							17744, -- [20]
+							13091, -- [21]
+							1973, -- [22]
+							12005, -- [23]
+							11979, -- [24]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_07_Black",
-						["size"] = 14,
+						["links"] = {
+							[23] = "|cff1eff00|Hitem:12005:0:0:0:0:0:1206:0:63|h[Granite Ring of the Bear]|h|r",
+							[24] = "|cff1eff00|Hitem:11979:0:0:0:0:0:1373:0:63|h[Peridot Circle of Frost Resistance]|h|r",
+							[7] = "|cffa335ee|Hitem:19436:884:0:0:0:0:0:0:63|h[Cloak of Draconic Might]|h|r",
+						},
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:63|h[Portable Hole]|h|r",
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["size"] = 24,
 					},
 					["Bag2"] = {
 						["ids"] = {
@@ -1099,31 +1118,12 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_07_Black",
 						["size"] = 14,
 					},
-					["Bag0"] = {
+					["Bag-2"] = {
 						["ids"] = {
-							5956, -- [1]
-							7005, -- [2]
-							19362, -- [3]
-							19362, -- [4]
-							13036, -- [5]
-							10803, -- [6]
-							9477, -- [7]
-							19354, -- [8]
-							19353, -- [9]
-							21856, -- [10]
-							21856, -- [11]
-							17730, -- [12]
-							13003, -- [13]
-							6975, -- [14]
-							19358, -- [15]
-							19358, -- [16]
+							11140, -- [1]
 						},
-						["links"] = {
-							[11] = "|cffa335ee|Hitem:21856:963:0:0:0:0:0:0:63|h[Neretzek, The Blood Drinker]|h|r",
-							[15] = "|cffa335ee|Hitem:19358:1897:0:0:0:0:0:0:63|h[Draconic Maul]|h|r",
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
 					},
 					["Bag6"] = {
 						["link"] = "|cffffffff|Hitem:9587:0:0:0:0:0:0:0:63|h[Thawpelt Sack]|h|r",
@@ -1182,9 +1182,9 @@ DataStore_ContainersDB = {
 							[23] = 14169,
 							[20] = 4576,
 							[17] = 4232,
-							[22] = 17056,
-							[18] = 2450,
 							[15] = 3196,
+							[18] = 2450,
+							[22] = 17056,
 							[24] = 2318,
 						},
 						["links"] = {
@@ -1278,8 +1278,8 @@ DataStore_ContainersDB = {
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:19|h[Portable Hole]|h|r",
 						["counts"] = {
 							[20] = 10,
-							[6] = 4,
 							[19] = 2,
+							[6] = 4,
 							[17] = 2,
 						},
 						["size"] = 24,
@@ -1392,26 +1392,7 @@ DataStore_ContainersDB = {
 						["size"] = 24,
 					},
 					["Bag100"] = {
-						["links"] = {
-							"|cff1eff00|Hitem:15111:0:0:0:0:0:760:0:10|h[Rigid Moccasins of the Owl]|h|r", -- [1]
-							nil, -- [2]
-							"|cff1eff00|Hitem:6564:0:0:0:0:0:95:0:10|h[Shimmering Cloak of Spirit]|h|r", -- [3]
-							nil, -- [4]
-							"|cff1eff00|Hitem:15110:0:0:0:0:0:844:0:10|h[Rigid Belt of the Eagle]|h|r", -- [5]
-							"|cff1eff00|Hitem:4575:0:0:0:0:0:134:0:10|h[Medicine Staff of Spirit]|h|r", -- [6]
-							"|cff1eff00|Hitem:789:0:0:0:0:0:22:0:10|h[Stout Battlehammer of Stamina]|h|r", -- [7]
-							"|cff1eff00|Hitem:2079:0:0:0:0:0:1801:0:10|h[Sergeant's Warhammer of Arcane Wrath]|h|r", -- [8]
-							"|cff1eff00|Hitem:9775:0:0:0:0:0:759:0:10|h[Bandit Cinch of the Owl]|h|r", -- [9]
-							"|cff1eff00|Hitem:4569:0:0:0:0:0:6:0:10|h[Staunch Hammer of Strength]|h|r", -- [10]
-							"|cff1eff00|Hitem:15305:0:0:0:0:0:759:0:10|h[Feral Shoes of the Owl]|h|r", -- [11]
-							nil, -- [12]
-							"|cff1eff00|Hitem:15305:0:0:0:0:0:232:0:10|h[Feral Shoes of the Falcon]|h|r", -- [13]
-							"|cff1eff00|Hitem:9808:0:0:0:0:0:1027:0:10|h[Superior Leggings of the Whale]|h|r", -- [14]
-							nil, -- [15]
-							"|cff1eff00|Hitem:15115:0:0:0:0:0:846:0:10|h[Rigid Gloves of the Eagle]|h|r", -- [16]
-							[19] = "|cff1eff00|Hitem:6553:0:0:0:0:0:1012:0:10|h[Bard's Trousers of the Whale]|h|r",
-							[20] = "|cff1eff00|Hitem:9782:0:0:0:0:0:153:0:10|h[Bandit Jerkin of Spirit]|h|r",
-						},
+						["freeslots"] = 8,
 						["ids"] = {
 							15111, -- [1]
 							2987, -- [2]
@@ -1434,8 +1415,27 @@ DataStore_ContainersDB = {
 							6553, -- [19]
 							9782, -- [20]
 						},
+						["links"] = {
+							"|cff1eff00|Hitem:15111:0:0:0:0:0:760:0:10|h[Rigid Moccasins of the Owl]|h|r", -- [1]
+							nil, -- [2]
+							"|cff1eff00|Hitem:6564:0:0:0:0:0:95:0:10|h[Shimmering Cloak of Spirit]|h|r", -- [3]
+							nil, -- [4]
+							"|cff1eff00|Hitem:15110:0:0:0:0:0:844:0:10|h[Rigid Belt of the Eagle]|h|r", -- [5]
+							"|cff1eff00|Hitem:4575:0:0:0:0:0:134:0:10|h[Medicine Staff of Spirit]|h|r", -- [6]
+							"|cff1eff00|Hitem:789:0:0:0:0:0:22:0:10|h[Stout Battlehammer of Stamina]|h|r", -- [7]
+							"|cff1eff00|Hitem:2079:0:0:0:0:0:1801:0:10|h[Sergeant's Warhammer of Arcane Wrath]|h|r", -- [8]
+							"|cff1eff00|Hitem:9775:0:0:0:0:0:759:0:10|h[Bandit Cinch of the Owl]|h|r", -- [9]
+							"|cff1eff00|Hitem:4569:0:0:0:0:0:6:0:10|h[Staunch Hammer of Strength]|h|r", -- [10]
+							"|cff1eff00|Hitem:15305:0:0:0:0:0:759:0:10|h[Feral Shoes of the Owl]|h|r", -- [11]
+							nil, -- [12]
+							"|cff1eff00|Hitem:15305:0:0:0:0:0:232:0:10|h[Feral Shoes of the Falcon]|h|r", -- [13]
+							"|cff1eff00|Hitem:9808:0:0:0:0:0:1027:0:10|h[Superior Leggings of the Whale]|h|r", -- [14]
+							nil, -- [15]
+							"|cff1eff00|Hitem:15115:0:0:0:0:0:846:0:10|h[Rigid Gloves of the Eagle]|h|r", -- [16]
+							[19] = "|cff1eff00|Hitem:6553:0:0:0:0:0:1012:0:10|h[Bard's Trousers of the Whale]|h|r",
+							[20] = "|cff1eff00|Hitem:9782:0:0:0:0:0:153:0:10|h[Bandit Jerkin of Spirit]|h|r",
+						},
 						["size"] = 28,
-						["freeslots"] = 8,
 					},
 					["Bag1"] = {
 						["ids"] = {
@@ -1534,13 +1534,7 @@ DataStore_ContainersDB = {
 						["freeslots"] = 23,
 					},
 					["Bag100"] = {
-						["links"] = {
-							"|cff1eff00|Hitem:14125:0:0:0:0:0:845:0:11|h[Ritual Leggings of the Eagle]|h|r", -- [1]
-							[10] = "|cff1eff00|Hitem:6536:0:0:0:0:0:1805:0:11|h[Willow Vest of Arcane Wrath]|h|r",
-							[12] = "|cff1eff00|Hitem:6569:0:0:0:0:0:1807:0:11|h[Shimmering Robe of Arcane Wrath]|h|r",
-							[3] = "|cff1eff00|Hitem:14174:0:0:0:0:0:1802:0:11|h[Buccaneer's Boots of Arcane Wrath]|h|r",
-							[14] = "|cff1eff00|Hitem:14121:0:0:0:0:0:1956:0:11|h[Aboriginal Vest of Frozen Wrath]|h|r",
-						},
+						["size"] = 28,
 						["ids"] = {
 							14125, -- [1]
 							3647, -- [2]
@@ -1558,8 +1552,14 @@ DataStore_ContainersDB = {
 							14121, -- [14]
 							4699, -- [15]
 						},
+						["links"] = {
+							"|cff1eff00|Hitem:14125:0:0:0:0:0:845:0:11|h[Ritual Leggings of the Eagle]|h|r", -- [1]
+							[10] = "|cff1eff00|Hitem:6536:0:0:0:0:0:1805:0:11|h[Willow Vest of Arcane Wrath]|h|r",
+							[12] = "|cff1eff00|Hitem:6569:0:0:0:0:0:1807:0:11|h[Shimmering Robe of Arcane Wrath]|h|r",
+							[3] = "|cff1eff00|Hitem:14174:0:0:0:0:0:1802:0:11|h[Buccaneer's Boots of Arcane Wrath]|h|r",
+							[14] = "|cff1eff00|Hitem:14121:0:0:0:0:0:1956:0:11|h[Aboriginal Vest of Frozen Wrath]|h|r",
+						},
 						["freeslots"] = 13,
-						["size"] = 28,
 					},
 					["Bag1"] = {
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:11|h[Portable Hole]|h|r",
@@ -1659,10 +1659,10 @@ DataStore_ContainersDB = {
 							21626, -- [24]
 						},
 						["links"] = {
-							[11] = "|cffa335ee|Hitem:16840:851:0:0:0:0:0:0:63|h[Earthfury Bracers]|h|r",
-							[15] = "|cff1eff00|Hitem:15273:0:0:0:0:0:632:0:63|h[Death Striker of the Monkey]|h|r",
 							[19] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-83:14:63|h[Tumultuous Ring of the Sun]|h|r",
+							[15] = "|cff1eff00|Hitem:15273:0:0:0:0:0:632:0:63|h[Death Striker of the Monkey]|h|r",
 							[16] = "|cff1eff00|Hitem:15500:0:0:0:0:0:1106:0:63|h[Outrunner's Chestguard of the Boar]|h|r",
+							[11] = "|cffa335ee|Hitem:16840:851:0:0:0:0:0:0:63|h[Earthfury Bracers]|h|r",
 						},
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["size"] = 24,
@@ -2019,95 +2019,6 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["size"] = 24,
 					},
-					["Bag0"] = {
-						["ids"] = {
-							20038, -- [1]
-							12653, -- [2]
-							15295, -- [3]
-							6256, -- [4]
-							19853, -- [5]
-							2100, -- [6]
-							6219, -- [7]
-							5956, -- [8]
-							2901, -- [9]
-							7005, -- [10]
-							15240, -- [11]
-							15239, -- [12]
-							19019, -- [13]
-							19354, -- [14]
-							19437, -- [15]
-							19436, -- [16]
-						},
-						["links"] = {
-							[6] = "|cffa335ee|Hitem:2100:32:0:0:0:0:0:0:62|h[Precisely Calibrated Boomstick]|h|r",
-							[2] = "|cff0070dd|Hitem:12653:664:0:0:0:0:0:0:62|h[Riphook]|h|r",
-							[11] = "|cff1eff00|Hitem:15240:0:0:0:0:0:173:0:62|h[Demon's Claw of Agility]|h|r",
-							[3] = "|cff1eff00|Hitem:15295:0:0:0:0:0:509:0:62|h[Quillfire Bow of the Wolf]|h|r",
-							[12] = "|cff1eff00|Hitem:15239:0:0:0:0:0:173:0:62|h[Felstone Reaver of Agility]|h|r",
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
-					},
-					["Bag5"] = {
-						["ids"] = {
-							51981, -- [1]
-							51981, -- [2]
-							7718, -- [3]
-							7545, -- [4]
-							9400, -- [5]
-							22240, -- [6]
-							22240, -- [7]
-							5830, -- [8]
-							5832, -- [9]
-							2875, -- [10]
-						},
-						["links"] = {
-							"|cff0070dd|Hitem:51981:0:0:0:0:0:-85:18:61|h[Earthbound Wristguards of the Sorcerer]|h|r", -- [1]
-							"|cff0070dd|Hitem:51981:0:0:0:0:0:-80:18:61|h[Earthbound Wristguards of the Wild]|h|r", -- [2]
-							nil, -- [3]
-							"|cff1eff00|Hitem:7545:0:0:0:0:0:1808:0:61|h[Champion's Bracers of Arcane Wrath]|h|r", -- [4]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Red",
-						["link"] = "|cffffffff|Hitem:857:0:0:0:0:0:0:0:61|h[Large Red Sack]|h|r",
-						["counts"] = {
-							[10] = 4,
-						},
-						["size"] = 10,
-					},
-					["Bag4"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
-						["ids"] = {
-							2447, -- [1]
-							8831, -- [2]
-							15416, -- [3]
-							19767, -- [4]
-							8171, -- [5]
-							8165, -- [6]
-							11370, -- [7]
-							22203, -- [8]
-							12662, -- [9]
-							3371, -- [10]
-							19441, -- [11]
-							3372, -- [12]
-						},
-						["size"] = 24,
-						["counts"] = {
-							2, -- [1]
-							3, -- [2]
-							7, -- [3]
-							6, -- [4]
-							18, -- [5]
-							nil, -- [6]
-							4, -- [7]
-							2, -- [8]
-							3, -- [9]
-							10, -- [10]
-							nil, -- [11]
-							16, -- [12]
-						},
-						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
-						["freeslots"] = 12,
-					},
 					["Bag100"] = {
 						["links"] = {
 							nil, -- [1]
@@ -2171,48 +2082,128 @@ DataStore_ContainersDB = {
 						},
 						["size"] = 28,
 					},
-					["Bag1"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
-						["links"] = {
-							[23] = "|cff1eff00|Hitem:10160:0:0:0:0:0:635:0:62|h[Mercurial Circlet of the Monkey]|h|r",
-							[9] = "|cffa335ee|Hitem:16848:2606:0:0:0:0:0:0:62|h[Giantstalker's Epaulets]|h|r",
-							[16] = "|cff0070dd|Hitem:16676:1843:0:0:0:0:0:0:62|h[Beaststalker's Gloves]|h|r",
-							[17] = "|cff0070dd|Hitem:19919:1843:0:0:0:0:0:0:62|h[Bloodstained Greaves]|h|r",
-							[18] = "|cff0070dd|Hitem:51982:1843:0:0:0:0:-71:24:62|h[Earthbound Boots of the Bandit]|h|r",
-							[11] = "|cffa335ee|Hitem:18812:852:0:0:0:0:0:0:62|h[Wristguards of True Flight]|h|r",
-							[2] = "|cff1eff00|Hitem:9812:0:0:0:0:0:1012:0:62|h[Fortified Cloak of the Whale]|h|r",
-							[20] = "|cff0070dd|Hitem:17754:1843:0:0:0:0:0:0:62|h[Infernal Trickster Leggings]|h|r",
-							[22] = "|cff1eff00|Hitem:10274:0:0:0:0:0:540:0:62|h[Masterwork Pauldrons of the Wolf]|h|r",
-							[4] = "|cff1eff00|Hitem:9808:0:0:0:0:0:1027:0:62|h[Superior Leggings of the Whale]|h|r",
-						},
+					["Bag5"] = {
 						["ids"] = {
-							11626, -- [1]
-							9812, -- [2]
-							16713, -- [3]
-							9808, -- [4]
-							18829, -- [5]
-							16942, -- [6]
-							16849, -- [7]
-							16850, -- [8]
-							16848, -- [9]
-							19144, -- [10]
-							18812, -- [11]
-							19832, -- [12]
-							19831, -- [13]
-							16680, -- [14]
-							16681, -- [15]
-							16676, -- [16]
-							19919, -- [17]
-							51982, -- [18]
-							22715, -- [19]
-							17754, -- [20]
-							13130, -- [21]
-							10274, -- [22]
-							10160, -- [23]
-							19336, -- [24]
+							51981, -- [1]
+							51981, -- [2]
+							7718, -- [3]
+							7545, -- [4]
+							9400, -- [5]
+							22240, -- [6]
+							22240, -- [7]
+							5830, -- [8]
+							5832, -- [9]
+							2875, -- [10]
+						},
+						["links"] = {
+							"|cff0070dd|Hitem:51981:0:0:0:0:0:-85:18:61|h[Earthbound Wristguards of the Sorcerer]|h|r", -- [1]
+							"|cff0070dd|Hitem:51981:0:0:0:0:0:-80:18:61|h[Earthbound Wristguards of the Wild]|h|r", -- [2]
+							nil, -- [3]
+							"|cff1eff00|Hitem:7545:0:0:0:0:0:1808:0:61|h[Champion's Bracers of Arcane Wrath]|h|r", -- [4]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Red",
+						["link"] = "|cffffffff|Hitem:857:0:0:0:0:0:0:0:61|h[Large Red Sack]|h|r",
+						["counts"] = {
+							[10] = 4,
+						},
+						["size"] = 10,
+					},
+					["Bag4"] = {
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
+						["ids"] = {
+							2447, -- [1]
+							8831, -- [2]
+							15416, -- [3]
+							19767, -- [4]
+							8171, -- [5]
+							8165, -- [6]
+							11370, -- [7]
+							22203, -- [8]
+							12662, -- [9]
+							3371, -- [10]
+							19441, -- [11]
+							3372, -- [12]
+						},
+						["size"] = 24,
+						["counts"] = {
+							2, -- [1]
+							3, -- [2]
+							7, -- [3]
+							6, -- [4]
+							18, -- [5]
+							nil, -- [6]
+							4, -- [7]
+							2, -- [8]
+							3, -- [9]
+							10, -- [10]
+							nil, -- [11]
+							16, -- [12]
 						},
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
-						["size"] = 24,
+						["freeslots"] = 12,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							20038, -- [1]
+							12653, -- [2]
+							15295, -- [3]
+							6256, -- [4]
+							19853, -- [5]
+							2100, -- [6]
+							6219, -- [7]
+							5956, -- [8]
+							2901, -- [9]
+							7005, -- [10]
+							15240, -- [11]
+							15239, -- [12]
+							19019, -- [13]
+							19354, -- [14]
+							19437, -- [15]
+							19436, -- [16]
+						},
+						["links"] = {
+							[6] = "|cffa335ee|Hitem:2100:32:0:0:0:0:0:0:62|h[Precisely Calibrated Boomstick]|h|r",
+							[2] = "|cff0070dd|Hitem:12653:664:0:0:0:0:0:0:62|h[Riphook]|h|r",
+							[11] = "|cff1eff00|Hitem:15240:0:0:0:0:0:173:0:62|h[Demon's Claw of Agility]|h|r",
+							[3] = "|cff1eff00|Hitem:15295:0:0:0:0:0:509:0:62|h[Quillfire Bow of the Wolf]|h|r",
+							[12] = "|cff1eff00|Hitem:15239:0:0:0:0:0:173:0:62|h[Felstone Reaver of Agility]|h|r",
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+					["Bag7"] = {
+						["ids"] = {
+							3434, -- [1]
+							11972, -- [2]
+							10198, -- [3]
+							8272, -- [4]
+							15653, -- [5]
+							15679, -- [6]
+							8193, -- [7]
+							15303, -- [8]
+							15086, -- [9]
+							13126, -- [10]
+							12219, -- [11]
+							12534, -- [12]
+							15733, -- [13]
+							4293, -- [14]
+						},
+						["links"] = {
+							nil, -- [1]
+							"|cff1eff00|Hitem:11972:0:0:0:0:0:1365:0:61|h[Carnelian Loop of Frost Resistance]|h|r", -- [2]
+							"|cff1eff00|Hitem:10198:0:0:0:0:0:541:0:61|h[Crusader's Helm of the Wolf]|h|r", -- [3]
+							nil, -- [4]
+							"|cff1eff00|Hitem:15653:0:0:0:0:0:1209:0:61|h[Merciless Gauntlets of the Bear]|h|r", -- [5]
+							"|cff1eff00|Hitem:15679:0:0:0:0:0:287:0:61|h[Triumphant Bracers of Stamina]|h|r", -- [6]
+							nil, -- [7]
+							"|cff1eff00|Hitem:15303:0:0:0:0:0:755:0:61|h[Grizzly Pants of the Owl]|h|r", -- [8]
+						},
+						["counts"] = {
+							5, -- [1]
+						},
+						["link"] = "|cffffffff|Hitem:9587:0:0:0:0:0:0:0:61|h[Thawpelt Sack]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_17",
+						["size"] = 14,
 					},
 					["Bag2"] = {
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
@@ -2279,39 +2270,48 @@ DataStore_ContainersDB = {
 						},
 						["freeslots"] = 6,
 					},
-					["Bag7"] = {
-						["ids"] = {
-							3434, -- [1]
-							11972, -- [2]
-							10198, -- [3]
-							8272, -- [4]
-							15653, -- [5]
-							15679, -- [6]
-							8193, -- [7]
-							15303, -- [8]
-							15086, -- [9]
-							13126, -- [10]
-							12219, -- [11]
-							12534, -- [12]
-							15733, -- [13]
-							4293, -- [14]
-						},
+					["Bag1"] = {
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
 						["links"] = {
-							nil, -- [1]
-							"|cff1eff00|Hitem:11972:0:0:0:0:0:1365:0:61|h[Carnelian Loop of Frost Resistance]|h|r", -- [2]
-							"|cff1eff00|Hitem:10198:0:0:0:0:0:541:0:61|h[Crusader's Helm of the Wolf]|h|r", -- [3]
-							nil, -- [4]
-							"|cff1eff00|Hitem:15653:0:0:0:0:0:1209:0:61|h[Merciless Gauntlets of the Bear]|h|r", -- [5]
-							"|cff1eff00|Hitem:15679:0:0:0:0:0:287:0:61|h[Triumphant Bracers of Stamina]|h|r", -- [6]
-							nil, -- [7]
-							"|cff1eff00|Hitem:15303:0:0:0:0:0:755:0:61|h[Grizzly Pants of the Owl]|h|r", -- [8]
+							[23] = "|cff1eff00|Hitem:10160:0:0:0:0:0:635:0:62|h[Mercurial Circlet of the Monkey]|h|r",
+							[18] = "|cff0070dd|Hitem:51982:1843:0:0:0:0:-71:24:62|h[Earthbound Boots of the Bandit]|h|r",
+							[16] = "|cff0070dd|Hitem:16676:1843:0:0:0:0:0:0:62|h[Beaststalker's Gloves]|h|r",
+							[4] = "|cff1eff00|Hitem:9808:0:0:0:0:0:1027:0:62|h[Superior Leggings of the Whale]|h|r",
+							[9] = "|cffa335ee|Hitem:16848:2606:0:0:0:0:0:0:62|h[Giantstalker's Epaulets]|h|r",
+							[11] = "|cffa335ee|Hitem:18812:852:0:0:0:0:0:0:62|h[Wristguards of True Flight]|h|r",
+							[2] = "|cff1eff00|Hitem:9812:0:0:0:0:0:1012:0:62|h[Fortified Cloak of the Whale]|h|r",
+							[20] = "|cff0070dd|Hitem:17754:1843:0:0:0:0:0:0:62|h[Infernal Trickster Leggings]|h|r",
+							[22] = "|cff1eff00|Hitem:10274:0:0:0:0:0:540:0:62|h[Masterwork Pauldrons of the Wolf]|h|r",
+							[17] = "|cff0070dd|Hitem:19919:1843:0:0:0:0:0:0:62|h[Bloodstained Greaves]|h|r",
 						},
-						["counts"] = {
-							5, -- [1]
+						["ids"] = {
+							11626, -- [1]
+							9812, -- [2]
+							16713, -- [3]
+							9808, -- [4]
+							18829, -- [5]
+							16942, -- [6]
+							16849, -- [7]
+							16850, -- [8]
+							16848, -- [9]
+							19144, -- [10]
+							18812, -- [11]
+							19832, -- [12]
+							19831, -- [13]
+							16680, -- [14]
+							16681, -- [15]
+							16676, -- [16]
+							19919, -- [17]
+							51982, -- [18]
+							22715, -- [19]
+							17754, -- [20]
+							13130, -- [21]
+							10274, -- [22]
+							10160, -- [23]
+							19336, -- [24]
 						},
-						["link"] = "|cffffffff|Hitem:9587:0:0:0:0:0:0:0:61|h[Thawpelt Sack]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_17",
-						["size"] = 14,
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["size"] = 24,
 					},
 					["Bag6"] = {
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:61|h[Portable Hole]|h|r",
@@ -2707,8 +2707,8 @@ DataStore_ContainersDB = {
 							[5] = 8,
 							[6] = 10,
 							[14] = 998,
-							[15] = 46,
 							[8] = 6,
+							[15] = 46,
 							[16] = 744,
 						},
 						["size"] = 24,
@@ -2898,15 +2898,29 @@ DataStore_ContainersDB = {
 			["Default.AzerothCore.Chaosballz"] = {
 				["numFreeBankSlots"] = 3,
 				["numBankSlots"] = 74,
-				["lastUpdate"] = 1790462740,
+				["lastUpdate"] = 1792540541,
 				["numBagSlots"] = 112,
-				["numFreeBagSlots"] = 61,
+				["numFreeBagSlots"] = 49,
 				["Containers"] = {
 					["Bag3"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
+						["ids"] = {
+							6265, -- [1]
+							6265, -- [2]
+							6265, -- [3]
+							6265, -- [4]
+							6265, -- [5]
+							6265, -- [6]
+							6265, -- [7]
+							6265, -- [8]
+							6265, -- [9]
+							6265, -- [10]
+							6265, -- [11]
+							6265, -- [12]
+						},
 						["size"] = 24,
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:63|h[Portable Hole]|h|r",
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
-						["freeslots"] = 24,
+						["freeslots"] = 12,
 					},
 					["Bag0"] = {
 						["ids"] = {
@@ -2927,12 +2941,12 @@ DataStore_ContainersDB = {
 							16934, -- [15]
 							16929, -- [16]
 						},
-						["size"] = 16,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["links"] = {
-							[7] = "|cffa335ee|Hitem:19437:929:0:0:0:0:0:0:62|h[Boots of Pure Thought]|h|r",
-							[12] = "|cffa335ee|Hitem:16807:2605:0:0:0:0:0:0:62|h[Felheart Shoulder Pads]|h|r",
+							[7] = "|cffa335ee|Hitem:19437:929:0:0:0:0:0:0:63|h[Boots of Pure Thought]|h|r",
+							[12] = "|cffa335ee|Hitem:16807:2605:0:0:0:0:0:0:63|h[Felheart Shoulder Pads]|h|r",
 						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
 					},
 					["Bag5"] = {
 						["ids"] = {
@@ -2981,7 +2995,7 @@ DataStore_ContainersDB = {
 						["size"] = 24,
 					},
 					["Bag4"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:63|h[Portable Hole]|h|r",
 						["freeslots"] = 24,
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["size"] = 24,
@@ -2997,8 +3011,8 @@ DataStore_ContainersDB = {
 							[9] = "|cff1eff00|Hitem:10176:0:0:0:0:0:872:0:62|h[Mystical Gloves of the Eagle]|h|r",
 							[19] = "|cff1eff00|Hitem:4567:0:0:0:0:0:504:0:62|h[Merc Sword of the Wolf]|h|r",
 							[10] = "|cff1eff00|Hitem:10176:0:0:0:0:0:869:0:62|h[Mystical Gloves of the Eagle]|h|r",
-							[11] = "|cff1eff00|Hitem:14330:0:0:0:0:0:864:0:62|h[Eternal Bindings of the Eagle]|h|r",
 							[22] = "|cff1eff00|Hitem:15222:0:0:0:0:0:23:0:62|h[Barbed Club of Strength]|h|r",
+							[11] = "|cff1eff00|Hitem:14330:0:0:0:0:0:864:0:62|h[Eternal Bindings of the Eagle]|h|r",
 							[24] = "|cff1eff00|Hitem:14309:0:0:0:0:0:1042:0:62|h[Celestial Belt of the Whale]|h|r",
 						},
 						["ids"] = {
@@ -3055,7 +3069,7 @@ DataStore_ContainersDB = {
 						["size"] = 8,
 					},
 					["Bag2"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:63|h[Portable Hole]|h|r",
 						["size"] = 24,
 						["ids"] = {
 							20928, -- [1]
@@ -3063,18 +3077,23 @@ DataStore_ContainersDB = {
 							20402, -- [3]
 							20403, -- [4]
 							6948, -- [5]
-							6265, -- [6]
+							nil, -- [6]
 							20890, -- [7]
 							12923, -- [8]
 							12710, -- [9]
 							19973, -- [10]
 							19883, -- [11]
+							[19] = 6265,
+							[23] = 6265,
+							[20] = 6265,
+							[24] = 6265,
+							[21] = 6265,
+							[22] = 6265,
 						},
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
-						["freeslots"] = 13,
+						["freeslots"] = 8,
 					},
 					["Bag1"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
 						["ids"] = {
 							16929, -- [1]
 							21648, -- [2]
@@ -3092,25 +3111,17 @@ DataStore_ContainersDB = {
 							21483, -- [14]
 							22253, -- [15]
 							20081, -- [16]
-							16896, -- [17]
-							8766, -- [18]
-							8952, -- [19]
-							19183, -- [20]
-							41172, -- [21]
-							9421, -- [22]
-							41193, -- [23]
-							13444, -- [24]
+							[20] = 19183,
+							[21] = 41172,
+							[23] = 41193,
 						},
-						["cooldowns"] = {
-							[17] = "493841.993|655|1",
-						},
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:63|h[Portable Hole]|h|r",
+						["size"] = 24,
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["counts"] = {
 							[20] = 7,
-							[24] = 2,
-							[19] = 2,
 						},
-						["size"] = 24,
+						["freeslots"] = 5,
 					},
 					["Bag-2"] = {
 						["ids"] = {
@@ -3324,13 +3335,13 @@ DataStore_ContainersDB = {
 						["size"] = 24,
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["counts"] = {
-							[8] = 6,
+							[4] = 2,
 							[14] = 3,
 							[17] = 10,
-							[4] = 2,
-							[13] = 2,
-							[15] = 2,
+							[8] = 6,
 							[18] = 4,
+							[15] = 2,
+							[13] = 2,
 						},
 						["freeslots"] = 6,
 					},
@@ -3494,35 +3505,13 @@ DataStore_ContainersDB = {
 						},
 						["size"] = 24,
 					},
-					["Bag0"] = {
+					["Bag-2"] = {
 						["ids"] = {
-							15246, -- [1]
-							6256, -- [2]
-							13146, -- [3]
-							2901, -- [4]
-							7005, -- [5]
-							19362, -- [6]
-							9478, -- [7]
-							15219, -- [8]
-							15219, -- [9]
-							22269, -- [10]
-							9912, -- [11]
-							21645, -- [12]
-							19439, -- [13]
-							16827, -- [14]
-							19389, -- [15]
-							21467, -- [16]
+							11140, -- [1]
+							11078, -- [2]
 						},
-						["links"] = {
-							"|cff1eff00|Hitem:15246:0:0:0:0:0:1557:0:62|h[Demon Blade of Power]|h|r", -- [1]
-							[10] = "|cff0070dd|Hitem:22269:247:0:0:0:0:0:0:62|h[Shadow Prowler's Cloak]|h|r",
-							[16] = "|cffa335ee|Hitem:21467:1843:0:0:0:0:0:0:62|h[Thick Silithid Chestguard]|h|r",
-							[9] = "|cff1eff00|Hitem:15219:0:0:0:0:0:687:0:62|h[Dimensional Blade of the Tiger]|h|r",
-							[11] = "|cff1eff00|Hitem:9912:0:0:0:0:0:776:0:62|h[Royal Amice of the Owl]|h|r",
-							[8] = "|cff1eff00|Hitem:15219:0:0:0:0:0:602:0:62|h[Dimensional Blade of the Monkey]|h|r",
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
 					},
 					["Bag5"] = {
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
@@ -3586,49 +3575,82 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["size"] = 24,
 					},
-					["Bag-2"] = {
+					["Bag0"] = {
 						["ids"] = {
-							11140, -- [1]
-							11078, -- [2]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
-					},
-					["Bag7"] = {
-						["ids"] = {
-							9790, -- [1]
-							15113, -- [2]
-							8282, -- [3]
-							15584, -- [4]
-							15942, -- [5]
-							15658, -- [6]
-							15386, -- [7]
-							10391, -- [8]
-							51992, -- [9]
-							51992, -- [10]
-							10124, -- [11]
-							15684, -- [12]
-							14938, -- [13]
-							22240, -- [14]
+							15246, -- [1]
+							6256, -- [2]
+							13146, -- [3]
+							2901, -- [4]
+							7005, -- [5]
+							19362, -- [6]
+							9478, -- [7]
+							15219, -- [8]
+							15219, -- [9]
+							22269, -- [10]
+							9912, -- [11]
+							21645, -- [12]
+							19439, -- [13]
+							16827, -- [14]
+							19389, -- [15]
+							21467, -- [16]
 						},
 						["links"] = {
-							"|cff1eff00|Hitem:9790:0:0:0:0:0:18:0:62|h[Raider's Shield of Agility]|h|r", -- [1]
-							"|cff1eff00|Hitem:15113:0:0:0:0:0:1184:0:62|h[Rigid Buckler of the Bear]|h|r", -- [2]
-							nil, -- [3]
-							"|cff1eff00|Hitem:15584:0:0:0:0:0:854:0:62|h[Sparkleshell Shield of the Eagle]|h|r", -- [4]
-							"|cff1eff00|Hitem:15942:0:0:0:0:0:783:0:62|h[Master's Rod of the Owl]|h|r", -- [5]
-							"|cff1eff00|Hitem:15658:0:0:0:0:0:362:0:62|h[Impenetrable Sabatons of Agility]|h|r", -- [6]
-							"|cff1eff00|Hitem:15386:0:0:0:0:0:780:0:62|h[Rageclaw Shoulder Pads of the Owl]|h|r", -- [7]
-							"|cff1eff00|Hitem:10391:0:0:0:0:0:696:0:62|h[Hyperion Vambraces of the Tiger]|h|r", -- [8]
-							"|cff0070dd|Hitem:51992:0:0:0:0:0:-75:14:62|h[Tumultuous Ring of the Champion]|h|r", -- [9]
-							"|cff0070dd|Hitem:51992:0:0:0:0:0:-83:14:62|h[Tumultuous Ring of the Sun]|h|r", -- [10]
-							"|cff1eff00|Hitem:10124:0:0:0:0:0:1052:0:62|h[Ornate Legguards of the Whale]|h|r", -- [11]
-							"|cff1eff00|Hitem:15684:0:0:0:0:0:553:0:62|h[Triumphant Skullcap of the Wolf]|h|r", -- [12]
-							"|cff1eff00|Hitem:14938:0:0:0:0:0:1202:0:62|h[Heroic Bracers of the Bear]|h|r", -- [13]
+							"|cff1eff00|Hitem:15246:0:0:0:0:0:1557:0:62|h[Demon Blade of Power]|h|r", -- [1]
+							[10] = "|cff0070dd|Hitem:22269:247:0:0:0:0:0:0:62|h[Shadow Prowler's Cloak]|h|r",
+							[16] = "|cffa335ee|Hitem:21467:1843:0:0:0:0:0:0:62|h[Thick Silithid Chestguard]|h|r",
+							[9] = "|cff1eff00|Hitem:15219:0:0:0:0:0:687:0:62|h[Dimensional Blade of the Tiger]|h|r",
+							[11] = "|cff1eff00|Hitem:9912:0:0:0:0:0:776:0:62|h[Royal Amice of the Owl]|h|r",
+							[8] = "|cff1eff00|Hitem:15219:0:0:0:0:0:602:0:62|h[Dimensional Blade of the Monkey]|h|r",
 						},
-						["link"] = "|cffffffff|Hitem:3914:0:0:0:0:0:0:0:62|h[Journeyman's Backpack]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_07_Black",
-						["size"] = 14,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+					["Bag1"] = {
+						["ids"] = {
+							19834, -- [1]
+							10785, -- [2]
+							13210, -- [3]
+							51966, -- [4]
+							16717, -- [5]
+							10261, -- [6]
+							10256, -- [7]
+							10262, -- [8]
+							10264, -- [9]
+							8119, -- [10]
+							2988, -- [11]
+							10147, -- [12]
+							10150, -- [13]
+							10222, -- [14]
+							10226, -- [15]
+							10228, -- [16]
+							10188, -- [17]
+							14601, -- [18]
+							15086, -- [19]
+							14761, -- [20]
+							15674, -- [21]
+							22722, -- [22]
+							19948, -- [23]
+							19949, -- [24]
+						},
+						["links"] = {
+							"|cffa335ee|Hitem:19834:866:0:0:0:0:0:0:62|h[Zandalar Madcap's Tunic]|h|r", -- [1]
+							"|cff0070dd|Hitem:10785:1843:0:0:0:0:1569:0:62|h[Atal'ai Leggings of Power]|h|r", -- [2]
+							[12] = "|cff1eff00|Hitem:10147:0:0:0:0:0:1560:0:62|h[Mighty Armsplints of Power]|h|r",
+							[6] = "|cff1eff00|Hitem:10261:0:0:0:0:0:633:0:62|h[Adventurer's Bandana of the Monkey]|h|r",
+							[13] = "|cff1eff00|Hitem:10150:0:0:0:0:0:633:0:62|h[Mighty Helmet of the Monkey]|h|r",
+							[14] = "|cff1eff00|Hitem:10222:0:0:0:0:0:413:0:62|h[Nightshade Boots of Spirit]|h|r",
+							[7] = "|cff1eff00|Hitem:10256:0:0:0:0:0:611:0:62|h[Adventurer's Bracers of the Monkey]|h|r",
+							[15] = "|cff1eff00|Hitem:10226:0:0:0:0:0:1628:0:62|h[Nightshade Helmet of Defense]|h|r",
+							[8] = "|cff1eff00|Hitem:10262:0:0:0:0:0:635:0:62|h[Adventurer's Legguards of the Monkey]|h|r",
+							[4] = "|cff0070dd|Hitem:51966:0:0:0:0:0:-71:19:62|h[Vigorous Spaulders of the Bandit]|h|r",
+							[9] = "|cff1eff00|Hitem:10264:0:0:0:0:0:1574:0:62|h[Adventurer's Tunic of Power]|h|r",
+							[21] = "|cff1eff00|Hitem:15674:0:0:0:0:0:1045:0:62|h[Magnificent Greaves of the Whale]|h|r",
+							[17] = "|cff1eff00|Hitem:10188:0:0:0:0:0:626:0:62|h[Swashbuckler's Leggings of the Monkey]|h|r",
+							[16] = "|cff1eff00|Hitem:10228:0:0:0:0:0:620:0:62|h[Nightshade Spaulders of the Monkey]|h|r",
+						},
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["size"] = 24,
 					},
 					["Bag2"] = {
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
@@ -3703,52 +3725,41 @@ DataStore_ContainersDB = {
 						},
 						["freeslots"] = 1,
 					},
-					["Bag1"] = {
+					["Bag7"] = {
 						["ids"] = {
-							19834, -- [1]
-							10785, -- [2]
-							13210, -- [3]
-							51966, -- [4]
-							16717, -- [5]
-							10261, -- [6]
-							10256, -- [7]
-							10262, -- [8]
-							10264, -- [9]
-							8119, -- [10]
-							2988, -- [11]
-							10147, -- [12]
-							10150, -- [13]
-							10222, -- [14]
-							10226, -- [15]
-							10228, -- [16]
-							10188, -- [17]
-							14601, -- [18]
-							15086, -- [19]
-							14761, -- [20]
-							15674, -- [21]
-							22722, -- [22]
-							19948, -- [23]
-							19949, -- [24]
+							9790, -- [1]
+							15113, -- [2]
+							8282, -- [3]
+							15584, -- [4]
+							15942, -- [5]
+							15658, -- [6]
+							15386, -- [7]
+							10391, -- [8]
+							51992, -- [9]
+							51992, -- [10]
+							10124, -- [11]
+							15684, -- [12]
+							14938, -- [13]
+							22240, -- [14]
 						},
 						["links"] = {
-							"|cffa335ee|Hitem:19834:866:0:0:0:0:0:0:62|h[Zandalar Madcap's Tunic]|h|r", -- [1]
-							"|cff0070dd|Hitem:10785:1843:0:0:0:0:1569:0:62|h[Atal'ai Leggings of Power]|h|r", -- [2]
-							[12] = "|cff1eff00|Hitem:10147:0:0:0:0:0:1560:0:62|h[Mighty Armsplints of Power]|h|r",
-							[6] = "|cff1eff00|Hitem:10261:0:0:0:0:0:633:0:62|h[Adventurer's Bandana of the Monkey]|h|r",
-							[13] = "|cff1eff00|Hitem:10150:0:0:0:0:0:633:0:62|h[Mighty Helmet of the Monkey]|h|r",
-							[14] = "|cff1eff00|Hitem:10222:0:0:0:0:0:413:0:62|h[Nightshade Boots of Spirit]|h|r",
-							[7] = "|cff1eff00|Hitem:10256:0:0:0:0:0:611:0:62|h[Adventurer's Bracers of the Monkey]|h|r",
-							[15] = "|cff1eff00|Hitem:10226:0:0:0:0:0:1628:0:62|h[Nightshade Helmet of Defense]|h|r",
-							[8] = "|cff1eff00|Hitem:10262:0:0:0:0:0:635:0:62|h[Adventurer's Legguards of the Monkey]|h|r",
-							[4] = "|cff0070dd|Hitem:51966:0:0:0:0:0:-71:19:62|h[Vigorous Spaulders of the Bandit]|h|r",
-							[9] = "|cff1eff00|Hitem:10264:0:0:0:0:0:1574:0:62|h[Adventurer's Tunic of Power]|h|r",
-							[21] = "|cff1eff00|Hitem:15674:0:0:0:0:0:1045:0:62|h[Magnificent Greaves of the Whale]|h|r",
-							[17] = "|cff1eff00|Hitem:10188:0:0:0:0:0:626:0:62|h[Swashbuckler's Leggings of the Monkey]|h|r",
-							[16] = "|cff1eff00|Hitem:10228:0:0:0:0:0:620:0:62|h[Nightshade Spaulders of the Monkey]|h|r",
+							"|cff1eff00|Hitem:9790:0:0:0:0:0:18:0:62|h[Raider's Shield of Agility]|h|r", -- [1]
+							"|cff1eff00|Hitem:15113:0:0:0:0:0:1184:0:62|h[Rigid Buckler of the Bear]|h|r", -- [2]
+							nil, -- [3]
+							"|cff1eff00|Hitem:15584:0:0:0:0:0:854:0:62|h[Sparkleshell Shield of the Eagle]|h|r", -- [4]
+							"|cff1eff00|Hitem:15942:0:0:0:0:0:783:0:62|h[Master's Rod of the Owl]|h|r", -- [5]
+							"|cff1eff00|Hitem:15658:0:0:0:0:0:362:0:62|h[Impenetrable Sabatons of Agility]|h|r", -- [6]
+							"|cff1eff00|Hitem:15386:0:0:0:0:0:780:0:62|h[Rageclaw Shoulder Pads of the Owl]|h|r", -- [7]
+							"|cff1eff00|Hitem:10391:0:0:0:0:0:696:0:62|h[Hyperion Vambraces of the Tiger]|h|r", -- [8]
+							"|cff0070dd|Hitem:51992:0:0:0:0:0:-75:14:62|h[Tumultuous Ring of the Champion]|h|r", -- [9]
+							"|cff0070dd|Hitem:51992:0:0:0:0:0:-83:14:62|h[Tumultuous Ring of the Sun]|h|r", -- [10]
+							"|cff1eff00|Hitem:10124:0:0:0:0:0:1052:0:62|h[Ornate Legguards of the Whale]|h|r", -- [11]
+							"|cff1eff00|Hitem:15684:0:0:0:0:0:553:0:62|h[Triumphant Skullcap of the Wolf]|h|r", -- [12]
+							"|cff1eff00|Hitem:14938:0:0:0:0:0:1202:0:62|h[Heroic Bracers of the Bear]|h|r", -- [13]
 						},
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:62|h[Portable Hole]|h|r",
-						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
-						["size"] = 24,
+						["link"] = "|cffffffff|Hitem:3914:0:0:0:0:0:0:0:62|h[Journeyman's Backpack]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_07_Black",
+						["size"] = 14,
 					},
 					["Bag6"] = {
 						["ids"] = {
@@ -3805,30 +3816,12 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09_Black",
 						["size"] = 6,
 					},
-					["Bag0"] = {
+					["Bag-2"] = {
 						["ids"] = {
-							2901, -- [1]
-							7005, -- [2]
-							944, -- [3]
-							19354, -- [4]
-							17077, -- [5]
-							19435, -- [6]
-							19435, -- [7]
-							16802, -- [8]
-							16799, -- [9]
-							16795, -- [10]
-							16801, -- [11]
-							16796, -- [12]
-							16798, -- [13]
-							19437, -- [14]
-							19437, -- [15]
-							21838, -- [16]
+							11140, -- [1]
 						},
-						["size"] = 16,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["links"] = {
-							[13] = "|cffa335ee|Hitem:16798:1843:0:0:0:0:0:0:63|h[Arcanist Robes]|h|r",
-						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
 					},
 					["Bag8"] = {
 						["ids"] = {
@@ -3855,47 +3848,29 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_02",
 						["size"] = 8,
 					},
-					["Bag100"] = {
+					["Bag0"] = {
 						["ids"] = {
-							20858, -- [1]
-							19374, -- [2]
-							13039, -- [3]
-							805, -- [4]
-							3018, -- [5]
-							5571, -- [6]
-							10329, -- [7]
-							16735, -- [8]
-							16735, -- [9]
-							16735, -- [10]
-							16735, -- [11]
-							20865, -- [12]
-							20877, -- [13]
-							16696, -- [14]
-							19818, -- [15]
-							20874, -- [16]
-							20884, -- [17]
-							20876, -- [18]
-							16251, -- [19]
-							18712, -- [20]
-							4470, -- [21]
-							14474, -- [22]
-							10300, -- [23]
-							16735, -- [24]
-							6571, -- [25]
-							2320, -- [26]
-							38682, -- [27]
-							16247, -- [28]
+							2901, -- [1]
+							7005, -- [2]
+							944, -- [3]
+							19354, -- [4]
+							17077, -- [5]
+							19435, -- [6]
+							19435, -- [7]
+							16802, -- [8]
+							16799, -- [9]
+							16795, -- [10]
+							16801, -- [11]
+							16796, -- [12]
+							16798, -- [13]
+							19437, -- [14]
+							19437, -- [15]
+							21838, -- [16]
 						},
-						["size"] = 28,
-						["counts"] = {
-							[26] = 14,
-							[12] = 6,
-							[27] = 8,
-							[21] = 7,
-							[13] = 3,
-						},
+						["size"] = 16,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["links"] = {
-							[25] = "|cff1eff00|Hitem:6571:0:0:0:0:0:587:0:62|h[Scouting Buckler of the Monkey]|h|r",
+							[13] = "|cffa335ee|Hitem:16798:1843:0:0:0:0:0:0:63|h[Arcanist Robes]|h|r",
 						},
 					},
 					["Bag3"] = {
@@ -4085,12 +4060,48 @@ DataStore_ContainersDB = {
 						},
 						["size"] = 24,
 					},
-					["Bag-2"] = {
+					["Bag100"] = {
 						["ids"] = {
-							11140, -- [1]
+							20858, -- [1]
+							19374, -- [2]
+							13039, -- [3]
+							805, -- [4]
+							3018, -- [5]
+							5571, -- [6]
+							10329, -- [7]
+							16735, -- [8]
+							16735, -- [9]
+							16735, -- [10]
+							16735, -- [11]
+							20865, -- [12]
+							20877, -- [13]
+							16696, -- [14]
+							19818, -- [15]
+							20874, -- [16]
+							20884, -- [17]
+							20876, -- [18]
+							16251, -- [19]
+							18712, -- [20]
+							4470, -- [21]
+							14474, -- [22]
+							10300, -- [23]
+							16735, -- [24]
+							6571, -- [25]
+							2320, -- [26]
+							38682, -- [27]
+							16247, -- [28]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
+						["size"] = 28,
+						["counts"] = {
+							[26] = 14,
+							[12] = 6,
+							[27] = 8,
+							[21] = 7,
+							[13] = 3,
+						},
+						["links"] = {
+							[25] = "|cff1eff00|Hitem:6571:0:0:0:0:0:587:0:62|h[Scouting Buckler of the Monkey]|h|r",
+						},
 					},
 					["Bag7"] = {
 						["link"] = "|cffffffff|Hitem:856:0:0:0:0:0:0:0:62|h[Blue Leather Bag]|h|r",
@@ -4155,10 +4166,10 @@ DataStore_ContainersDB = {
 							[12] = 2,
 							[8] = 846,
 							[9] = 18,
-							[22] = 23,
+							[11] = 20,
 							[10] = 16,
 							[21] = 14,
-							[11] = 20,
+							[22] = 23,
 							[24] = 7,
 						},
 						["size"] = 24,
@@ -4745,7 +4756,7 @@ DataStore_ContainersDB = {
 							[83] = 14,
 							[72] = 605,
 							[77] = 4,
-							[34] = 13,
+							[68] = 125,
 							[84] = 9,
 							[50] = 15,
 							[58] = 2,
@@ -4754,13 +4765,13 @@ DataStore_ContainersDB = {
 							[66] = 36,
 							[29] = 3,
 							[35] = 18,
-							[43] = 12,
+							[86] = 2,
 							[51] = 24,
 							[59] = 2,
 							[71] = 11,
 							[87] = 4,
-							[86] = 2,
-							[68] = 125,
+							[43] = 12,
+							[34] = 13,
 							[36] = 26,
 							[44] = 10,
 							[52] = 59,
@@ -4871,14 +4882,14 @@ DataStore_ContainersDB = {
 							[34] = "|cff1eff00|Hitem:15499:0:0:0:0:0:19:0:63|h[Outrunner's Cuffs of Stamina]|h|r",
 							[88] = "|cff1eff00|Hitem:11968:0:0:0:0:0:1359:0:63|h[Amber Hoop of Frost Resistance]|h|r",
 							[57] = "|cff1eff00|Hitem:15509:0:0:0:0:0:1182:0:63|h[Grunt's Handwraps of the Bear]|h|r",
-							[19] = "|cff1eff00|Hitem:6585:0:0:0:0:0:1012:0:63|h[Scouting Cloak of the Whale]|h|r",
-							[75] = "|cff1eff00|Hitem:10265:0:0:0:0:0:441:0:63|h[Masterwork Bracers of the Falcon]|h|r",
 							[86] = "|cff1eff00|Hitem:6615:0:0:0:0:0:596:0:63|h[Sage's Gloves of the Monkey]|h|r",
-							[67] = "|cff1eff00|Hitem:14121:0:0:0:0:0:154:0:63|h[Aboriginal Vest of Stamina]|h|r",
 							[71] = "|cff1eff00|Hitem:10162:0:0:0:0:0:633:0:63|h[Mercurial Legguards of the Monkey]|h|r",
+							[75] = "|cff1eff00|Hitem:10265:0:0:0:0:0:441:0:63|h[Masterwork Bracers of the Falcon]|h|r",
+							[18] = "|cff1eff00|Hitem:6557:0:0:0:0:0:1991:0:63|h[Bard's Boots of Nature's Wrath]|h|r",
+							[19] = "|cff1eff00|Hitem:6585:0:0:0:0:0:1012:0:63|h[Scouting Cloak of the Whale]|h|r",
 							[20] = "|cff1eff00|Hitem:9779:0:0:0:0:0:501:0:63|h[Bandit Cloak of the Wolf]|h|r",
 							[21] = "|cff1eff00|Hitem:15248:0:0:0:0:0:1185:0:63|h[Gleaming Claymore of the Bear]|h|r",
-							[18] = "|cff1eff00|Hitem:6557:0:0:0:0:0:1991:0:63|h[Bard's Boots of Nature's Wrath]|h|r",
+							[67] = "|cff1eff00|Hitem:14121:0:0:0:0:0:154:0:63|h[Aboriginal Vest of Stamina]|h|r",
 							[80] = "|cff1eff00|Hitem:9794:0:0:0:0:0:1803:0:63|h[Ivycloth Cloak of Arcane Wrath]|h|r",
 						},
 						["ClientHour"] = 23,

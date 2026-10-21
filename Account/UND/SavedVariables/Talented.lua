@@ -229,8 +229,8 @@ TalentedDB = {
 		["Widowfury - AzerothCore"] = {
 			["framepos"] = {
 				["TalentedFrame"] = {
-					["y"] = -7.479904101941849,
-					["x"] = 61.62993681497785,
+					["y"] = -6.856597634991453,
+					["x"] = 62.22248324871666,
 					["anchor"] = "CENTER",
 					["anchorTo"] = "CENTER",
 				},

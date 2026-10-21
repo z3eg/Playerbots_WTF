@@ -2,7 +2,6 @@
 XPerlConfig = nil
 XPerlConfig_Global = nil
 XPerlConfigNew = {
-	["ConfigVersion"] = "3.1.0",
 	["global"] = {
 		["highlight"] = {
 			["enable"] = 1,
@@ -21,20 +20,20 @@ XPerlConfigNew = {
 		["rangeFinder"] = {
 			["StatsFrame"] = {
 				["item"] = "Heavy Netherweave Bandage",
-				["spell"] = "Holy Light",
+				["spell"] = "Healing Wave",
 				["HealthLowPoint"] = 0.85,
 				["FadeAmount"] = 0.5,
 			},
 			["Main"] = {
 				["enabled"] = true,
-				["spell"] = "Holy Light",
+				["spell"] = "Healing Wave",
 				["item"] = "Heavy Netherweave Bandage",
 				["FadeAmount"] = 0.5,
 				["HealthLowPoint"] = 0.85,
 			},
 			["NameFrame"] = {
 				["item"] = "Heavy Netherweave Bandage",
-				["spell"] = "Holy Light",
+				["spell"] = "Healing Wave",
 				["HealthLowPoint"] = 0.85,
 				["FadeAmount"] = 0.5,
 			},
@@ -369,39 +368,30 @@ XPerlConfigNew = {
 			["enableBuffs"] = 1,
 			["modifier"] = "all",
 		},
-		["pet"] = {
-			["threat"] = 1,
-			["portrait"] = 1,
+		["targettarget"] = {
 			["debuffs"] = {
 				["enable"] = 1,
-				["size"] = 20,
-			},
-			["scale"] = 0.7,
-			["portrait3D"] = 1,
-			["buffs"] = {
-				["enable"] = 1,
-				["maxrows"] = 2,
-				["size"] = 18,
+				["curable"] = 0,
+				["size"] = 29,
 			},
 			["values"] = 1,
-			["happiness"] = {
-				["enabled"] = 1,
-				["flashWhenSad"] = 1,
-				["onlyWhenSad"] = 1,
-			},
-			["threatMode"] = "portraitFrame",
-			["name"] = 1,
-			["hitIndicator"] = 1,
-			["castBar"] = {
-				["enable"] = 1,
-			},
-			["level"] = 1,
+			["pvpIcon"] = 1,
+			["enable"] = 1,
+			["mana"] = 1,
 			["healerMode"] = {
 				["type"] = 1,
 			},
-			["size"] = {
+			["scale"] = 0.7,
+			["buffs"] = {
+				["maxrows"] = 2,
+				["castable"] = 0,
 				["enable"] = 1,
-				["size"] = 20,
+				["rows"] = 3,
+				["wrap"] = 1,
+				["size"] = 22,
+			},
+			["percent"] = 1,
+			["size"] = {
 				["width"] = 0,
 			},
 		},
@@ -482,7 +472,7 @@ XPerlConfigNew = {
 				["width"] = 0,
 			},
 		},
-		["targettarget"] = {
+		["pettarget"] = {
 			["debuffs"] = {
 				["enable"] = 1,
 				["curable"] = 0,
@@ -541,30 +531,39 @@ XPerlConfigNew = {
 			["text"] = 1,
 			["frame"] = 1,
 		},
-		["pettarget"] = {
+		["pet"] = {
+			["threat"] = 1,
+			["portrait"] = 1,
 			["debuffs"] = {
 				["enable"] = 1,
-				["curable"] = 0,
-				["size"] = 29,
+				["size"] = 20,
+			},
+			["scale"] = 0.7,
+			["portrait3D"] = 1,
+			["buffs"] = {
+				["enable"] = 1,
+				["maxrows"] = 2,
+				["size"] = 18,
 			},
 			["values"] = 1,
-			["pvpIcon"] = 1,
-			["enable"] = 1,
-			["mana"] = 1,
+			["happiness"] = {
+				["enabled"] = 1,
+				["flashWhenSad"] = 1,
+				["onlyWhenSad"] = 1,
+			},
+			["threatMode"] = "portraitFrame",
+			["name"] = 1,
+			["hitIndicator"] = 1,
+			["castBar"] = {
+				["enable"] = 1,
+			},
+			["level"] = 1,
 			["healerMode"] = {
 				["type"] = 1,
 			},
-			["scale"] = 0.7,
-			["buffs"] = {
-				["maxrows"] = 2,
-				["castable"] = 0,
-				["enable"] = 1,
-				["rows"] = 3,
-				["wrap"] = 1,
-				["size"] = 22,
-			},
-			["percent"] = 1,
 			["size"] = {
+				["enable"] = 1,
+				["size"] = 20,
 				["width"] = 0,
 			},
 		},
@@ -1268,20 +1267,20 @@ XPerlConfigNew = {
 			},
 			["Deadmonology"] = {
 				["XPerl_RosterTextAnchor"] = {
-					["top"] = 498.0000006838724,
 					["height"] = 250.0000077961453,
+					["top"] = 498.0000006838724,
 					["left"] = 507.6667394078937,
 					["width"] = 350.0000179174567,
 				},
 				["XPerl_Assists_FrameAnchor"] = {
-					["top"] = 488.6667028207206,
 					["height"] = 124.0000051974302,
+					["top"] = 488.6667028207206,
 					["left"] = 593.5186398653428,
 					["width"] = 330.0000088903411,
 				},
 				["XPerl_MTList_Anchor"] = {
-					["top"] = 669.7853848399578,
 					["height"] = 36.23530599289006,
+					["top"] = 669.7853848399578,
 					["left"] = 7.110685772875994,
 					["width"] = 252.0000227045635,
 				},
@@ -1290,14 +1289,14 @@ XPerlConfigNew = {
 					["left"] = 439.348099442108,
 				},
 				["XPerl_AdminFrameAnchor"] = {
-					["top"] = 501.6666946826391,
 					["height"] = 149.9999976748339,
+					["top"] = 501.6666946826391,
 					["left"] = 688.5185777013421,
 					["width"] = 140.0000106684094,
 				},
 				["XPerl_FocusTarget"] = {
-					["top"] = 693.3333426803894,
-					["left"] = 414.6999959399009,
+					["top"] = 436.5228052976585,
+					["left"] = 1175.588252799254,
 				},
 				["XPerl_Raid_Title4"] = {
 					["top"] = 853.333376394689,
@@ -1312,9 +1311,9 @@ XPerlConfigNew = {
 					["left"] = 570.0334146882465,
 				},
 				["XPerl_OptionsAnchor"] = {
-					["top"] = 605.0378433783133,
 					["height"] = 540.0000686607884,
-					["left"] = 735.6292229889724,
+					["top"] = 467.9061489087004,
+					["left"] = 63.03697198810801,
 					["width"] = 700.0000358349134,
 				},
 				["XPerl_Raid_Title9"] = {
@@ -1329,17 +1328,17 @@ XPerlConfigNew = {
 					["top"] = 223.6537466739278,
 					["left"] = 514.7778480744105,
 				},
-				["XPerl_Raid_Title2"] = {
-					["top"] = 853.333376394689,
-					["left"] = 61.98519686437635,
+				["XPerl_TargetTarget"] = {
+					["top"] = 331.2366546244664,
+					["left"] = 959.3147816015835,
 				},
 				["XPerl_Raid_Title6"] = {
 					["top"] = 853.333376394689,
 					["left"] = 313.4814730628952,
 				},
 				["XPerl_CheckAnchor"] = {
-					["top"] = 504.000045409127,
 					["height"] = 240.0000032825875,
+					["top"] = 504.000045409127,
 					["left"] = 432.6667405704768,
 					["width"] = 500.0000155922906,
 				},
@@ -1351,25 +1350,25 @@ XPerlConfigNew = {
 					["top"] = 621.7581453460873,
 					["left"] = 3.555566647757792,
 				},
-				["XPerl_Focus"] = {
-					["top"] = 693.3333578164047,
-					["left"] = 216.8000086468412,
+				["XPerl_Raid_Title7"] = {
+					["top"] = 853.333376394689,
+					["left"] = 376.7704051551372,
 				},
 				["XPerl_Raid_Title10"] = {
 					["top"] = 853.333376394689,
 					["left"] = 564.5038801758414,
 				},
-				["XPerl_Raid_Title7"] = {
-					["top"] = 853.333376394689,
-					["left"] = 376.7704051551372,
+				["XPerl_Focus"] = {
+					["top"] = 484.5191931299935,
+					["left"] = 1001.393137723313,
 				},
 				["XPerl_Target"] = {
 					["top"] = 306.2590941885811,
 					["left"] = 763.8516436249722,
 				},
-				["XPerl_TargetTarget"] = {
-					["top"] = 331.2366546244664,
-					["left"] = 959.3147816015835,
+				["XPerl_Raid_Title2"] = {
+					["top"] = 853.333376394689,
+					["left"] = 61.98519686437635,
 				},
 				["XPerl_Raid_Title3"] = {
 					["top"] = 853.333376394689,
@@ -1806,5 +1805,6 @@ XPerlConfigNew = {
 			},
 		},
 	},
+	["ConfigVersion"] = "3.1.0",
 }
 XPerlConfigSavePerCharacter = nil

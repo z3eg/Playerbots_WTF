@@ -539,29 +539,26 @@ DataStore_QuestsDB = {
 				},
 				["QuestLinks"] = {
 					[2] = "|cffffff00|Hquest:11446:-1|h[Brewfest!]|h|r",
-					[6] = "|cffffff00|Hquest:11966:-1|h[Incense for the Festival Scorchlings]|h|r",
-					[4] = "|cff808080|Hquest:14088:20|h[Learn to Ride in Durotar]|h|r",
+					[4] = "|cffffff00|Hquest:11966:-1|h[Incense for the Festival Scorchlings]|h|r",
 				},
-				["lastUpdate"] = 1792536277,
+				["lastUpdate"] = 1792541936,
 				["Rewards"] = {
 					[2] = "c|34017|1|1,c|34020|1|1,c|33034|1|0",
-					[6] = "r|23247|1|1",
+					[4] = "r|23247|1|1",
 				},
 				["Quests"] = {
 					"0|Brewfest", -- [1]
 					"1||0|800|1", -- [2]
-					"0|Durotar", -- [3]
+					"0|Midsummer", -- [3]
 					"1||0|0|1", -- [4]
-					"0|Midsummer", -- [5]
-					"1||0|0|1", -- [6]
 				},
 			},
 			["Default.AzerothCore.Rotbeam"] = {
 				["History"] = {
-					[427] = true,
+					[14089] = true,
 					[5481] = true,
 					[370] = true,
-					[14089] = true,
+					[365] = true,
 					[398] = true,
 					[363] = true,
 					[371] = true,
@@ -571,7 +568,7 @@ DataStore_QuestsDB = {
 					[372] = true,
 					[380] = true,
 					[376] = true,
-					[365] = true,
+					[427] = true,
 					[404] = true,
 					[381] = true,
 					[358] = true,
@@ -996,7 +993,7 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.AzerothCore.Fdore"] = {
-				["lastUpdate"] = 1792534237,
+				["lastUpdate"] = 1792538684,
 			},
 			["Default.AzerothCore.Tyrell"] = {
 				["QuestLinks"] = {
@@ -1350,20 +1347,22 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.AzerothCore.Widowfury"] = {
-				["QuestLinks"] = {
-					[4] = "|cffffff00|Hquest:11966:-1|h[Incense for the Festival Scorchlings]|h|r",
-					[2] = "|cffffff00|Hquest:11446:-1|h[Brewfest!]|h|r",
+				["History"] = {
+					[2278] = true,
 				},
-				["lastUpdate"] = 1792535011,
+				["QuestLinks"] = {
+					[2] = "|cffffff00|Hquest:11446:-1|h[Brewfest!]|h|r",
+					[4] = "|cffff2020|Hquest:2280:47|h[The Platinum Discs]|h|r",
+				},
+				["lastUpdate"] = 1792544353,
 				["Rewards"] = {
 					[2] = "c|34017|1|1,c|34020|1|1,c|33034|1|0",
-					[4] = "r|23247|1|1",
 				},
 				["Quests"] = {
 					"0|Brewfest", -- [1]
 					"1||0|800|1", -- [2]
-					"0|Midsummer", -- [3]
-					"1||0|0|1", -- [4]
+					"0|Uldaman", -- [3]
+					"1|Dungeon|0|0|1", -- [4]
 				},
 			},
 			["Default.AzerothCore.Worldwarl"] = {

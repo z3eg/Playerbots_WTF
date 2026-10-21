@@ -32,6 +32,10 @@ IceCoreDB = {
 					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
 				},
+				["PetHealth"] = {
+					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
+				},
 				["PlayerHealth"] = {
 					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
@@ -56,10 +60,6 @@ IceCoreDB = {
 					["myTagVersion"] = 3,
 					["updatedReverseInverse"] = true,
 				},
-				["PetHealth"] = {
-					["myTagVersion"] = 3,
-					["updatedReverseInverse"] = true,
-				},
 				["DruidMana"] = {
 					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
@@ -67,11 +67,7 @@ IceCoreDB = {
 			},
 			["colors"] = {
 				["ScaledManaColor"] = {
-					["r"] = 1,
-				},
-				["ScaledHealthColor"] = {
-					["g"] = 0,
-					["r"] = 1,
+					["r"] = 0.3945659774248327,
 				},
 			},
 			["updatedOocNotFull"] = true,

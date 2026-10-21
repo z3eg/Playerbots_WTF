@@ -306,23 +306,23 @@ DataStore_InventoryDB = {
 					21504, -- [2]
 					16932, -- [3]
 					nil, -- [4]
-					"|cffa335ee|Hitem:21838:857:0:0:0:0:0:0:62|h[Garb of Royal Ascension]|h|r", -- [5]
+					"|cffa335ee|Hitem:21838:857:0:0:0:0:0:0:63|h[Garb of Royal Ascension]|h|r", -- [5]
 					16933, -- [6]
 					16810, -- [7]
 					19438, -- [8]
-					"|cffa335ee|Hitem:19374:852:0:0:0:0:0:0:62|h[Bracers of Arcane Accuracy]|h|r", -- [9]
+					"|cffa335ee|Hitem:19374:852:0:0:0:0:0:0:63|h[Bracers of Arcane Accuracy]|h|r", -- [9]
 					16928, -- [10]
 					19434, -- [11]
 					19403, -- [12]
 					18820, -- [13]
 					21891, -- [14]
-					"|cff0070dd|Hitem:22711:744:0:0:0:0:0:0:62|h[Cloak of the Hakkari Worshippers]|h|r", -- [15]
-					"|cffa335ee|Hitem:19355:255:0:0:0:0:0:0:62|h[Shadow Wing Focus Staff]|h|r", -- [16]
+					"|cff0070dd|Hitem:22711:744:0:0:0:0:0:0:63|h[Cloak of the Hakkari Worshippers]|h|r", -- [15]
+					"|cffa335ee|Hitem:19355:255:0:0:0:0:0:0:63|h[Shadow Wing Focus Staff]|h|r", -- [16]
 					nil, -- [17]
 					19861, -- [18]
 				},
 				["averageItemLvl"] = 72.125,
-				["lastUpdate"] = 1790462720,
+				["lastUpdate"] = 1792540389,
 			},
 			["Default.AzerothCore.Dorc"] = {
 				["Inventory"] = {
@@ -507,8 +507,8 @@ DataStore_InventoryDB = {
 					["Tyrot"] = {
 						["averageItemLvl"] = 70,
 					},
-					["Jellyblinks"] = {
-						["averageItemLvl"] = 7,
+					["Totemhamon"] = {
+						["averageItemLvl"] = 16,
 					},
 					["Worldwarl"] = {
 						["averageItemLvl"] = 19,
@@ -519,8 +519,8 @@ DataStore_InventoryDB = {
 					["Wwll"] = {
 						["averageItemLvl"] = 24,
 					},
-					["Totemhamon"] = {
-						["averageItemLvl"] = 16,
+					["Shigofoomy"] = {
+						["averageItemLvl"] = 10,
 					},
 					["Terra"] = {
 						["averageItemLvl"] = 25,
@@ -528,8 +528,8 @@ DataStore_InventoryDB = {
 					["Tyrell"] = {
 						["averageItemLvl"] = 25,
 					},
-					["Shigofoomy"] = {
-						["averageItemLvl"] = 10,
+					["Jellyblinks"] = {
+						["averageItemLvl"] = 7,
 					},
 					["Boostershot"] = {
 						["averageItemLvl"] = 14,
@@ -540,11 +540,11 @@ DataStore_InventoryDB = {
 					["Trogue"] = {
 						["averageItemLvl"] = 3,
 					},
-					["Loasome"] = {
-						["averageItemLvl"] = 3,
+					["Moorlock"] = {
+						["averageItemLvl"] = 10,
 					},
-					["Valeera"] = {
-						["averageItemLvl"] = 5,
+					["Widowfury"] = {
+						["averageItemLvl"] = 29,
 					},
 					["Naarc"] = {
 						["averageItemLvl"] = 62,
@@ -567,8 +567,8 @@ DataStore_InventoryDB = {
 					["Cowhy"] = {
 						["averageItemLvl"] = 9,
 					},
-					["Moorlock"] = {
-						["averageItemLvl"] = 10,
+					["Xalatath"] = {
+						["averageItemLvl"] = 5,
 					},
 					["Menollie"] = {
 						["averageItemLvl"] = 24,
@@ -582,14 +582,14 @@ DataStore_InventoryDB = {
 					["Bepal"] = {
 						["averageItemLvl"] = 7,
 					},
-					["Rothoof"] = {
+					["Bwonsamdi"] = {
 						["averageItemLvl"] = 71,
 					},
-					["Xalatath"] = {
-						["averageItemLvl"] = 5,
+					["Loasome"] = {
+						["averageItemLvl"] = 3,
 					},
-					["Bellfromhell"] = {
-						["averageItemLvl"] = 12,
+					["Lightweight"] = {
+						["averageItemLvl"] = 20,
 					},
 					["Terrapewtist"] = {
 						["averageItemLvl"] = 61,
@@ -606,8 +606,8 @@ DataStore_InventoryDB = {
 					["Lavaaddams"] = {
 						["averageItemLvl"] = 7,
 					},
-					["Lightweight"] = {
-						["averageItemLvl"] = 20,
+					["Bellfromhell"] = {
+						["averageItemLvl"] = 12,
 					},
 					["Mbbmmbmm"] = {
 						["averageItemLvl"] = 69,
@@ -615,7 +615,7 @@ DataStore_InventoryDB = {
 					["Stabdad"] = {
 						["averageItemLvl"] = 22,
 					},
-					["Bwonsamdi"] = {
+					["Rothoof"] = {
 						["averageItemLvl"] = 71,
 					},
 					["Mojomage"] = {
@@ -627,8 +627,8 @@ DataStore_InventoryDB = {
 					["Zeeg"] = {
 						["averageItemLvl"] = 7,
 					},
-					["Widowfury"] = {
-						["averageItemLvl"] = 29,
+					["Valeera"] = {
+						["averageItemLvl"] = 5,
 					},
 					["Wwl"] = {
 						["averageItemLvl"] = 66,

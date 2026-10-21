@@ -1,7 +1,14 @@
 
 LoseControlDB = {
-	["version"] = 3.32,
-	["noCooldownCount"] = false,
+	["tracking"] = {
+		["Immune"] = false,
+		["CC"] = true,
+		["Snare"] = false,
+		["Silence"] = true,
+		["Root"] = false,
+		["Disarm"] = true,
+		["PvE"] = true,
+	},
 	["frames"] = {
 		["party3"] = {
 			["anchor"] = "Blizzard",
@@ -9,19 +16,19 @@ LoseControlDB = {
 			["alpha"] = 1,
 			["size"] = 36,
 		},
-		["arena1"] = {
+		["arena4"] = {
 			["anchor"] = "Blizzard",
 			["enabled"] = true,
 			["alpha"] = 1,
 			["size"] = 28,
 		},
-		["arena3"] = {
+		["arena5"] = {
 			["anchor"] = "Blizzard",
 			["enabled"] = true,
 			["alpha"] = 1,
 			["size"] = 28,
 		},
-		["party1"] = {
+		["party4"] = {
 			["anchor"] = "Blizzard",
 			["enabled"] = true,
 			["alpha"] = 1,
@@ -57,32 +64,25 @@ LoseControlDB = {
 			["alpha"] = 1,
 			["size"] = 56,
 		},
-		["party4"] = {
+		["party1"] = {
 			["anchor"] = "Blizzard",
 			["enabled"] = true,
 			["alpha"] = 1,
 			["size"] = 36,
 		},
-		["arena5"] = {
+		["arena3"] = {
 			["anchor"] = "Blizzard",
 			["enabled"] = true,
 			["alpha"] = 1,
 			["size"] = 28,
 		},
-		["arena4"] = {
+		["arena1"] = {
 			["anchor"] = "Blizzard",
 			["enabled"] = true,
 			["alpha"] = 1,
 			["size"] = 28,
 		},
 	},
-	["tracking"] = {
-		["Immune"] = false,
-		["CC"] = true,
-		["Snare"] = false,
-		["Silence"] = true,
-		["Root"] = false,
-		["Disarm"] = true,
-		["PvE"] = true,
-	},
+	["version"] = 3.32,
+	["noCooldownCount"] = false,
 }

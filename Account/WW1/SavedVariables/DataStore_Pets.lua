@@ -115,7 +115,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1777938033,
 			},
 			["Default.AzerothCore.Chaosballz"] = {
-				["lastUpdate"] = 1790462498,
+				["lastUpdate"] = 1792540389,
 				["CRITTER"] = {
 					"7380|Siamese Cat|10677|INV_Box_PetCarrier_01", -- [1]
 				},

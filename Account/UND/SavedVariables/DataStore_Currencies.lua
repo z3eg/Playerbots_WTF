@@ -81,7 +81,7 @@ DataStore_CurrenciesDB = {
 				},
 			},
 			["Default.AzerothCore.Deadmonology"] = {
-				["lastUpdate"] = 1792536277,
+				["lastUpdate"] = 1792541936,
 			},
 			["Default.AzerothCore.Rotbeam"] = {
 				["lastUpdate"] = 1792536076,
@@ -105,7 +105,7 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1788809549,
 			},
 			["Default.AzerothCore.Fdore"] = {
-				["lastUpdate"] = 1792534592,
+				["lastUpdate"] = 1792538684,
 			},
 			["Default.AzerothCore.Tyrell"] = {
 				["lastUpdate"] = 1777938033,
@@ -129,7 +129,7 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1788816495,
 			},
 			["Default.AzerothCore.Widowfury"] = {
-				["lastUpdate"] = 1792535366,
+				["lastUpdate"] = 1792544353,
 			},
 			["Default.AzerothCore.Worldwarl"] = {
 				["lastUpdate"] = 1791080893,

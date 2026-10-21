@@ -810,27 +810,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -850,11 +836,25 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
 		["sh_WW_party_raid"] = {
@@ -983,27 +983,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -1023,11 +1009,25 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
 		["dk_Presence_self"] = {
@@ -1151,6 +1151,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1169,14 +1170,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -1201,7 +1194,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["pr_PWF_party_raid"] = {
 			["iconSource"] = -1,
@@ -1324,6 +1324,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1342,14 +1343,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -1374,7 +1367,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["pr_SP_party_raid"] = {
 			["iconSource"] = -1,
@@ -1497,6 +1497,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1515,14 +1516,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -1547,7 +1540,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["pa_Aura_self"] = {
 			["iconSource"] = -1,
@@ -1670,6 +1670,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1688,14 +1689,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -1720,7 +1713,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["pa_Seal_self"] = {
 			["iconSource"] = -1,
@@ -1843,6 +1843,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1861,14 +1862,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -1893,7 +1886,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["sh_HS_party_raid"] = {
 			["iconSource"] = -1,
@@ -2021,27 +2021,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -2061,11 +2047,25 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
 		["sh_WoA_self"] = {
@@ -2194,27 +2194,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -2234,11 +2220,25 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
 		["AoH C"] = {
@@ -2286,7 +2286,7 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["width"] = 64,
+			["desaturate"] = false,
 			["uid"] = "D1qWpWqvEYI",
 			["cooldownEdge"] = false,
 			["icon"] = true,
@@ -2369,8 +2369,8 @@ WeakAurasSaved = {
 			["id"] = "AoH C",
 			["zoom"] = 0,
 			["alpha"] = 1,
-			["desaturate"] = false,
 			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -2457,7 +2457,7 @@ WeakAurasSaved = {
 			["icon"] = true,
 			["config"] = {
 			},
-			["anchorFrameType"] = "SCREEN",
+			["desaturate"] = false,
 			["cooldownEdge"] = false,
 			["actions"] = {
 				["start"] = {
@@ -2506,7 +2506,7 @@ WeakAurasSaved = {
 				}, -- [2]
 				["activeTriggerMode"] = -10,
 			},
-			["width"] = 64,
+			["anchorFrameType"] = "SCREEN",
 			["internalVersion"] = 52,
 			["keepAspectRatio"] = false,
 			["animation"] = {
@@ -2532,7 +2532,7 @@ WeakAurasSaved = {
 			["id"] = "AoV C",
 			["zoom"] = 0,
 			["frameStrata"] = 1,
-			["desaturate"] = false,
+			["width"] = 64,
 			["selfPoint"] = "CENTER",
 			["uid"] = "AbI1MCy45rz",
 			["inverse"] = false,
@@ -2742,6 +2742,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -2760,14 +2761,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -2792,7 +2785,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["BS"] = {
 			["frameStrata"] = 1,
@@ -2813,7 +2813,7 @@ WeakAurasSaved = {
 			["icon"] = true,
 			["config"] = {
 			},
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["cooldownEdge"] = false,
 			["actions"] = {
 				["start"] = {
@@ -2868,7 +2868,7 @@ WeakAurasSaved = {
 				}, -- [2]
 				["activeTriggerMode"] = -10,
 			},
-			["desaturate"] = false,
+			["anchorFrameType"] = "SCREEN",
 			["internalVersion"] = 52,
 			["keepAspectRatio"] = false,
 			["animation"] = {
@@ -2894,7 +2894,7 @@ WeakAurasSaved = {
 			["id"] = "BS",
 			["zoom"] = 0,
 			["alpha"] = 1,
-			["width"] = 64,
+			["desaturate"] = false,
 			["selfPoint"] = "CENTER",
 			["uid"] = "a67O6Fmfcny",
 			["inverse"] = false,
@@ -3278,6 +3278,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -3296,14 +3297,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -3328,7 +3321,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["lo_FI_self"] = {
 			["iconSource"] = -1,
@@ -3451,6 +3451,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -3469,14 +3470,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -3501,7 +3494,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["dk_HoW_party_raid"] = {
 			["iconSource"] = -1,
@@ -3624,6 +3624,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -3642,14 +3643,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -3674,7 +3667,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["lo_FI_party_raid"] = {
 			["iconSource"] = -1,
@@ -3797,6 +3797,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -3815,14 +3816,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -3847,7 +3840,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["AoV NC"] = {
 			["load"] = {
@@ -3887,7 +3887,7 @@ WeakAurasSaved = {
 			["anchorPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["icon"] = true,
-			["desaturate"] = false,
+			["anchorFrameType"] = "SCREEN",
 			["uid"] = "lAVdyIwQuIW",
 			["cooldownEdge"] = false,
 			["actions"] = {
@@ -3963,8 +3963,8 @@ WeakAurasSaved = {
 			["id"] = "AoV NC",
 			["internalVersion"] = 52,
 			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["width"] = 64,
+			["desaturate"] = false,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -4158,27 +4158,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -4198,11 +4184,25 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
 		["dk_BS_self"] = {
@@ -4326,6 +4326,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -4344,14 +4345,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -4376,7 +4369,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["lo_BP_party_raid"] = {
 			["iconSource"] = -1,
@@ -4499,6 +4499,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -4517,14 +4518,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -4549,7 +4542,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["pr_VE_self"] = {
 			["iconSource"] = -1,
@@ -4672,6 +4672,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -4690,14 +4691,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -4722,7 +4715,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["sh_SoE_party_raid"] = {
 			["iconSource"] = -1,
@@ -4850,27 +4850,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -4890,11 +4876,25 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
 		["sh_MS_party_raid"] = {
@@ -5023,27 +5023,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -5063,11 +5049,25 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
 		["pa_BoM_self"] = {
@@ -5191,6 +5191,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -5209,14 +5210,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -5241,7 +5234,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["sh_Shield_self"] = {
 			["iconSource"] = -1,
@@ -5369,27 +5369,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -5409,11 +5395,25 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
 		["sh_manaspring"] = {
@@ -5448,7 +5448,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["width"] = 25,
+			["desaturate"] = false,
 			["cooldownEdge"] = false,
 			["icon"] = true,
 			["triggers"] = {
@@ -5475,7 +5475,7 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 25,
 			["zoom"] = 0,
 			["keepAspectRatio"] = false,
 			["animation"] = {
@@ -5501,7 +5501,7 @@ WeakAurasSaved = {
 			["id"] = "sh_manaspring",
 			["internalVersion"] = 52,
 			["frameStrata"] = 1,
-			["desaturate"] = false,
+			["anchorFrameType"] = "SCREEN",
 			["selfPoint"] = "CENTER",
 			["uid"] = "(2TtCoL9zu2",
 			["inverse"] = false,
@@ -5772,7 +5772,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["cooldownEdge"] = false,
 			["icon"] = true,
 			["triggers"] = {
@@ -5798,14 +5798,14 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["desaturate"] = false,
+			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0,
 			["keepAspectRatio"] = false,
 			["selfPoint"] = "CENTER",
 			["id"] = "dk_rime",
 			["internalVersion"] = 52,
 			["frameStrata"] = 1,
-			["width"] = 64,
+			["desaturate"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -6029,6 +6029,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -6047,14 +6048,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -6079,7 +6072,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["ma_hs"] = {
 			["iconSource"] = -1,
@@ -6374,27 +6374,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -6414,11 +6400,25 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
 		["sh_shield"] = {
@@ -6447,7 +6447,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["width"] = 64,
+			["desaturate"] = false,
 			["cooldownEdge"] = false,
 			["icon"] = true,
 			["triggers"] = {
@@ -6476,14 +6476,14 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["zoom"] = 0,
 			["keepAspectRatio"] = false,
 			["selfPoint"] = "CENTER",
 			["id"] = "sh_shield",
 			["internalVersion"] = 52,
 			["frameStrata"] = 1,
-			["desaturate"] = false,
+			["anchorFrameType"] = "SCREEN",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -6714,27 +6714,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -6754,11 +6740,25 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
 		["sh_WW_self"] = {
@@ -6887,27 +6887,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -6927,11 +6913,25 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
 		["ma_fof"] = {
@@ -7222,6 +7222,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -7240,14 +7241,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -7272,7 +7265,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["ma_Armor_self"] = {
 			["iconSource"] = -1,
@@ -7395,6 +7395,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -7413,14 +7414,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -7445,7 +7438,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["ma_DM_self"] = {
 			["iconSource"] = -1,
@@ -7568,6 +7568,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -7586,14 +7587,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -7618,7 +7611,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["ma_bf"] = {
 			["iconSource"] = 0,
@@ -7908,6 +7908,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -7926,14 +7927,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -7958,7 +7951,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["pr_SP_self"] = {
 			["iconSource"] = -1,
@@ -8081,6 +8081,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -8099,14 +8100,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -8131,7 +8124,360 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["lo_Stone_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["spellIds"] = {
+						},
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_Stone\",\"self\",aura_env) or false end",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "WARLOCK",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["xOffset"] = 0,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_Stone_self",
+			["uid"] = "BRP00000078",
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+		},
+		["lo_HF_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["unit"] = "player",
+						["event"] = "Health",
+						["names"] = {
+						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_HF\",\"self\",aura_env) or false end",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["spellIds"] = {
+						},
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowThickness"] = 2,
+					["glowScale"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_shadowYOffset"] = -1,
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_text_format_n_format"] = "none",
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "WARLOCK",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_HF_self",
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["width"] = 56,
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000075",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 		},
 		["pr_DS_party_raid"] = {
 			["iconSource"] = -1,
@@ -8254,6 +8600,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -8272,14 +8619,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -8304,149 +8643,6 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
-		["pa_BoK_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoK\",\"self\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PALADIN",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -8455,29 +8651,6 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_BoK_self",
-			["uid"] = "BRP00000016",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["alpha"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
 		},
 		["sh_WB_party_raid"] = {
 			["iconSource"] = -1,
@@ -8605,7 +8778,173 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["icon"] = true,
+			["frameStrata"] = 1,
+			["width"] = 28,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_WB_party_raid",
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000070",
+			["inverse"] = false,
+			["parent"] = "Class Buff Reminders",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+		},
+		["hu_MP_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["unit"] = "player",
+						["event"] = "Health",
+						["names"] = {
+						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"hu_MP\",\"self\",aura_env) or false end",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["spellIds"] = {
+						},
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowThickness"] = 2,
+					["glowScale"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_shadowYOffset"] = -1,
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_text_format_n_format"] = "none",
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "HUNTER",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -8627,23 +8966,179 @@ WeakAurasSaved = {
 				},
 			},
 			["frameStrata"] = 1,
-			["width"] = 28,
+			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
 			["tocversion"] = 30300,
-			["id"] = "sh_WB_party_raid",
+			["id"] = "hu_MP_self",
 			["config"] = {
 			},
 			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 56,
 			["authorOptions"] = {
 			},
-			["uid"] = "BRP00000070",
+			["uid"] = "BRP00000076",
 			["inverse"] = false,
-			["parent"] = "Class Buff Reminders",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["conditions"] = {
 			},
 			["information"] = {
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+		},
+		["pa_BoK_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoK\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PALADIN",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 			["color"] = {
 				1, -- [1]
@@ -8651,8 +9146,202 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_BoK_self",
+			["uid"] = "BRP00000016",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
-		["sh_NR_party_raid"] = {
+		["LT NC"] = {
+			["iconSource"] = 2,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "unit",
+						["subeventSuffix"] = "_CAST_START",
+						["percentpower_operator"] = "<",
+						["percentpower"] = "90",
+						["event"] = "Power",
+						["use_percentpower"] = true,
+						["subeventPrefix"] = "SPELL",
+						["powertype"] = 0,
+						["spellIds"] = {
+						},
+						["unit"] = "player",
+						["use_unit"] = true,
+						["names"] = {
+						},
+						["use_powertype"] = true,
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["text_shadowXOffset"] = 0,
+					["text_text_format_s_format"] = "none",
+					["text_text"] = "%1f.percentpower",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "AUTO",
+					["text_automaticWidth"] = "Auto",
+					["text_fixedWidth"] = 64,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["text_text_format_1f.percentpower_format"] = "none",
+					["type"] = "subtext",
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_shadowYOffset"] = 0,
+					["text_text_format_1.percentpower_format"] = "none",
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_fontType"] = "OUTLINE",
+				}, -- [2]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = false,
+					["glowScale"] = 1,
+					["glowThickness"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [3]
+			},
+			["height"] = 64,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "WARLOCK",
+					["multi"] = {
+					},
+				},
+				["use_combat"] = false,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["icon"] = true,
+			["authorOptions"] = {
+			},
+			["cooldown"] = false,
+			["zoom"] = 0,
+			["displayIcon"] = "Interface\\Icons\\Spell_Shadow_BurningSpirit",
+			["xOffset"] = 0,
+			["id"] = "LT NC",
+			["width"] = 64,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
+			["config"] = {
+			},
+			["inverse"] = false,
+			["uid"] = "VgL45fp3NiR",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+		},
+		["sh_FrostR_party_raid"] = {
 			["iconSource"] = -1,
 			["xOffset"] = 0,
 			["yOffset"] = 0,
@@ -8678,7 +9367,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_NR\",\"party_raid\",aura_env) or false end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FrostR\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -8778,7 +9467,32 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["icon"] = true,
+			["frameStrata"] = 1,
+			["width"] = 28,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_FrostR_party_raid",
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000066",
+			["inverse"] = false,
+			["parent"] = "Class Buff Reminders",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -8798,31 +9512,6 @@ WeakAurasSaved = {
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
-			},
-			["frameStrata"] = 1,
-			["width"] = 28,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "sh_NR_party_raid",
-			["config"] = {
-			},
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["uid"] = "BRP00000068",
-			["inverse"] = false,
-			["parent"] = "Class Buff Reminders",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
 			},
 		},
 		["dr_FF_target"] = {
@@ -8998,31 +9687,14 @@ WeakAurasSaved = {
 				},
 			},
 		},
-		["pa_ArOfWa"] = {
-			["alpha"] = 1,
+		["sh_FT_party_raid"] = {
 			["iconSource"] = -1,
-			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["xOffset"] = -241.185201192865,
-			["authorOptions"] = {
-			},
-			["yOffset"] = 162.6882575211773,
+			["xOffset"] = 0,
+			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
-			["regionType"] = "icon",
-			["icon"] = true,
-			["config"] = {
-			},
-			["width"] = 20,
 			["cooldownEdge"] = false,
 			["actions"] = {
 				["start"] = {
-					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\TempleBellHuge.ogg",
-					["do_sound"] = true,
 				},
 				["init"] = {
 				},
@@ -9032,91 +9704,37 @@ WeakAurasSaved = {
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["type"] = "aura2",
-						["subeventSuffix"] = "_CAST_START",
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["unit"] = "player",
 						["event"] = "Health",
-						["subeventPrefix"] = "SPELL",
-						["spellIds"] = {
-						},
-						["auranames"] = {
-							"The Art of War", -- [1]
-						},
-						["useName"] = true,
 						["names"] = {
 						},
-						["unit"] = "player",
+						["spellIds"] = {
+						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FT\",\"party_raid\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
+						["custom"] = "function() return true end",
 					},
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["anchorFrameType"] = "SCREEN",
 			["internalVersion"] = 52,
 			["keepAspectRatio"] = false,
 			["selfPoint"] = "CENTER",
-			["id"] = "pa_ArOfWa",
-			["zoom"] = 0,
-			["frameStrata"] = 1,
 			["desaturate"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
-			["uid"] = "4PfKmv0qPVm",
-			["inverse"] = false,
+			["version"] = 1,
 			["subRegions"] = {
 				{
 					["type"] = "subbackground",
 				}, -- [1]
-				{
-					["text_shadowXOffset"] = 0,
-					["text_text_format_s_format"] = "none",
-					["text_text"] = "%s",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "AUTO",
-					["text_automaticWidth"] = "Auto",
-					["text_fixedWidth"] = 64,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "CENTER",
-					["type"] = "subtext",
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_shadowYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_fontType"] = "OUTLINE",
-				}, -- [2]
 				{
 					["glowFrequency"] = 0.25,
 					["type"] = "subglow",
@@ -9126,34 +9744,64 @@ WeakAurasSaved = {
 					["glowYOffset"] = 0,
 					["glowColor"] = {
 						1, -- [1]
-						1, -- [2]
-						1, -- [3]
+						0.8, -- [2]
+						0, -- [3]
 						1, -- [4]
 					},
 					["glowXOffset"] = 0,
 					["glow"] = true,
+					["glowThickness"] = 2,
 					["glowScale"] = 1,
-					["glowThickness"] = 1,
 					["glowLines"] = 8,
 					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_shadowYOffset"] = -1,
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_text_format_n_format"] = "none",
 				}, -- [3]
 			},
-			["height"] = 20,
-			["conditions"] = {
-			},
+			["height"] = 28,
 			["load"] = {
-				["use_spellknown"] = false,
+				["use_class"] = true,
 				["talent"] = {
-					["single"] = 97,
-					["multi"] = {
-					},
-				},
-				["use_talent"] = true,
-				["spec"] = {
 					["multi"] = {
 					},
 				},
 				["class"] = {
+					["single"] = "SHAMAN",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
 					["multi"] = {
 					},
 				},
@@ -9162,7 +9810,54 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["regionType"] = "icon",
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["icon"] = true,
+			["frameStrata"] = 1,
+			["width"] = 28,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_FT_party_raid",
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000062",
+			["inverse"] = false,
+			["parent"] = "Class Buff Reminders",
+			["conditions"] = {
+			},
 			["information"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
 		["sh_FR_party_raid"] = {
@@ -9291,27 +9986,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -9331,140 +10012,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["sh_FrostR_party_raid"] = {
-			["iconSource"] = -1,
-			["xOffset"] = 0,
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["unit"] = "player",
-						["event"] = "Health",
-						["names"] = {
-						},
-						["spellIds"] = {
-						},
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FrostR\",\"party_raid\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["subeventPrefix"] = "SPELL",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["useGlowColor"] = false,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["glowXOffset"] = 0,
-					["glow"] = true,
-					["glowThickness"] = 2,
-					["glowScale"] = 1,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_shadowYOffset"] = -1,
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_text_format_n_format"] = "none",
-				}, -- [3]
-			},
-			["height"] = 28,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "SHAMAN",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["icon"] = true,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -9484,204 +10031,6 @@ WeakAurasSaved = {
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
-			},
-			["frameStrata"] = 1,
-			["width"] = 28,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "sh_FrostR_party_raid",
-			["config"] = {
-			},
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["uid"] = "BRP00000066",
-			["inverse"] = false,
-			["parent"] = "Class Buff Reminders",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["sh_FT_party_raid"] = {
-			["iconSource"] = -1,
-			["xOffset"] = 0,
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["unit"] = "player",
-						["event"] = "Health",
-						["names"] = {
-						},
-						["spellIds"] = {
-						},
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FT\",\"party_raid\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["subeventPrefix"] = "SPELL",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["useGlowColor"] = false,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["glowXOffset"] = 0,
-					["glow"] = true,
-					["glowThickness"] = 2,
-					["glowScale"] = 1,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_shadowYOffset"] = -1,
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_text_format_n_format"] = "none",
-				}, -- [3]
-			},
-			["height"] = 28,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "SHAMAN",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["frameStrata"] = 1,
-			["width"] = 28,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "sh_FT_party_raid",
-			["config"] = {
-			},
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["uid"] = "BRP00000062",
-			["inverse"] = false,
-			["parent"] = "Class Buff Reminders",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
 			},
 		},
 		["sh_FT_self"] = {
@@ -9810,27 +10159,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -9850,185 +10185,26 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["pr_DS_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_DS\",\"self\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
 			["animation"] = {
 				["start"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
 				["main"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
 				["finish"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pr_DS_self",
-			["uid"] = "BRP00000010",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["alpha"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
 		},
 		["sh_SS_party_raid"] = {
 			["iconSource"] = -1,
@@ -10156,27 +10332,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -10196,358 +10358,26 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["lo_BP_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_BP\",\"self\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "WARLOCK",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
 			["animation"] = {
 				["start"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
 				["main"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
 				["finish"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "lo_BP_self",
-			["uid"] = "BRP00000039",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["alpha"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
-		["pa_BoW_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoW\",\"self\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PALADIN",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_BoW_self",
-			["uid"] = "BRP00000020",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["alpha"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
 		},
 		["sh_HS_self"] = {
 			["iconSource"] = -1,
@@ -10675,7 +10505,32 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["icon"] = true,
+			["frameStrata"] = 1,
+			["width"] = 28,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_HS_self",
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000049",
+			["inverse"] = false,
+			["parent"] = "Class Buff Reminders",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -10696,30 +10551,697 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["frameStrata"] = 1,
-			["width"] = 28,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "sh_HS_self",
-			["config"] = {
-			},
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["uid"] = "BRP00000049",
-			["inverse"] = false,
+		},
+		["pr_DS_self"] = {
+			["iconSource"] = -1,
 			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_DS\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
 			["conditions"] = {
 			},
 			["information"] = {
+			},
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pr_DS_self",
+			["uid"] = "BRP00000010",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["sh_WoA_party_raid"] = {
+			["iconSource"] = -1,
+			["xOffset"] = 0,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["unit"] = "player",
+						["event"] = "Health",
+						["names"] = {
+						},
+						["spellIds"] = {
+						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WoA\",\"party_raid\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["useGlowColor"] = false,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["glowXOffset"] = 0,
+					["glow"] = true,
+					["glowThickness"] = 2,
+					["glowScale"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_shadowYOffset"] = -1,
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_text_format_n_format"] = "none",
+				}, -- [3]
+			},
+			["height"] = 28,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "SHAMAN",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["icon"] = true,
+			["frameStrata"] = 1,
+			["width"] = 28,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_WoA_party_raid",
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000052",
+			["inverse"] = false,
+			["parent"] = "Class Buff Reminders",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+		},
+		["lo_BP_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_BP\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "WARLOCK",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_BP_self",
+			["uid"] = "BRP00000039",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["pa_BoW_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoW\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PALADIN",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_BoW_self",
+			["uid"] = "BRP00000020",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
 			},
 		},
 		["sh_MS_self"] = {
@@ -10848,27 +11370,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -10888,14 +11396,28 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
-		["ma_AI_self"] = {
+		["hu_TSA_party_raid"] = {
 			["iconSource"] = -1,
 			["parent"] = "Class Buff Reminders",
 			["yOffset"] = 0,
@@ -10913,7 +11435,7 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_AI\",\"self\",aura_env) or false end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"hu_TSA\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -11002,7 +11524,7 @@ WeakAurasSaved = {
 					},
 				},
 				["class"] = {
-					["single"] = "MAGE",
+					["single"] = "HUNTER",
 					["multi"] = {
 					},
 				},
@@ -11016,6 +11538,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -11034,14 +11557,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -11054,8 +11569,8 @@ WeakAurasSaved = {
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
 			["tocversion"] = 30300,
-			["id"] = "ma_AI_self",
-			["uid"] = "BRP00000001",
+			["id"] = "hu_TSA_party_raid",
+			["uid"] = "BRP00000045",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["authorOptions"] = {
@@ -11066,866 +11581,12 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
-		["ro_s&d"] = {
-			["alpha"] = 1,
-			["iconSource"] = -1,
-			["cooldown"] = false,
-			["xOffset"] = -135.7038126775034,
-			["authorOptions"] = {
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["yOffset"] = 207.5673735696039,
-			["regionType"] = "icon",
-			["anchorPoint"] = "CENTER",
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sneeze.ogg",
-					["do_sound"] = true,
-				},
-				["init"] = {
-				},
-				["finish"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bear_polar.ogg",
-					["do_sound"] = false,
-				},
-			},
-			["config"] = {
-			},
-			["anchorFrameType"] = "SCREEN",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
-						["event"] = "Health",
-						["subeventPrefix"] = "SPELL",
-						["spellIds"] = {
-						},
-						["unit"] = "player",
-						["type"] = "aura2",
-						["names"] = {
-						},
-						["auranames"] = {
-							"Slice and Dice", -- [1]
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["width"] = 64,
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["id"] = "ro_s&d",
-			["zoom"] = 0,
-			["frameStrata"] = 1,
-			["desaturate"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
-			["uid"] = "Ao70JBh)Hk0",
-			["inverse"] = false,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["text_shadowXOffset"] = 0,
-					["text_text_format_s_format"] = "none",
-					["text_text"] = "%s",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "AUTO",
-					["text_automaticWidth"] = "Auto",
-					["text_fixedWidth"] = 64,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "CENTER",
-					["type"] = "subtext",
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_shadowYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_fontType"] = "OUTLINE",
-				}, -- [2]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["useGlowColor"] = false,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["glowXOffset"] = 0,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 1,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [3]
-			},
-			["height"] = 64,
-			["conditions"] = {
-			},
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "ROGUE",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["information"] = {
-			},
-		},
-		["sh_WF_self"] = {
-			["iconSource"] = -1,
-			["xOffset"] = 0,
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["unit"] = "player",
-						["event"] = "Health",
-						["names"] = {
-						},
-						["spellIds"] = {
-						},
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WF\",\"self\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["subeventPrefix"] = "SPELL",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["useGlowColor"] = false,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["glowXOffset"] = 0,
-					["glow"] = true,
-					["glowThickness"] = 2,
-					["glowScale"] = 1,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_shadowYOffset"] = -1,
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_text_format_n_format"] = "none",
-				}, -- [3]
-			},
-			["height"] = 28,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "SHAMAN",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["frameStrata"] = 1,
-			["width"] = 28,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "sh_WF_self",
-			["config"] = {
-			},
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["uid"] = "BRP00000053",
-			["inverse"] = false,
-			["parent"] = "Class Buff Reminders",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["wa_BS_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"wa_BS\",\"self\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
 			["actions"] = {
 				["start"] = {
 				},
 				["finish"] = {
 				},
 				["init"] = {
-				},
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "wa_BS_self",
-			["uid"] = "BRP00000026",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["alpha"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
-		["lo_DI_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_DI\",\"self\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "WARLOCK",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "lo_DI_self",
-			["uid"] = "BRP00000037",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["alpha"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
-		["dr_Th_party_raid"] = {
-			["iconSource"] = -1,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["preferToUpdate"] = false,
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.names or \"Missing Thorns\" end",
-						["custom"] = "function()\n\n    if select(2, UnitClass(\"player\")) ~= \"DRUID\" then return false end\n    local now = GetTime()\n    if aura_env.nextCheck and now < aura_env.nextCheck then return aura_env.missing end\n    aura_env.nextCheck = now + 0.25\n    local mark = GetSpellInfo(467)\n    local function covered(unit)\n        for i = 1, 40 do\n            local name = UnitBuff(unit, i)\n            if not name then break end\n            if name == mark then return true end\n        end\n        return false\n    end\n\n    local names = {}\n    local raid = GetNumRaidMembers() > 0\n    local count = raid and GetNumRaidMembers() or GetNumPartyMembers()\n    for i = 1, count do\n        local unit = (raid and \"raid\" or \"party\") .. i\n        if UnitExists(unit) and not UnitIsUnit(unit, \"player\")\n            and UnitIsConnected(unit) and not UnitIsDeadOrGhost(unit)\n            and UnitIsVisible(unit) and not covered(unit) then\n            local name = UnitName(unit) or unit\n            if mark and IsSpellInRange(mark, unit) == 0 then name = name .. \" (range)\" end\n            names[#names + 1] = name\n        end\n    end\n    table.sort(names)\n    local lines = {}\n    for i = 1, #names, 3 do\n        lines[#lines + 1] = table.concat(names, \", \", i, math.min(i + 2, #names))\n    end\n    aura_env.names = \"Missing Thorns: \" .. #names .. \"\\n\" .. table.concat(lines, \"\\n\")\n    aura_env.missing = #names > 0\n    return aura_env.missing\nend",
-						["customIcon"] = "function() return select(3, GetSpellInfo(467)) end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["glow"] = true,
-					["useGlowColor"] = false,
-					["glowScale"] = 1,
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["type"] = "subglow",
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "TOP",
-					["text_automaticWidth"] = "Auto",
-					["text_fixedWidth"] = 420,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "CENTER",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 0,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = -8,
-					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
-					["text_anchorPoint"] = "BOTTOM",
-					["text_visible"] = true,
-					["text_shadowYOffset"] = -1,
-					["text_fontSize"] = 16,
-					["anchorXOffset"] = 0,
-					["text_text_format_n_format"] = "none",
-				}, -- [3]
-			},
-			["height"] = 64,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "DRUID",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["source"] = "import",
-			["regionType"] = "icon",
-			["information"] = {
-			},
-			["authorOptions"] = {
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["conditions"] = {
-			},
-			["frameStrata"] = 1,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "dr_Th_party_raid",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 64,
-			["uid"] = "drThGroup01",
-			["config"] = {
-			},
-			["inverse"] = false,
-			["xOffset"] = 190,
-			["displayIcon"] = "Interface\\Icons\\Spell_Nature_Thorns",
-			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
 				},
 			},
 		},
@@ -12050,6 +11711,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -12068,14 +11730,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -12100,9 +11754,16 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
-		["ro_Poison_self"] = {
+		["wa_BS_self"] = {
 			["iconSource"] = -1,
 			["parent"] = "Class Buff Reminders",
 			["yOffset"] = 0,
@@ -12120,7 +11781,7 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ro_Poison\",\"self\",aura_env) or false end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"wa_BS\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -12209,7 +11870,7 @@ WeakAurasSaved = {
 					},
 				},
 				["class"] = {
-					["single"] = "ROGUE",
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -12223,6 +11884,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -12241,14 +11903,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -12261,8 +11915,8 @@ WeakAurasSaved = {
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
 			["tocversion"] = 30300,
-			["id"] = "ro_Poison_self",
-			["uid"] = "BRP00000074",
+			["id"] = "wa_BS_self",
+			["uid"] = "BRP00000026",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["authorOptions"] = {
@@ -12273,179 +11927,13 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
-		["sh_ToW_self"] = {
-			["iconSource"] = -1,
-			["xOffset"] = 0,
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
 			["actions"] = {
 				["start"] = {
 				},
+				["finish"] = {
+				},
 				["init"] = {
 				},
-				["finish"] = {
-				},
-			},
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["unit"] = "player",
-						["event"] = "Health",
-						["names"] = {
-						},
-						["spellIds"] = {
-						},
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_ToW\",\"self\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["subeventPrefix"] = "SPELL",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["useGlowColor"] = false,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["glowXOffset"] = 0,
-					["glow"] = true,
-					["glowThickness"] = 2,
-					["glowScale"] = 1,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_shadowYOffset"] = -1,
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_text_format_n_format"] = "none",
-				}, -- [3]
-			},
-			["height"] = 28,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "SHAMAN",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["frameStrata"] = 1,
-			["width"] = 28,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "sh_ToW_self",
-			["config"] = {
-			},
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["uid"] = "BRP00000059",
-			["inverse"] = false,
-			["parent"] = "Class Buff Reminders",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
 			},
 		},
 		["sh_SS_self"] = {
@@ -12574,7 +12062,32 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["icon"] = true,
+			["frameStrata"] = 1,
+			["width"] = 28,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_SS_self",
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000057",
+			["inverse"] = false,
+			["parent"] = "Class Buff Reminders",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -12595,30 +12108,865 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["frameStrata"] = 1,
-			["width"] = 28,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "sh_SS_self",
-			["config"] = {
-			},
+		},
+		["ro_s&d"] = {
 			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
+			["iconSource"] = -1,
+			["cooldown"] = false,
+			["xOffset"] = -135.7038126775034,
 			["authorOptions"] = {
-			},
-			["uid"] = "BRP00000057",
-			["inverse"] = false,
-			["parent"] = "Class Buff Reminders",
-			["conditions"] = {
-			},
-			["information"] = {
 			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
+			},
+			["yOffset"] = 207.5673735696039,
+			["regionType"] = "icon",
+			["anchorPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sneeze.ogg",
+					["do_sound"] = true,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bear_polar.ogg",
+					["do_sound"] = false,
+				},
+			},
+			["config"] = {
+			},
+			["desaturate"] = false,
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["useName"] = true,
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+						["spellIds"] = {
+						},
+						["unit"] = "player",
+						["type"] = "aura2",
+						["names"] = {
+						},
+						["auranames"] = {
+							"Slice and Dice", -- [1]
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["anchorFrameType"] = "SCREEN",
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["id"] = "ro_s&d",
+			["zoom"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["uid"] = "Ao70JBh)Hk0",
+			["inverse"] = false,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["text_shadowXOffset"] = 0,
+					["text_text_format_s_format"] = "none",
+					["text_text"] = "%s",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "AUTO",
+					["text_automaticWidth"] = "Auto",
+					["text_fixedWidth"] = 64,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["type"] = "subtext",
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_shadowYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_fontType"] = "OUTLINE",
+				}, -- [2]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["useGlowColor"] = false,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["glowXOffset"] = 0,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [3]
+			},
+			["height"] = 64,
+			["conditions"] = {
+			},
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "ROGUE",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["information"] = {
+			},
+		},
+		["lo_DI_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_DI\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "WARLOCK",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_DI_self",
+			["uid"] = "BRP00000037",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["sh_WF_self"] = {
+			["iconSource"] = -1,
+			["xOffset"] = 0,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["unit"] = "player",
+						["event"] = "Health",
+						["names"] = {
+						},
+						["spellIds"] = {
+						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WF\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["useGlowColor"] = false,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["glowXOffset"] = 0,
+					["glow"] = true,
+					["glowThickness"] = 2,
+					["glowScale"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_shadowYOffset"] = -1,
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_text_format_n_format"] = "none",
+				}, -- [3]
+			},
+			["height"] = 28,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "SHAMAN",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["icon"] = true,
+			["frameStrata"] = 1,
+			["width"] = 28,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_WF_self",
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000053",
+			["inverse"] = false,
+			["parent"] = "Class Buff Reminders",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+		},
+		["sh_ToW_self"] = {
+			["iconSource"] = -1,
+			["xOffset"] = 0,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["unit"] = "player",
+						["event"] = "Health",
+						["names"] = {
+						},
+						["spellIds"] = {
+						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_ToW\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["useGlowColor"] = false,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["glowXOffset"] = 0,
+					["glow"] = true,
+					["glowThickness"] = 2,
+					["glowScale"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_shadowYOffset"] = -1,
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_text_format_n_format"] = "none",
+				}, -- [3]
+			},
+			["height"] = 28,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "SHAMAN",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["icon"] = true,
+			["frameStrata"] = 1,
+			["width"] = 28,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_ToW_self",
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000059",
+			["inverse"] = false,
+			["parent"] = "Class Buff Reminders",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+		},
+		["ro_Poison_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ro_Poison\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "ROGUE",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "ro_Poison_self",
+			["uid"] = "BRP00000074",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
 			},
 		},
 		["hu_TSA_self"] = {
@@ -12742,6 +13090,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -12760,14 +13109,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -12792,7 +13133,360 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["ma_AI_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_AI\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "MAGE",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
 			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "ma_AI_self",
+			["uid"] = "BRP00000001",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["dk_HoW_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"dk_HoW\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "DEATHKNIGHT",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "dk_HoW_self",
+			["uid"] = "BRP00000030",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["pa_BoM_party_raid"] = {
 			["iconSource"] = -1,
@@ -12915,6 +13609,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -12933,14 +13628,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -12965,19 +13652,23 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
-		["ma_misBarr"] = {
-			["iconSource"] = -1,
-			["authorOptions"] = {
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
 			},
-			["yOffset"] = 189.397372534905,
+		},
+		["sh_Imbue_self"] = {
+			["iconSource"] = -1,
+			["xOffset"] = 0,
+			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
 			["cooldownEdge"] = false,
 			["actions"] = {
 				["start"] = {
-					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\Glass.mp3",
-					["do_sound"] = true,
 				},
 				["init"] = {
 				},
@@ -12987,84 +13678,37 @@ WeakAurasSaved = {
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
-						["event"] = "Health",
-						["subeventPrefix"] = "SPELL",
-						["spellIds"] = {
-						},
+						["type"] = "custom",
+						["custom_type"] = "status",
 						["unit"] = "player",
-						["type"] = "aura2",
+						["event"] = "Health",
 						["names"] = {
 						},
-						["auranames"] = {
-							"Missile Barrage", -- [1]
+						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_Imbue\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
+						["custom"] = "function() return true end",
 					},
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
 			["internalVersion"] = 52,
 			["keepAspectRatio"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["selfPoint"] = "CENTER",
 			["desaturate"] = false,
+			["version"] = 1,
 			["subRegions"] = {
 				{
 					["type"] = "subbackground",
 				}, -- [1]
-				{
-					["text_shadowXOffset"] = 0,
-					["text_text_format_s_format"] = "none",
-					["text_text"] = "%s",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "AUTO",
-					["text_automaticWidth"] = "Auto",
-					["text_fixedWidth"] = 64,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "CENTER",
-					["type"] = "subtext",
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_shadowYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_fontType"] = "OUTLINE",
-				}, -- [2]
 				{
 					["glowFrequency"] = 0.25,
 					["type"] = "subglow",
@@ -13074,19 +13718,52 @@ WeakAurasSaved = {
 					["glowYOffset"] = 0,
 					["glowColor"] = {
 						1, -- [1]
-						1, -- [2]
-						1, -- [3]
+						0.8, -- [2]
+						0, -- [3]
 						1, -- [4]
 					},
 					["glowXOffset"] = 0,
 					["glow"] = true,
+					["glowThickness"] = 2,
 					["glowScale"] = 1,
-					["glowThickness"] = 1,
 					["glowLines"] = 8,
 					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_shadowYOffset"] = -1,
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_text_format_n_format"] = "none",
 				}, -- [3]
 			},
-			["height"] = 32,
+			["height"] = 28,
 			["load"] = {
 				["use_class"] = true,
 				["talent"] = {
@@ -13094,7 +13771,7 @@ WeakAurasSaved = {
 					},
 				},
 				["class"] = {
-					["single"] = "MAGE",
+					["single"] = "SHAMAN",
 					["multi"] = {
 					},
 				},
@@ -13108,31 +13785,54 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["width"] = 32,
-			["icon"] = true,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["zoom"] = 0,
-			["displayIcon"] = "Interface\\Icons\\Spell_Nature_StarFall",
-			["xOffset"] = -199.111043027815,
-			["id"] = "ma_misBarr",
-			["config"] = {
-			},
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["uid"] = "iM2rDrfkb4o",
-			["inverse"] = false,
+			["icon"] = true,
+			["frameStrata"] = 1,
+			["width"] = 28,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_Imbue_self",
+			["config"] = {
+			},
 			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000073",
+			["inverse"] = false,
+			["parent"] = "Class Buff Reminders",
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["selfPoint"] = "CENTER",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
 		},
 		["dk_km"] = {
 			["information"] = {
@@ -13169,7 +13869,7 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["anchorPoint"] = "CENTER",
 			["icon"] = true,
-			["desaturate"] = false,
+			["width"] = 64,
 			["uid"] = "Gq(DdOSZor)",
 			["cooldownEdge"] = false,
 			["actions"] = {
@@ -13233,8 +13933,8 @@ WeakAurasSaved = {
 			["id"] = "dk_km",
 			["internalVersion"] = 52,
 			["frameStrata"] = 1,
-			["width"] = 64,
 			["anchorFrameType"] = "SCREEN",
+			["desaturate"] = false,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -13421,6 +14121,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -13439,14 +14140,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -13471,16 +14164,26 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
-		["sh_Imbue_self"] = {
+		["ma_misBarr"] = {
 			["iconSource"] = -1,
-			["xOffset"] = 0,
-			["yOffset"] = 0,
+			["authorOptions"] = {
+			},
+			["yOffset"] = 189.397372534905,
 			["anchorPoint"] = "CENTER",
 			["cooldownEdge"] = false,
 			["actions"] = {
 				["start"] = {
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\Glass.mp3",
+					["do_sound"] = true,
 				},
 				["init"] = {
 				},
@@ -13490,37 +14193,84 @@ WeakAurasSaved = {
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["unit"] = "player",
+						["useName"] = true,
+						["subeventSuffix"] = "_CAST_START",
 						["event"] = "Health",
-						["names"] = {
-						},
+						["subeventPrefix"] = "SPELL",
 						["spellIds"] = {
 						},
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_Imbue\",\"self\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["subeventPrefix"] = "SPELL",
+						["unit"] = "player",
+						["type"] = "aura2",
+						["names"] = {
+						},
+						["auranames"] = {
+							"Missile Barrage", -- [1]
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
-						["custom"] = "function() return true end",
 					},
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
 			["internalVersion"] = 52,
 			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 			["desaturate"] = false,
-			["version"] = 1,
 			["subRegions"] = {
 				{
 					["type"] = "subbackground",
 				}, -- [1]
+				{
+					["text_shadowXOffset"] = 0,
+					["text_text_format_s_format"] = "none",
+					["text_text"] = "%s",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "AUTO",
+					["text_automaticWidth"] = "Auto",
+					["text_fixedWidth"] = 64,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["type"] = "subtext",
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_shadowYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_fontType"] = "OUTLINE",
+				}, -- [2]
 				{
 					["glowFrequency"] = 0.25,
 					["type"] = "subglow",
@@ -13530,52 +14280,19 @@ WeakAurasSaved = {
 					["glowYOffset"] = 0,
 					["glowColor"] = {
 						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["glowXOffset"] = 0,
-					["glow"] = true,
-					["glowThickness"] = 2,
-					["glowScale"] = 1,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_shadowYOffset"] = -1,
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_text_format_n_format"] = "none",
+					["glowXOffset"] = 0,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
 				}, -- [3]
 			},
-			["height"] = 28,
+			["height"] = 32,
 			["load"] = {
 				["use_class"] = true,
 				["talent"] = {
@@ -13583,7 +14300,7 @@ WeakAurasSaved = {
 					},
 				},
 				["class"] = {
-					["single"] = "SHAMAN",
+					["single"] = "MAGE",
 					["multi"] = {
 					},
 				},
@@ -13597,54 +14314,31 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
+			["width"] = 32,
 			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["frameStrata"] = 1,
-			["width"] = 28,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "sh_Imbue_self",
+			["cooldown"] = false,
+			["zoom"] = 0,
+			["displayIcon"] = "Interface\\Icons\\Spell_Nature_StarFall",
+			["xOffset"] = -199.111043027815,
+			["id"] = "ma_misBarr",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["uid"] = "BRP00000073",
-			["inverse"] = false,
-			["parent"] = "Class Buff Reminders",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["uid"] = "iM2rDrfkb4o",
+			["inverse"] = false,
+			["alpha"] = 1,
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["selfPoint"] = "CENTER",
 		},
 		["pa_BoS_self"] = {
 			["iconSource"] = -1,
@@ -13767,6 +14461,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -13785,14 +14480,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -13817,7 +14504,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["lo_Armor_self"] = {
 			["iconSource"] = -1,
@@ -13940,6 +14634,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -13958,14 +14653,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -13990,7 +14677,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["pr_IF_self"] = {
 			["iconSource"] = -1,
@@ -14113,6 +14807,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -14131,14 +14826,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -14163,7 +14850,187 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["hu_Aspect_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"hu_Aspect\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "HUNTER",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
 			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "hu_Aspect_self",
+			["uid"] = "BRP00000043",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["sh_WB_self"] = {
 			["iconSource"] = -1,
@@ -14291,27 +15158,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -14331,531 +15184,26 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["dk_HoW_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"dk_HoW\",\"self\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "DEATHKNIGHT",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
 			["animation"] = {
 				["start"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
 				["main"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
 				["finish"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "dk_HoW_self",
-			["uid"] = "BRP00000030",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["alpha"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
-		["hu_Aspect_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"hu_Aspect\",\"self\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "HUNTER",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "hu_Aspect_self",
-			["uid"] = "BRP00000043",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["alpha"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
-		["pa_BoS_party_raid"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoS\",\"party_raid\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PALADIN",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_BoS_party_raid",
-			["uid"] = "BRP00000023",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["alpha"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
 		},
 		["Class Buff Reminders"] = {
 			["grow"] = "DOWN",
@@ -14934,6 +15282,10 @@ WeakAurasSaved = {
 				"sh_WW_party_raid", -- [72]
 				"sh_Imbue_self", -- [73]
 				"ro_Poison_self", -- [74]
+				"lo_HF_self", -- [75]
+				"hu_MP_self", -- [76]
+				"lo_SL_self", -- [77]
+				"lo_Stone_self", -- [78]
 			},
 			["borderBackdrop"] = "Blizzard Tooltip",
 			["xOffset"] = 379.2592696338568,
@@ -15056,6 +15408,376 @@ WeakAurasSaved = {
 			},
 			["space"] = 0,
 		},
+		["pa_BoS_party_raid"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoS\",\"party_raid\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PALADIN",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_BoS_party_raid",
+			["uid"] = "BRP00000023",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["AoH NC"] = {
+			["frameStrata"] = 1,
+			["iconSource"] = 2,
+			["cooldown"] = false,
+			["authorOptions"] = {
+			},
+			["xOffset"] = 0,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["regionType"] = "icon",
+			["anchorPoint"] = "CENTER",
+			["icon"] = true,
+			["config"] = {
+			},
+			["width"] = 64,
+			["cooldownEdge"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "unit",
+						["subeventSuffix"] = "_CAST_START",
+						["percentpower_operator"] = ">",
+						["percentpower"] = "90",
+						["event"] = "Power",
+						["use_percentpower"] = true,
+						["subeventPrefix"] = "SPELL",
+						["powertype"] = 0,
+						["spellIds"] = {
+						},
+						["unit"] = "player",
+						["use_unit"] = true,
+						["names"] = {
+						},
+						["use_powertype"] = true,
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				{
+					["trigger"] = {
+						["useName"] = true,
+						["auranames"] = {
+							"Aspect of the Hawk", -- [1]
+						},
+						["debuffType"] = "HELPFUL",
+						["matchesShowOn"] = "showOnMissing",
+						["type"] = "aura2",
+						["unit"] = "player",
+					},
+					["untrigger"] = {
+					},
+				}, -- [2]
+				{
+					["trigger"] = {
+						["useName"] = true,
+						["auranames"] = {
+							"Aspect of the Beast", -- [1]
+						},
+						["unit"] = "player",
+						["matchesShowOn"] = "showOnMissing",
+						["type"] = "aura2",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [3]
+				["activeTriggerMode"] = -10,
+			},
+			["anchorFrameType"] = "SCREEN",
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["id"] = "AoH NC",
+			["zoom"] = 0,
+			["alpha"] = 1,
+			["desaturate"] = false,
+			["selfPoint"] = "CENTER",
+			["uid"] = "d23XulTCYgJ",
+			["inverse"] = false,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["text_shadowXOffset"] = 0,
+					["text_text_format_s_format"] = "none",
+					["text_text"] = "%1f.percentpower",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "AUTO",
+					["text_automaticWidth"] = "Auto",
+					["text_fixedWidth"] = 64,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["text_text_format_1f.percentpower_format"] = "none",
+					["type"] = "subtext",
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_shadowYOffset"] = 0,
+					["text_text_format_1.percentpower_format"] = "none",
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_fontType"] = "OUTLINE",
+				}, -- [2]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = false,
+					["glowScale"] = 1,
+					["glowThickness"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [3]
+			},
+			["height"] = 64,
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "HUNTER",
+					["multi"] = {
+					},
+				},
+				["use_combat"] = false,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+		},
 		["pa_BoW_party_raid"] = {
 			["iconSource"] = -1,
 			["parent"] = "Class Buff Reminders",
@@ -15177,6 +15899,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -15195,14 +15918,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -15227,141 +15942,98 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
-		["AoH NC"] = {
-			["frameStrata"] = 1,
-			["iconSource"] = 2,
-			["cooldown"] = false,
-			["authorOptions"] = {
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
 			},
-			["xOffset"] = 0,
+		},
+		["dr_Th_party_raid"] = {
+			["iconSource"] = -1,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["preferToUpdate"] = false,
 			["yOffset"] = 0,
-			["regionType"] = "icon",
 			["anchorPoint"] = "CENTER",
-			["icon"] = true,
-			["config"] = {
-			},
-			["anchorFrameType"] = "SCREEN",
 			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["icon"] = true,
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["type"] = "unit",
-						["subeventSuffix"] = "_CAST_START",
-						["percentpower_operator"] = ">",
-						["percentpower"] = "90",
-						["event"] = "Power",
-						["use_percentpower"] = true,
-						["subeventPrefix"] = "SPELL",
-						["powertype"] = 0,
-						["spellIds"] = {
-						},
-						["unit"] = "player",
-						["use_unit"] = true,
+						["type"] = "custom",
+						["custom_type"] = "status",
 						["names"] = {
 						},
-						["use_powertype"] = true,
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.names or \"Missing Thorns\" end",
+						["custom"] = "function()\n\n    if select(2, UnitClass(\"player\")) ~= \"DRUID\" then return false end\n    local now = GetTime()\n    if aura_env.nextCheck and now < aura_env.nextCheck then return aura_env.missing end\n    aura_env.nextCheck = now + 0.25\n    local mark = GetSpellInfo(467)\n    local function covered(unit)\n        for i = 1, 40 do\n            local name = UnitBuff(unit, i)\n            if not name then break end\n            if name == mark then return true end\n        end\n        return false\n    end\n\n    local names = {}\n    local raid = GetNumRaidMembers() > 0\n    local count = raid and GetNumRaidMembers() or GetNumPartyMembers()\n    for i = 1, count do\n        local unit = (raid and \"raid\" or \"party\") .. i\n        if UnitExists(unit) and not UnitIsUnit(unit, \"player\")\n            and UnitIsConnected(unit) and not UnitIsDeadOrGhost(unit)\n            and UnitIsVisible(unit) and not covered(unit) then\n            local name = UnitName(unit) or unit\n            if mark and IsSpellInRange(mark, unit) == 0 then name = name .. \" (range)\" end\n            names[#names + 1] = name\n        end\n    end\n    table.sort(names)\n    local lines = {}\n    for i = 1, #names, 3 do\n        lines[#lines + 1] = table.concat(names, \", \", i, math.min(i + 2, #names))\n    end\n    aura_env.names = \"Missing Thorns: \" .. #names .. \"\\n\" .. table.concat(lines, \"\\n\")\n    aura_env.missing = #names > 0\n    return aura_env.missing\nend",
+						["customIcon"] = "function() return select(3, GetSpellInfo(467)) end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
+						["custom"] = "function() return true end",
 					},
 				}, -- [1]
-				{
-					["trigger"] = {
-						["useName"] = true,
-						["auranames"] = {
-							"Aspect of the Hawk", -- [1]
-						},
-						["debuffType"] = "HELPFUL",
-						["matchesShowOn"] = "showOnMissing",
-						["type"] = "aura2",
-						["unit"] = "player",
-					},
-					["untrigger"] = {
-					},
-				}, -- [2]
-				{
-					["trigger"] = {
-						["useName"] = true,
-						["auranames"] = {
-							"Aspect of the Beast", -- [1]
-						},
-						["unit"] = "player",
-						["matchesShowOn"] = "showOnMissing",
-						["type"] = "aura2",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-					},
-				}, -- [3]
 				["activeTriggerMode"] = -10,
 			},
-			["desaturate"] = false,
 			["internalVersion"] = 52,
 			["keepAspectRatio"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
-			["id"] = "AoH NC",
-			["zoom"] = 0,
-			["alpha"] = 1,
-			["width"] = 64,
 			["selfPoint"] = "CENTER",
-			["uid"] = "d23XulTCYgJ",
-			["inverse"] = false,
+			["desaturate"] = false,
+			["version"] = 1,
 			["subRegions"] = {
 				{
 					["type"] = "subbackground",
 				}, -- [1]
 				{
-					["text_shadowXOffset"] = 0,
-					["text_text_format_s_format"] = "none",
-					["text_text"] = "%1f.percentpower",
+					["glowFrequency"] = 0.25,
+					["glow"] = true,
+					["useGlowColor"] = false,
+					["glowScale"] = 1,
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["type"] = "subglow",
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
 					["text_shadowColor"] = {
 						0, -- [1]
 						0, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["text_selfPoint"] = "AUTO",
+					["text_selfPoint"] = "TOP",
 					["text_automaticWidth"] = "Auto",
-					["text_fixedWidth"] = 64,
+					["text_fixedWidth"] = 420,
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
-					["text_text_format_1f.percentpower_format"] = "none",
 					["type"] = "subtext",
+					["text_anchorXOffset"] = 0,
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -15369,41 +16041,18 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_shadowYOffset"] = 0,
-					["text_text_format_1.percentpower_format"] = "none",
+					["text_anchorYOffset"] = -8,
 					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
 					["text_fontType"] = "OUTLINE",
-				}, -- [2]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = false,
-					["glowScale"] = 1,
-					["glowThickness"] = 1,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
+					["text_anchorPoint"] = "BOTTOM",
+					["text_visible"] = true,
+					["text_shadowYOffset"] = -1,
+					["text_fontSize"] = 16,
+					["anchorXOffset"] = 0,
+					["text_text_format_n_format"] = "none",
 				}, -- [3]
 			},
 			["height"] = 64,
-			["conditions"] = {
-			},
-			["information"] = {
-			},
 			["load"] = {
 				["use_class"] = true,
 				["talent"] = {
@@ -15411,11 +16060,10 @@ WeakAurasSaved = {
 					},
 				},
 				["class"] = {
-					["single"] = "HUNTER",
+					["single"] = "DRUID",
 					["multi"] = {
 					},
 				},
-				["use_combat"] = false,
 				["spec"] = {
 					["multi"] = {
 					},
@@ -15423,6 +16071,57 @@ WeakAurasSaved = {
 				["size"] = {
 					["multi"] = {
 					},
+				},
+			},
+			["source"] = "import",
+			["regionType"] = "icon",
+			["information"] = {
+			},
+			["authorOptions"] = {
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["conditions"] = {
+			},
+			["frameStrata"] = 1,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "dr_Th_party_raid",
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
+			["width"] = 64,
+			["uid"] = "drThGroup01",
+			["config"] = {
+			},
+			["inverse"] = false,
+			["xOffset"] = 190,
+			["displayIcon"] = "Interface\\Icons\\Spell_Nature_Thorns",
+			["cooldown"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
 				},
 			},
 		},
@@ -15452,7 +16151,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["width"] = 64,
+			["desaturate"] = false,
 			["cooldownEdge"] = false,
 			["icon"] = true,
 			["triggers"] = {
@@ -15481,14 +16180,14 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["zoom"] = 0,
 			["keepAspectRatio"] = false,
 			["selfPoint"] = "CENTER",
 			["id"] = "sh_maelstorm",
 			["internalVersion"] = 52,
 			["frameStrata"] = 1,
-			["desaturate"] = false,
+			["anchorFrameType"] = "SCREEN",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -15715,6 +16414,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -15733,14 +16433,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -15765,7 +16457,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["dr_mow_self"] = {
 			["iconSource"] = -1,
@@ -15940,352 +16639,6 @@ WeakAurasSaved = {
 			["authorOptions"] = {
 			},
 		},
-		["hu_TSA_party_raid"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"hu_TSA\",\"party_raid\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "HUNTER",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "hu_TSA_party_raid",
-			["uid"] = "BRP00000045",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["alpha"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
-		["lo_UB_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_UB\",\"self\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "WARLOCK",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "lo_UB_self",
-			["uid"] = "BRP00000035",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["alpha"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
 		["sh_WF_party_raid"] = {
 			["iconSource"] = -1,
 			["xOffset"] = 0,
@@ -16412,7 +16765,32 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["icon"] = true,
+			["frameStrata"] = 1,
+			["width"] = 28,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_WF_party_raid",
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000054",
+			["inverse"] = false,
+			["parent"] = "Class Buff Reminders",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -16433,63 +16811,31 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["frameStrata"] = 1,
-			["width"] = 28,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "sh_WF_party_raid",
-			["config"] = {
-			},
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["uid"] = "BRP00000054",
-			["inverse"] = false,
-			["parent"] = "Class Buff Reminders",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 		},
-		["sh_WoA_party_raid"] = {
+		["lo_UB_self"] = {
 			["iconSource"] = -1,
-			["xOffset"] = 0,
+			["parent"] = "Class Buff Reminders",
 			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
 			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["icon"] = true,
 			["triggers"] = {
 				{
 					["trigger"] = {
 						["type"] = "custom",
 						["custom_type"] = "status",
-						["unit"] = "player",
-						["event"] = "Health",
 						["names"] = {
 						},
-						["spellIds"] = {
-						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WoA\",\"party_raid\",aura_env) or false end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_UB\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["subeventPrefix"] = "SPELL",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -16510,7 +16856,7 @@ WeakAurasSaved = {
 				{
 					["glowFrequency"] = 0.25,
 					["type"] = "subglow",
-					["useGlowColor"] = false,
+					["glowXOffset"] = 0,
 					["glowType"] = "buttonOverlay",
 					["glowLength"] = 10,
 					["glowYOffset"] = 0,
@@ -16520,10 +16866,10 @@ WeakAurasSaved = {
 						0, -- [3]
 						1, -- [4]
 					},
-					["glowXOffset"] = 0,
+					["useGlowColor"] = false,
 					["glow"] = true,
-					["glowThickness"] = 2,
 					["glowScale"] = 1,
+					["glowThickness"] = 2,
 					["glowLines"] = 8,
 					["glowBorder"] = false,
 				}, -- [2]
@@ -16554,26 +16900,26 @@ WeakAurasSaved = {
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
 					["text_anchorPoint"] = "RIGHT",
-					["text_shadowYOffset"] = -1,
+					["text_text_format_n_format"] = "none",
 					["text_fontType"] = "OUTLINE",
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_text_format_n_format"] = "none",
+					["text_shadowYOffset"] = -1,
 				}, -- [3]
 			},
-			["height"] = 28,
+			["height"] = 56,
 			["load"] = {
 				["use_class"] = true,
 				["talent"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "SHAMAN",
+				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["class"] = {
+					["single"] = "WARLOCK",
 					["multi"] = {
 					},
 				},
@@ -16583,53 +16929,60 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["icon"] = true,
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
-					["duration_type"] = "seconds",
 					["type"] = "none",
+					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
 				["main"] = {
-					["duration_type"] = "seconds",
 					["type"] = "none",
+					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
 				["finish"] = {
-					["duration_type"] = "seconds",
 					["type"] = "none",
+					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
-			},
-			["frameStrata"] = 1,
-			["width"] = 28,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "sh_WoA_party_raid",
-			["config"] = {
-			},
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["uid"] = "BRP00000052",
-			["inverse"] = false,
-			["parent"] = "Class Buff Reminders",
-			["conditions"] = {
-			},
-			["information"] = {
 			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_UB_self",
+			["uid"] = "BRP00000035",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
 			},
 		},
 		["pa_BoK_party_raid"] = {
@@ -16753,6 +17106,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -16771,14 +17125,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -16803,7 +17149,14 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["dr_Th_self"] = {
 			["iconSource"] = -1,
@@ -17099,6 +17452,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -17117,14 +17471,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
 					["easeType"] = "none",
-				},
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["color"] = {
@@ -17149,149 +17495,6 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["xOffset"] = 0,
-		},
-		["ma_AM_party_raid"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_AM\",\"party_raid\",aura_env) or false end",
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "MAGE",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -17300,29 +17503,173 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+		},
+		["pa_ArOfWa"] = {
+			["alpha"] = 1,
+			["iconSource"] = -1,
+			["cooldown"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "ma_AM_party_raid",
-			["uid"] = "BRP00000005",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
+			["xOffset"] = -241.185201192865,
 			["authorOptions"] = {
 			},
+			["yOffset"] = 162.6882575211773,
+			["anchorPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["icon"] = true,
 			["config"] = {
 			},
+			["desaturate"] = false,
+			["cooldownEdge"] = false,
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\TempleBellHuge.ogg",
+					["do_sound"] = true,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura2",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+						["spellIds"] = {
+						},
+						["auranames"] = {
+							"The Art of War", -- [1]
+						},
+						["useName"] = true,
+						["names"] = {
+						},
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["width"] = 20,
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["id"] = "pa_ArOfWa",
+			["zoom"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["uid"] = "4PfKmv0qPVm",
 			["inverse"] = false,
-			["alpha"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["text_shadowXOffset"] = 0,
+					["text_text_format_s_format"] = "none",
+					["text_text"] = "%s",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "AUTO",
+					["text_automaticWidth"] = "Auto",
+					["text_fixedWidth"] = 64,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["type"] = "subtext",
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_shadowYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_fontType"] = "OUTLINE",
+				}, -- [2]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["useGlowColor"] = false,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["glowXOffset"] = 0,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [3]
+			},
+			["height"] = 20,
+			["conditions"] = {
+			},
+			["load"] = {
+				["use_spellknown"] = false,
+				["talent"] = {
+					["single"] = 97,
+					["multi"] = {
+					},
+				},
+				["use_talent"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["information"] = {
+			},
 		},
 		["sh_NR_self"] = {
 			["iconSource"] = -1,
@@ -17450,27 +17797,13 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 28,
 			["zoom"] = 0.05,
@@ -17490,21 +17823,203 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 		},
-		["LT NC"] = {
-			["iconSource"] = 2,
+		["ma_AM_party_raid"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_AM\",\"party_raid\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "MAGE",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "ma_AM_party_raid",
+			["uid"] = "BRP00000005",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["sh_NR_party_raid"] = {
+			["iconSource"] = -1,
+			["xOffset"] = 0,
 			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
 			["cooldownEdge"] = false,
@@ -17519,24 +18034,24 @@ WeakAurasSaved = {
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["type"] = "unit",
-						["subeventSuffix"] = "_CAST_START",
-						["percentpower_operator"] = "<",
-						["percentpower"] = "90",
-						["event"] = "Power",
-						["use_percentpower"] = true,
-						["subeventPrefix"] = "SPELL",
-						["powertype"] = 0,
-						["spellIds"] = {
-						},
+						["type"] = "custom",
+						["custom_type"] = "status",
 						["unit"] = "player",
-						["use_unit"] = true,
+						["event"] = "Health",
 						["names"] = {
 						},
-						["use_powertype"] = true,
+						["spellIds"] = {
+						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_NR\",\"party_raid\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
+						["custom"] = "function() return true end",
 					},
 				}, -- [1]
 				["activeTriggerMode"] = -10,
@@ -17545,27 +18060,47 @@ WeakAurasSaved = {
 			["keepAspectRatio"] = false,
 			["selfPoint"] = "CENTER",
 			["desaturate"] = false,
+			["version"] = 1,
 			["subRegions"] = {
 				{
 					["type"] = "subbackground",
 				}, -- [1]
 				{
-					["text_shadowXOffset"] = 0,
-					["text_text_format_s_format"] = "none",
-					["text_text"] = "%1f.percentpower",
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["useGlowColor"] = false,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["glowXOffset"] = 0,
+					["glow"] = true,
+					["glowThickness"] = 2,
+					["glowScale"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
 					["text_shadowColor"] = {
 						0, -- [1]
 						0, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["text_selfPoint"] = "AUTO",
-					["text_automaticWidth"] = "Auto",
-					["text_fixedWidth"] = 64,
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
 					["anchorYOffset"] = 0,
-					["text_justify"] = "CENTER",
-					["text_text_format_1f.percentpower_format"] = "none",
+					["text_justify"] = "LEFT",
 					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -17573,37 +18108,18 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_shadowYOffset"] = 0,
-					["text_text_format_1.percentpower_format"] = "none",
+					["text_anchorYOffset"] = 0,
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
-					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
+					["text_anchorPoint"] = "RIGHT",
+					["text_shadowYOffset"] = -1,
+					["text_fontType"] = "OUTLINE",
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_fontType"] = "OUTLINE",
-				}, -- [2]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = false,
-					["glowScale"] = 1,
-					["glowThickness"] = 1,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
+					["text_text_format_n_format"] = "none",
 				}, -- [3]
 			},
-			["height"] = 64,
+			["height"] = 28,
 			["load"] = {
 				["use_class"] = true,
 				["talent"] = {
@@ -17611,11 +18127,10 @@ WeakAurasSaved = {
 					},
 				},
 				["class"] = {
-					["single"] = "WARLOCK",
+					["single"] = "SHAMAN",
 					["multi"] = {
 					},
 				},
-				["use_combat"] = false,
 				["spec"] = {
 					["multi"] = {
 					},
@@ -17626,54 +18141,235 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["icon"] = true,
-			["authorOptions"] = {
-			},
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["zoom"] = 0,
-			["displayIcon"] = "Interface\\Icons\\Spell_Shadow_BurningSpirit",
-			["xOffset"] = 0,
-			["id"] = "LT NC",
-			["width"] = 64,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["icon"] = true,
 			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["width"] = 28,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_NR_party_raid",
 			["config"] = {
 			},
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000068",
 			["inverse"] = false,
-			["uid"] = "VgL45fp3NiR",
+			["parent"] = "Class Buff Reminders",
 			["conditions"] = {
 			},
 			["information"] = {
 			},
 			["animation"] = {
 				["start"] = {
+					["duration_type"] = "seconds",
 					["type"] = "none",
 					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
 				["main"] = {
+					["duration_type"] = "seconds",
 					["type"] = "none",
 					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
 				["finish"] = {
+					["duration_type"] = "seconds",
 					["type"] = "none",
 					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
 					["easeType"] = "none",
+				},
+			},
+		},
+		["lo_SL_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["unit"] = "player",
+						["event"] = "Health",
+						["names"] = {
+						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_SL\",\"self\",aura_env) or false end",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["spellIds"] = {
+						},
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowThickness"] = 2,
+					["glowScale"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_shadowYOffset"] = -1,
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_text_format_n_format"] = "none",
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "WARLOCK",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_SL_self",
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["width"] = 56,
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000077",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
 				},
 			},
 		},
 	},
 	["lastArchiveClear"] = 1779754470,
 	["minimap"] = {
-		["minimapPos"] = 247.8734454265443,
+		["minimapPos"] = 127.9011941623325,
 		["hide"] = false,
 	},
-	["BuffReminderPackVersion"] = 2,
+	["BuffReminderPackVersion"] = 4,
 	["dbVersion"] = 52,
 	["lastUpgrade"] = 1779754471,
 	["registered"] = {

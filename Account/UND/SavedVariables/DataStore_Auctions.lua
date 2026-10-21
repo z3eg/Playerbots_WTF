@@ -42,6 +42,10 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1780541889,
 				["lastVisitDate"] = "2026/06/03 22:57",
 			},
+			["Default.AzerothCore.Foomyshigo"] = {
+				["lastUpdate"] = 1787707424,
+				["lastVisitDate"] = "2026/08/25 21:23",
+			},
 			["Default.AzerothCore.Terrapewtist"] = {
 				["lastUpdate"] = 1780520757,
 				["lastVisitDate"] = "2026/06/03 17:05",
@@ -49,10 +53,6 @@ DataStore_AuctionsDB = {
 			["Default.AzerothCore.Mbbmmbmm"] = {
 				["lastUpdate"] = 1780541906,
 				["lastVisitDate"] = "2026/06/03 22:58",
-			},
-			["Default.AzerothCore.Foomyshigo"] = {
-				["lastUpdate"] = 1787707424,
-				["lastVisitDate"] = "2026/08/25 21:23",
 			},
 		},
 	},

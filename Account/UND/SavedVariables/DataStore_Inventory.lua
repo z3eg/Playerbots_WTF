@@ -249,26 +249,26 @@ DataStore_InventoryDB = {
 			["Default.AzerothCore.Deadmonology"] = {
 				["Inventory"] = {
 					4373, -- [1]
-					"|cff0070dd|Hitem:51996:0:0:0:0:0:-78:11:38|h[Tumultuous Necklace of the Monkey]|h|r", -- [2]
-					"|cff0070dd|Hitem:51974:0:0:0:0:0:-79:19:38|h[Enumerated Shoulderpads of the Moon]|h|r", -- [3]
+					"|cff0070dd|Hitem:51996:0:0:0:0:0:-78:11:40|h[Tumultuous Necklace of the Monkey]|h|r", -- [2]
+					"|cff0070dd|Hitem:51974:0:0:0:0:0:-79:19:40|h[Enumerated Shoulderpads of the Moon]|h|r", -- [3]
 					nil, -- [4]
 					7728, -- [5]
-					"|cff0070dd|Hitem:51968:0:0:0:0:0:-83:10:38|h[Enumerated Wrap of the Sun]|h|r", -- [6]
+					"|cff0070dd|Hitem:51968:0:0:0:0:0:-83:10:40|h[Enumerated Wrap of the Sun]|h|r", -- [6]
 					14415, -- [7]
 					2983, -- [8]
 					4036, -- [9]
-					"|cff0070dd|Hitem:51973:0:0:0:0:0:-82:15:38|h[Enumerated Handwraps of the Vision]|h|r", -- [10]
+					"|cff0070dd|Hitem:51973:0:0:0:0:0:-82:15:40|h[Enumerated Handwraps of the Vision]|h|r", -- [10]
 					20818, -- [11]
-					"|cff0070dd|Hitem:51992:0:0:0:0:0:-78:14:38|h[Tumultuous Ring of the Monkey]|h|r", -- [12]
+					"|cff0070dd|Hitem:51992:0:0:0:0:0:-78:14:40|h[Tumultuous Ring of the Monkey]|h|r", -- [12]
 					nil, -- [13]
 					nil, -- [14]
-					"|cff1eff00|Hitem:15364:0:0:0:0:0:763:0:38|h[Trickster's Cloak of the Owl]|h|r", -- [15]
+					"|cff1eff00|Hitem:15364:0:0:0:0:0:763:0:40|h[Trickster's Cloak of the Owl]|h|r", -- [15]
 					7714, -- [16]
-					"|cff1eff00|Hitem:15912:0:0:0:0:0:1012:0:38|h[Buccaneer's Orb of the Whale]|h|r", -- [17]
+					"|cff1eff00|Hitem:15912:0:0:0:0:0:1012:0:40|h[Buccaneer's Orb of the Whale]|h|r", -- [17]
 					5207, -- [18]
 				},
 				["averageItemLvl"] = 30.93333333333333,
-				["lastUpdate"] = 1792536704,
+				["lastUpdate"] = 1792542234,
 			},
 			["Default.AzerothCore.Rotbeam"] = {
 				["Inventory"] = {
@@ -420,26 +420,26 @@ DataStore_InventoryDB = {
 			["Default.AzerothCore.Fdore"] = {
 				["Inventory"] = {
 					4385, -- [1]
-					"|cff0070dd|Hitem:51996:0:0:0:0:0:-72:11:38|h[Tumultuous Necklace of the Battle]|h|r", -- [2]
+					"|cff0070dd|Hitem:51996:0:0:0:0:0:-72:11:39|h[Tumultuous Necklace of the Battle]|h|r", -- [2]
 					14412, -- [3]
 					6096, -- [4]
 					14398, -- [5]
-					"|cff1eff00|Hitem:14185:0:0:0:0:0:2033:0:38|h[Watcher's Cinch of Healing]|h|r", -- [6]
+					"|cff1eff00|Hitem:14185:0:0:0:0:0:2033:0:39|h[Watcher's Cinch of Healing]|h|r", -- [6]
 					14404, -- [7]
-					"|cff1eff00|Hitem:6562:0:0:0:0:0:842:0:38|h[Shimmering Boots of the Eagle]|h|r", -- [8]
+					"|cff1eff00|Hitem:6562:0:0:0:0:0:842:0:39|h[Shimmering Boots of the Eagle]|h|r", -- [8]
 					9448, -- [9]
-					"|cff0070dd|Hitem:51973:0:0:0:0:0:-85:15:38|h[Enumerated Handwraps of the Sorcerer]|h|r", -- [10]
+					"|cff0070dd|Hitem:51973:0:0:0:0:0:-85:15:39|h[Enumerated Handwraps of the Sorcerer]|h|r", -- [10]
 					20818, -- [11]
-					"|cff0070dd|Hitem:51992:0:0:0:0:0:-83:14:38|h[Tumultuous Ring of the Sun]|h|r", -- [12]
+					"|cff0070dd|Hitem:51992:0:0:0:0:0:-83:14:39|h[Tumultuous Ring of the Sun]|h|r", -- [12]
 					nil, -- [13]
 					nil, -- [14]
-					"|cff1eff00|Hitem:9805:0:0:0:0:0:845:0:38|h[Superior Cloak of the Eagle]|h|r", -- [15]
+					"|cff1eff00|Hitem:9805:0:0:0:0:0:845:0:39|h[Superior Cloak of the Eagle]|h|r", -- [15]
 					2169, -- [16]
 					7608, -- [17]
 					8184, -- [18]
 				},
 				["averageItemLvl"] = 29.66666666666667,
-				["lastUpdate"] = 1792534910,
+				["lastUpdate"] = 1792538684,
 			},
 			["Default.AzerothCore.Tyrell"] = {
 				["Inventory"] = {
@@ -562,26 +562,26 @@ DataStore_InventoryDB = {
 			["Default.AzerothCore.Widowfury"] = {
 				["Inventory"] = {
 					14410, -- [1]
-					"|cff0070dd|Hitem:51996:0:0:0:0:0:-72:11:39|h[Tumultuous Necklace of the Battle]|h|r", -- [2]
-					"|cff1eff00|Hitem:9796:0:0:0:0:0:850:0:39|h[Ivycloth Mantle of the Eagle]|h|r", -- [3]
+					"|cff0070dd|Hitem:51996:0:0:0:0:0:-72:11:41|h[Tumultuous Necklace of the Battle]|h|r", -- [2]
+					"|cff1eff00|Hitem:9796:0:0:0:0:0:850:0:41|h[Ivycloth Mantle of the Eagle]|h|r", -- [3]
 					154, -- [4]
 					14380, -- [5]
-					"|cff0070dd|Hitem:51964:0:0:0:0:0:-82:10:39|h[Vigorous Belt of the Vision]|h|r", -- [6]
-					"|cff1eff00|Hitem:15017:0:0:0:0:0:848:0:39|h[Lupine Leggings of the Eagle]|h|r", -- [7]
-					"|cff1eff00|Hitem:6582:0:0:0:0:0:1015:0:39|h[Scouting Boots of the Whale]|h|r", -- [8]
-					3802, -- [9]
-					"|cff0070dd|Hitem:9390:0:0:0:0:0:2039:0:39|h[Revelosh's Gloves of Healing]|h|r", -- [10]
-					"|cff0070dd|Hitem:51992:0:0:0:0:0:-85:14:39|h[Tumultuous Ring of the Sorcerer]|h|r", -- [11]
-					"|cff0070dd|Hitem:51992:0:0:0:0:0:-84:14:39|h[Tumultuous Ring of Stamina]|h|r", -- [12]
+					"|cff0070dd|Hitem:51964:0:0:0:0:0:-82:10:41|h[Vigorous Belt of the Vision]|h|r", -- [6]
+					6405, -- [7]
+					"|cff1eff00|Hitem:7472:0:0:0:0:0:438:0:41|h[Regal Boots of the Falcon]|h|r", -- [8]
+					"|cff0070dd|Hitem:9428:0:0:0:0:0:599:0:41|h[Unearthed Bands of the Monkey]|h|r", -- [9]
+					"|cff0070dd|Hitem:9390:0:0:0:0:0:2039:0:41|h[Revelosh's Gloves of Healing]|h|r", -- [10]
+					"|cff0070dd|Hitem:11118:0:0:0:0:0:213:0:41|h[Archaedic Stone of Intellect]|h|r", -- [11]
+					"|cff0070dd|Hitem:51992:0:0:0:0:0:-85:14:41|h[Tumultuous Ring of the Sorcerer]|h|r", -- [12]
 					nil, -- [13]
 					nil, -- [14]
-					"|cff1eff00|Hitem:14219:0:0:0:0:0:2034:0:39|h[Geomancer's Cloak of Healing]|h|r", -- [15]
+					"|cff1eff00|Hitem:14219:0:0:0:0:0:2034:0:41|h[Geomancer's Cloak of Healing]|h|r", -- [15]
 					2169, -- [16]
-					"|cff1eff00|Hitem:15352:0:0:0:0:0:237:0:39|h[Headhunter's Buckler of the Falcon]|h|r", -- [17]
+					"|cff1eff00|Hitem:15352:0:0:0:0:0:237:0:41|h[Headhunter's Buckler of the Falcon]|h|r", -- [17]
 					46978, -- [18]
 				},
-				["averageItemLvl"] = 29.86666666666667,
-				["lastUpdate"] = 1792535655,
+				["averageItemLvl"] = 32.46666666666667,
+				["lastUpdate"] = 1792544963,
 			},
 			["Default.AzerothCore.Worldwarl"] = {
 				["Inventory"] = {
@@ -726,8 +726,8 @@ DataStore_InventoryDB = {
 					["Tyrot"] = {
 						["averageItemLvl"] = 70,
 					},
-					["Totemhamon"] = {
-						["averageItemLvl"] = 16,
+					["Shigofoomy"] = {
+						["averageItemLvl"] = 10,
 					},
 					["Worldwarl"] = {
 						["averageItemLvl"] = 19,
@@ -738,8 +738,8 @@ DataStore_InventoryDB = {
 					["Wwll"] = {
 						["averageItemLvl"] = 24,
 					},
-					["Shigofoomy"] = {
-						["averageItemLvl"] = 10,
+					["Jellyblinks"] = {
+						["averageItemLvl"] = 7,
 					},
 					["Terra"] = {
 						["averageItemLvl"] = 25,
@@ -747,8 +747,8 @@ DataStore_InventoryDB = {
 					["Tyrell"] = {
 						["averageItemLvl"] = 25,
 					},
-					["Jellyblinks"] = {
-						["averageItemLvl"] = 7,
+					["Totemhamon"] = {
+						["averageItemLvl"] = 16,
 					},
 					["Boostershot"] = {
 						["averageItemLvl"] = 14,
@@ -763,7 +763,7 @@ DataStore_InventoryDB = {
 						["averageItemLvl"] = 71,
 					},
 					["Widowfury"] = {
-						["averageItemLvl"] = 29,
+						["averageItemLvl"] = 32,
 					},
 					["Hawkeyecough"] = {
 						["averageItemLvl"] = 13,
@@ -804,8 +804,8 @@ DataStore_InventoryDB = {
 					["Elundrah"] = {
 						["averageItemLvl"] = 5,
 					},
-					["Loasome"] = {
-						["averageItemLvl"] = 3,
+					["Moorlock"] = {
+						["averageItemLvl"] = 10,
 					},
 					["Lightweight"] = {
 						["averageItemLvl"] = 20,
@@ -825,8 +825,8 @@ DataStore_InventoryDB = {
 					["Lavaaddams"] = {
 						["averageItemLvl"] = 7,
 					},
-					["Xalatath"] = {
-						["averageItemLvl"] = 5,
+					["Loasome"] = {
+						["averageItemLvl"] = 3,
 					},
 					["Mbbmmbmm"] = {
 						["averageItemLvl"] = 69,
@@ -834,8 +834,8 @@ DataStore_InventoryDB = {
 					["Stabdad"] = {
 						["averageItemLvl"] = 22,
 					},
-					["Moorlock"] = {
-						["averageItemLvl"] = 10,
+					["Xalatath"] = {
+						["averageItemLvl"] = 5,
 					},
 					["Mojomage"] = {
 						["averageItemLvl"] = 2,

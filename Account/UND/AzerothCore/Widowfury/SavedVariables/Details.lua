@@ -16,15 +16,15 @@ _details_database = {
 	["last_realversion"] = 12,
 	["table_instances"] = {
 	},
-	["combat_counter"] = 17,
+	["combat_counter"] = 39,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
 			["opened"] = 0,
 			["max_emote_segments"] = 3,
-			["show_icon"] = 5,
-			["hide_on_combat"] = false,
 			["author"] = "Details! Team",
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
 		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
@@ -33,8 +33,8 @@ _details_database = {
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
 			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -47,7 +47,7 @@ _details_database = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 9,
+		["logons"] = 11,
 	},
 	["table_history"] = {
 		["tables"] = {
@@ -71,19 +71,15 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.004728,
 							["delay"] = 0,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 331.004728,
-							["placing"] = 1,
-							["dps_started"] = false,
 							["type"] = 1,
+							["dps_started"] = false,
+							["total"] = 331.004728,
 							["class"] = "PALADIN",
-							["friendlyfire"] = {
-								["type"] = 5,
-								["_ActorTable"] = {
-								},
-							},
+							["on_hold"] = false,
 							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
@@ -126,10 +122,14 @@ _details_database = {
 							["end_time"] = 1792458607,
 							["name"] = "Corpsecratio",
 							["last_event"] = 1792458606,
-							["damage_taken"] = 0.004728,
+							["friendlyfire"] = {
+								["type"] = 5,
+								["_ActorTable"] = {
+								},
+							},
 							["start_time"] = 1792458606,
 							["serial"] = "0x0000000000000D8D",
-							["total"] = 331.004728,
+							["placing"] = 1,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -147,19 +147,15 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.004755,
 							["delay"] = 0,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 75.004755,
-							["placing"] = 2,
-							["dps_started"] = false,
 							["type"] = 1,
+							["dps_started"] = false,
+							["total"] = 75.004755,
 							["class"] = "SHAMAN",
-							["friendlyfire"] = {
-								["type"] = 5,
-								["_ActorTable"] = {
-								},
-							},
+							["on_hold"] = false,
 							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
@@ -234,10 +230,14 @@ _details_database = {
 							["end_time"] = 1792458607,
 							["name"] = "Widowfury",
 							["last_event"] = 1792458606,
-							["damage_taken"] = 0.004755,
+							["friendlyfire"] = {
+								["type"] = 5,
+								["_ActorTable"] = {
+								},
+							},
 							["start_time"] = 1792458606,
 							["serial"] = "0x0000000000000D8A",
-							["total"] = 75.004755,
+							["placing"] = 2,
 						}, -- [2]
 					},
 					["combatId"] = 1,
@@ -253,7 +253,8 @@ _details_database = {
 					["_ActorTable"] = {
 						{
 							["runepower_r"] = 0.004487,
-							["runepower"] = 0.004487,
+							["holypower_from"] = {
+							},
 							["group"] = true,
 							["holypower_r"] = 0.004487,
 							["targets"] = {
@@ -264,35 +265,43 @@ _details_database = {
 										["name"] = "Deadmonology",
 										["e_energy"] = 0,
 										["e_rage"] = 0,
-										["mana"] = 1368,
+										["mana"] = 2088,
 										["runepower"] = 0,
 									}, -- [1]
+									{
+										["total"] = 0,
+										["name"] = "Jhuutom <Deadmonology>",
+										["e_energy"] = 0,
+										["e_rage"] = 0,
+										["mana"] = 720,
+										["runepower"] = 0,
+									}, -- [2]
 								},
 							},
 							["pets"] = {
+								"Jhuutom <Deadmonology>", -- [1]
 							},
 							["flag_original"] = 1298,
-							["e_energy_from"] = {
-							},
+							["e_rage_r"] = 0.004487,
 							["focus"] = 0.004487,
-							["mana"] = 1368.004487,
-							["e_energy"] = 0.004487,
+							["mana"] = 2808.004487,
+							["last_event"] = 1792544762,
 							["holypower"] = 0.004487,
-							["holypower_from"] = {
-							},
+							["class"] = "WARLOCK",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
-							["mana_r"] = 1368.004487,
-							["e_rage_r"] = 0.004487,
-							["e_rage"] = 0.004487,
-							["last_event"] = 1792467332,
+							["mana_r"] = 2088.004487,
+							["e_energy_from"] = {
+							},
+							["runepower"] = 0.004487,
+							["e_energy"] = 0.004487,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 									[31818] = {
 										["id"] = 31818,
-										["mana"] = 1368,
+										["mana"] = 2088,
 										["targets"] = {
 											["type"] = 8,
 											["_ActorTable"] = {
@@ -301,7 +310,7 @@ _details_database = {
 													["name"] = "Deadmonology",
 													["e_energy"] = 0,
 													["e_rage"] = 0,
-													["mana"] = 1368,
+													["mana"] = 2088,
 													["runepower"] = 0,
 												}, -- [1]
 											},
@@ -311,13 +320,36 @@ _details_database = {
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 6,
+										["counter"] = 9,
+									},
+									[32553] = {
+										["id"] = 32553,
+										["mana"] = 720,
+										["targets"] = {
+											["type"] = 8,
+											["_ActorTable"] = {
+												{
+													["total"] = 0,
+													["name"] = "Jhuutom <Deadmonology>",
+													["e_energy"] = 0,
+													["e_rage"] = 0,
+													["mana"] = 720,
+													["runepower"] = 0,
+												}, -- [1]
+											},
+										},
+										["e_energy"] = 0,
+										["e_rage"] = 0,
+										["runepower"] = 0,
+										["__index"] = {
+										},
+										["counter"] = 3,
 									},
 								},
 							},
 							["e_rage_from"] = {
 							},
-							["class"] = "WARLOCK",
+							["e_rage"] = 0.004487,
 							["name"] = "Deadmonology",
 							["focus_r"] = 0.004487,
 							["focus_from"] = {
@@ -328,6 +360,52 @@ _details_database = {
 							["serial"] = "0x0000000000000D86",
 							["e_energy_r"] = 0.004487,
 						}, -- [1]
+						{
+							["runepower_r"] = 0.003598,
+							["focus"] = 0.003598,
+							["class"] = "PET",
+							["targets"] = {
+								["type"] = 8,
+								["_ActorTable"] = {
+								},
+							},
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["e_rage"] = 0.003598,
+							["holypower_r"] = 0.003598,
+							["holypower_from"] = {
+							},
+							["last_event"] = 0,
+							["mana"] = 0.003598,
+							["holypower"] = 0.003598,
+							["runepower"] = 0.003598,
+							["runepower_from"] = {
+							},
+							["type"] = 3,
+							["mana_r"] = 720.003598,
+							["e_energy_from"] = {
+							},
+							["e_energy"] = 0.003598,
+							["e_rage_from"] = {
+							},
+							["spell_tables"] = {
+								["type"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["mana_from"] = {
+								["Deadmonology"] = true,
+							},
+							["ownerName"] = "Deadmonology",
+							["name"] = "Jhuutom <Deadmonology>",
+							["focus_r"] = 0.003598,
+							["focus_from"] = {
+							},
+							["e_energy_r"] = 0.003598,
+							["serial"] = "0xF14000178A000004",
+							["e_rage_r"] = 0.003598,
+						}, -- [2]
 					},
 					["combatId"] = 1,
 				}, -- [3]
@@ -404,10 +482,10 @@ _details_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[21084] = {
+									[10290] = {
 										["uptime"] = 1,
 										["activedamt"] = 1,
-										["id"] = 21084,
+										["id"] = 10290,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
@@ -416,10 +494,10 @@ _details_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[10290] = {
+									[21084] = {
 										["uptime"] = 1,
 										["activedamt"] = 1,
-										["id"] = 10290,
+										["id"] = 21084,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
@@ -471,8 +549,7 @@ _details_database = {
 							},
 							["group"] = true,
 							["class"] = "WARLOCK",
-							["pets"] = {
-							},
+							["buff_uptime"] = 2,
 							["buff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
@@ -517,7 +594,8 @@ _details_database = {
 							},
 							["debuff_uptime"] = 0,
 							["serial"] = "0x0000000000000D86",
-							["buff_uptime"] = 2,
+							["pets"] = {
+							},
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
@@ -649,11 +727,11 @@ _details_database = {
 				["enemy"] = "Decrepit Darkhound",
 				["combat_counter"] = 14,
 				["totals"] = {
-					405.9552610000001, -- [1]
+					405.9316370000001, -- [1]
 					0, -- [2]
 					{
 						["e_rage"] = 0,
-						["mana"] = 1368,
+						["mana"] = 2808,
 						["runepower"] = 0,
 						["e_energy"] = 0,
 					}, -- [3]
@@ -680,7 +758,7 @@ _details_database = {
 					0, -- [2]
 					{
 						["e_rage"] = 0,
-						["mana"] = 1368,
+						["mana"] = 2808,
 						["runepower"] = 0,
 						["e_energy"] = 0,
 					}, -- [3]
@@ -713,7 +791,7 @@ _details_database = {
 	},
 	["savedbuffs"] = {
 	},
-	["combat_id"] = 1,
+	["combat_id"] = 20,
 	["savedStyles"] = {
 	},
 	["announce_deaths"] = {
@@ -749,10 +827,10 @@ _details_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 348.4390819122521,
-					["x"] = -655.4074065158404,
-					["w"] = 195.5555718469157,
-					["h"] = 88.86059760462752,
+					["y"] = -365.5812746437692,
+					["x"] = 297.1485035059743,
+					["w"] = 151.1851955851113,
+					["h"] = 91.97723498217931,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -763,7 +841,7 @@ _details_database = {
 			},
 		}, -- [1]
 		{
-			["segment"] = -1,
+			["segment"] = 0,
 			["sub_attribute"] = 1,
 			["horizontalSnap"] = true,
 			["verticalSnap"] = false,
@@ -780,13 +858,13 @@ _details_database = {
 				1, -- [1]
 			},
 			["mode"] = 2,
-			["attribute"] = 1,
+			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 348.508760302794,
-					["x"] = -467.6296237381956,
-					["w"] = 180.0000112155073,
-					["h"] = 88.99999815354454,
+					["y"] = -365.5812746437692,
+					["x"] = 456.9263751870306,
+					["w"] = 168.3703376914014,
+					["h"] = 91.97723498217931,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -797,7 +875,7 @@ _details_database = {
 			},
 		}, -- [2]
 	},
-	["last_instance_time"] = 1792457934,
+	["last_instance_time"] = 1792542284,
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {

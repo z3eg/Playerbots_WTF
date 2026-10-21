@@ -37,6 +37,7 @@ MultiBotDB = {
 					["Beast"] = "false",
 					["Reward"] = "false",
 				},
+				["mainVisible"] = true,
 				["quickFramePositions"] = {
 					["ShamanQuick"] = {
 						["y"] = -153.7066254446624,
@@ -45,7 +46,6 @@ MultiBotDB = {
 						["x"] = -129.8519395749501,
 					},
 				},
-				["mainVisible"] = false,
 				["layout"] = {
 					["MemoryGem2"] = ";0;0;0;Memory-Gem\n|cffffffffThis Memory-Gem has no Location stored within..\nYou need GameMaster-Rights to use this Button.|r\n\n|cffff0000Left-click to store or teleport to the Location|r\n|cff999999(Executed by: Yourself)|r\n\n|cffff0000Right-click to forget the Location|r\n|cff999999(Executed by: Yourself)|r;0",
 					["RewardPoint"] = "-754, 238",
@@ -53,11 +53,18 @@ MultiBotDB = {
 					["MultiBarPoint"] = "-322, 144",
 					["SpellbookPoint"] = "-802, 302",
 					["InventoryPoint"] = "-700, 0",
-					["TalentPoint"] = "-104, -276",
+					["TalentPoint"] = "-77, -389",
 					["MemoryGem1"] = ";0;0;0;Memory-Gem\n|cffffffffThis Memory-Gem has no Location stored within..\nYou need GameMaster-Rights to use this Button.|r\n\n|cffff0000Left-click to store or teleport to the Location|r\n|cff999999(Executed by: Yourself)|r\n\n|cffff0000Right-click to forget the Location|r\n|cff999999(Executed by: Yourself)|r;0",
 					["StatsPoint"] = "-60, 560",
 					["ItemusPoint"] = "-757, 0",
 					["IconosPoint"] = "-860, -8",
+				},
+				["specDropdownPositions"] = {
+					["Widowfury-AzerothCore"] = {
+						["y"] = 295.6666297147616,
+						["x"] = 0,
+						["point"] = "CENTER",
+					},
 				},
 				["minimap"] = {
 					["hide"] = false,
@@ -65,18 +72,19 @@ MultiBotDB = {
 				},
 			},
 			["bots"] = {
-				["Widowfury"] = "Undead,[F],Enhancement,25/29/26,Shaman,39,26",
-				["Fdore"] = "Undead,[F],Fire,0/52/6,Mage,38,26",
-				["Corpsecratio"] = "Undead,[F],Protection,0/51/7,Paladin,38,28",
-				["Rotbeam"] = "Undead,[F],Balance,51/0/13,Druid,41,23",
-				["Deadmonology"] = "Undead,[M],Destruction,0/7/51,Warlock,38,27",
+				["Widowfury"] = "Undead,[F],Enhancement,25/29/26,Shaman,41,28",
+				["Fdore"] = "Undead,[F],Fire,0/52/10,Mage,40,26",
+				["Corpsecratio"] = "Undead,[F],Protection,0/51/11,Paladin,40,31",
+				["Rotbeam"] = "Undead,[F],Balance,51/0/17,Druid,43,24",
+				["Deadmonology"] = "Undead,[M],Demonology,0/53/11,Warlock,41,28",
 			},
 			["migrations"] = {
 				["minimapConfigVersion"] = 1,
 				["mainBarStateVersion"] = 1,
-				["quickFramePositionsVersion"] = 1,
-				["strataLevelVersion"] = 1,
+				["specDropdownPositionsVersion"] = 1,
 				["layoutStateVersion"] = 1,
+				["strataLevelVersion"] = 1,
+				["quickFramePositionsVersion"] = 1,
 				["shamanTotemsVersion"] = 1,
 				["mainVisibleVersion"] = 1,
 			},

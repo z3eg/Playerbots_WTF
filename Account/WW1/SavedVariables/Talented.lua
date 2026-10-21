@@ -4,8 +4,8 @@ TalentedDB = {
 		["Terrapewtist - AzerothCore"] = "Terrapewtist - AzerothCore",
 		["Hawktuahrion - AzerothCore"] = "Hawktuahrion - AzerothCore",
 		["Naarc - AzerothCore"] = "Naarc - AzerothCore",
-		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
 		["Dorc - AzerothCore"] = "Dorc - AzerothCore",
+		["Wwl - AzerothCore"] = "Wwl - AzerothCore",
 		["Foomyshigo - AzerothCore"] = "Foomyshigo - AzerothCore",
 		["Chokerx - AzerothCore"] = "Chokerx - AzerothCore",
 		["Chaosballz - AzerothCore"] = "Chaosballz - AzerothCore",
@@ -68,22 +68,6 @@ TalentedDB = {
 				},
 			},
 		},
-		["Wwl - AzerothCore"] = {
-			["framepos"] = {
-				["TalentedGlyphs"] = {
-					["y"] = -62.95588770021988,
-					["x"] = 262.5182558709932,
-					["anchor"] = "CENTER",
-					["anchorTo"] = "CENTER",
-				},
-				["TalentedFrame"] = {
-					["y"] = 19.1946415041746,
-					["x"] = 47.40895808552932,
-					["anchor"] = "CENTER",
-					["anchorTo"] = "CENTER",
-				},
-			},
-		},
 		["Dorc - AzerothCore"] = {
 			["framepos"] = {
 				["TalentedGlyphs"] = {
@@ -100,6 +84,22 @@ TalentedDB = {
 				},
 			},
 			["last_template"] = "UH ST",
+		},
+		["Wwl - AzerothCore"] = {
+			["framepos"] = {
+				["TalentedGlyphs"] = {
+					["y"] = -62.95588770021988,
+					["x"] = 262.5182558709932,
+					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
+				},
+				["TalentedFrame"] = {
+					["y"] = 19.1946415041746,
+					["x"] = 47.40895808552932,
+					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
+				},
+			},
 		},
 		["Foomyshigo - AzerothCore"] = {
 			["framepos"] = {
@@ -136,10 +136,10 @@ TalentedDB = {
 		["Chaosballz - AzerothCore"] = {
 			["framepos"] = {
 				["TalentedFrame"] = {
-					["y"] = -12.46645322097401,
-					["x"] = -52.14838417024156,
-					["anchor"] = "CENTER",
-					["anchorTo"] = "CENTER",
+					["y"] = 0,
+					["x"] = -78.22244932864589,
+					["anchor"] = "TOP",
+					["anchorTo"] = "TOP",
 				},
 				["TalentedGlyphs"] = {
 					["y"] = 22.43965869022981,

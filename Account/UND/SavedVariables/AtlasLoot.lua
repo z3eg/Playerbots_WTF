@@ -71,16 +71,16 @@ AtlasLootDB = {
 			["AtlasLootVersion"] = "51104",
 		},
 		["Widowfury - AzerothCore"] = {
-			["AtlasLootVersion"] = "51104",
 			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
 		},
 		["Oshi - AzerothCore"] = {
 			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51104",
 		},
 		["Deadmonology - AzerothCore"] = {
-			["AtlasLootVersion"] = "51104",
 			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
 		},
 		["Orcshio - AzerothCore"] = {
 			["AtlasLootVersion"] = "51104",
@@ -174,7 +174,7 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Wwl"] = {
+		["Dorc"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -202,7 +202,7 @@ AtlasLootWishList = {
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
-		["Dorc"] = {
+		["Shigo"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -237,7 +237,7 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Shigo"] = {
+		["Wwl"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -376,7 +376,7 @@ AtlasLootWishList = {
 		},
 		["Naarc"] = {
 		},
-		["Wwl"] = {
+		["Dorc"] = {
 		},
 		["Orcshio"] = {
 		},
@@ -384,7 +384,7 @@ AtlasLootWishList = {
 		},
 		["Deadmonology"] = {
 		},
-		["Dorc"] = {
+		["Shigo"] = {
 		},
 		["Rotbeam"] = {
 		},
@@ -394,7 +394,7 @@ AtlasLootWishList = {
 		},
 		["Foomyshigo"] = {
 		},
-		["Shigo"] = {
+		["Wwl"] = {
 		},
 		["Hawktuahrion"] = {
 		},

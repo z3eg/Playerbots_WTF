@@ -525,7 +525,7 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Chokesaside - AzerothCore"] = {
+				["Foomyshigo - AzerothCore"] = {
 					["actionbars"] = {
 						{
 							["version"] = 3,
@@ -702,59 +702,106 @@ Bartender4DB = {
 				["Deadmonology - AzerothCore"] = {
 					["actionbars"] = {
 						{
+							["padding"] = 1,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -205.0000049922685,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
+								["y"] = 0,
+								["x"] = -95.957367942018,
+								["point"] = "BOTTOM",
+								["scale"] = 0.5,
 							},
 						}, -- [1]
 						{
+							["padding"] = 1,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -189.5000120019606,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
+								["y"] = 23.5,
+								["x"] = -95.957367942018,
+								["point"] = "BOTTOM",
+								["scale"] = 0.4500000178813934,
 							},
 						}, -- [2]
 						{
+							["padding"] = 1,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -151.5000088561475,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
+								["y"] = 44.7500008046627,
+								["x"] = -95.957367942018,
+								["point"] = "BOTTOM",
+								["scale"] = 0.4500000178813934,
 							},
 						}, -- [3]
 						{
+							["padding"] = 1,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -113.5000407246012,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
+								["y"] = 66.00000160932541,
+								["x"] = -95.957367942018,
+								["point"] = "BOTTOM",
+								["scale"] = 0.5,
 							},
 						}, -- [4]
 						{
+							["padding"] = 1,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -75.50007259305471,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
+								["y"] = 89.50000160932541,
+								["x"] = -95.957367942018,
+								["point"] = "BOTTOM",
+								["scale"] = 0.5,
 							},
 						}, -- [5]
 						{
+							["padding"] = 1,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -37.50006944724169,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
+								["y"] = 113.0000016093254,
+								["x"] = -95.957367942018,
+								["point"] = "BOTTOM",
+								["scale"] = 0.5,
 							},
 						}, -- [6]
 						{
+							["padding"] = 1,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 136.5000016093254,
+								["x"] = -95.957367942018,
+								["point"] = "BOTTOM",
+								["scale"] = 0.5,
+							},
 						}, -- [7]
-						[9] = {
-						},
-						[10] = {
-						},
+						{
+							["padding"] = 1,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 136.5000016093254,
+								["x"] = -95.957367942018,
+								["point"] = "BOTTOM",
+								["scale"] = 0.5,
+							},
+						}, -- [8]
+						{
+							["padding"] = 1,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 136.5000016093254,
+								["x"] = -95.957367942018,
+								["point"] = "BOTTOM",
+								["scale"] = 0.5,
+							},
+						}, -- [9]
+						{
+							["enabled"] = true,
+							["padding"] = 1,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 136.5000016093254,
+								["x"] = -95.957367942018,
+								["point"] = "BOTTOM",
+								["scale"] = 0.4500000178813934,
+							},
+						}, -- [10]
 					},
 				},
 				["Orcshio - AzerothCore"] = {
@@ -994,56 +1041,60 @@ Bartender4DB = {
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = 135.0528099256692,
-								["x"] = -191.914735884036,
+								["y"] = 105.7298453744,
+								["x"] = -239.2152985537261,
 								["point"] = "BOTTOM",
+								["scale"] = 0.75,
 							},
 						}, -- [1]
 						{
-							["rows"] = 12,
-							["padding"] = 0,
+							["rows"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 190.7378048655668,
-								["x"] = -68.96265539689694,
+								["y"] = 1.751845558411958,
+								["x"] = -137.4710679510458,
 								["point"] = "RIGHT",
 								["scale"] = 0.9000000357627869,
 							},
+							["padding"] = 0,
 						}, -- [2]
 						{
-							["rows"] = 12,
-							["padding"] = 0,
+							["rows"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 192.8401525531015,
-								["x"] = -38.08498702826705,
+								["y"] = 3.495608625980026,
+								["x"] = -70.67758421477083,
 								["point"] = "RIGHT",
 								["scale"] = 0.9000000357627869,
 							},
+							["padding"] = 0,
 						}, -- [3]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = 95.05283563927127,
-								["x"] = -191.914735884036,
+								["y"] = 75.72983839890154,
+								["x"] = -239.2152985537261,
 								["point"] = "BOTTOM",
+								["scale"] = 0.75,
 							},
 						}, -- [4]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = 55.05283071539002,
-								["x"] = -191.914735884036,
+								["y"] = 45.72983470599061,
+								["x"] = -239.2152985537261,
 								["point"] = "BOTTOM",
+								["scale"] = 0.75,
 							},
 						}, -- [5]
 						{
 							["rows"] = 3,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 135.0528361863692,
-								["x"] = 266.0853167741384,
+								["y"] = 105.7298453744,
+								["x"] = 104.2848985041044,
 								["point"] = "BOTTOM",
+								["scale"] = 0.75,
 							},
 						}, -- [6]
 						{
@@ -1071,15 +1122,15 @@ Bartender4DB = {
 							},
 						}, -- [9]
 						{
+							["rows"] = 2,
 							["enabled"] = true,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -198.6472927652421,
-								["x"] = -69.30022095178606,
-								["point"] = "RIGHT",
+								["y"] = 97.71685360284906,
+								["x"] = -195.8617156081507,
+								["point"] = "BOTTOMRIGHT",
 								["scale"] = 0.9000000357627869,
 							},
-							["rows"] = 6,
 							["padding"] = 0,
 						}, -- [10]
 					},
@@ -1606,99 +1657,62 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Corpsecratio - AzerothCore"] = {
+				["Chokesaside - AzerothCore"] = {
 					["actionbars"] = {
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = 135.0528099256692,
-								["x"] = -191.914735884036,
-								["point"] = "BOTTOM",
+								["y"] = -205.0000049922685,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
 							},
 						}, -- [1]
 						{
-							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 190.7378048655668,
-								["x"] = -68.96265539689694,
-								["point"] = "RIGHT",
-								["scale"] = 0.9000000357627869,
+								["y"] = -189.5000120019606,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
 							},
-							["padding"] = 0,
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 192.8401525531015,
-								["x"] = -38.08498702826705,
-								["point"] = "RIGHT",
-								["scale"] = 0.9000000357627869,
+								["y"] = -151.5000088561475,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
 							},
-							["padding"] = 0,
 						}, -- [3]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = 95.05283563927127,
-								["x"] = -191.914735884036,
-								["point"] = "BOTTOM",
+								["y"] = -113.5000407246012,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
 							},
 						}, -- [4]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = 55.05283071539002,
-								["x"] = -191.914735884036,
-								["point"] = "BOTTOM",
+								["y"] = -75.50007259305471,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
 							},
 						}, -- [5]
 						{
-							["rows"] = 3,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 135.0528361863692,
-								["x"] = 266.0853167741384,
-								["point"] = "BOTTOM",
+								["y"] = -37.50006944724169,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
 							},
 						}, -- [6]
 						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 0.4999336985713399,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
-							},
 						}, -- [7]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 38.49993684438437,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
-							},
-						}, -- [8]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 76.50001001873056,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
-							},
-						}, -- [9]
-						{
-							["rows"] = 6,
-							["enabled"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -198.6472927652421,
-								["x"] = -69.30022095178606,
-								["point"] = "RIGHT",
-								["scale"] = 0.9000000357627869,
-							},
-							["padding"] = 0,
-						}, -- [10]
+						[9] = {
+						},
+						[10] = {
+						},
 					},
 				},
 				["Bellfromhell - AzerothCore"] = {
@@ -1759,62 +1773,99 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Foomyshigo - AzerothCore"] = {
+				["Corpsecratio - AzerothCore"] = {
 					["actionbars"] = {
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -205.0000049922685,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
+								["y"] = 135.0528099256692,
+								["x"] = -191.914735884036,
+								["point"] = "BOTTOM",
 							},
 						}, -- [1]
 						{
+							["rows"] = 12,
+							["padding"] = 0,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -189.5000120019606,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
+								["y"] = 190.7378048655668,
+								["x"] = -68.96265539689694,
+								["point"] = "RIGHT",
+								["scale"] = 0.9000000357627869,
 							},
 						}, -- [2]
 						{
+							["rows"] = 12,
+							["padding"] = 0,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -151.5000088561475,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
+								["y"] = 192.8401525531015,
+								["x"] = -38.08498702826705,
+								["point"] = "RIGHT",
+								["scale"] = 0.9000000357627869,
 							},
 						}, -- [3]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -113.5000407246012,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
+								["y"] = 95.05283563927127,
+								["x"] = -191.914735884036,
+								["point"] = "BOTTOM",
 							},
 						}, -- [4]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -75.50007259305471,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
+								["y"] = 55.05283071539002,
+								["x"] = -191.914735884036,
+								["point"] = "BOTTOM",
 							},
 						}, -- [5]
 						{
+							["rows"] = 3,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -37.50006944724169,
-								["x"] = -231.4999399218102,
-								["point"] = "CENTER",
+								["y"] = 135.0528361863692,
+								["x"] = 266.0853167741384,
+								["point"] = "BOTTOM",
 							},
 						}, -- [6]
 						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999336985713399,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
 						}, -- [7]
-						[9] = {
-						},
-						[10] = {
-						},
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 38.49993684438437,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.50001001873056,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -198.6472927652421,
+								["x"] = -69.30022095178606,
+								["point"] = "RIGHT",
+								["scale"] = 0.9000000357627869,
+							},
+							["rows"] = 6,
+							["padding"] = 0,
+						}, -- [10]
 					},
 				},
 				["Tyrell - AzerothCore"] = {
@@ -1960,13 +2011,13 @@ Bartender4DB = {
 						["y"] = 42.40001492255829,
 					},
 				},
-				["Chokesaside - AzerothCore"] = {
+				["Foomyshigo - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 42.40001492255829,
+						["scale"] = 0.800000011920929,
 						["x"] = -188.7999422717192,
 						["point"] = "CENTER",
-						["scale"] = 0.800000011920929,
+						["y"] = 42.40001492255829,
 					},
 				},
 				["Chokerx - AzerothCore"] = {
@@ -1990,10 +2041,10 @@ Bartender4DB = {
 				["Deadmonology - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 42.40001492255829,
-						["x"] = -188.7999422717192,
-						["point"] = "CENTER",
-						["scale"] = 0.800000011920929,
+						["y"] = 170,
+						["x"] = -102.6000827539885,
+						["point"] = "BOTTOM",
+						["scale"] = 0.4000000059604645,
 					},
 				},
 				["Orcshio - AzerothCore"] = {
@@ -2033,13 +2084,13 @@ Bartender4DB = {
 					},
 				},
 				["global"] = {
-					["version"] = 3,
 					["position"] = {
 						["y"] = 32.40000390215965,
 						["x"] = -205.2001655079769,
 						["point"] = "BOTTOMRIGHT",
 						["scale"] = 0.800000011920929,
 					},
+					["version"] = 3,
 				},
 				["Hawktuahrion - AzerothCore"] = {
 					["version"] = 3,
@@ -2122,14 +2173,14 @@ Bartender4DB = {
 						["scale"] = 0.800000011920929,
 					},
 				},
-				["Corpsecratio - AzerothCore"] = {
+				["Chokesaside - AzerothCore"] = {
+					["version"] = 3,
 					["position"] = {
-						["y"] = 32.40000390215965,
-						["x"] = -205.2001655079769,
-						["point"] = "BOTTOMRIGHT",
+						["y"] = 42.40001492255829,
+						["x"] = -188.7999422717192,
+						["point"] = "CENTER",
 						["scale"] = 0.800000011920929,
 					},
-					["version"] = 3,
 				},
 				["Bellfromhell - AzerothCore"] = {
 					["version"] = 3,
@@ -2140,13 +2191,13 @@ Bartender4DB = {
 						["y"] = 42.40001492255829,
 					},
 				},
-				["Foomyshigo - AzerothCore"] = {
+				["Corpsecratio - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
+						["y"] = 32.40000390215965,
+						["x"] = -205.2001655079769,
+						["point"] = "BOTTOMRIGHT",
 						["scale"] = 0.800000011920929,
-						["x"] = -188.7999422717192,
-						["point"] = "CENTER",
-						["y"] = 42.40001492255829,
 					},
 				},
 				["Tyrell - AzerothCore"] = {
@@ -2171,36 +2222,38 @@ Bartender4DB = {
 						["point"] = "LEFT",
 					},
 				},
+				["Deadmonology - AzerothCore"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 170,
+						["x"] = 141.8942124631504,
+						["point"] = "BOTTOM",
+						["scale"] = 0.5,
+					},
+				},
 				["Corpsecratio - AzerothCore"] = {
 					["enabled"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 16.00000547097916,
 						["x"] = 283.7884249263008,
 						["point"] = "BOTTOMLEFT",
 					},
-					["version"] = 3,
 				},
 				["global"] = {
 					["enabled"] = true,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 16.00000547097916,
 						["x"] = 283.7884249263008,
 						["point"] = "BOTTOMLEFT",
 					},
+					["version"] = 3,
 				},
 			},
 		},
 		["MultiCast"] = {
 			["profiles"] = {
-				["Terra - AzerothCore"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 19.50004031427761,
-						["x"] = -114.5000831930768,
-						["point"] = "CENTER",
-					},
-				},
 				["Terrapewtist - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2210,14 +2263,31 @@ Bartender4DB = {
 					},
 				},
 				["global"] = {
-					["version"] = 3,
 					["position"] = {
-						["y"] = 167.0528208676275,
-						["x"] = 185.707406700486,
+						["y"] = 137.4798325688894,
+						["x"] = -7.809792108946908,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
 				},
 				["Widowfury - AzerothCore"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 19.50004031427761,
+						["x"] = -114.5000831930768,
+						["point"] = "CENTER",
+					},
+				},
+				["Deadmonology - AzerothCore"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 170,
+						["x"] = 92.853703350243,
+						["point"] = "BOTTOM",
+						["scale"] = 0.5,
+					},
+				},
+				["Terra - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 19.50004031427761,
@@ -2303,7 +2373,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Chokesaside - AzerothCore"] = {
+				["Foomyshigo - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 1.500011181313653,
@@ -2328,11 +2398,14 @@ Bartender4DB = {
 					},
 				},
 				["Deadmonology - AzerothCore"] = {
+					["onebag"] = true,
+					["rows"] = 5,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 1.500011181313653,
-						["x"] = 58.50008592856636,
-						["point"] = "CENTER",
+						["y"] = 170,
+						["x"] = -55.4999935374059,
+						["point"] = "BOTTOM",
+						["scale"] = 0.5,
 					},
 				},
 				["Orcshio - AzerothCore"] = {
@@ -2372,8 +2445,8 @@ Bartender4DB = {
 					["rows"] = 5,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 71.95635307538441,
-						["x"] = -110.9999870748118,
+						["y"] = 135.3888330887008,
+						["x"] = -219.4890310629203,
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
@@ -2449,14 +2522,12 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Corpsecratio - AzerothCore"] = {
-					["rows"] = 5,
-					["onebag"] = true,
+				["Chokesaside - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 71.95635307538441,
-						["x"] = -110.9999870748118,
-						["point"] = "BOTTOMRIGHT",
+						["y"] = 1.500011181313653,
+						["x"] = 58.50008592856636,
+						["point"] = "CENTER",
 					},
 				},
 				["Bellfromhell - AzerothCore"] = {
@@ -2467,12 +2538,14 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Foomyshigo - AzerothCore"] = {
+				["Corpsecratio - AzerothCore"] = {
+					["rows"] = 5,
+					["onebag"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 1.500011181313653,
-						["x"] = 58.50008592856636,
-						["point"] = "CENTER",
+						["y"] = 71.95635307538441,
+						["x"] = -110.9999870748118,
+						["point"] = "BOTTOMRIGHT",
 					},
 				},
 				["Tyrell - AzerothCore"] = {
@@ -2559,7 +2632,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Chokesaside - AzerothCore"] = {
+				["Foomyshigo - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.99999801677006,
@@ -2586,9 +2659,10 @@ Bartender4DB = {
 				["Deadmonology - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -14.99999801677006,
-						["x"] = -82.49992344048542,
-						["point"] = "CENTER",
+						["y"] = 170,
+						["x"] = 117.0301448445876,
+						["point"] = "BOTTOM",
+						["scale"] = 0.4749999940395355,
 					},
 				},
 				["Orcshio - AzerothCore"] = {
@@ -2624,13 +2698,13 @@ Bartender4DB = {
 					},
 				},
 				["global"] = {
-					["version"] = 3,
 					["position"] = {
 						["y"] = 167.4028047441957,
 						["x"] = 234.0602896891751,
 						["point"] = "BOTTOM",
 						["scale"] = 0.949999988079071,
 					},
+					["version"] = 3,
 				},
 				["Hawktuahrion - AzerothCore"] = {
 					["version"] = 3,
@@ -2704,14 +2778,13 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Corpsecratio - AzerothCore"] = {
-					["position"] = {
-						["y"] = 167.4028047441957,
-						["x"] = 234.0602896891751,
-						["point"] = "BOTTOM",
-						["scale"] = 0.949999988079071,
-					},
+				["Chokesaside - AzerothCore"] = {
 					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99999801677006,
+						["x"] = -82.49992344048542,
+						["point"] = "CENTER",
+					},
 				},
 				["Bellfromhell - AzerothCore"] = {
 					["version"] = 3,
@@ -2721,12 +2794,13 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Foomyshigo - AzerothCore"] = {
+				["Corpsecratio - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -14.99999801677006,
-						["x"] = -82.49992344048542,
-						["point"] = "CENTER",
+						["y"] = 167.4028047441957,
+						["x"] = 234.0602896891751,
+						["point"] = "BOTTOM",
+						["scale"] = 0.949999988079071,
 					},
 				},
 				["Tyrell - AzerothCore"] = {
@@ -2813,7 +2887,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Chokesaside - AzerothCore"] = {
+				["Foomyshigo - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 51.49992870630285,
@@ -2840,9 +2914,10 @@ Bartender4DB = {
 				["Deadmonology - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 51.49992870630285,
-						["x"] = 53.50004865752089,
-						["point"] = "CENTER",
+						["y"] = 170,
+						["x"] = 73.60930219644079,
+						["point"] = "BOTTOM",
+						["scale"] = 0.5,
 					},
 				},
 				["Orcshio - AzerothCore"] = {
@@ -2880,9 +2955,9 @@ Bartender4DB = {
 				["global"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -188.7184410499602,
-						["x"] = 147.2186043928816,
-						["point"] = "CENTER",
+						["y"] = 171.5798504111201,
+						["x"] = -239.0902275934168,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Hawktuahrion - AzerothCore"] = {
@@ -2957,11 +3032,11 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Corpsecratio - AzerothCore"] = {
+				["Chokesaside - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -188.7184410499602,
-						["x"] = 147.2186043928816,
+						["y"] = 51.49992870630285,
+						["x"] = 53.50004865752089,
 						["point"] = "CENTER",
 					},
 				},
@@ -2973,11 +3048,11 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Foomyshigo - AzerothCore"] = {
+				["Corpsecratio - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 51.49992870630285,
-						["x"] = 53.50004865752089,
+						["y"] = -188.7184410499602,
+						["x"] = 147.2186043928816,
 						["point"] = "CENTER",
 					},
 				},
@@ -3065,7 +3140,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Chokesaside - AzerothCore"] = {
+				["Foomyshigo - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 89.50000188064905,
@@ -3092,9 +3167,10 @@ Bartender4DB = {
 				["Deadmonology - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 89.50000188064905,
-						["x"] = -163.4998882210571,
-						["point"] = "CENTER",
+						["y"] = 170,
+						["x"] = -95.957367942018,
+						["point"] = "BOTTOM",
+						["scale"] = 0.5,
 					},
 				},
 				["Orcshio - AzerothCore"] = {
@@ -3132,9 +3208,10 @@ Bartender4DB = {
 				["global"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 169.0528357760458,
-						["x"] = -191.914735884036,
+						["y"] = 127.9298366976696,
+						["x"] = -239.2652808615742,
 						["point"] = "BOTTOM",
+						["scale"] = 0.6500000357627869,
 					},
 				},
 				["Hawktuahrion - AzerothCore"] = {
@@ -3209,12 +3286,12 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Corpsecratio - AzerothCore"] = {
+				["Chokesaside - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 169.0528357760458,
-						["x"] = -191.914735884036,
-						["point"] = "BOTTOM",
+						["y"] = 89.50000188064905,
+						["x"] = -163.4998882210571,
+						["point"] = "CENTER",
 					},
 				},
 				["Bellfromhell - AzerothCore"] = {
@@ -3225,12 +3302,12 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Foomyshigo - AzerothCore"] = {
+				["Corpsecratio - AzerothCore"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 89.50000188064905,
-						["x"] = -163.4998882210571,
-						["point"] = "CENTER",
+						["y"] = 169.0528357760458,
+						["x"] = -191.914735884036,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Tyrell - AzerothCore"] = {
@@ -3245,23 +3322,33 @@ Bartender4DB = {
 		},
 		["RepBar"] = {
 			["profiles"] = {
+				["Deadmonology - AzerothCore"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 170,
+						["x"] = 132.3882767585077,
+						["point"] = "BOTTOM",
+						["scale"] = 0.5,
+					},
+				},
 				["Corpsecratio - AzerothCore"] = {
 					["enabled"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 3.999889759769985,
 						["x"] = 264.7765535170155,
 						["point"] = "TOPLEFT",
 					},
-					["version"] = 3,
 				},
 				["global"] = {
 					["enabled"] = true,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 3.999889759769985,
 						["x"] = 264.7765535170155,
 						["point"] = "TOPLEFT",
 					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -3278,7 +3365,7 @@ Bartender4DB = {
 		["Chokesaside - AzerothCore"] = "global",
 		["Widowfury - AzerothCore"] = "global",
 		["Oshi - AzerothCore"] = "global",
-		["Deadmonology - AzerothCore"] = "Deadmonology - AzerothCore",
+		["Deadmonology - AzerothCore"] = "global",
 		["Orcshio - AzerothCore"] = "global",
 		["Foomyshigo - AzerothCore"] = "global",
 		["Naarc - AzerothCore"] = "global",
@@ -3335,16 +3422,16 @@ Bartender4DB = {
 				["minimapPos"] = 288.7613939099783,
 			},
 		},
-		["Chokesaside - AzerothCore"] = {
-			["minimapIcon"] = {
-				["minimapPos"] = 250.9475171665292,
-			},
+		["Foomyshigo - AzerothCore"] = {
 		},
 		["Chokerx - AzerothCore"] = {
 		},
 		["Chaosballz - AzerothCore"] = {
 		},
 		["Deadmonology - AzerothCore"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 258.3561410211379,
+			},
 		},
 		["Orcshio - AzerothCore"] = {
 		},
@@ -3359,7 +3446,7 @@ Bartender4DB = {
 		},
 		["global"] = {
 			["minimapIcon"] = {
-				["minimapPos"] = 258.3561410211379,
+				["minimapPos"] = 159.778232550555,
 			},
 		},
 		["Hawktuahrion - AzerothCore"] = {
@@ -3398,9 +3485,9 @@ Bartender4DB = {
 		},
 		["Terra - AzerothCore"] = {
 		},
-		["Corpsecratio - AzerothCore"] = {
+		["Chokesaside - AzerothCore"] = {
 			["minimapIcon"] = {
-				["minimapPos"] = 249.8152258926479,
+				["minimapPos"] = 250.9475171665292,
 			},
 		},
 		["Bellfromhell - AzerothCore"] = {
@@ -3408,7 +3495,10 @@ Bartender4DB = {
 				["minimapPos"] = 257.9873135507528,
 			},
 		},
-		["Foomyshigo - AzerothCore"] = {
+		["Corpsecratio - AzerothCore"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 249.8152258926479,
+			},
 		},
 		["Tyrell - AzerothCore"] = {
 			["minimapIcon"] = {

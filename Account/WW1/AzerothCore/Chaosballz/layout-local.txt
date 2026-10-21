@@ -14,7 +14,7 @@ Y: 23
 W: 921
 H: 601
 Frame: Recount_MainWindow
-FrameLevel: 18
+FrameLevel: 14
 Anchor: RIGHT
 X: -93
 Y: -11
@@ -145,7 +145,7 @@ Anchor: TOPLEFT
 X: 0
 Y: -177
 W: 252
-H: 36
+H: 15
 Frame: XPerl_Assists_FrameAnchor
 FrameLevel: 1
 Anchor: CENTER
@@ -195,10 +195,3 @@ X: -231
 Y: 377
 W: 160
 H: 60
-Frame: BagnonFrameguildbank
-FrameLevel: 1
-Anchor: CENTER
-X: -188
-Y: 97
-W: 586
-H: 401

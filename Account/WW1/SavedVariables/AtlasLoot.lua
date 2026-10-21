@@ -69,8 +69,8 @@ AtlasLootDB = {
 			["AllLinks"] = false,
 		},
 		["Chaosballz - AzerothCore"] = {
-			["AtlasLootVersion"] = "51104",
 			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
 		},
 		["Mbbmmbmm - AzerothCore"] = {
 			["AllLinks"] = false,
@@ -194,13 +194,6 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Chokerx"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
 		["Tyrell"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
@@ -214,6 +207,13 @@ AtlasLootWishList = {
 			["Mark"] = true,
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+		},
+		["Chokerx"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Terra"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -276,11 +276,11 @@ AtlasLootWishList = {
 		},
 		["Wwll"] = {
 		},
-		["Chokerx"] = {
-		},
 		["Tyrell"] = {
 		},
 		["Shigofoomy"] = {
+		},
+		["Chokerx"] = {
 		},
 		["Terra"] = {
 		},

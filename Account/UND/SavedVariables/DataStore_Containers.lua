@@ -242,10 +242,10 @@ DataStore_ContainersDB = {
 							[8] = "|cff1eff00|Hitem:10165:0:0:0:0:0:1125:0:61|h[Templar Gauntlets of the Boar]|h|r",
 						},
 						["counts"] = {
-							[24] = 2,
 							[12] = 8,
-							[16] = 499,
 							[21] = 4,
+							[16] = 499,
+							[24] = 2,
 						},
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:61|h[Portable Hole]|h|r",
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
@@ -1452,26 +1452,7 @@ DataStore_ContainersDB = {
 						["size"] = 24,
 					},
 					["Bag100"] = {
-						["links"] = {
-							"|cff1eff00|Hitem:15111:0:0:0:0:0:760:0:10|h[Rigid Moccasins of the Owl]|h|r", -- [1]
-							nil, -- [2]
-							"|cff1eff00|Hitem:6564:0:0:0:0:0:95:0:10|h[Shimmering Cloak of Spirit]|h|r", -- [3]
-							nil, -- [4]
-							"|cff1eff00|Hitem:15110:0:0:0:0:0:844:0:10|h[Rigid Belt of the Eagle]|h|r", -- [5]
-							"|cff1eff00|Hitem:4575:0:0:0:0:0:134:0:10|h[Medicine Staff of Spirit]|h|r", -- [6]
-							"|cff1eff00|Hitem:789:0:0:0:0:0:22:0:10|h[Stout Battlehammer of Stamina]|h|r", -- [7]
-							"|cff1eff00|Hitem:2079:0:0:0:0:0:1801:0:10|h[Sergeant's Warhammer of Arcane Wrath]|h|r", -- [8]
-							"|cff1eff00|Hitem:9775:0:0:0:0:0:759:0:10|h[Bandit Cinch of the Owl]|h|r", -- [9]
-							"|cff1eff00|Hitem:4569:0:0:0:0:0:6:0:10|h[Staunch Hammer of Strength]|h|r", -- [10]
-							"|cff1eff00|Hitem:15305:0:0:0:0:0:759:0:10|h[Feral Shoes of the Owl]|h|r", -- [11]
-							nil, -- [12]
-							"|cff1eff00|Hitem:15305:0:0:0:0:0:232:0:10|h[Feral Shoes of the Falcon]|h|r", -- [13]
-							"|cff1eff00|Hitem:9808:0:0:0:0:0:1027:0:10|h[Superior Leggings of the Whale]|h|r", -- [14]
-							nil, -- [15]
-							"|cff1eff00|Hitem:15115:0:0:0:0:0:846:0:10|h[Rigid Gloves of the Eagle]|h|r", -- [16]
-							[19] = "|cff1eff00|Hitem:6553:0:0:0:0:0:1012:0:10|h[Bard's Trousers of the Whale]|h|r",
-							[20] = "|cff1eff00|Hitem:9782:0:0:0:0:0:153:0:10|h[Bandit Jerkin of Spirit]|h|r",
-						},
+						["freeslots"] = 8,
 						["ids"] = {
 							15111, -- [1]
 							2987, -- [2]
@@ -1494,8 +1475,27 @@ DataStore_ContainersDB = {
 							6553, -- [19]
 							9782, -- [20]
 						},
+						["links"] = {
+							"|cff1eff00|Hitem:15111:0:0:0:0:0:760:0:10|h[Rigid Moccasins of the Owl]|h|r", -- [1]
+							nil, -- [2]
+							"|cff1eff00|Hitem:6564:0:0:0:0:0:95:0:10|h[Shimmering Cloak of Spirit]|h|r", -- [3]
+							nil, -- [4]
+							"|cff1eff00|Hitem:15110:0:0:0:0:0:844:0:10|h[Rigid Belt of the Eagle]|h|r", -- [5]
+							"|cff1eff00|Hitem:4575:0:0:0:0:0:134:0:10|h[Medicine Staff of Spirit]|h|r", -- [6]
+							"|cff1eff00|Hitem:789:0:0:0:0:0:22:0:10|h[Stout Battlehammer of Stamina]|h|r", -- [7]
+							"|cff1eff00|Hitem:2079:0:0:0:0:0:1801:0:10|h[Sergeant's Warhammer of Arcane Wrath]|h|r", -- [8]
+							"|cff1eff00|Hitem:9775:0:0:0:0:0:759:0:10|h[Bandit Cinch of the Owl]|h|r", -- [9]
+							"|cff1eff00|Hitem:4569:0:0:0:0:0:6:0:10|h[Staunch Hammer of Strength]|h|r", -- [10]
+							"|cff1eff00|Hitem:15305:0:0:0:0:0:759:0:10|h[Feral Shoes of the Owl]|h|r", -- [11]
+							nil, -- [12]
+							"|cff1eff00|Hitem:15305:0:0:0:0:0:232:0:10|h[Feral Shoes of the Falcon]|h|r", -- [13]
+							"|cff1eff00|Hitem:9808:0:0:0:0:0:1027:0:10|h[Superior Leggings of the Whale]|h|r", -- [14]
+							nil, -- [15]
+							"|cff1eff00|Hitem:15115:0:0:0:0:0:846:0:10|h[Rigid Gloves of the Eagle]|h|r", -- [16]
+							[19] = "|cff1eff00|Hitem:6553:0:0:0:0:0:1012:0:10|h[Bard's Trousers of the Whale]|h|r",
+							[20] = "|cff1eff00|Hitem:9782:0:0:0:0:0:153:0:10|h[Bandit Jerkin of Spirit]|h|r",
+						},
 						["size"] = 28,
-						["freeslots"] = 8,
 					},
 					["Bag1"] = {
 						["ids"] = {
@@ -1594,13 +1594,7 @@ DataStore_ContainersDB = {
 						["freeslots"] = 23,
 					},
 					["Bag100"] = {
-						["links"] = {
-							"|cff1eff00|Hitem:14125:0:0:0:0:0:845:0:11|h[Ritual Leggings of the Eagle]|h|r", -- [1]
-							[10] = "|cff1eff00|Hitem:6536:0:0:0:0:0:1805:0:11|h[Willow Vest of Arcane Wrath]|h|r",
-							[12] = "|cff1eff00|Hitem:6569:0:0:0:0:0:1807:0:11|h[Shimmering Robe of Arcane Wrath]|h|r",
-							[3] = "|cff1eff00|Hitem:14174:0:0:0:0:0:1802:0:11|h[Buccaneer's Boots of Arcane Wrath]|h|r",
-							[14] = "|cff1eff00|Hitem:14121:0:0:0:0:0:1956:0:11|h[Aboriginal Vest of Frozen Wrath]|h|r",
-						},
+						["size"] = 28,
 						["ids"] = {
 							14125, -- [1]
 							3647, -- [2]
@@ -1618,8 +1612,14 @@ DataStore_ContainersDB = {
 							14121, -- [14]
 							4699, -- [15]
 						},
+						["links"] = {
+							"|cff1eff00|Hitem:14125:0:0:0:0:0:845:0:11|h[Ritual Leggings of the Eagle]|h|r", -- [1]
+							[10] = "|cff1eff00|Hitem:6536:0:0:0:0:0:1805:0:11|h[Willow Vest of Arcane Wrath]|h|r",
+							[12] = "|cff1eff00|Hitem:6569:0:0:0:0:0:1807:0:11|h[Shimmering Robe of Arcane Wrath]|h|r",
+							[3] = "|cff1eff00|Hitem:14174:0:0:0:0:0:1802:0:11|h[Buccaneer's Boots of Arcane Wrath]|h|r",
+							[14] = "|cff1eff00|Hitem:14121:0:0:0:0:0:1956:0:11|h[Aboriginal Vest of Frozen Wrath]|h|r",
+						},
 						["freeslots"] = 13,
-						["size"] = 28,
 					},
 					["Bag1"] = {
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:11|h[Portable Hole]|h|r",
@@ -2036,12 +2036,12 @@ DataStore_ContainersDB = {
 			["Default.AzerothCore.Deadmonology"] = {
 				["numFreeBankSlots"] = 15,
 				["numBankSlots"] = 28,
-				["lastUpdate"] = 1792536729,
-				["numFreeBagSlots"] = 66,
+				["lastUpdate"] = 1792542265,
+				["numFreeBagSlots"] = 39,
 				["numBagSlots"] = 112,
 				["Containers"] = {
 					["Bag4"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:38|h[Portable Hole]|h|r",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:40|h[Portable Hole]|h|r",
 						["size"] = 24,
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["freeslots"] = 24,
@@ -2066,13 +2066,13 @@ DataStore_ContainersDB = {
 						["size"] = 28,
 					},
 					["Bag1"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:38|h[Portable Hole]|h|r",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:40|h[Portable Hole]|h|r",
 						["links"] = {
-							[4] = "|cff0070dd|Hitem:51974:0:0:0:0:0:-82:19:38|h[Enumerated Shoulderpads of the Vision]|h|r",
-							[21] = "|cff1eff00|Hitem:15988:0:0:0:0:0:863:0:38|h[Resplendent Orb of the Eagle]|h|r",
+							[4] = "|cff0070dd|Hitem:51974:0:0:0:0:0:-82:19:40|h[Enumerated Shoulderpads of the Vision]|h|r",
+							[21] = "|cff1eff00|Hitem:15988:0:0:0:0:0:863:0:40|h[Resplendent Orb of the Eagle]|h|r",
 						},
 						["ids"] = {
-							6265, -- [1]
+							41169, -- [1]
 							4605, -- [2]
 							6948, -- [3]
 							51974, -- [4]
@@ -2098,7 +2098,7 @@ DataStore_ContainersDB = {
 							12058, -- [24]
 						},
 						["cooldowns"] = {
-							[3] = "60157.152|455|1",
+							[3] = "65817.091|1799.389|1",
 						},
 						["counts"] = {
 							[10] = 4,
@@ -2116,33 +2116,47 @@ DataStore_ContainersDB = {
 						["ids"] = {
 							15942, -- [1]
 							16806, -- [2]
-							nil, -- [3]
+							785, -- [3]
 							20516, -- [4]
-							7005, -- [5]
-							nil, -- [6]
-							nil, -- [7]
+							41191, -- [5]
+							2319, -- [6]
+							783, -- [7]
 							21931, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							nil, -- [15]
-							nil, -- [16]
-							nil, -- [17]
+							2776, -- [9]
+							1705, -- [10]
+							3858, -- [11]
+							2997, -- [12]
+							4234, -- [13]
+							6265, -- [14]
+							3770, -- [15]
+							7005, -- [16]
+							6265, -- [17]
 							46883, -- [18]
+							3818, -- [19]
+							4306, -- [20]
+							51992, -- [21]
+							1529, -- [22]
+							4304, -- [23]
+							2772, -- [24]
 						},
 						["links"] = {
-							"|cff1eff00|Hitem:15942:0:0:0:0:0:781:0:38|h[Master's Rod of the Owl]|h|r", -- [1]
+							"|cff1eff00|Hitem:15942:0:0:0:0:0:781:0:40|h[Master's Rod of the Owl]|h|r", -- [1]
+							[21] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-71:14:40|h[Tumultuous Ring of the Bandit]|h|r",
 						},
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
-						["size"] = 24,
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:38|h[Portable Hole]|h|r",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:40|h[Portable Hole]|h|r",
 						["counts"] = {
+							[6] = 9,
+							[13] = 10,
 							[4] = 5,
+							[9] = 4,
+							[19] = 4,
+							[20] = 7,
+							[11] = 2,
+							[22] = 2,
+							[10] = 2,
 						},
-						["freeslots"] = 18,
+						["size"] = 24,
 					},
 					["Bag-2"] = {
 						["ids"] = {
@@ -2152,13 +2166,35 @@ DataStore_ContainersDB = {
 						["size"] = 32,
 					},
 					["Bag3"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:38|h[Portable Hole]|h|r",
+						["ids"] = {
+							9399, -- [1]
+							1177, -- [2]
+							2313, -- [3]
+							8384, -- [4]
+							1710, -- [5]
+							12037, -- [6]
+							1711, -- [7]
+							7741, -- [8]
+							7666, -- [9]
+							1478, -- [10]
+						},
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:40|h[Portable Hole]|h|r",
 						["size"] = 24,
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
-						["freeslots"] = 24,
+						["counts"] = {
+							176, -- [1]
+							2, -- [2]
+							2, -- [3]
+							[5] = 2,
+						},
+						["freeslots"] = 14,
 					},
 					["Bag0"] = {
-						["size"] = 16,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["links"] = {
+							[7] = "|cff1eff00|Hitem:6538:0:0:0:0:0:847:0:40|h[Willow Robe of the Eagle]|h|r",
+							[15] = "|cff1eff00|Hitem:3740:0:0:0:0:0:1180:0:40|h[Decapitating Sword of the Bear]|h|r",
+						},
 						["ids"] = {
 							3455, -- [1]
 							3446, -- [2]
@@ -2172,23 +2208,17 @@ DataStore_ContainersDB = {
 							16892, -- [10]
 							3434, -- [11]
 							19009, -- [12]
-							41170, -- [13]
+							nil, -- [13]
 							14369, -- [14]
 							3740, -- [15]
 							2290, -- [16]
 						},
-						["cooldowns"] = {
-							[10] = "60157.152|465|1",
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["freeslots"] = 1,
 						["counts"] = {
 							[16] = 16,
 							[11] = 5,
 						},
-						["links"] = {
-							[7] = "|cff1eff00|Hitem:6538:0:0:0:0:0:847:0:38|h[Willow Robe of the Eagle]|h|r",
-							[15] = "|cff1eff00|Hitem:3740:0:0:0:0:0:1180:0:38|h[Decapitating Sword of the Bear]|h|r",
-						},
+						["size"] = 16,
 					},
 				},
 			},
@@ -3210,18 +3240,18 @@ DataStore_ContainersDB = {
 						["freeslots"] = 24,
 					},
 					["Bag100"] = {
-						["size"] = 28,
+						["links"] = {
+							[2] = "|cff1eff00|Hitem:15248:0:0:0:0:0:1100:0:15|h[Gleaming Claymore of the Boar]|h|r",
+							[3] = "|cff1eff00|Hitem:8178:0:0:0:0:0:840:0:15|h[Training Sword of the Eagle]|h|r",
+						},
 						["ids"] = {
 							51809, -- [1]
 							15248, -- [2]
 							8178, -- [3]
 							3440, -- [4]
 						},
+						["size"] = 28,
 						["freeslots"] = 24,
-						["links"] = {
-							[2] = "|cff1eff00|Hitem:15248:0:0:0:0:0:1100:0:15|h[Gleaming Claymore of the Boar]|h|r",
-							[3] = "|cff1eff00|Hitem:8178:0:0:0:0:0:840:0:15|h[Training Sword of the Eagle]|h|r",
-						},
 					},
 					["Bag1"] = {
 						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:38|h[Portable Hole]|h|r",
@@ -3233,6 +3263,7 @@ DataStore_ContainersDB = {
 							[21] = "|cff1eff00|Hitem:10363:0:0:0:0:0:212:0:38|h[Engraved Wall of Agility]|h|r",
 							[5] = "|cff1eff00|Hitem:12035:0:0:0:0:0:1201:0:38|h[Obsidian Pendant of the Bear]|h|r",
 						},
+						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["ids"] = {
 							6560, -- [1]
 							3434, -- [2]
@@ -3259,7 +3290,6 @@ DataStore_ContainersDB = {
 							15522, -- [23]
 							4072, -- [24]
 						},
-						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["counts"] = {
 							[10] = 3,
 							[6] = 15,
@@ -3279,8 +3309,8 @@ DataStore_ContainersDB = {
 							[14] = "|cff1eff00|Hitem:15684:0:0:0:0:0:1629:0:38|h[Triumphant Skullcap of Defense]|h|r",
 							[4] = "|cff1eff00|Hitem:10162:0:0:0:0:0:633:0:38|h[Mercurial Legguards of the Monkey]|h|r",
 						},
-						["freeslots"] = 4,
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["freeslots"] = 4,
 						["ids"] = {
 							20563, -- [1]
 							18711, -- [2]
@@ -3364,8 +3394,8 @@ DataStore_ContainersDB = {
 							19009, -- [1]
 							20516, -- [2]
 							46883, -- [3]
-							[6] = 1930,
 							[7] = 4078,
+							[6] = 1930,
 							[8] = 51984,
 						},
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
@@ -3801,11 +3831,11 @@ DataStore_ContainersDB = {
 			["Default.AzerothCore.Fdore"] = {
 				["numFreeBankSlots"] = 26,
 				["numBankSlots"] = 28,
-				["lastUpdate"] = 1792534910,
-				["numFreeBagSlots"] = 53,
+				["lastUpdate"] = 1792538684,
+				["numFreeBagSlots"] = 40,
 				["Containers"] = {
 					["Bag4"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:38|h[Portable Hole]|h|r",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:39|h[Portable Hole]|h|r",
 						["freeslots"] = 24,
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["size"] = 24,
@@ -3831,7 +3861,7 @@ DataStore_ContainersDB = {
 							15912, -- [9]
 							15989, -- [10]
 							21931, -- [11]
-							5514, -- [12]
+							3779, -- [12]
 							37583, -- [13]
 							20397, -- [14]
 							20388, -- [15]
@@ -3846,13 +3876,14 @@ DataStore_ContainersDB = {
 							1708, -- [24]
 						},
 						["links"] = {
-							[7] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-78:14:38|h[Tumultuous Ring of the Monkey]|h|r",
-							[9] = "|cff1eff00|Hitem:15912:0:0:0:0:0:1015:0:38|h[Buccaneer's Orb of the Whale]|h|r",
-							[6] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-71:14:38|h[Tumultuous Ring of the Bandit]|h|r",
-							[10] = "|cff1eff00|Hitem:15989:0:0:0:0:0:867:0:38|h[Eternal Rod of the Eagle]|h|r",
+							[7] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-78:14:39|h[Tumultuous Ring of the Monkey]|h|r",
+							[9] = "|cff1eff00|Hitem:15912:0:0:0:0:0:1015:0:39|h[Buccaneer's Orb of the Whale]|h|r",
+							[6] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-71:14:39|h[Tumultuous Ring of the Bandit]|h|r",
+							[10] = "|cff1eff00|Hitem:15989:0:0:0:0:0:867:0:39|h[Eternal Rod of the Eagle]|h|r",
 						},
 						["counts"] = {
 							[23] = 2,
+							[24] = 2,
 							[13] = 4,
 							[15] = 3,
 							[16] = 5,
@@ -3862,12 +3893,11 @@ DataStore_ContainersDB = {
 							[20] = 4,
 							[22] = 9,
 						},
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:38|h[Portable Hole]|h|r",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:39|h[Portable Hole]|h|r",
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["size"] = 24,
 					},
 					["Bag2"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:38|h[Portable Hole]|h|r",
 						["ids"] = {
 							4537, -- [1]
 							3771, -- [2]
@@ -3877,29 +3907,40 @@ DataStore_ContainersDB = {
 							1181, -- [6]
 							1180, -- [7]
 							5574, -- [8]
-							1705, -- [9]
-							1210, -- [10]
-							818, -- [11]
+							46883, -- [9]
+							10250, -- [10]
+							14330, -- [11]
 							6948, -- [12]
-							nil, -- [13]
+							14458, -- [13]
 							3253, -- [14]
 							46881, -- [15]
-							2318, -- [16]
-							2319, -- [17]
-							2934, -- [18]
-							3173, -- [19]
-							2672, -- [20]
+							16696, -- [16]
+							10102, -- [17]
+							3784, -- [18]
+							4306, -- [19]
+							11971, -- [20]
+							1710, -- [21]
+							5504, -- [22]
+							2786, -- [23]
+							1205, -- [24]
 						},
-						["freeslots"] = 5,
+						["links"] = {
+							[10] = "|cff1eff00|Hitem:10250:0:0:0:0:0:395:0:39|h[Master's Hat of Intellect]|h|r",
+							[17] = "|cff1eff00|Hitem:10102:0:0:0:0:0:393:0:39|h[Councillor's Robes of Intellect]|h|r",
+							[11] = "|cff1eff00|Hitem:14330:0:0:0:0:0:383:0:39|h[Eternal Bindings of Intellect]|h|r",
+							[20] = "|cff1eff00|Hitem:11971:0:0:0:0:0:1410:0:39|h[Amethyst Band of Fire Resistance]|h|r",
+						},
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:39|h[Portable Hole]|h|r",
+						["cooldowns"] = {
+							[12] = "62564.827|899.072|1",
+						},
 						["counts"] = {
 							[5] = 13,
 							[6] = 14,
 							[14] = 4,
 							[2] = 3,
-							[17] = 4,
-							[18] = 2,
 							[4] = 3,
-							[16] = 3,
+							[19] = 14,
 						},
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["size"] = 24,
@@ -3908,7 +3949,7 @@ DataStore_ContainersDB = {
 						["ids"] = {
 							2901, -- [1]
 							7005, -- [2]
-							3455, -- [3]
+							4539, -- [3]
 							3446, -- [4]
 							11287, -- [5]
 							51968, -- [6]
@@ -3933,9 +3974,30 @@ DataStore_ContainersDB = {
 						},
 					},
 					["Bag3"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:38|h[Portable Hole]|h|r",
-						["freeslots"] = 24,
+						["ids"] = {
+							4338, -- [1]
+							3864, -- [2]
+							15594, -- [3]
+							3772, -- [4]
+							4422, -- [5]
+							1529, -- [6]
+							nil, -- [7]
+							3806, -- [8]
+							51992, -- [9]
+						},
+						["links"] = {
+							[9] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-71:14:39|h[Tumultuous Ring of the Bandit]|h|r",
+							[3] = "|cff1eff00|Hitem:15594:0:0:0:0:0:1021:0:39|h[Steadfast Cloak of the Whale]|h|r",
+						},
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["freeslots"] = 16,
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:39|h[Portable Hole]|h|r",
+						["counts"] = {
+							3, -- [1]
+							2, -- [2]
+							nil, -- [3]
+							6, -- [4]
+						},
 						["size"] = 24,
 					},
 					["Bag-2"] = {
@@ -4473,14 +4535,14 @@ DataStore_ContainersDB = {
 						["freeslots"] = 24,
 					},
 					["Bag100"] = {
-						["links"] = {
-							"|cffff8000|Hitem:19019:3369:0:0:0:0:0:0:63|h[Thunderfury, Blessed Blade of the Windseeker]|h|r", -- [1]
-						},
+						["freeslots"] = 27,
 						["ids"] = {
 							19019, -- [1]
 						},
+						["links"] = {
+							"|cffff8000|Hitem:19019:3369:0:0:0:0:0:0:63|h[Thunderfury, Blessed Blade of the Windseeker]|h|r", -- [1]
+						},
 						["size"] = 28,
-						["freeslots"] = 27,
 					},
 					["Bag1"] = {
 						["ids"] = {
@@ -5008,10 +5070,10 @@ DataStore_ContainersDB = {
 			["Default.AzerothCore.Widowfury"] = {
 				["numFreeBankSlots"] = 26,
 				["numBankSlots"] = 28,
-				["lastUpdate"] = 1792535655,
+				["lastUpdate"] = 1792544963,
 				["Containers"] = {
 					["Bag4"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:39|h[Portable Hole]|h|r",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:41|h[Portable Hole]|h|r",
 						["freeslots"] = 24,
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["size"] = 24,
@@ -5025,88 +5087,94 @@ DataStore_ContainersDB = {
 						["size"] = 28,
 					},
 					["Bag1"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:39|h[Portable Hole]|h|r",
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:41|h[Portable Hole]|h|r",
 						["links"] = {
-							[2] = "|cff1eff00|Hitem:15311:0:0:0:0:0:179:0:39|h[Feral Harness of Spirit]|h|r",
-							[5] = "|cff1eff00|Hitem:15116:0:0:0:0:0:1020:0:39|h[Rigid Shoulders of the Whale]|h|r",
-							[6] = "|cff1eff00|Hitem:15120:0:0:0:0:0:851:0:39|h[Robust Girdle of the Eagle]|h|r",
-						},
-						["ids"] = {
-							4239, -- [1]
-							15311, -- [2]
-							1944, -- [3]
-							14560, -- [4]
-							15116, -- [5]
-							15120, -- [6]
-							3288, -- [7]
-							1945, -- [8]
-							35725, -- [9]
-							3456, -- [10]
-							37583, -- [11]
-							3434, -- [12]
-							37604, -- [13]
-							3382, -- [14]
-							20516, -- [15]
-							4604, -- [16]
-							3770, -- [17]
-							1707, -- [18]
-							1710, -- [19]
-							858, -- [20]
-							1712, -- [21]
-							6948, -- [22]
-							5175, -- [23]
-							46884, -- [24]
-						},
-						["cooldowns"] = {
-							[22] = "58891.712|1722|1",
+							"|cff1eff00|Hitem:15017:0:0:0:0:0:848:0:41|h[Lupine Leggings of the Eagle]|h|r", -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							"|cff1eff00|Hitem:15116:0:0:0:0:0:1020:0:41|h[Rigid Shoulders of the Whale]|h|r", -- [4]
+							"|cff1eff00|Hitem:15120:0:0:0:0:0:851:0:41|h[Robust Girdle of the Eagle]|h|r", -- [5]
+							"|cff1eff00|Hitem:6582:0:0:0:0:0:1015:0:41|h[Scouting Boots of the Whale]|h|r", -- [6]
+							[10] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-85:14:41|h[Tumultuous Ring of the Sorcerer]|h|r",
+							[12] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-84:14:41|h[Tumultuous Ring of Stamina]|h|r",
+							[11] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-68:14:41|h[Tumultuous Ring of the Bear]|h|r",
+							[13] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-84:14:41|h[Tumultuous Ring of Stamina]|h|r",
+							[15] = "|cff1eff00|Hitem:10365:0:0:0:0:0:948:0:41|h[Emerald Shield of the Gorilla]|h|r",
 						},
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
+						["ids"] = {
+							15017, -- [1]
+							1944, -- [2]
+							14560, -- [3]
+							15116, -- [4]
+							15120, -- [5]
+							6582, -- [6]
+							3288, -- [7]
+							1945, -- [8]
+							14770, -- [9]
+							51992, -- [10]
+							51992, -- [11]
+							51992, -- [12]
+							51992, -- [13]
+							9403, -- [14]
+							10365, -- [15]
+							3456, -- [16]
+							37583, -- [17]
+							3434, -- [18]
+							37604, -- [19]
+							3382, -- [20]
+							20516, -- [21]
+							3772, -- [22]
+							4604, -- [23]
+							3770, -- [24]
+						},
 						["counts"] = {
-							[19] = 2,
-							[12] = 5,
-							[14] = 3,
-							[17] = 2,
-							[18] = 3,
-							[13] = 10,
-							[15] = 3,
-							[16] = 6,
+							[19] = 10,
+							[23] = 6,
+							[20] = 3,
+							[24] = 2,
+							[18] = 5,
+							[22] = 7,
 						},
 						["size"] = 24,
 					},
 					["Bag2"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:39|h[Portable Hole]|h|r",
-						["links"] = {
-							[18] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-68:14:39|h[Tumultuous Ring of the Bear]|h|r",
-							[19] = "|cff1eff00|Hitem:2080:0:0:0:0:0:675:0:39|h[Hillborne Axe of the Tiger]|h|r",
-						},
-						["counts"] = {
-							[16] = 11,
-							[15] = 11,
-						},
-						["size"] = 24,
 						["ids"] = {
-							46881, -- [1]
-							46883, -- [2]
-							785, -- [3]
-							7005, -- [4]
-							7005, -- [5]
-							7005, -- [6]
-							7005, -- [7]
-							7005, -- [8]
-							7005, -- [9]
-							7005, -- [10]
-							7005, -- [11]
-							19009, -- [12]
-							2319, -- [13]
-							7005, -- [14]
-							2934, -- [15]
-							2318, -- [16]
-							14753, -- [17]
-							51992, -- [18]
-							2080, -- [19]
+							1707, -- [1]
+							19009, -- [2]
+							1710, -- [3]
+							858, -- [4]
+							3827, -- [5]
+							1712, -- [6]
+							1529, -- [7]
+							6948, -- [8]
+							20393, -- [9]
+							6064, -- [10]
+							46883, -- [11]
+							46884, -- [12]
+							46883, -- [13]
+							46881, -- [14]
+							4338, -- [15]
+							4306, -- [16]
+							4234, -- [17]
+							2318, -- [18]
+							2319, -- [19]
+							4304, -- [20]
+							7912, -- [21]
+						},
+						["freeslots"] = 3,
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:41|h[Portable Hole]|h|r",
+						["counts"] = {
+							3, -- [1]
+							[3] = 6,
+							[5] = 2,
+							[19] = 6,
+							[16] = 3,
+							[17] = 3,
+							[15] = 2,
 						},
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
-						["freeslots"] = 5,
+						["size"] = 24,
 					},
 					["Bag-2"] = {
 						["ids"] = {
@@ -5117,8 +5185,8 @@ DataStore_ContainersDB = {
 						["size"] = 32,
 					},
 					["Bag3"] = {
-						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:39|h[Portable Hole]|h|r",
 						["freeslots"] = 24,
+						["link"] = "|cffa335ee|Hitem:51809:0:0:0:0:0:0:0:41|h[Portable Hole]|h|r",
 						["icon"] = "Interface\\Icons\\inv_misc_shadowegg",
 						["size"] = 24,
 					},
@@ -5129,38 +5197,33 @@ DataStore_ContainersDB = {
 							2079, -- [3]
 							3446, -- [4]
 							3195, -- [5]
-							10102, -- [6]
-							7357, -- [7]
-							10218, -- [8]
-							14326, -- [9]
-							6568, -- [10]
-							1930, -- [11]
-							3833, -- [12]
-							51964, -- [13]
-							51965, -- [14]
-							14583, -- [15]
-							2309, -- [16]
+							7357, -- [6]
+							14423, -- [7]
+							1930, -- [8]
+							3833, -- [9]
+							51964, -- [10]
+							51965, -- [11]
+							9398, -- [12]
+							14583, -- [13]
+							2309, -- [14]
+							4239, -- [15]
+							15311, -- [16]
 						},
-						["size"] = 16,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["links"] = {
-							nil, -- [1]
-							"|cff1eff00|Hitem:4561:0:0:0:0:0:15:0:39|h[Scalping Tomahawk of Stamina]|h|r", -- [2]
-							"|cff1eff00|Hitem:2079:0:0:0:0:0:19:0:39|h[Sergeant's Warhammer of Stamina]|h|r", -- [3]
-							nil, -- [4]
-							"|cff1eff00|Hitem:3195:0:0:0:0:0:1014:0:39|h[Barbaric Battle Axe of the Whale]|h|r", -- [5]
-							"|cff1eff00|Hitem:10102:0:0:0:0:0:884:0:39|h[Councillor's Robes of the Eagle]|h|r", -- [6]
-							"|cff1eff00|Hitem:7357:0:0:0:0:0:1887:0:39|h[Elder's Hat of Fiery Wrath]|h|r", -- [7]
-							"|cff1eff00|Hitem:10218:0:0:0:0:0:889:0:39|h[Elegant Tunic of the Eagle]|h|r", -- [8]
-							"|cff1eff00|Hitem:14326:0:0:0:0:0:888:0:39|h[Resplendent Robes of the Eagle]|h|r", -- [9]
-							"|cff1eff00|Hitem:6568:0:0:0:0:0:1019:0:39|h[Shimmering Trousers of the Whale]|h|r", -- [10]
-							[13] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-71:10:39|h[Vigorous Belt of the Bandit]|h|r",
-							[14] = "|cff0070dd|Hitem:51965:0:0:0:0:0:-79:15:39|h[Vigorous Handguards of the Moon]|h|r",
+							[10] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-71:10:41|h[Vigorous Belt of the Bandit]|h|r",
+							[6] = "|cff1eff00|Hitem:7357:0:0:0:0:0:1887:0:41|h[Elder's Hat of Fiery Wrath]|h|r",
+							[2] = "|cff1eff00|Hitem:4561:0:0:0:0:0:15:0:41|h[Scalping Tomahawk of Stamina]|h|r",
+							[11] = "|cff0070dd|Hitem:51965:0:0:0:0:0:-79:15:41|h[Vigorous Handguards of the Moon]|h|r",
+							[3] = "|cff1eff00|Hitem:2079:0:0:0:0:0:19:0:41|h[Sergeant's Warhammer of Stamina]|h|r",
+							[16] = "|cff1eff00|Hitem:15311:0:0:0:0:0:179:0:41|h[Feral Harness of Spirit]|h|r",
+							[5] = "|cff1eff00|Hitem:3195:0:0:0:0:0:1014:0:41|h[Barbaric Battle Axe of the Whale]|h|r",
 						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
 					},
 				},
 				["numBagSlots"] = 112,
-				["numFreeBagSlots"] = 53,
+				["numFreeBagSlots"] = 51,
 			},
 			["Default.AzerothCore.Worldwarl"] = {
 				["lastUpdate"] = 1791081279,
@@ -5560,7 +5623,7 @@ DataStore_ContainersDB = {
 							4289, -- [85]
 							3685, -- [86]
 							4461, -- [87]
-							nil, -- [88]
+							5637, -- [88]
 							19269, -- [89]
 							9262, -- [90]
 							4611, -- [91]
@@ -5569,18 +5632,19 @@ DataStore_ContainersDB = {
 							19259, -- [94]
 							20874, -- [95]
 							12607, -- [96]
-							[98] = 7910,
+							2772, -- [97]
+							7910, -- [98]
 						},
-						["ClientTime"] = 1792536722,
-						["ClientHour"] = 18,
-						["visitedBy"] = "Deadmonology",
-						["ClientMinute"] = 52,
-						["ServerMinute"] = 51,
+						["ClientTime"] = 1792543670,
+						["ClientHour"] = 20,
+						["visitedBy"] = "Widowfury",
+						["ClientMinute"] = 47,
+						["ServerMinute"] = 47,
 						["counts"] = {
 							nil, -- [1]
 							25, -- [2]
 							6, -- [3]
-							148, -- [4]
+							150, -- [4]
 							2, -- [5]
 							9, -- [6]
 							4, -- [7]
@@ -5607,18 +5671,18 @@ DataStore_ContainersDB = {
 							464, -- [28]
 							11, -- [29]
 							25, -- [30]
-							54, -- [31]
+							55, -- [31]
 							4, -- [32]
 							10, -- [33]
 							28, -- [34]
 							4, -- [35]
 							264, -- [36]
 							34, -- [37]
-							12, -- [38]
+							13, -- [38]
 							19, -- [39]
 							29, -- [40]
 							[74] = 104,
-							[45] = 61,
+							[45] = 66,
 							[53] = 80,
 							[61] = 3,
 							[75] = 811,
@@ -5629,12 +5693,13 @@ DataStore_ContainersDB = {
 							[77] = 999,
 							[93] = 6,
 							[78] = 9,
-							[55] = 200,
+							[55] = 205,
 							[63] = 3,
 							[79] = 4,
 							[80] = 3,
 							[48] = 3,
 							[65] = 4,
+							[97] = 7,
 							[66] = 8,
 							[82] = 7,
 							[49] = 10,
@@ -5653,114 +5718,872 @@ DataStore_ContainersDB = {
 							[96] = 2,
 							[44] = 2,
 							[98] = 43,
-							[60] = 3,
+							[60] = 4,
 							[73] = 4,
 							[89] = 2,
 							[84] = 3,
 						},
 						["name"] = "Tab1",
-						["ServerHour"] = 18,
+						["ServerHour"] = 20,
 						["icon"] = "Interface\\Icons\\INV_Hammer_20",
 						["size"] = 98,
 					}, -- [1]
 					{
 						["ClientDate"] = "10/20/2026",
-						["ClientTime"] = 1792536725,
-						["visitedBy"] = "Deadmonology",
-						["ClientMinute"] = 52,
+						["ids"] = {
+							7909, -- [1]
+							4232, -- [2]
+							4370, -- [3]
+							4360, -- [4]
+							9747, -- [5]
+							19234, -- [6]
+							10286, -- [7]
+							18945, -- [8]
+							11754, -- [9]
+							10939, -- [10]
+							7974, -- [11]
+							12208, -- [12]
+							12203, -- [13]
+							8150, -- [14]
+							19262, -- [15]
+							9327, -- [16]
+							22529, -- [17]
+							5637, -- [18]
+							8154, -- [19]
+							7070, -- [20]
+							2675, -- [21]
+							2319, -- [22]
+							17058, -- [23]
+							3172, -- [24]
+							2677, -- [25]
+							3667, -- [26]
+							2934, -- [27]
+							3864, -- [28]
+							8167, -- [29]
+							19273, -- [30]
+							7068, -- [31]
+							2447, -- [32]
+							nil, -- [33]
+							8165, -- [34]
+							15412, -- [35]
+							17056, -- [36]
+							19233, -- [37]
+							19272, -- [38]
+							19282, -- [39]
+							19263, -- [40]
+							7078, -- [41]
+							7075, -- [42]
+							5833, -- [43]
+							8171, -- [44]
+							7080, -- [45]
+							765, -- [46]
+							9262, -- [47]
+							12037, -- [48]
+							7067, -- [49]
+							1705, -- [50]
+							1529, -- [51]
+							15416, -- [52]
+							6238, -- [53]
+							22527, -- [54]
+							19275, -- [55]
+							19284, -- [56]
+							12363, -- [57]
+							8151, -- [58]
+							20384, -- [59]
+							4306, -- [60]
+							4337, -- [61]
+							4603, -- [62]
+							7971, -- [63]
+							18335, -- [64]
+							4374, -- [65]
+							12365, -- [66]
+							12800, -- [67]
+							20498, -- [68]
+							12799, -- [69]
+							19265, -- [70]
+							7910, -- [71]
+							4304, -- [72]
+							22528, -- [73]
+							12808, -- [74]
+							11404, -- [75]
+							19943, -- [76]
+							12607, -- [77]
+							19767, -- [78]
+							22202, -- [79]
+							6037, -- [80]
+							11382, -- [81]
+							12361, -- [82]
+							7076, -- [83]
+							20500, -- [84]
+							20501, -- [85]
+							12360, -- [86]
+							19441, -- [87]
+							17011, -- [88]
+							19774, -- [89]
+							12364, -- [90]
+							3486, -- [91]
+							18562, -- [92]
+							17010, -- [93]
+							20424, -- [94]
+							13464, -- [95]
+							14227, -- [96]
+							17203, -- [97]
+							13465, -- [98]
+						},
+						["ClientTime"] = 1792537881,
+						["visitedBy"] = "Fdore",
+						["links"] = {
+							[5] = "|cff1eff00|Hitem:9747:0:0:0:0:0:756:0:38|h[Simple Britches of the Owl]|h|r",
+						},
+						["ClientHour"] = 19,
+						["ClientMinute"] = 11,
 						["name"] = "Tab2",
-						["ClientHour"] = 18,
-						["ServerHour"] = 18,
-						["ServerMinute"] = 52,
 						["icon"] = "Interface\\Icons\\INV_Axe_97",
+						["ServerMinute"] = 10,
+						["ServerHour"] = 19,
+						["counts"] = {
+							74, -- [1]
+							nil, -- [2]
+							21, -- [3]
+							20, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							4, -- [7]
+							138, -- [8]
+							27, -- [9]
+							2, -- [10]
+							nil, -- [11]
+							27, -- [12]
+							28, -- [13]
+							6, -- [14]
+							nil, -- [15]
+							nil, -- [16]
+							9, -- [17]
+							nil, -- [18]
+							9, -- [19]
+							nil, -- [20]
+							nil, -- [21]
+							6, -- [22]
+							nil, -- [23]
+							nil, -- [24]
+							nil, -- [25]
+							2, -- [26]
+							5, -- [27]
+							33, -- [28]
+							3, -- [29]
+							2, -- [30]
+							7, -- [31]
+							9, -- [32]
+							nil, -- [33]
+							13, -- [34]
+							18, -- [35]
+							26, -- [36]
+							nil, -- [37]
+							7, -- [38]
+							5, -- [39]
+							nil, -- [40]
+							23, -- [41]
+							nil, -- [42]
+							12, -- [43]
+							10, -- [44]
+							nil, -- [45]
+							18, -- [46]
+							3, -- [47]
+							7, -- [48]
+							3, -- [49]
+							15, -- [50]
+							25, -- [51]
+							59, -- [52]
+							nil, -- [53]
+							4, -- [54]
+							nil, -- [55]
+							2, -- [56]
+							30, -- [57]
+							2, -- [58]
+							2, -- [59]
+							91, -- [60]
+							2, -- [61]
+							2, -- [62]
+							nil, -- [63]
+							5, -- [64]
+							[82] = 4,
+							[84] = 9,
+							[86] = 2,
+							[88] = 47,
+							[90] = 3,
+							[92] = 72,
+							[67] = 23,
+							[71] = 11,
+							[73] = 58,
+							[75] = 4,
+							[77] = 4,
+							[79] = 2,
+							[81] = 4,
+							[83] = 14,
+							[85] = 5,
+							[87] = 4,
+							[89] = 4,
+							[93] = 66,
+							[66] = 36,
+							[68] = 125,
+							[72] = 605,
+							[74] = 6,
+							[76] = 3,
+							[97] = 2,
+							[98] = 2,
+						},
 						["size"] = 98,
 					}, -- [2]
 					{
 						["ClientDate"] = "10/20/2026",
 						["ids"] = {
-							[62] = 7005,
-							[84] = 14753,
-							[73] = 7005,
-							[77] = 7005,
-							[92] = 2901,
-							[59] = 7005,
-							[91] = 15322,
-							[78] = 7005,
-							[82] = 7005,
-							[85] = 2080,
-							[90] = 9384,
-							[83] = 7005,
-							[58] = 7005,
-							[76] = 7005,
+							20725, -- [1]
+							38682, -- [2]
+							2447, -- [3]
+							2776, -- [4]
+							4231, -- [5]
+							785, -- [6]
+							10938, -- [7]
+							10940, -- [8]
+							8831, -- [9]
+							13466, -- [10]
+							35, -- [11]
+							2453, -- [12]
+							3820, -- [13]
+							3821, -- [14]
+							12804, -- [15]
+							3356, -- [16]
+							59, -- [17]
+							6557, -- [18]
+							6585, -- [19]
+							9779, -- [20]
+							15248, -- [21]
+							1812, -- [22]
+							3211, -- [23]
+							2449, -- [24]
+							14047, -- [25]
+							8845, -- [26]
+							3369, -- [27]
+							8846, -- [28]
+							5956, -- [29]
+							2901, -- [30]
+							2450, -- [31]
+							10407, -- [32]
+							1738, -- [33]
+							15499, -- [34]
+							6256, -- [35]
+							19726, -- [36]
+							2775, -- [37]
+							3357, -- [38]
+							3858, -- [39]
+							2452, -- [40]
+							3355, -- [41]
+							4698, -- [42]
+							2901, -- [43]
+							4358, -- [44]
+							4365, -- [45]
+							39339, -- [46]
+							4378, -- [47]
+							14089, -- [48]
+							39340, -- [49]
+							4698, -- [50]
+							4677, -- [51]
+							10401, -- [52]
+							10620, -- [53]
+							10405, -- [54]
+							39349, -- [55]
+							9760, -- [56]
+							15509, -- [57]
+							7005, -- [58]
+							7005, -- [59]
+							5759, -- [60]
+							10648, -- [61]
+							7005, -- [62]
+							4470, -- [63]
+							39505, -- [64]
+							2592, -- [65]
+							3381, -- [66]
+							14121, -- [67]
+							9308, -- [68]
+							15894, -- [69]
+							1758, -- [70]
+							nil, -- [71]
+							1826, -- [72]
+							7005, -- [73]
+							3381, -- [74]
+							10265, -- [75]
+							7005, -- [76]
+							7005, -- [77]
+							7005, -- [78]
+							1823, -- [79]
+							9794, -- [80]
+							1760, -- [81]
+							7005, -- [82]
+							7005, -- [83]
+							14753, -- [84]
+							2080, -- [85]
+							6615, -- [86]
+							15504, -- [87]
+							11968, -- [88]
+							159, -- [89]
+							9384, -- [90]
+							15322, -- [91]
+							2901, -- [92]
+							4306, -- [93]
+							4298, -- [94]
+							4413, -- [95]
+							4633, -- [96]
+							1206, -- [97]
+							4582, -- [98]
 						},
-						["ClientTime"] = 1792536726,
-						["ClientHour"] = 18,
+						["ClientTime"] = 1792537818,
+						["ClientHour"] = 19,
 						["links"] = {
+							[87] = "|cff1eff00|Hitem:15504:0:0:0:0:0:588:0:38|h[Outrunner's Shield of the Monkey]|h|r",
+							[34] = "|cff1eff00|Hitem:15499:0:0:0:0:0:19:0:38|h[Outrunner's Cuffs of Stamina]|h|r",
+							[88] = "|cff1eff00|Hitem:11968:0:0:0:0:0:1359:0:38|h[Amber Hoop of Frost Resistance]|h|r",
+							[57] = "|cff1eff00|Hitem:15509:0:0:0:0:0:1182:0:38|h[Grunt's Handwraps of the Bear]|h|r",
 							[85] = "|cff1eff00|Hitem:2080:0:0:0:0:0:675:0:38|h[Hillborne Axe of the Tiger]|h|r",
+							[67] = "|cff1eff00|Hitem:14121:0:0:0:0:0:154:0:38|h[Aboriginal Vest of Stamina]|h|r",
+							[75] = "|cff1eff00|Hitem:10265:0:0:0:0:0:441:0:38|h[Masterwork Bracers of the Falcon]|h|r",
+							[18] = "|cff1eff00|Hitem:6557:0:0:0:0:0:1991:0:38|h[Bard's Boots of Nature's Wrath]|h|r",
+							[19] = "|cff1eff00|Hitem:6585:0:0:0:0:0:1012:0:38|h[Scouting Cloak of the Whale]|h|r",
+							[20] = "|cff1eff00|Hitem:9779:0:0:0:0:0:501:0:38|h[Bandit Cloak of the Wolf]|h|r",
+							[21] = "|cff1eff00|Hitem:15248:0:0:0:0:0:1185:0:38|h[Gleaming Claymore of the Bear]|h|r",
+							[86] = "|cff1eff00|Hitem:6615:0:0:0:0:0:596:0:38|h[Sage's Gloves of the Monkey]|h|r",
+							[80] = "|cff1eff00|Hitem:9794:0:0:0:0:0:1803:0:38|h[Ivycloth Cloak of Arcane Wrath]|h|r",
 						},
-						["ClientMinute"] = 52,
-						["ServerMinute"] = 52,
-						["visitedBy"] = "Deadmonology",
-						["ServerHour"] = 18,
-						["name"] = "Tab3",
+						["visitedBy"] = "Fdore",
+						["ClientMinute"] = 10,
+						["ServerMinute"] = 9,
 						["icon"] = "Interface\\Icons\\INV_Hammer_15",
+						["name"] = "Tab3",
+						["ServerHour"] = 19,
+						["counts"] = {
+							15, -- [1]
+							3, -- [2]
+							35, -- [3]
+							19, -- [4]
+							4, -- [5]
+							14, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							3, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							7, -- [12]
+							nil, -- [13]
+							3, -- [14]
+							2, -- [15]
+							11, -- [16]
+							nil, -- [17]
+							nil, -- [18]
+							nil, -- [19]
+							nil, -- [20]
+							nil, -- [21]
+							nil, -- [22]
+							nil, -- [23]
+							117, -- [24]
+							8, -- [25]
+							44, -- [26]
+							13, -- [27]
+							2, -- [28]
+							[61] = 20,
+							[31] = 69,
+							[63] = 3,
+							[65] = 8,
+							[36] = 13,
+							[37] = 32,
+							[38] = 15,
+							[40] = 18,
+							[41] = 15,
+							[44] = 12,
+							[45] = 7,
+							[47] = 4,
+							[97] = 2,
+							[53] = 41,
+							[55] = 23,
+							[89] = 6,
+							[93] = 8,
+						},
 						["size"] = 98,
 					}, -- [3]
 					{
 						["ClientDate"] = "10/20/2026",
 						["ids"] = {
-							[87] = 2901,
-							[47] = 14900,
-							[38] = 9290,
-							[77] = 7005,
-							[96] = 6568,
-							[30] = 2901,
-							[46] = 9287,
-							[22] = 3794,
-							[44] = 15581,
+							6256, -- [1]
+							5956, -- [2]
+							6554, -- [3]
+							10270, -- [4]
+							16806, -- [5]
+							15014, -- [6]
+							2901, -- [7]
+							10251, -- [8]
+							7005, -- [9]
+							9805, -- [10]
+							6561, -- [11]
+							14164, -- [12]
+							2901, -- [13]
+							7753, -- [14]
+							15984, -- [15]
+							6590, -- [16]
+							4307, -- [17]
+							15528, -- [18]
+							2580, -- [19]
+							9900, -- [20]
+							nil, -- [21]
+							3794, -- [22]
+							14368, -- [23]
+							9787, -- [24]
+							6256, -- [25]
+							11967, -- [26]
+							14728, -- [27]
+							6559, -- [28]
+							5956, -- [29]
+							nil, -- [30]
+							16735, -- [31]
+							nil, -- [32]
+							4698, -- [33]
+							9288, -- [34]
+							nil, -- [35]
+							16806, -- [36]
+							6570, -- [37]
+							9290, -- [38]
+							6577, -- [39]
+							15257, -- [40]
+							15488, -- [41]
+							nil, -- [42]
+							19236, -- [43]
+							15581, -- [44]
+							15581, -- [45]
+							9287, -- [46]
+							14900, -- [47]
+							3914, -- [48]
+							16735, -- [49]
+							19281, -- [50]
+							4698, -- [51]
+							35, -- [52]
+							10275, -- [53]
+							nil, -- [54]
+							10272, -- [55]
+							15273, -- [56]
+							nil, -- [57]
+							9764, -- [58]
+							14560, -- [59]
+							14121, -- [60]
+							1438, -- [61]
+							3652, -- [62]
+							14170, -- [63]
+							15479, -- [64]
+							6256, -- [65]
+							6219, -- [66]
+							10169, -- [67]
+							5956, -- [68]
+							3196, -- [69]
+							10165, -- [70]
+							2901, -- [71]
+							2990, -- [72]
+							nil, -- [73]
+							10168, -- [74]
+							3654, -- [75]
+							15486, -- [76]
+							7005, -- [77]
+							15496, -- [78]
+							6579, -- [79]
+							14728, -- [80]
+							10168, -- [81]
+							14923, -- [82]
+							10391, -- [83]
+							10387, -- [84]
+							10386, -- [85]
+							14863, -- [86]
+							nil, -- [87]
+							20818, -- [88]
+							nil, -- [89]
+							10282, -- [90]
+							10381, -- [91]
+							nil, -- [92]
+							nil, -- [93]
+							nil, -- [94]
+							20878, -- [95]
+							6568, -- [96]
+							2488, -- [97]
+							1951, -- [98]
 						},
-						["ClientTime"] = 1792536729,
-						["visitedBy"] = "Deadmonology",
+						["ClientTime"] = 1792537903,
+						["visitedBy"] = "Fdore",
 						["links"] = {
-							[44] = "|cff1eff00|Hitem:15581:0:0:0:0:0:1112:0:38|h[Sparkleshell Gauntlets of the Boar]|h|r",
-							[38] = "|cff1eff00|Hitem:9290:0:0:0:0:0:1620:0:38|h[Field Plate Helmet of Defense]|h|r",
+							[26] = "|cff1eff00|Hitem:11967:0:0:0:0:0:1496:0:38|h[Zircon Band of Nature Resistance]|h|r",
+							[37] = "|cff1eff00|Hitem:6570:0:0:0:0:0:1015:0:38|h[Shimmering Sash of the Whale]|h|r",
+							[45] = "|cff1eff00|Hitem:15581:0:0:0:0:0:1027:0:38|h[Sparkleshell Gauntlets of the Whale]|h|r",
+							[53] = "|cff1eff00|Hitem:10275:0:0:0:0:0:1224:0:38|h[Emerald Breastplate of the Bear]|h|r",
+							[3] = "|cff1eff00|Hitem:6554:0:0:0:0:0:587:0:38|h[Bard's Gloves of the Monkey]|h|r",
+							[4] = "|cff1eff00|Hitem:10270:0:0:0:0:0:455:0:38|h[Masterwork Boots of the Falcon]|h|r",
+							[91] = "|cff1eff00|Hitem:10381:0:0:0:0:0:1565:0:38|h[Commander's Girdle of Power]|h|r",
+							[6] = "|cff1eff00|Hitem:15014:0:0:0:0:0:1009:0:38|h[Lupine Buckler of the Whale]|h|r",
+							[76] = "|cff1eff00|Hitem:15486:0:0:0:0:0:1094:0:38|h[War Torn Shield of the Boar]|h|r",
 							[46] = "|cff1eff00|Hitem:9287:0:0:0:0:0:1202:0:38|h[Field Plate Gauntlets of the Bear]|h|r",
+							[15] = "|cff1eff00|Hitem:15984:0:0:0:0:0:1963:0:38|h[Opulent Scepter of Frozen Wrath]|h|r",
+							[39] = "|cff1eff00|Hitem:6577:0:0:0:0:0:136:0:38|h[Defender Gauntlets of Strength]|h|r",
 							[47] = "|cff1eff00|Hitem:14900:0:0:0:0:0:1121:0:38|h[Saltstone Legplates of the Boar]|h|r",
+							[55] = "|cff1eff00|Hitem:10272:0:0:0:0:0:549:0:38|h[Masterwork Circlet of the Wolf]|h|r",
+							[64] = "|cff1eff00|Hitem:15479:0:0:0:0:0:1179:0:38|h[Charger's Armor of the Bear]|h|r",
+							[40] = "|cff1eff00|Hitem:15257:0:0:0:0:0:1229:0:38|h[Shin Blade of the Bear]|h|r",
 							[96] = "|cff1eff00|Hitem:6568:0:0:0:0:0:1019:0:38|h[Shimmering Trousers of the Whale]|h|r",
+							[56] = "|cff1eff00|Hitem:15273:0:0:0:0:0:549:0:38|h[Death Striker of the Wolf]|h|r",
+							[16] = "|cff1eff00|Hitem:6590:0:0:0:0:0:1106:0:38|h[Battleforge Boots of the Boar]|h|r",
+							[20] = "|cff1eff00|Hitem:9900:0:0:0:0:0:520:0:38|h[Jazeraint Gauntlets of the Wolf]|h|r",
+							[24] = "|cff1eff00|Hitem:9787:0:0:0:0:0:1182:0:38|h[Raider's Gauntlets of the Bear]|h|r",
+							[28] = "|cff1eff00|Hitem:6559:0:0:0:0:0:926:0:38|h[Bard's Buckler of the Gorilla]|h|r",
+							[41] = "|cff1eff00|Hitem:15488:0:0:0:0:0:1553:0:38|h[Bloodspattered Surcoat of Power]|h|r",
+							[67] = "|cff1eff00|Hitem:10169:0:0:0:0:0:317:0:38|h[Templar Legplates of Strength]|h|r",
+							[83] = "|cff1eff00|Hitem:10391:0:0:0:0:0:1204:0:38|h[Hyperion Vambraces of the Bear]|h|r",
+							[34] = "|cff1eff00|Hitem:9288:0:0:0:0:0:1117:0:38|h[Field Plate Girdle of the Boar]|h|r",
+							[10] = "|cff1eff00|Hitem:9805:0:0:0:0:0:759:0:38|h[Superior Cloak of the Owl]|h|r",
+							[12] = "|cff1eff00|Hitem:14164:0:0:0:0:0:1015:0:38|h[Pagan Belt of the Whale]|h|r",
+							[58] = "|cff1eff00|Hitem:9764:0:0:0:0:0:584:0:38|h[Cadet Shield of the Monkey]|h|r",
+							[69] = "|cff1eff00|Hitem:3196:0:0:0:0:0:114:0:38|h[Edged Bastard Sword of Stamina]|h|r",
+							[85] = "|cff1eff00|Hitem:10386:0:0:0:0:0:1567:0:38|h[Hyperion Gauntlets of Power]|h|r",
+							[70] = "|cff1eff00|Hitem:10165:0:0:0:0:0:1125:0:38|h[Templar Gauntlets of the Boar]|h|r",
+							[38] = "|cff1eff00|Hitem:9290:0:0:0:0:0:1620:0:38|h[Field Plate Helmet of Defense]|h|r",
+							[8] = "|cff1eff00|Hitem:10251:0:0:0:0:0:1894:0:38|h[Master's Gloves of Fiery Wrath]|h|r",
+							[90] = "|cff1eff00|Hitem:10282:0:0:0:0:0:605:0:38|h[Emerald Vambraces of the Monkey]|h|r",
+							[84] = "|cff1eff00|Hitem:10387:0:0:0:0:0:1131:0:38|h[Hyperion Girdle of the Boar]|h|r",
+							[74] = "|cff1eff00|Hitem:10168:0:0:0:0:0:1139:0:38|h[Templar Crown of the Boar]|h|r",
+							[44] = "|cff1eff00|Hitem:15581:0:0:0:0:0:1112:0:38|h[Sparkleshell Gauntlets of the Boar]|h|r",
+							[82] = "|cff1eff00|Hitem:14923:0:0:0:0:0:188:0:38|h[Lofty Armguards of Stamina]|h|r",
+							[60] = "|cff1eff00|Hitem:14121:0:0:0:0:0:1956:0:38|h[Aboriginal Vest of Frozen Wrath]|h|r",
+							[18] = "|cff1eff00|Hitem:15528:0:0:0:0:0:1189:0:38|h[Sentry's Sash of the Bear]|h|r",
+							[97] = "|cffffffff|Hitem:2488:249:0:0:0:0:0:0:38|h[Gladius]|h|r",
+							[81] = "|cff1eff00|Hitem:10168:0:0:0:0:0:1051:0:38|h[Templar Crown of the Whale]|h|r",
 						},
-						["ClientMinute"] = 52,
-						["ServerMinute"] = 52,
-						["ClientHour"] = 18,
-						["ServerHour"] = 18,
+						["ClientMinute"] = 11,
+						["ServerMinute"] = 11,
+						["ClientHour"] = 19,
+						["ServerHour"] = 19,
 						["name"] = "Tab4",
 						["icon"] = "Interface\\Icons\\INV_Axe_82",
 						["size"] = 98,
 					}, -- [4]
 					{
 						["ClientDate"] = "10/20/2026",
-						["ClientTime"] = 1792536729,
-						["visitedBy"] = "Deadmonology",
-						["ServerHour"] = 18,
+						["ids"] = {
+							4377, -- [1]
+							2771, -- [2]
+							774, -- [3]
+							4357, -- [4]
+							2835, -- [5]
+							3577, -- [6]
+							10561, -- [7]
+							1206, -- [8]
+							2319, -- [9]
+							4382, -- [10]
+							10498, -- [11]
+							6219, -- [12]
+							2836, -- [13]
+							2842, -- [14]
+							4404, -- [15]
+							4371, -- [16]
+							4363, -- [17]
+							3575, -- [18]
+							2772, -- [19]
+							10505, -- [20]
+							2318, -- [21]
+							2592, -- [22]
+							4375, -- [23]
+							2770, -- [24]
+							3612, -- [25]
+							2589, -- [26]
+							2838, -- [27]
+							4364, -- [28]
+							4361, -- [29]
+							2840, -- [30]
+							7992, -- [31]
+							10558, -- [32]
+							4597, -- [33]
+							4597, -- [34]
+							2555, -- [35]
+							4597, -- [36]
+							10301, -- [37]
+							14474, -- [38]
+							4597, -- [39]
+							4348, -- [40]
+							7288, -- [41]
+							14478, -- [42]
+							4348, -- [43]
+							6390, -- [44]
+							11208, -- [45]
+							4349, -- [46]
+							4348, -- [47]
+							6391, -- [48]
+							4597, -- [49]
+							15749, -- [50]
+							7990, -- [51]
+							4352, -- [52]
+							6271, -- [53]
+							4345, -- [54]
+							16000, -- [55]
+							14513, -- [56]
+							3735, -- [57]
+							7990, -- [58]
+							4415, -- [59]
+							3735, -- [60]
+							10301, -- [61]
+							7092, -- [62]
+							13494, -- [63]
+							4597, -- [64]
+							6271, -- [65]
+							21940, -- [66]
+							3870, -- [67]
+							4338, -- [68]
+							4347, -- [69]
+							6391, -- [70]
+							14047, -- [71]
+							38682, -- [72]
+							4597, -- [73]
+							5578, -- [74]
+							6391, -- [75]
+							14496, -- [76]
+							14498, -- [77]
+							14508, -- [78]
+							6271, -- [79]
+							2598, -- [80]
+							14496, -- [81]
+							3735, -- [82]
+							14492, -- [83]
+							814, -- [84]
+							4597, -- [85]
+							22891, -- [86]
+							4597, -- [87]
+							6375, -- [88]
+							3396, -- [89]
+							4345, -- [90]
+							14492, -- [91]
+							14496, -- [92]
+							4345, -- [93]
+							2555, -- [94]
+							7288, -- [95]
+							5774, -- [96]
+							4597, -- [97]
+							2882, -- [98]
+						},
+						["ClientTime"] = 1792537898,
+						["visitedBy"] = "Fdore",
+						["ClientHour"] = 19,
+						["ServerHour"] = 19,
 						["name"] = "Tab5",
-						["ClientHour"] = 18,
-						["ClientMinute"] = 52,
-						["ServerMinute"] = 52,
 						["icon"] = "Interface\\Icons\\INV_Battery_01",
+						["ServerMinute"] = 11,
+						["ClientMinute"] = 11,
+						["counts"] = {
+							10, -- [1]
+							148, -- [2]
+							59, -- [3]
+							3, -- [4]
+							3, -- [5]
+							10, -- [6]
+							5, -- [7]
+							28, -- [8]
+							308, -- [9]
+							16, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							38, -- [13]
+							8, -- [14]
+							4, -- [15]
+							16, -- [16]
+							17, -- [17]
+							17, -- [18]
+							53, -- [19]
+							2, -- [20]
+							12, -- [21]
+							115, -- [22]
+							nil, -- [23]
+							70, -- [24]
+							nil, -- [25]
+							766, -- [26]
+							31, -- [27]
+							nil, -- [28]
+							12, -- [29]
+							nil, -- [30]
+							nil, -- [31]
+							3, -- [32]
+							[72] = 3,
+							[71] = 157,
+							[68] = 10,
+							[84] = 11,
+						},
 						["size"] = 98,
 					}, -- [5]
 					{
 						["ClientDate"] = "10/20/2026",
 						["ids"] = {
-							[96] = 7005,
+							10310, -- [1]
+							10308, -- [2]
+							6303, -- [3]
+							3530, -- [4]
+							3382, -- [5]
+							4405, -- [6]
+							6361, -- [7]
+							13444, -- [8]
+							14157, -- [9]
+							6712, -- [10]
+							6712, -- [11]
+							8068, -- [12]
+							6450, -- [13]
+							2304, -- [14]
+							4406, -- [15]
+							6712, -- [16]
+							6712, -- [17]
+							15419, -- [18]
+							10307, -- [19]
+							5576, -- [20]
+							5758, -- [21]
+							6149, -- [22]
+							4604, -- [23]
+							10305, -- [24]
+							14343, -- [25]
+							11138, -- [26]
+							4540, -- [27]
+							3795, -- [28]
+							8067, -- [29]
+							8173, -- [30]
+							117, -- [31]
+							2070, -- [32]
+							1251, -- [33]
+							4536, -- [34]
+							6256, -- [35]
+							6712, -- [36]
+							4960, -- [37]
+							3013, -- [38]
+							5956, -- [39]
+							2901, -- [40]
+							414, -- [41]
+							6529, -- [42]
+							4338, -- [43]
+							5759, -- [44]
+							37118, -- [45]
+							12224, -- [46]
+							11584, -- [47]
+							16735, -- [48]
+							4424, -- [49]
+							5759, -- [50]
+							2581, -- [51]
+							10306, -- [52]
+							10309, -- [53]
+							1177, -- [54]
+							15222, -- [55]
+							1645, -- [56]
+							21290, -- [57]
+							2734, -- [58]
+							2738, -- [59]
+							2728, -- [60]
+							3531, -- [61]
+							789, -- [62]
+							10413, -- [63]
+							15347, -- [64]
+							4265, -- [65]
+							15019, -- [66]
+							4306, -- [67]
+							6380, -- [68]
+							15893, -- [69]
+							6308, -- [70]
+							6289, -- [71]
+							4791, -- [72]
+							15332, -- [73]
+							6564, -- [74]
+							4599, -- [75]
+							10513, -- [76]
+							2672, -- [77]
+							21279, -- [78]
+							4316, -- [79]
+							14170, -- [80]
+							14164, -- [81]
+							3860, -- [82]
+							10512, -- [83]
+							14164, -- [84]
+							6528, -- [85]
+							3308, -- [86]
+							12359, -- [87]
+							13103, -- [88]
+							11732, -- [89]
+							5075, -- [90]
+							21071, -- [91]
+							11737, -- [92]
+							5212, -- [93]
+							4380, -- [94]
+							35, -- [95]
+							7005, -- [96]
+							12804, -- [97]
+							16735, -- [98]
 						},
-						["ClientTime"] = 1792536729,
-						["ClientHour"] = 18,
-						["ClientMinute"] = 52,
+						["ClientTime"] = 1792537897,
+						["ClientHour"] = 19,
+						["links"] = {
+							[84] = "|cff1eff00|Hitem:14164:0:0:0:0:0:1879:0:38|h[Pagan Belt of Fiery Wrath]|h|r",
+							[74] = "|cff1eff00|Hitem:6564:0:0:0:0:0:1878:0:38|h[Shimmering Cloak of Fiery Wrath]|h|r",
+							[55] = "|cff1eff00|Hitem:15222:0:0:0:0:0:1548:0:38|h[Barbed Club of Power]|h|r",
+							[64] = "|cff1eff00|Hitem:15347:0:0:0:0:0:766:0:38|h[Pathfinder Belt of the Owl]|h|r",
+							[73] = "|cff1eff00|Hitem:15332:0:0:0:0:0:1803:0:38|h[Wrangler's Buckler of Arcane Wrath]|h|r",
+							[62] = "|cff1eff00|Hitem:789:0:0:0:0:0:1991:0:38|h[Stout Battlehammer of Nature's Wrath]|h|r",
+							[81] = "|cff1eff00|Hitem:14164:0:0:0:0:0:757:0:38|h[Pagan Belt of the Owl]|h|r",
+						},
+						["visitedBy"] = "Fdore",
+						["ClientMinute"] = 11,
 						["name"] = "Tab6",
-						["visitedBy"] = "Deadmonology",
-						["ServerHour"] = 18,
-						["ServerMinute"] = 52,
 						["icon"] = "Interface\\Icons\\INV_Alchemy_Elixir_05",
+						["ServerMinute"] = 11,
+						["ServerHour"] = 19,
+						["counts"] = {
+							2, -- [1]
+							nil, -- [2]
+							7, -- [3]
+							14, -- [4]
+							24, -- [5]
+							16, -- [6]
+							2, -- [7]
+							[30] = 2,
+							[37] = 25,
+							[45] = 7,
+							[61] = 15,
+							[75] = 2,
+							[91] = 4,
+							[38] = 40,
+							[46] = 12,
+							[13] = 3,
+							[15] = 7,
+							[19] = 3,
+							[23] = 142,
+							[27] = 38,
+							[31] = 46,
+							[94] = 4,
+							[32] = 14,
+							[56] = 2,
+							[65] = 15,
+							[24] = 2,
+							[33] = 82,
+							[82] = 37,
+							[67] = 12,
+							[83] = 200,
+							[34] = 8,
+							[42] = 8,
+							[12] = 400,
+							[14] = 9,
+							[25] = 4,
+							[29] = 200,
+							[70] = 6,
+							[43] = 3,
+							[51] = 57,
+							[71] = 5,
+							[87] = 41,
+							[72] = 11,
+							[41] = 13,
+							[52] = 5,
+							[54] = 4,
+							[47] = 44,
+							[22] = 4,
+							[76] = 200,
+						},
 						["size"] = 98,
 					}, -- [6]
 				},

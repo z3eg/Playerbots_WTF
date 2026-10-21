@@ -70,8 +70,9 @@ ARLDB2 = {
 					["Leatherworking"] = "|cffffd000|Htrade:2108:1:75:4DB:XAAAAAABADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Leatherworking]|h|r",
 					["First Aid"] = "|cffffd000|Htrade:3273:1:75:4DB:FAAAAA|h[First Aid]|h|r",
 				},
-				["Chokerx"] = {
-					["First Aid"] = "|cffffd000|Htrade:3273:1:75:A24:FAAAAA|h[First Aid]|h|r",
+				["Shigofoomy"] = {
+					["Tailoring"] = "|cffffd000|Htrade:3909:75:150:A1A:6+PwBAAAwEgBICAAgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Tailoring]|h|r",
+					["Enchanting"] = "|cffffd000|Htrade:7411:12:75:A1A:pCAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r",
 				},
 				["Terra"] = {
 					["Engineering"] = "|cffffd000|Htrade:4037:76:150:A1C:6fEAAAAAACAAAAAAAAAAAAAOAADAAAAAAAAAAAAAAAAIAAAAAAAAAA|h[Engineering]|h|r",
@@ -91,13 +92,12 @@ ARLDB2 = {
 					["Engineering"] = "|cffffd000|Htrade:4036:1:75:A22:5AAAAAAAAAAAAAAAAAAAAAAOAADAAAAAAAAAAAAAAAAIAAAAAAAAAA|h[Engineering]|h|r",
 					["Enchanting"] = "|cffffd000|Htrade:7413:190:225:A22:8/a777a8fBAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r",
 				},
+				["Chokerx"] = {
+					["First Aid"] = "|cffffd000|Htrade:3273:1:75:A24:FAAAAA|h[First Aid]|h|r",
+				},
 				["Tyrell"] = {
 					["Engineering"] = "|cffffd000|Htrade:4037:66:150:A1B:6bAAAAAAAAAAAAAAAAAAAAAOAADAAAAAAAAAAAAAAAAIAAAAAAAAAA|h[Engineering]|h|r",
 					["Enchanting"] = "|cffffd000|Htrade:7411:1:75:A1B:pCAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r",
-				},
-				["Shigofoomy"] = {
-					["Tailoring"] = "|cffffd000|Htrade:3909:75:150:A1A:6+PwBAAAwEgBICAAgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Tailoring]|h|r",
-					["Enchanting"] = "|cffffd000|Htrade:7411:12:75:A1A:pCAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r",
 				},
 			},
 		},

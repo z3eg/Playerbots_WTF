@@ -310,9 +310,6 @@ RecountDB = {
 					["h"] = 261.973223797036,
 				},
 			},
-			["DetailWindowX"] = 524.4448756791793,
-			["LastInstanceName"] = "Blackwing Lair",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -321,9 +318,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -150.2215329396371,
-			["MainWindowHeight"] = 261.9732413041693,
-			["MainWindowWidth"] = 204.0000850737259,
+			["DetailWindowX"] = 524.4448756791793,
+			["LastInstanceName"] = "Blackwing Lair",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 204.0000850737259,
+			["MainWindowHeight"] = 261.9732413041693,
 		},
 		["Mbbmmbmm - AzerothCore"] = {
 			["GraphWindowY"] = 0,
@@ -360,6 +360,9 @@ RecountDB = {
 					["h"] = 260.4358173789893,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Ahn'Qiraj Temple",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -368,9 +371,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -0.6233577573799919,
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Ahn'Qiraj Temple",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 186.963018300904,
 			["MainWindowHeight"] = 260.4358348861226,

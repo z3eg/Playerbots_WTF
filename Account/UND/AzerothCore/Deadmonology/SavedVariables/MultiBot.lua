@@ -4,15 +4,15 @@ MultiBotSave = {
 	},
 }
 MultiBotDB = {
-	["timers"] = {
-		["invite"] = 5,
-		["stats"] = 45,
-		["sort"] = 1,
-		["talent"] = 3,
-	},
 	["throttle"] = {
 		["rate"] = 5,
 		["burst"] = 8,
+	},
+	["timers"] = {
+		["talent"] = 3,
+		["stats"] = 45,
+		["sort"] = 1,
+		["invite"] = 5,
 	},
 	["profileKeys"] = {
 		["Deadmonology - AzerothCore"] = "Default",
@@ -37,9 +37,21 @@ MultiBotDB = {
 					["Beast"] = "false",
 					["Reward"] = "false",
 				},
-				["quickFramePositions"] = {
-				},
 				["mainVisible"] = true,
+				["quickFramePositions"] = {
+					["ShamanQuick"] = {
+						["y"] = 102.1045338619758,
+						["relPoint"] = "BOTTOM",
+						["point"] = "BOTTOM",
+						["x"] = -109.1109498843948,
+					},
+				},
+				["shamanTotems"] = {
+					["Widowfury"] = {
+						["air"] = "spell_nature_slowingtotem",
+						["fire"] = "spell_fire_totemofwrath",
+					},
+				},
 				["layout"] = {
 					["MemoryGem2"] = ";0;0;0;Memory-Gem\n|cffffffffThis Memory-Gem has no Location stored within..\nYou need GameMaster-Rights to use this Button.|r\n\n|cffff0000Left-click to store or teleport to the Location|r\n|cff999999(Executed by: Yourself)|r\n\n|cffff0000Right-click to forget the Location|r\n|cff999999(Executed by: Yourself)|r;0",
 					["RewardPoint"] = "-754, 238",
@@ -47,7 +59,7 @@ MultiBotDB = {
 					["MultiBarPoint"] = "-322, 144",
 					["SpellbookPoint"] = "-802, 302",
 					["InventoryPoint"] = "-700, 0",
-					["TalentPoint"] = "-104, -276",
+					["TalentPoint"] = "-89, -357",
 					["MemoryGem1"] = ";0;0;0;Memory-Gem\n|cffffffffThis Memory-Gem has no Location stored within..\nYou need GameMaster-Rights to use this Button.|r\n\n|cffff0000Left-click to store or teleport to the Location|r\n|cff999999(Executed by: Yourself)|r\n\n|cffff0000Right-click to forget the Location|r\n|cff999999(Executed by: Yourself)|r;0",
 					["StatsPoint"] = "-60, 560",
 					["ItemusPoint"] = "-757, 0",
@@ -55,15 +67,15 @@ MultiBotDB = {
 				},
 				["minimap"] = {
 					["hide"] = false,
-					["angle"] = 220,
+					["angle"] = 233.0720156122771,
 				},
 			},
 			["bots"] = {
-				["Widowfury"] = "Undead,[F],Elemental,51/9/0,Shaman,39,26",
-				["Fdore"] = "Undead,[F],Fire,0/52/6,Mage,38,26",
-				["Corpsecratio"] = "Undead,[F],Protection,0/51/7,Paladin,38,28",
-				["Rotbeam"] = "Undead,[F],Balance,51/0/13,Druid,41,23",
-				["Deadmonology"] = "Undead,[M],Affliction,28/27/26,Warlock,38,27",
+				["Widowfury"] = "Undead,[F],Elemental,51/11/0,Shaman,40,28",
+				["Rotbeam"] = "Undead,[F],Balance,51/0/15,Druid,42,23",
+				["Corpsecratio"] = "Undead,[F],Protection,0/51/9,Paladin,39,31",
+				["Fdore"] = "Undead,[F],Fire,0/52/8,Mage,39,26",
+				["Deadmonology"] = "Undead,[M],Affliction,28/27/26,Warlock,40,27",
 			},
 			["migrations"] = {
 				["minimapConfigVersion"] = 1,
@@ -77,7 +89,4 @@ MultiBotDB = {
 		},
 	},
 }
-MultiBotSaved = {
-	["hunterPetStance"] = {
-	},
-}
+MultiBotSaved = nil

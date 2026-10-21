@@ -95,10 +95,11 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.AzerothCore.Deadmonology"] = {
-				["lastUpdate"] = 1792536277,
+				["lastUpdate"] = 1792542234,
 				["MOUNT"] = {
 					"34238|Black Skeletal Horse|64977|Ability_Mount_Undeadhorse", -- [1]
 					"304|Felsteed|5784|Spell_Nature_Swiftness", -- [2]
+					"32640|Traveler's Tundra Mammoth|61447|Ability_Mount_Mammoth_Brown_3seater", -- [3]
 				},
 			},
 			["Default.AzerothCore.Rotbeam"] = {
@@ -151,7 +152,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.AzerothCore.Fdore"] = {
-				["lastUpdate"] = 1792534621,
+				["lastUpdate"] = 1792538684,
 				["MOUNT"] = {
 					"34238|Black Skeletal Horse|64977|Ability_Mount_Undeadhorse", -- [1]
 				},
@@ -204,7 +205,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.AzerothCore.Widowfury"] = {
-				["lastUpdate"] = 1792535011,
+				["lastUpdate"] = 1792544353,
 				["MOUNT"] = {
 					"11153|Red Skeletal Horse|17462|Ability_Mount_Undeadhorse", -- [1]
 				},

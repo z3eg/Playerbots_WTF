@@ -4,85 +4,13 @@ SwatterData = {
 	["autoshow"] = true,
 	["errors"] = {
 		{
-			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  Recount, v\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=425)\n",
-			["timestamp"] = "2026-10-18 12:02:43",
-			["context"] = "Global",
-			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [1]
-		{
-			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v2.0.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=651)\n",
-			["timestamp"] = "2026-10-18 12:03:30",
-			["context"] = "Global",
-			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [2]
-		{
-			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  Recount, v\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=425)\n",
-			["timestamp"] = "2026-10-18 12:03:37",
-			["context"] = "Global",
-			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [3]
-		{
-			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v2.0.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=651)\n",
-			["timestamp"] = "2026-10-18 12:24:42",
-			["context"] = "Global",
-			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [4]
-		{
-			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  Recount, v\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=425)\n",
-			["timestamp"] = "2026-10-18 12:24:50",
-			["context"] = "Global",
-			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [5]
-		{
-			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v2.0.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=651)\n",
-			["timestamp"] = "2026-10-18 12:36:20",
-			["context"] = "Global",
-			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [6]
-		{
-			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  Recount, v\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=425)\n",
-			["timestamp"] = "2026-10-18 12:36:46",
-			["context"] = "Global",
-			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [7]
-		{
-			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v2.0.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=651)\n",
-			["timestamp"] = "2026-10-18 12:45:45",
-			["context"] = "Global",
-			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [8]
-		{
-			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  Recount, v\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=425)\n",
-			["timestamp"] = "2026-10-18 12:46:03",
-			["context"] = "Global",
-			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [9]
-		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
 			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v2.0.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=651)\n",
 			["timestamp"] = "2026-10-18 12:49:49",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [10]
+		}, -- [1]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -90,7 +18,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-18 12:52:54",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [11]
+		}, -- [2]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -98,7 +26,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-18 13:23:10",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [12]
+		}, -- [3]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -106,7 +34,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 04:54:45",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [13]
+		}, -- [4]
 		{
 			["message"] = "...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:442: attempt to index global 'XPerlConfigHelper' (a nil value)",
 			["count"] = 1,
@@ -114,7 +42,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 04:54:47",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:442: in function `XPerl_UpdateAssists'\n...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:350: in function <...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:344>\n",
-		}, -- [14]
+		}, -- [5]
 		{
 			["message"] = "Invalid trade skill item in SetTradeSkillItem(index [,reagent])",
 			["count"] = 3,
@@ -122,7 +50,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 04:56:41",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[C]: ?\n[C]: in function `SetTradeSkillItem'\n[string \"*:OnEnter\"]:2: in function <[string \"*:OnEnter\"]:1>\n",
-		}, -- [15]
+		}, -- [6]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -130,7 +58,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 05:05:37",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [16]
+		}, -- [7]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -138,7 +66,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 05:06:02",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [17]
+		}, -- [8]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -146,7 +74,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 05:09:38",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [18]
+		}, -- [9]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -154,7 +82,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 05:10:12",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [19]
+		}, -- [10]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -162,7 +90,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 05:26:18",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [20]
+		}, -- [11]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -170,7 +98,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 09:15:56",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [21]
+		}, -- [12]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -178,7 +106,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 09:23:50",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [22]
+		}, -- [13]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -186,7 +114,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 10:56:25",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [23]
+		}, -- [14]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -194,7 +122,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 11:28:04",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [24]
+		}, -- [15]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -202,7 +130,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 11:31:15",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [25]
+		}, -- [16]
 		{
 			["message"] = "Error: AddOn *** TaintForced *** attempted to call a forbidden function (FocusUnit()) from a tainted execution path.",
 			["count"] = 1,
@@ -210,7 +138,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 11:31:54",
 			["context"] = "AddOn: *** TaintForced ***",
 			["stack"] = "[C]: in function `FocusUnit'\nInterface\\FrameXML\\UnitPopup.lua:1382: in function `func'\nInterface\\FrameXML\\UIDropDownMenu.lua:583: in function `UIDropDownMenuButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
-		}, -- [26]
+		}, -- [17]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -218,7 +146,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 12:02:15",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [27]
+		}, -- [18]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -226,7 +154,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 13:05:43",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [28]
+		}, -- [19]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -234,7 +162,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 13:08:25",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [29]
+		}, -- [20]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -242,7 +170,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 13:09:05",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [30]
+		}, -- [21]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -250,7 +178,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 13:11:03",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [31]
+		}, -- [22]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -258,7 +186,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:37:06",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [32]
+		}, -- [23]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -266,7 +194,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:41:46",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [33]
+		}, -- [24]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -274,7 +202,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:41:52",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [34]
+		}, -- [25]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -282,7 +210,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:42:09",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [35]
+		}, -- [26]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -290,7 +218,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:42:20",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [36]
+		}, -- [27]
 		{
 			["message"] = "Interface\\AddOns\\Details\\framework\\button.lua:252: DetailsAttributeButton2:SetPoint(): DetailsReportButton2 is dependent on this",
 			["count"] = 3,
@@ -298,7 +226,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:43:54",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[C]: in function `SetPoint'\nInterface\\AddOns\\Details\\framework\\button.lua:252: in function `SetPoint'\nInterface\\AddOns\\Details\\gumps\\janela_principal.lua:4294: in function <Interface\\AddOns\\Details\\gumps\\janela_principal.lua:4209>\n(tail call): ?\nInterface\\AddOns\\Details\\gumps\\janela_principal.lua:5902: in function <Interface\\AddOns\\Details\\gumps\\janela_principal.lua:5853>\n(tail call): ?\nInterface\\AddOns\\Details\\gumps\\janela_principal.lua:5779: in function `ToolbarSide'\nInterface\\AddOns\\Details\\gumps\\janela_principal.lua:5076: in function `ChangeSkin'\nInterface\\AddOns\\Details\\classes\\class_instance.lua:1243: in function `Newinstance'\nInterface\\AddOns\\Details\\classes\\class_instance.lua:620: in function <Interface\\AddOns\\Details\\classes\\class_instance.lua:565>\n(tail call): ?\nInterface\\AddOns\\Details\\gumps\\janela_principal.lua:4388: in function `?'\nInterface\\AddOns\\Details\\framework\\cooltip.lua:583: in function <Interface\\AddOns\\Details\\framework\\cooltip.lua:577>\n",
-		}, -- [37]
+		}, -- [28]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -306,7 +234,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:45:33",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [38]
+		}, -- [29]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -314,7 +242,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:45:39",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [39]
+		}, -- [30]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -322,7 +250,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:51:57",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [40]
+		}, -- [31]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -330,7 +258,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:52:03",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [41]
+		}, -- [32]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -338,7 +266,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:53:22",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [42]
+		}, -- [33]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -346,7 +274,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:54:00",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [43]
+		}, -- [34]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -354,7 +282,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:56:40",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [44]
+		}, -- [35]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -362,7 +290,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 14:59:38",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [45]
+		}, -- [36]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -370,7 +298,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 15:05:13",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [46]
+		}, -- [37]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -378,7 +306,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 15:05:18",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [47]
+		}, -- [38]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -386,7 +314,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 15:13:33",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [48]
+		}, -- [39]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -394,7 +322,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 15:17:36",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [49]
+		}, -- [40]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -402,7 +330,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 15:22:15",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [50]
+		}, -- [41]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -410,7 +338,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 15:26:48",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [51]
+		}, -- [42]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -418,7 +346,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 15:27:09",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [52]
+		}, -- [43]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -426,7 +354,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 18:35:11",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [53]
+		}, -- [44]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -434,7 +362,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 18:36:26",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [54]
+		}, -- [45]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -442,7 +370,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 18:36:32",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [55]
+		}, -- [46]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -450,7 +378,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 18:37:58",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [56]
+		}, -- [47]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -458,7 +386,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 18:54:50",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [57]
+		}, -- [48]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -466,7 +394,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 18:55:10",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [58]
+		}, -- [49]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -474,7 +402,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 18:56:47",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [59]
+		}, -- [50]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -482,7 +410,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 19:45:19",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [60]
+		}, -- [51]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -490,7 +418,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 20:02:48",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [61]
+		}, -- [52]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -498,7 +426,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 20:24:17",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [62]
+		}, -- [53]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -506,7 +434,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 20:24:28",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [63]
+		}, -- [54]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -514,7 +442,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 20:25:46",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [64]
+		}, -- [55]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -522,7 +450,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 20:58:48",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [65]
+		}, -- [56]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -530,7 +458,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 21:00:09",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [66]
+		}, -- [57]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -538,7 +466,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 21:02:18",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [67]
+		}, -- [58]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -546,7 +474,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 21:02:56",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [68]
+		}, -- [59]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -554,7 +482,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 21:03:03",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [69]
+		}, -- [60]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -562,7 +490,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 21:04:35",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [70]
+		}, -- [61]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -570,7 +498,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 21:04:42",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [71]
+		}, -- [62]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -578,7 +506,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 21:05:06",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [72]
+		}, -- [63]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -586,7 +514,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 21:05:17",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [73]
+		}, -- [64]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -594,7 +522,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 21:06:34",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [74]
+		}, -- [65]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -602,7 +530,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 21:06:47",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [75]
+		}, -- [66]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -610,7 +538,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 21:13:04",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [76]
+		}, -- [67]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -618,7 +546,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 21:55:20",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [77]
+		}, -- [68]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -626,7 +554,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 22:13:39",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [78]
+		}, -- [69]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -634,7 +562,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 23:35:07",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [79]
+		}, -- [70]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -642,7 +570,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 23:35:37",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [80]
+		}, -- [71]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -650,7 +578,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 23:35:50",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [81]
+		}, -- [72]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -658,7 +586,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 23:41:09",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [82]
+		}, -- [73]
 		{
 			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
 			["count"] = 1,
@@ -666,7 +594,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-19 23:42:16",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [83]
+		}, -- [74]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -674,7 +602,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 00:19:53",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [84]
+		}, -- [75]
 		{
 			["message"] = "Error: AddOn *** TaintForced *** attempted to call a forbidden function (FocusUnit()) from a tainted execution path.",
 			["count"] = 1,
@@ -682,7 +610,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 11:58:50",
 			["context"] = "AddOn: *** TaintForced ***",
 			["stack"] = "[C]: in function `FocusUnit'\nInterface\\FrameXML\\UnitPopup.lua:1382: in function `func'\nInterface\\FrameXML\\UIDropDownMenu.lua:583: in function `UIDropDownMenuButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
-		}, -- [85]
+		}, -- [76]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -690,7 +618,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 12:05:16",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [86]
+		}, -- [77]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -698,7 +626,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 12:21:28",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [87]
+		}, -- [78]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -706,7 +634,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 12:22:32",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [88]
+		}, -- [79]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -714,7 +642,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 12:48:15",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [89]
+		}, -- [80]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -722,7 +650,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 13:10:42",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [90]
+		}, -- [81]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -730,7 +658,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 18:09:35",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [91]
+		}, -- [82]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -738,7 +666,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 18:14:16",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [92]
+		}, -- [83]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -746,7 +674,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 18:16:27",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [93]
+		}, -- [84]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -754,7 +682,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 18:23:22",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [94]
+		}, -- [85]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -762,7 +690,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 18:29:20",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [95]
+		}, -- [86]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -770,7 +698,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 18:35:41",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [96]
+		}, -- [87]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -778,7 +706,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 18:37:33",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [97]
+		}, -- [88]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -786,7 +714,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 18:41:03",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [98]
+		}, -- [89]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -794,7 +722,7 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 18:44:27",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [99]
+		}, -- [90]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
@@ -802,12 +730,84 @@ SwatterData = {
 			["timestamp"] = "2026-10-20 18:52:26",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [100]
+		}, -- [91]
 		{
 			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
 			["count"] = 1,
 			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  BuffReminderPack, v1.0.0\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  CraftTrail, v2.3.1\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Details, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidInfoChamberOfAspects, v\n  DetailsRaidInfoEoE, v\n  DetailsRaidInfoNaxx, v\n  DetailsRaidInfoToC, v\n  DetailsRaidInfoUlduar, v\n  DetailsRaidInfoVoA, v\n  DetailsTinyThreat, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v4.0\n  MultiBotGather, v1.0.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=790)\n",
 			["timestamp"] = "2026-10-20 18:53:14",
+			["context"] = "Global",
+			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
+		}, -- [92]
+		{
+			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  BagnonGuildBank, v1.0.0\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  BuffReminderPack, v1.0.0\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  CraftTrail, v2.3.1\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Details, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidInfoChamberOfAspects, v\n  DetailsRaidInfoEoE, v\n  DetailsRaidInfoNaxx, v\n  DetailsRaidInfoToC, v\n  DetailsRaidInfoUlduar, v\n  DetailsRaidInfoVoA, v\n  DetailsTinyThreat, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v4.0\n  MultiBotGather, v1.0.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlCustomHighlight, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=7c4)\n",
+			["timestamp"] = "2026-10-20 19:36:13",
+			["context"] = "Global",
+			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
+		}, -- [93]
+		{
+			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  BuffReminderPack, v1.0.0\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  CraftTrail, v2.3.1\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Details, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidInfoChamberOfAspects, v\n  DetailsRaidInfoEoE, v\n  DetailsRaidInfoNaxx, v\n  DetailsRaidInfoToC, v\n  DetailsRaidInfoUlduar, v\n  DetailsRaidInfoVoA, v\n  DetailsTinyThreat, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v4.0\n  MultiBotGather, v1.0.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=790)\n",
+			["timestamp"] = "2026-10-20 19:37:10",
+			["context"] = "Global",
+			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
+		}, -- [94]
+		{
+			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  BuffReminderPack, v1.0.0\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  CraftTrail, v2.3.1\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Details, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidInfoChamberOfAspects, v\n  DetailsRaidInfoEoE, v\n  DetailsRaidInfoNaxx, v\n  DetailsRaidInfoToC, v\n  DetailsRaidInfoUlduar, v\n  DetailsRaidInfoVoA, v\n  DetailsTinyThreat, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v4.0\n  MultiBotGather, v1.1.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlOptions, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=7a2)\n",
+			["timestamp"] = "2026-10-20 19:38:42",
+			["context"] = "Global",
+			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
+		}, -- [95]
+		{
+			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  BuffReminderPack, v1.0.0\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  CraftTrail, v2.3.1\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Details, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidInfoChamberOfAspects, v\n  DetailsRaidInfoEoE, v\n  DetailsRaidInfoNaxx, v\n  DetailsRaidInfoToC, v\n  DetailsRaidInfoUlduar, v\n  DetailsRaidInfoVoA, v\n  DetailsTinyThreat, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v4.0\n  MultiBotGather, v1.1.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=790)\n",
+			["timestamp"] = "2026-10-20 19:56:14",
+			["context"] = "Global",
+			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
+		}, -- [96]
+		{
+			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  BuffReminderPack, v1.0.0\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  CraftTrail, v2.3.1\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Details, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidInfoChamberOfAspects, v\n  DetailsRaidInfoEoE, v\n  DetailsRaidInfoNaxx, v\n  DetailsRaidInfoToC, v\n  DetailsRaidInfoUlduar, v\n  DetailsRaidInfoVoA, v\n  DetailsTinyThreat, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v4.0\n  MultiBotGather, v1.1.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlCustomHighlight, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=7aa)\n",
+			["timestamp"] = "2026-10-20 20:05:48",
+			["context"] = "Global",
+			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
+		}, -- [97]
+		{
+			["message"] = "ItemRefTooltip:SetHyperlink(): Unknown link type",
+			["count"] = 4,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  BuffReminderPack, v1.0.0\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  CraftTrail, v2.3.1\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Details, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidInfoChamberOfAspects, v\n  DetailsRaidInfoEoE, v\n  DetailsRaidInfoNaxx, v\n  DetailsRaidInfoToC, v\n  DetailsRaidInfoUlduar, v\n  DetailsRaidInfoVoA, v\n  DetailsTinyThreat, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v4.0\n  MultiBotGather, v1.1.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlCustomHighlight, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=7aa)\n",
+			["timestamp"] = "2026-10-20 20:16:00",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\n[C]: ?\n[C]: in function `SetHyperlink'\nInterface\\FrameXML\\ItemRef.lua:183: in function <Interface\\FrameXML\\ItemRef.lua:2>\n(tail call): ?\n[C]: ?\n[C]: ?\n...ace\\AddOns\\Blizzard_CombatLog\\Blizzard_CombatLog.lua:3616: in function `SetItemRef'\nInterface\\FrameXML\\ChatFrame.lua:3034: in function `ChatFrame_OnHyperlinkShow'\n[string \"*:OnHyperlinkClick\"]:1: in function <[string \"*:OnHyperlinkClick\"]:1>\n",
+		}, -- [98]
+		{
+			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  BuffReminderPack, v1.0.0\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  CraftTrail, v2.3.1\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Details, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidInfoChamberOfAspects, v\n  DetailsRaidInfoEoE, v\n  DetailsRaidInfoNaxx, v\n  DetailsRaidInfoToC, v\n  DetailsRaidInfoUlduar, v\n  DetailsRaidInfoVoA, v\n  DetailsTinyThreat, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v4.0\n  MultiBotGather, v1.1.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlCustomHighlight, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=7aa)\n",
+			["timestamp"] = "2026-10-20 20:24:29",
+			["context"] = "Global",
+			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
+		}, -- [99]
+		{
+			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  BagnonGuildBank, v1.0.0\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  BuffReminderPack, v1.0.0\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  CraftTrail, v2.3.1\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Details, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidInfoChamberOfAspects, v\n  DetailsRaidInfoEoE, v\n  DetailsRaidInfoNaxx, v\n  DetailsRaidInfoToC, v\n  DetailsRaidInfoUlduar, v\n  DetailsRaidInfoVoA, v\n  DetailsTinyThreat, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v4.0\n  MultiBotGather, v1.1.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlCustomHighlight, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=7c4)\n",
+			["timestamp"] = "2026-10-20 20:48:06",
+			["context"] = "Global",
+			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
+		}, -- [100]
+		{
+			["message"] = "Interface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: attempt to index field 'options' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  Ace3, v\n  AckisRecipeList, vv2.01-14-gfc58e9f\n  ACP, v3.2.0.118 \n  Altoholic, v3.3.002b\n  Atlas, v1.17.0\n  AtlasBattlegrounds, v1.17.0\n  AtlasDungeonLocs, v1.17.0\n  AtlasOutdoorRaids, v1.17.0\n  AtlasTransportation, v1.17.0\n  AtlasLoot, vv5.11.04\n  AtlasLootFu, vv5.11.04\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.4\n  Bartender4, v4.4.2-12-g94f3b58\n  BonusScanner, v5.3\n  BuffReminderPack, v1.0.0\n  Configator, v5.1.DEV.278\n  CopyThat, v\n  CraftTrail, v2.3.1\n  DataStore, v3.3.001\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.002\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.002\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.002\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  Details, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidInfoChamberOfAspects, v\n  DetailsRaidInfoEoE, v\n  DetailsRaidInfoNaxx, v\n  DetailsRaidInfoToC, v\n  DetailsRaidInfoUlduar, v\n  DetailsRaidInfoVoA, v\n  DetailsTinyThreat, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  IceHUD, vr555 (Revision: 555)\n  LoseControl, v3.33\n  MikScrollingBattleText, v5.4.78\n  MultiBot, v4.0\n  MultiBotGather, v1.1.0\n  OmniCC, v3.0.4\n  Pawn, v1.3.8\n  Recount, v\n  RedBags, v\n  SellOMatic, vv1.2.8a\n  SlideBar, v3.1.16 (<%codename%>)\n  Talented, vv2.4.8\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  WeakAuras, v4.0.0\n  XLoot10, v1.1\n  XPerl, v3.1.0 Beta 1\n  XPerlArcaneBar, v\n  XPerlOptions, v\n  XPerlParty, v\n  XPerlPartyPet, v\n  XPerlPlayer, v\n  XPerlPlayerBuffs, v\n  XPerlPlayerPet, v\n  XPerlRaidAdmin, v\n  XPerlRaidFrames, v\n  XPerlRaidHelper, v\n  XPerlRaidPets, v\n  XPerlTarget, v\n  XPerlTargetTarget, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <127.0.0.1>\n  (ck=7a2)\n",
+			["timestamp"] = "2026-10-20 21:11:24",
 			["context"] = "Global",
 			["stack"] = "(tail call): ?\nInterface\\AddOns\\Altoholic\\Frames\\TabOptions.lua:442: in function `Set'\nInterface\\AddOns\\Altoholic\\Altoholic.lua:269: in function <Interface\\AddOns\\Altoholic\\Altoholic.lua:255>\n[string \"safecall Dispatcher[1]\"]:4: in function <[string \"safecall Dispatcher[1]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:13: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...\\AddOns\\WeakAuras\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
 		}, -- [101]

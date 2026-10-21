@@ -251,19 +251,28 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2026/08/25 21:20",
 			},
 			["Default.AzerothCore.Deadmonology"] = {
-				["lastUpdate"] = 1791937447,
+				["lastUpdate"] = 1792542163,
 				["Mails"] = {
 					{
 						["sender"] = "Velma Warnam",
 						["subject"] = "Learn to Ride in Tirisfal Glades",
-						["lastCheck"] = 1791937447,
+						["lastCheck"] = 1792542163,
 						["money"] = 0,
 						["text"] = "Good Sir Deadmonology,\n\nI write to make you aware of my services as a riding trainer. Should you wish to learn, you need only visit me in Brill. My fee is a modest four gold coins.\n\nIf you'd care to purchase a mount upon learning how to ride, Zachariah Post has gathered a number of horses suitable to our needs and sells them for no more than one gold coin per head.\n\nYours, Velma Warnam",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
-						["daysLeft"] = 29.07522010803223,
+						["daysLeft"] = 22.07619285583496,
 					}, -- [1]
+					{
+						["sender"] = "Velma Warnam",
+						["subject"] = "Journeyman Riding in Tirisfal Glades",
+						["lastCheck"] = 1792542163,
+						["money"] = 0,
+						["text"] = "Good Sir Deadmonology,\n\nI write once more to remind you of my services as a riding trainer. Should you wish to learn Journeyman Riding for faster mounts, you need only visit me in Brill. My fee is a modest fifty gold coins.\n\nIf you'd care to purchase a swift mount, Zachariah Post has gathered a number of horses suitable to our needs and sells them for no more than ten gold coins per head.\n\nYours, Velma Warnam",
+						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
+						["daysLeft"] = 29.98605346679688,
+					}, -- [2]
 				},
-				["lastVisitDate"] = "2026/10/13 20:24",
+				["lastVisitDate"] = "2026/10/20 20:22",
 			},
 			["Default.AzerothCore.Rotbeam"] = {
 				["lastUpdate"] = 1792467530,
@@ -313,6 +322,30 @@ DataStore_MailsDB = {
 				},
 				["lastVisitDate"] = "2026/09/06 07:16",
 			},
+			["Default.AzerothCore.Widowfury"] = {
+				["lastUpdate"] = 1792544407,
+				["Mails"] = {
+					{
+						["lastCheck"] = 1792544407,
+						["sender"] = "Velma Warnam",
+						["subject"] = "Learn to Ride in Tirisfal Glades",
+						["money"] = 0,
+						["text"] = "Good Lady Widowfury,\n\nI write to make you aware of my services as a riding trainer. Should you wish to learn, you need only visit me in Brill. My fee is a modest four gold coins.\n\nIf you'd care to purchase a mount upon learning how to ride, Zachariah Post has gathered a number of horses suitable to our needs and sells them for no more than one gold coin per head.\n\nYours, Velma Warnam",
+						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
+						["daysLeft"] = 9.032708168029785,
+					}, -- [1]
+					{
+						["lastCheck"] = 1792544407,
+						["sender"] = "Velma Warnam",
+						["subject"] = "Journeyman Riding in Tirisfal Glades",
+						["money"] = 0,
+						["text"] = "Good Lady Widowfury,\n\nI write once more to remind you of my services as a riding trainer. Should you wish to learn Journeyman Riding for faster mounts, you need only visit me in Brill. My fee is a modest fifty gold coins.\n\nIf you'd care to purchase a swift mount, Zachariah Post has gathered a number of horses suitable to our needs and sells them for no more than ten gold coins per head.\n\nYours, Velma Warnam",
+						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
+						["daysLeft"] = 29.92729187011719,
+					}, -- [2]
+				},
+				["lastVisitDate"] = "2026/10/20 21:00",
+			},
 			["Default.AzerothCore.Bellfromhell"] = {
 				["lastUpdate"] = 1787249288,
 				["Mails"] = {
@@ -343,20 +376,9 @@ DataStore_MailsDB = {
 				},
 				["lastVisitDate"] = "2026/05/04 19:52",
 			},
-			["Default.AzerothCore.Corpsecratio"] = {
-				["lastUpdate"] = 1791937766,
-				["Mails"] = {
-					{
-						["sender"] = "Velma Warnam",
-						["subject"] = "Learn to Ride in Tirisfal Glades",
-						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
-						["money"] = 0,
-						["text"] = "Good Lady Corpsecratio,\n\nI write to make you aware of my services as a riding trainer. Should you wish to learn, you need only visit me in Brill. My fee is a modest four gold coins.\n\nIf you'd care to purchase a mount upon learning how to ride, Zachariah Post has gathered a number of horses suitable to our needs and sells them for no more than one gold coin per head.\n\nYours, Velma Warnam",
-						["lastCheck"] = 1791937766,
-						["daysLeft"] = 29.07322883605957,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2026/10/13 20:29",
+			["Default.AzerothCore.Boostershot"] = {
+				["lastUpdate"] = 1777940619,
+				["lastVisitDate"] = "2026/05/04 20:23",
 			},
 			["Default.AzerothCore.Naarc"] = {
 				["lastUpdate"] = 1787745513,
@@ -449,24 +471,20 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1787934926,
 				["lastVisitDate"] = "2026/08/28 12:35",
 			},
-			["Default.AzerothCore.Boostershot"] = {
-				["lastUpdate"] = 1777940619,
-				["lastVisitDate"] = "2026/05/04 20:23",
-			},
-			["Default.AzerothCore.Widowfury"] = {
-				["lastUpdate"] = 1792458543,
+			["Default.AzerothCore.Corpsecratio"] = {
+				["lastUpdate"] = 1791937766,
 				["Mails"] = {
 					{
 						["sender"] = "Velma Warnam",
 						["subject"] = "Learn to Ride in Tirisfal Glades",
-						["lastCheck"] = 1792458543,
-						["money"] = 0,
-						["text"] = "Good Lady Widowfury,\n\nI write to make you aware of my services as a riding trainer. Should you wish to learn, you need only visit me in Brill. My fee is a modest four gold coins.\n\nIf you'd care to purchase a mount upon learning how to ride, Zachariah Post has gathered a number of horses suitable to our needs and sells them for no more than one gold coin per head.\n\nYours, Velma Warnam",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
-						["daysLeft"] = 10.02651596069336,
+						["money"] = 0,
+						["text"] = "Good Lady Corpsecratio,\n\nI write to make you aware of my services as a riding trainer. Should you wish to learn, you need only visit me in Brill. My fee is a modest four gold coins.\n\nIf you'd care to purchase a mount upon learning how to ride, Zachariah Post has gathered a number of horses suitable to our needs and sells them for no more than one gold coin per head.\n\nYours, Velma Warnam",
+						["lastCheck"] = 1791937766,
+						["daysLeft"] = 29.07322883605957,
 					}, -- [1]
 				},
-				["lastVisitDate"] = "2026/10/19 21:09",
+				["lastVisitDate"] = "2026/10/13 20:29",
 			},
 			["Default.AzerothCore.Terra"] = {
 				["lastUpdate"] = 1777242463,

@@ -86,7 +86,7 @@ DataStore_CurrenciesDB = {
 				},
 			},
 			["Default.AzerothCore.Chaosballz"] = {
-				["lastUpdate"] = 1790462498,
+				["lastUpdate"] = 1792540541,
 			},
 			["Default.AzerothCore.Dorc"] = {
 				["lastUpdate"] = 1790524724,

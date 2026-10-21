@@ -122,9 +122,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
+			["LastInstanceName"] = "Gnomeregan",
 			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
-			["LastInstanceName"] = "Gnomeregan",
 			["CurDataSet"] = "OverallData",
 		},
 		["Coughin - AzerothCore"] = {
@@ -258,9 +258,6 @@ RecountDB = {
 					["h"] = 126.8281075110321,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Uldaman",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -269,9 +266,13 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["MainWindowHeight"] = 126.8281075110321,
-			["MainWindowWidth"] = 203.0000075909836,
+			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Uldaman",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 203.0000075909836,
+			["MainWindowHeight"] = 126.8281075110321,
 		},
 		["Oshi - AzerothCore"] = {
 			["GraphWindowY"] = 0,
@@ -301,14 +302,14 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -19.00014162997292,
-					["x"] = 629.2777999770354,
+					["y"] = -7.780135025133347,
+					["x"] = 534.7962833723744,
 					["w"] = 211.0000147032565,
 					["h"] = 176.0000164129375,
 				},
 			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Gnomeregan",
+			["LastInstanceName"] = "Uldaman",
 			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
@@ -318,9 +319,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["MainWindowHeight"] = 175.6902802105589,
-			["MainWindowWidth"] = 211.1111324783242,
 			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 211.1111324783242,
+			["MainWindowHeight"] = 175.6902802105589,
 		},
 		["Orcshio - AzerothCore"] = {
 			["GraphWindowY"] = 0,
@@ -586,7 +588,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Razorfen Downs",
+			["LastInstanceName"] = "Scarlet Monastery",
 			["RealtimeWindows"] = {
 				["Realtime_!RAID_DAMAGE"] = {
 					"!RAID", -- [1]

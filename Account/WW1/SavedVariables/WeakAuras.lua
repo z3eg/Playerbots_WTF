@@ -208,9 +208,9 @@ WeakAurasSaved = {
 				["name"] = "Arcane Focus",
 				["icon"] = "Interface\\Icons\\Spell_Holy_Devotion",
 			},
-			[2.05] = {
-				["name"] = "Burning Determination",
-				["icon"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
+			[2.01] = {
+				["name"] = "Improved Fire Blast",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
 			},
 			[2.18] = {
 				["name"] = "Fire Power",
@@ -220,9 +220,9 @@ WeakAurasSaved = {
 				["name"] = "Arcane Potency",
 				["icon"] = "Interface\\Icons\\Spell_Arcane_ArcanePotency",
 			},
-			[2.01] = {
-				["name"] = "Improved Fire Blast",
-				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
+			[2.05] = {
+				["name"] = "Burning Determination",
+				["icon"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
 			},
 			[1.16] = {
 				["name"] = "Presence of Mind",
@@ -534,13 +534,13 @@ WeakAurasSaved = {
 				["name"] = "The Art of War",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_ArtofWar",
 			},
-			[2.05] = {
-				["name"] = "Anticipation",
-				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
-			},
 			[2.01] = {
 				["name"] = "Divinity",
 				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
+			},
+			[2.05] = {
+				["name"] = "Anticipation",
+				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 			},
 			[2.14] = {
 				["name"] = "Sacred Duty",
@@ -550,9 +550,9 @@ WeakAurasSaved = {
 				["name"] = "Sacred Cleansing",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_SacredCleansing",
 			},
-			[1.16] = {
-				["name"] = "Holy Power",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
+			[3.05] = {
+				["name"] = "Improved Blessing of Might",
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
 			},
 			[1.02] = {
 				["name"] = "Seals of the Pure",
@@ -594,13 +594,13 @@ WeakAurasSaved = {
 				["name"] = "Judgements of the Pure",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_JudgementofthePure",
 			},
-			[3.26] = {
-				["name"] = "Divine Storm",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
-			},
 			[3.18] = {
 				["name"] = "Repentance",
 				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
+			},
+			[3.26] = {
+				["name"] = "Divine Storm",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
 			},
 			[1.01] = {
 				["name"] = "Spiritual Focus",
@@ -654,9 +654,9 @@ WeakAurasSaved = {
 				["name"] = "Aura Mastery",
 				["icon"] = "Interface\\Icons\\Spell_Holy_AuraMastery",
 			},
-			[3.05] = {
-				["name"] = "Improved Blessing of Might",
-				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+			[1.16] = {
+				["name"] = "Holy Power",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
 			},
 			[3.19] = {
 				["name"] = "Judgements of the Wise",
@@ -707,10 +707,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_ToW\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_ToW\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -829,9 +829,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -839,7 +839,7 @@ WeakAurasSaved = {
 			["id"] = "sh_ToW_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -855,7 +855,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["lo_cu"] = {
 			["iconSource"] = -1,
@@ -873,8 +873,8 @@ WeakAurasSaved = {
 						["auranames"] = {
 							"Curse of the Elements", -- [1]
 						},
-						["ownOnly"] = true,
 						["matchesShowOn"] = "showOnMissing",
+						["ownOnly"] = true,
 						["event"] = "Health",
 						["subeventPrefix"] = "SPELL",
 						["type"] = "aura2",
@@ -975,29 +975,42 @@ WeakAurasSaved = {
 			["height"] = 64,
 			["load"] = {
 				["use_class"] = true,
-				["class"] = {
-					["single"] = "WARLOCK",
-					["multi"] = {
-					},
-				},
+				["use_combat"] = true,
 				["talent"] = {
 					["single"] = 25,
 					["multi"] = {
 						[25] = true,
 					},
 				},
+				["use_alive"] = true,
 				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["use_alive"] = true,
-				["use_combat"] = true,
+				["class"] = {
+					["single"] = "WARLOCK",
+					["multi"] = {
+					},
+				},
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = -396.4440966117474,
+			["cooldown"] = false,
+			["zoom"] = 0,
+			["conditions"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["id"] = "lo_cu",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\Shotgun.ogg",
@@ -1010,30 +1023,17 @@ WeakAurasSaved = {
 					["do_sound"] = false,
 				},
 			},
-			["selfPoint"] = "CENTER",
-			["cooldown"] = false,
-			["zoom"] = 0,
-			["conditions"] = {
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["id"] = "lo_cu",
-			["xOffset"] = -396.4440966117474,
-			["frameStrata"] = 1,
-			["width"] = 64,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
+			["uid"] = "SD5(k2hRAZT",
+			["inverse"] = false,
 			["config"] = {
 			},
-			["inverse"] = false,
-			["uid"] = "SD5(k2hRAZT",
 			["displayIcon"] = "Interface\\Icons\\Spell_Shadow_ChillTouch",
 			["information"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 		},
 		["sh_WW_party_raid"] = {
 			["iconSource"] = -1,
@@ -1058,10 +1058,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WW\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WW\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -1180,9 +1180,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -1190,7 +1190,7 @@ WeakAurasSaved = {
 			["id"] = "sh_WW_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -1206,7 +1206,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["lo_haunt"] = {
 			["iconSource"] = -1,
@@ -1229,7 +1229,7 @@ WeakAurasSaved = {
 							"Haunt", -- [1]
 						},
 						["rem"] = "3",
-						["ownOnly"] = true,
+						["matchesShowOn"] = "showOnMissing",
 						["event"] = "Health",
 						["subeventPrefix"] = "SPELL",
 						["unit"] = "target",
@@ -1240,7 +1240,7 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["remOperator"] = "<=",
 						["type"] = "aura2",
-						["matchesShowOn"] = "showOnMissing",
+						["ownOnly"] = true,
 						["debuffType"] = "HARMFUL",
 					},
 					["untrigger"] = {
@@ -1331,19 +1331,19 @@ WeakAurasSaved = {
 			["load"] = {
 				["use_class"] = true,
 				["use_talent"] = true,
-				["use_combat"] = true,
+				["use_alive"] = true,
 				["talent"] = {
 					["single"] = 28,
 					["multi"] = {
 					},
 				},
-				["use_alive"] = true,
-				["spec"] = {
+				["use_combat"] = true,
+				["class"] = {
+					["single"] = "WARLOCK",
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARLOCK",
+				["spec"] = {
 					["multi"] = {
 					},
 				},
@@ -1353,8 +1353,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["width"] = 64,
+			["frameStrata"] = 1,
 			["information"] = {
 			},
 			["zoom"] = 0,
@@ -1362,17 +1362,10 @@ WeakAurasSaved = {
 			["authorOptions"] = {
 			},
 			["id"] = "lo_haunt",
-			["uid"] = "Fc5uo6uo7NO",
-			["frameStrata"] = 1,
-			["width"] = 64,
-			["xOffset"] = -392.8885378951816,
 			["config"] = {
 			},
-			["inverse"] = false,
-			["selfPoint"] = "CENTER",
-			["conditions"] = {
-			},
-			["cooldown"] = false,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\Shotgun.ogg",
@@ -1385,6 +1378,13 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["uid"] = "Fc5uo6uo7NO",
+			["inverse"] = false,
+			["xOffset"] = -392.8885378951816,
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["selfPoint"] = "CENTER",
 		},
 		["dk_Presence_self"] = {
 			["iconSource"] = -1,
@@ -1404,12 +1404,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"dk_Presence\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"dk_Presence\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -1507,37 +1507,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "dk_Presence_self",
-			["uid"] = "BRP00000032",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1558,6 +1527,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "dk_Presence_self",
+			["uid"] = "BRP00000032",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["pr_PWF_party_raid"] = {
 			["iconSource"] = -1,
@@ -1577,12 +1577,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_PWF\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_PWF\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -1680,37 +1680,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pr_PWF_party_raid",
-			["uid"] = "BRP00000009",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1731,6 +1700,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pr_PWF_party_raid",
+			["uid"] = "BRP00000009",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["pr_SP_party_raid"] = {
 			["iconSource"] = -1,
@@ -1750,12 +1750,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_SP\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_SP\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -1853,37 +1853,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pr_SP_party_raid",
-			["uid"] = "BRP00000013",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1904,6 +1873,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pr_SP_party_raid",
+			["uid"] = "BRP00000013",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["[BWL][Chromaggus] Vulnerability Text 2"] = {
 			["sparkWidth"] = 10,
@@ -1994,7 +1994,7 @@ WeakAurasSaved = {
 			},
 			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["auto"] = false,
-			["displayText_format_1.npcid_format"] = "none",
+			["tocversion"] = 11507,
 			["backgroundColor"] = {
 				0, -- [1]
 				0, -- [2]
@@ -2004,13 +2004,13 @@ WeakAurasSaved = {
 			["anchorFrameType"] = "SELECTFRAME",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
+			["uid"] = "DgChW0Nx3oK",
 			["config"] = {
 			},
-			["uid"] = "DgChW0Nx3oK",
 			["id"] = "[BWL][Chromaggus] Vulnerability Text 2",
-			["displayIcon"] = "",
-			["justify"] = "CENTER",
 			["fixedWidth"] = 200,
+			["justify"] = "CENTER",
+			["displayIcon"] = "",
 			["cooldownTextDisabled"] = true,
 			["backgroundOffset"] = 2,
 			["outline"] = "OUTLINE",
@@ -2023,14 +2023,14 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["adjustedMin"] = "100",
 			["customText"] = "",
+			["adjustedMin"] = "100",
 			["shadowYOffset"] = -1,
 			["sparkHeight"] = 30,
 			["desaturateBackground"] = false,
 			["cooldownSwipe"] = true,
-			["displayText_format_p_format"] = "timed",
-			["customTextUpdate"] = "event",
+			["endAngle"] = 360,
+			["sparkRotationMode"] = "AUTO",
 			["automaticWidth"] = "Auto",
 			["desaturateForeground"] = false,
 			["triggers"] = {
@@ -2060,7 +2060,7 @@ WeakAurasSaved = {
 				["customTriggerLogic"] = "function(t)\n    if not t[1] then\n        return false\n    end\n    \n    return (aura_env.classes[UnitClass(\"player\")]) or UnitIsGroupLeader(\"player\") or UnitIsGroupAssistant(\"player\")\nend",
 				["activeTriggerMode"] = -10,
 			},
-			["endAngle"] = 360,
+			["displayText_format_p_format"] = "timed",
 			["internalVersion"] = 84,
 			["progressSource"] = {
 				-1, -- [1]
@@ -2079,17 +2079,17 @@ WeakAurasSaved = {
 					["type"] = "none",
 					["duration"] = "0.2",
 					["easeType"] = "none",
-					["scaley"] = 1,
 					["use_color"] = true,
+					["scaley"] = 1,
 					["alpha"] = 0.7,
 					["rotate"] = 0,
 					["y"] = 0,
-					["colorType"] = "custom",
+					["x"] = 0,
 					["preset"] = "fade",
 					["colorA"] = 1,
 					["colorFunc"] = "function(progress, r1, g1, b1, a1)\n    local default = {117/255, 248/255, 151/255, 1}\n    \n    if aura_env.config.colourOverride and aura_env.config.colour then\n        local r = aura_env.config.colour[1]\n        local g = aura_env.config.colour[2]\n        local b = aura_env.config.colour[3]\n        local a = aura_env.config.colour[4] or 1\n        return r, g, b, a\n    else \n        local color = aura_env.state and aura_env.state.color or default\n        local r, g, b, a = unpack(color)\n        return r, g, b, a\n    end\nend",
 					["easeStrength"] = 3,
-					["x"] = 0,
+					["colorType"] = "custom",
 					["scalex"] = 1,
 				},
 				["main"] = {
@@ -2122,17 +2122,17 @@ WeakAurasSaved = {
 					["type"] = "none",
 					["duration"] = "0.2",
 					["easeType"] = "none",
-					["scaley"] = 1,
 					["use_color"] = true,
+					["scaley"] = 1,
 					["alpha"] = 0,
 					["rotate"] = 0,
 					["y"] = 0,
-					["colorType"] = "custom",
+					["x"] = 0,
 					["preset"] = "fade",
 					["colorA"] = 1,
 					["colorFunc"] = "function(progress, r1, g1, b1, a1)\n    local default = {117/255, 248/255, 151/255, 1}\n    \n    if aura_env.config.colourOverride and aura_env.config.colour then\n        local r = aura_env.config.colour[1]\n        local g = aura_env.config.colour[2]\n        local b = aura_env.config.colour[3]\n        local a = aura_env.config.colour[4] or 1\n        return r, g, b, a\n    else \n        local color = aura_env.state and aura_env.state.color or default\n        local r, g, b, a = unpack(color)\n        return r, g, b, a\n    end\nend",
 					["easeStrength"] = 3,
-					["x"] = 0,
+					["colorType"] = "custom",
 					["scalex"] = 1,
 				},
 			},
@@ -2145,7 +2145,7 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["displayText_format_s_format"] = "none",
+			["sparkBlendMode"] = "ADD",
 			["displayText_format_1.s_format"] = "none",
 			["version"] = 1,
 			["subRegions"] = {
@@ -2193,11 +2193,11 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Numen",
-					["text_visible"] = true,
-					["text_shadowYOffset"] = 0,
-					["text_fontType"] = "OUTLINE",
-					["text_wordWrap"] = "WordWrap",
 					["text_text_format_vulnerability_format"] = "none",
+					["text_shadowYOffset"] = 0,
+					["text_visible"] = true,
+					["text_wordWrap"] = "WordWrap",
+					["text_fontType"] = "OUTLINE",
 					["text_anchorPoint"] = "CENTER",
 					["anchorYOffset"] = 0,
 					["anchor_point"] = "OUTER_RIGHT",
@@ -2209,7 +2209,7 @@ WeakAurasSaved = {
 			["height"] = 24,
 			["textureSource"] = "LSM",
 			["fontSize"] = 21,
-			["sparkBlendMode"] = "ADD",
+			["displayText_format_s_format"] = "none",
 			["useAdjustededMax"] = false,
 			["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
 			["source"] = "import",
@@ -2223,9 +2223,9 @@ WeakAurasSaved = {
 			["selfPoint"] = "BOTTOMLEFT",
 			["icon_side"] = "LEFT",
 			["cooldownEdge"] = false,
-			["sparkRotationMode"] = "AUTO",
-			["anchorFrameParent"] = false,
+			["customTextUpdate"] = "event",
 			["displayText_format_p_time_precision"] = 1,
+			["anchorFrameParent"] = false,
 			["compress"] = false,
 			["displayText_format_t_format"] = "timed",
 			["semver"] = "1.0.0",
@@ -2235,20 +2235,20 @@ WeakAurasSaved = {
 			["useCooldownModRate"] = true,
 			["width"] = 24,
 			["displayText_format_t_time_dynamic_threshold"] = 60,
-			["tocversion"] = 11507,
+			["displayText_format_1.npcid_format"] = "none",
 			["inverse"] = false,
 			["actions"] = {
 				["start"] = {
-					["custom"] = "",
 					["do_message"] = false,
 					["do_custom"] = false,
+					["custom"] = "",
 				},
 				["finish"] = {
 					["custom"] = "",
 					["do_sound"] = false,
-					["do_custom"] = false,
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\aggro.ogg",
 					["do_message"] = false,
+					["do_custom"] = false,
 				},
 				["init"] = {
 					["custom"] = "-- The aura only displays for the following Classes:\naura_env.classes = {\n    [\"Druid\"] = true,\n    [\"Hunter\"] = true,\n    [\"Mage\"] = true,\n    --[\"Paladin\"] = true,\n    [\"Priest\"] = true,\n    [\"Rogue\"] = true,\n    [\"Shaman\"] = true,\n    [\"Warlock\"] = true,\n    --[\"Warrior\"] = true,\n}\n\n\n",
@@ -2289,12 +2289,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_Aura\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_Aura\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -2392,37 +2392,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_Aura_self",
-			["uid"] = "BRP00000024",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -2443,6 +2412,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_Aura_self",
+			["uid"] = "BRP00000024",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["pa_Seal_self"] = {
 			["iconSource"] = -1,
@@ -2462,12 +2462,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_Seal\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_Seal\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -2565,37 +2565,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_Seal_self",
-			["uid"] = "BRP00000025",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -2616,6 +2585,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_Seal_self",
+			["uid"] = "BRP00000025",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["sh_HS_party_raid"] = {
 			["iconSource"] = -1,
@@ -2640,10 +2640,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_HS\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_HS\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -2762,9 +2762,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -2772,7 +2772,7 @@ WeakAurasSaved = {
 			["id"] = "sh_HS_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -2788,7 +2788,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["sh_WoA_self"] = {
 			["iconSource"] = -1,
@@ -2813,10 +2813,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WoA\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WoA\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -2935,9 +2935,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -2945,7 +2945,7 @@ WeakAurasSaved = {
 			["id"] = "sh_WoA_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -2961,9 +2961,12 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["AoH C"] = {
+			["information"] = {
+			},
+			["iconSource"] = 2,
 			["load"] = {
 				["use_class"] = true,
 				["talent"] = {
@@ -2985,21 +2988,18 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["iconSource"] = 2,
-			["information"] = {
-			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["xOffset"] = 0,
 			["authorOptions"] = {
 			},
+			["xOffset"] = 0,
 			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
 			["regionType"] = "icon",
+			["anchorPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -3008,7 +3008,7 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["width"] = 64,
+			["desaturate"] = false,
 			["uid"] = "D1qWpWqvEYI",
 			["cooldownEdge"] = false,
 			["icon"] = true,
@@ -3065,9 +3065,6 @@ WeakAurasSaved = {
 				}, -- [3]
 				["activeTriggerMode"] = -10,
 			},
-			["selfPoint"] = "CENTER",
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -3088,11 +3085,14 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
 			["id"] = "AoH C",
 			["zoom"] = 0,
 			["alpha"] = 1,
-			["desaturate"] = false,
 			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -3164,9 +3164,9 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["iconSource"] = 2,
 			["cooldown"] = false,
-			["xOffset"] = 0,
 			["authorOptions"] = {
 			},
+			["xOffset"] = 0,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -3174,12 +3174,12 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
 			["regionType"] = "icon",
+			["anchorPoint"] = "CENTER",
 			["icon"] = true,
 			["config"] = {
 			},
-			["anchorFrameType"] = "SCREEN",
+			["desaturate"] = false,
 			["cooldownEdge"] = false,
 			["actions"] = {
 				["start"] = {
@@ -3228,14 +3228,9 @@ WeakAurasSaved = {
 				}, -- [2]
 				["activeTriggerMode"] = -10,
 			},
-			["width"] = 64,
+			["anchorFrameType"] = "SCREEN",
 			["internalVersion"] = 52,
 			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["id"] = "AoV C",
-			["zoom"] = 0,
-			["frameStrata"] = 1,
-			["desaturate"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -3256,6 +3251,11 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["id"] = "AoV C",
+			["zoom"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["selfPoint"] = "CENTER",
 			["uid"] = "AbI1MCy45rz",
 			["inverse"] = false,
 			["subRegions"] = {
@@ -3319,6 +3319,8 @@ WeakAurasSaved = {
 			["height"] = 64,
 			["conditions"] = {
 			},
+			["information"] = {
+			},
 			["load"] = {
 				["use_class"] = true,
 				["talent"] = {
@@ -3340,8 +3342,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["information"] = {
-			},
 		},
 		["lo_conf"] = {
 			["iconSource"] = -1,
@@ -3354,18 +3354,7 @@ WeakAurasSaved = {
 			["yOffset"] = -36.98669027029445,
 			["anchorPoint"] = "CENTER",
 			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\Shotgun.ogg",
-					["do_sound"] = true,
-				},
-				["finish"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bear_polar.ogg",
-					["do_sound"] = false,
-				},
-				["init"] = {
-				},
-			},
+			["icon"] = true,
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -3475,18 +3464,18 @@ WeakAurasSaved = {
 			["height"] = 64,
 			["load"] = {
 				["use_talent"] = true,
-				["use_combat"] = true,
+				["use_alive"] = true,
 				["talent"] = {
 					["single"] = 97,
 					["multi"] = {
 					},
 				},
-				["use_alive"] = true,
-				["spec"] = {
+				["use_combat"] = true,
+				["class"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
+				["spec"] = {
 					["multi"] = {
 					},
 				},
@@ -3496,8 +3485,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["width"] = 64,
-			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["information"] = {
 			},
 			["zoom"] = 0,
@@ -3505,18 +3494,29 @@ WeakAurasSaved = {
 			["authorOptions"] = {
 			},
 			["id"] = "lo_conf",
+			["uid"] = "hh3ybJcriLT",
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["xOffset"] = -393.4810143003872,
 			["config"] = {
 			},
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["selfPoint"] = "CENTER",
-			["uid"] = "hh3ybJcriLT",
 			["inverse"] = false,
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["xOffset"] = -393.4810143003872,
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\Shotgun.ogg",
+					["do_sound"] = true,
+				},
+				["finish"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bear_polar.ogg",
+					["do_sound"] = false,
+				},
+				["init"] = {
+				},
+			},
 		},
 		["lo_UB_party_raid"] = {
 			["iconSource"] = -1,
@@ -3536,12 +3536,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_UB\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_UB\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -3639,37 +3639,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "lo_UB_party_raid",
-			["uid"] = "BRP00000036",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -3690,14 +3659,45 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_UB_party_raid",
+			["uid"] = "BRP00000036",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["BS"] = {
 			["frameStrata"] = 1,
 			["iconSource"] = 1,
 			["cooldown"] = false,
+			["xOffset"] = 0,
 			["authorOptions"] = {
 			},
-			["xOffset"] = 0,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -3705,12 +3705,12 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["yOffset"] = 0,
-			["regionType"] = "icon",
 			["anchorPoint"] = "CENTER",
+			["regionType"] = "icon",
 			["icon"] = true,
 			["config"] = {
 			},
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["cooldownEdge"] = false,
 			["actions"] = {
 				["start"] = {
@@ -3765,14 +3765,9 @@ WeakAurasSaved = {
 				}, -- [2]
 				["activeTriggerMode"] = -10,
 			},
-			["desaturate"] = false,
+			["anchorFrameType"] = "SCREEN",
 			["internalVersion"] = 52,
 			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["id"] = "BS",
-			["zoom"] = 0,
-			["alpha"] = 1,
-			["width"] = 64,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -3793,6 +3788,11 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["id"] = "BS",
+			["zoom"] = 0,
+			["alpha"] = 1,
+			["desaturate"] = false,
+			["selfPoint"] = "CENTER",
 			["uid"] = "a67O6Fmfcny",
 			["inverse"] = false,
 			["subRegions"] = {
@@ -3856,6 +3856,8 @@ WeakAurasSaved = {
 			["height"] = 64,
 			["conditions"] = {
 			},
+			["information"] = {
+			},
 			["load"] = {
 				["use_class"] = true,
 				["talent"] = {
@@ -3877,8 +3879,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["information"] = {
-			},
 		},
 		["wa_BS_party_raid"] = {
 			["iconSource"] = -1,
@@ -3898,12 +3898,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"wa_BS\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"wa_BS\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -4001,37 +4001,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "wa_BS_party_raid",
-			["uid"] = "BRP00000027",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -4052,6 +4021,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "wa_BS_party_raid",
+			["uid"] = "BRP00000027",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["lo_FI_self"] = {
 			["iconSource"] = -1,
@@ -4071,12 +4071,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_FI\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_FI\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -4174,37 +4174,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "lo_FI_self",
-			["uid"] = "BRP00000041",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -4225,6 +4194,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_FI_self",
+			["uid"] = "BRP00000041",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["dk_HoW_party_raid"] = {
 			["iconSource"] = -1,
@@ -4244,12 +4244,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"dk_HoW\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"dk_HoW\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -4347,37 +4347,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "dk_HoW_party_raid",
-			["uid"] = "BRP00000031",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -4398,6 +4367,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "dk_HoW_party_raid",
+			["uid"] = "BRP00000031",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["lo_FI_party_raid"] = {
 			["iconSource"] = -1,
@@ -4417,12 +4417,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_FI\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_FI\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -4520,37 +4520,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "lo_FI_party_raid",
-			["uid"] = "BRP00000042",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -4571,11 +4540,39 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_FI_party_raid",
+			["uid"] = "BRP00000042",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["AoV NC"] = {
-			["information"] = {
-			},
-			["iconSource"] = 2,
 			["load"] = {
 				["use_class"] = true,
 				["talent"] = {
@@ -4597,20 +4594,23 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["iconSource"] = 2,
+			["information"] = {
+			},
 			["xOffset"] = 0,
+			["authorOptions"] = {
+			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["authorOptions"] = {
-			},
 			["yOffset"] = 0,
-			["regionType"] = "icon",
 			["anchorPoint"] = "CENTER",
+			["regionType"] = "icon",
 			["icon"] = true,
-			["desaturate"] = false,
+			["anchorFrameType"] = "SCREEN",
 			["uid"] = "lAVdyIwQuIW",
 			["cooldownEdge"] = false,
 			["actions"] = {
@@ -4660,6 +4660,9 @@ WeakAurasSaved = {
 				}, -- [2]
 				["activeTriggerMode"] = -10,
 			},
+			["selfPoint"] = "CENTER",
+			["zoom"] = 0,
+			["keepAspectRatio"] = false,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -4680,14 +4683,11 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["zoom"] = 0,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
 			["id"] = "AoV NC",
 			["internalVersion"] = 52,
 			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["width"] = 64,
+			["desaturate"] = false,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -4778,10 +4778,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_SoE\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_SoE\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -4900,9 +4900,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -4910,7 +4910,7 @@ WeakAurasSaved = {
 			["id"] = "sh_SoE_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -4926,7 +4926,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["dk_BS_self"] = {
 			["iconSource"] = -1,
@@ -4946,12 +4946,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"dk_BS\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"dk_BS\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -5049,37 +5049,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "dk_BS_self",
-			["uid"] = "BRP00000033",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -5100,6 +5069,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "dk_BS_self",
+			["uid"] = "BRP00000033",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["ma_ib"] = {
 			["iconSource"] = 0,
@@ -5249,13 +5249,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MAGE",
+				["use_combat"] = true,
+				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
-				["spec"] = {
+				["class"] = {
+					["single"] = "MAGE",
 					["multi"] = {
 					},
 				},
@@ -5265,13 +5265,13 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
 			["information"] = {
 			},
 			["zoom"] = 0,
@@ -5280,17 +5280,17 @@ WeakAurasSaved = {
 			["authorOptions"] = {
 			},
 			["id"] = "ma_ib",
-			["alpha"] = 1,
 			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["width"] = 32,
-			["icon"] = true,
+			["anchorFrameType"] = "SCREEN",
+			["uid"] = "OdSvzMyTVjf",
+			["inverse"] = false,
 			["config"] = {
 			},
-			["inverse"] = false,
-			["uid"] = "OdSvzMyTVjf",
 			["displayIcon"] = "Interface\\Icons\\Spell_Ice_Lament",
 			["cooldown"] = false,
-			["anchorFrameType"] = "SCREEN",
+			["icon"] = true,
 		},
 		["BWL Weaknesses Group"] = {
 			["grow"] = "CUSTOM",
@@ -5303,9 +5303,8 @@ WeakAurasSaved = {
 			["preferToUpdate"] = false,
 			["yOffset"] = 280,
 			["anchorPoint"] = "CENTER",
-			["limit"] = 5,
-			["authorOptions"] = {
-			},
+			["anchorPerUnit"] = "CUSTOM",
+			["source"] = "import",
 			["fullCircle"] = true,
 			["rowSpace"] = 1,
 			["url"] = "https://wago.io/kf9gRHYdf/22",
@@ -5330,7 +5329,7 @@ WeakAurasSaved = {
 			},
 			["columnSpace"] = 1,
 			["internalVersion"] = 52,
-			["gridType"] = "RD",
+			["radius"] = 200,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -5352,21 +5351,24 @@ WeakAurasSaved = {
 				},
 			},
 			["align"] = "CENTER",
-			["radius"] = 200,
-			["borderColor"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				1, -- [4]
+			["authorOptions"] = {
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
 			},
 			["desc"] = "Displays elemental weaknesses of BWL mobs/Chromaggus if Detect Magic was applied by mages. Make sure to check the custom options",
 			["rotation"] = 0,
-			["stagger"] = 0,
+			["gridType"] = "RD",
 			["version"] = 22,
 			["subRegions"] = {
 			},
+			["stagger"] = 0,
 			["arcLength"] = 360,
-			["useAnchorPerUnit"] = false,
 			["load"] = {
 				["use_class"] = "false",
 				["talent"] = {
@@ -5394,18 +5396,18 @@ WeakAurasSaved = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["space"] = 5,
-			["source"] = "import",
+			["useAnchorPerUnit"] = false,
+			["animate"] = false,
 			["customGrow"] = "function(newPositions, activeRegions)\n    if WeakAuras.IsOptionsOpen() then return end\n    local showOnNameplates = aura_env.child_envs[1].config.showOnNameplates\n    local xOff = aura_env.child_envs[1].config.xOffset or 0\n    local yOff = aura_env.child_envs[1].config.yOffset or 0\n    local parent = WeakAuras.GetRegion(activeRegions[1].data.parent)\n    local frames = {}\n    \n    for _, regionData in ipairs(activeRegions) do\n        local frame = showOnNameplates and regionData.region.state and regionData.region.state.nameplate and C_NamePlate.GetNamePlateForUnit(regionData.region.state.nameplate) or parent\n        \n        if frame then\n            frames[frame] = frames[frame] or {}\n            tinsert(frames[frame], regionData)\n        end\n    end\n    \n    for frame, regionsData in pairs(frames) do\n        local x, y = 0,0\n        newPositions[frame] = {}\n        for i, regionData in ipairs(regionsData) do\n            newPositions[frame][regionData] = { \n                x - (parent.xOffset or 0)\n                + (regionData.region.xOffset or 0)\n                + (frame == parent and 0 or xOff),\n                \n                y - (parent.yOffset or 0)\n                + (regionData.region.yOffset or 0)\n                + (frame == parent and 0 or yOff),\n            }\n            y = y - (regionData.data.height or regionData.region.height) - 2\n        end\n    end\nend",
 			["scale"] = 1,
-			["animate"] = false,
+			["useLimit"] = false,
 			["border"] = false,
 			["borderEdge"] = "Square Full White",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
-			["sort"] = "none",
+			["limit"] = 5,
 			["gridWidth"] = 5,
-			["borderInset"] = 1,
+			["sort"] = "none",
 			["constantFactor"] = "RADIUS",
 			["sortHybridTable"] = {
 				["BWL Weaknesses TSU"] = false,
@@ -5414,11 +5416,11 @@ WeakAurasSaved = {
 			["semver"] = "3.0.2",
 			["tocversion"] = 11303,
 			["id"] = "BWL Weaknesses Group",
-			["anchorPerUnit"] = "CUSTOM",
+			["space"] = 5,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["useLimit"] = false,
 			["uid"] = "(rhxc(bjBlp",
+			["borderInset"] = 1,
 			["selfPoint"] = "CENTER",
 			["groupIcon"] = 136011,
 			["conditions"] = {
@@ -5426,13 +5428,11 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["borderColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
 			},
 		},
 		["lo_BP_party_raid"] = {
@@ -5453,12 +5453,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_BP\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_BP\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -5556,37 +5556,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "lo_BP_party_raid",
-			["uid"] = "BRP00000040",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -5607,6 +5576,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_BP_party_raid",
+			["uid"] = "BRP00000040",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["pr_VE_self"] = {
 			["iconSource"] = -1,
@@ -5626,12 +5626,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_VE\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_VE\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -5729,37 +5729,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pr_VE_self",
-			["uid"] = "BRP00000015",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -5780,6 +5749,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pr_VE_self",
+			["uid"] = "BRP00000015",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["sh_SoE_party_raid"] = {
 			["iconSource"] = -1,
@@ -5804,10 +5804,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_SoE\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_SoE\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -5926,9 +5926,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -5936,7 +5936,7 @@ WeakAurasSaved = {
 			["id"] = "sh_SoE_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -5952,7 +5952,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["sh_MS_party_raid"] = {
 			["iconSource"] = -1,
@@ -5977,10 +5977,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_MS\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_MS\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -6099,9 +6099,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -6109,7 +6109,7 @@ WeakAurasSaved = {
 			["id"] = "sh_MS_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -6125,7 +6125,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["pa_BoM_self"] = {
 			["iconSource"] = -1,
@@ -6145,12 +6145,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoM\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoM\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -6248,37 +6248,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_BoM_self",
-			["uid"] = "BRP00000018",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -6299,6 +6268,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_BoM_self",
+			["uid"] = "BRP00000018",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["sh_Shield_self"] = {
 			["iconSource"] = -1,
@@ -6323,10 +6323,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_Shield\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_Shield\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -6445,9 +6445,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -6455,7 +6455,7 @@ WeakAurasSaved = {
 			["id"] = "sh_Shield_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -6471,24 +6471,24 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["sh_manaspring"] = {
 			["alpha"] = 1,
 			["iconSource"] = -1,
 			["cooldown"] = false,
-			["authorOptions"] = {
-			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["authorOptions"] = {
+			},
 			["xOffset"] = -339.5552972037621,
 			["yOffset"] = 164.5578092722292,
-			["anchorPoint"] = "CENTER",
 			["regionType"] = "icon",
+			["anchorPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 					["do_glow"] = false,
@@ -6504,7 +6504,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["width"] = 25,
+			["desaturate"] = false,
 			["cooldownEdge"] = false,
 			["icon"] = true,
 			["triggers"] = {
@@ -6531,14 +6531,9 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 25,
 			["zoom"] = 0,
 			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["id"] = "sh_manaspring",
-			["internalVersion"] = 52,
-			["frameStrata"] = 1,
-			["desaturate"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -6559,6 +6554,11 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["id"] = "sh_manaspring",
+			["internalVersion"] = 52,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
 			["uid"] = "(2TtCoL9zu2",
 			["inverse"] = false,
 			["subRegions"] = {
@@ -6620,6 +6620,8 @@ WeakAurasSaved = {
 			["height"] = 24,
 			["conditions"] = {
 			},
+			["information"] = {
+			},
 			["load"] = {
 				["use_class"] = true,
 				["talent"] = {
@@ -6639,8 +6641,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-			},
-			["information"] = {
 			},
 		},
 		["Show rested XP 1.0.3"] = {
@@ -6676,9 +6676,9 @@ WeakAurasSaved = {
 						["event"] = "Unit Characteristics",
 						["custom_hide"] = "timed",
 						["subeventSuffix"] = "_CAST_START",
-						["events"] = "PLAYER_XP_UPDATE PLAYER_LOGIN ",
 						["spellIds"] = {
 						},
+						["events"] = "PLAYER_XP_UPDATE PLAYER_LOGIN ",
 						["custom"] = "function()\nreturn true\nend",
 						["check"] = "event",
 						["use_unit"] = true,
@@ -6715,21 +6715,21 @@ WeakAurasSaved = {
 			["version"] = 4,
 			["displayText_format_c_format"] = "none",
 			["load"] = {
-				["level"] = "80",
+				["class"] = {
+					["multi"] = {
+					},
+				},
 				["use_level"] = true,
 				["talent"] = {
 					["multi"] = {
 					},
 				},
-				["level_operator"] = "<",
 				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
+				["level_operator"] = "<",
+				["level"] = "80",
 				["size"] = {
 					["multi"] = {
 					},
@@ -6738,19 +6738,15 @@ WeakAurasSaved = {
 			["fontSize"] = 12,
 			["source"] = "import",
 			["shadowXOffset"] = 1,
+			["preferToUpdate"] = false,
+			["regionType"] = "text",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["regionType"] = "text",
-			["preferToUpdate"] = false,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-			},
+			["url"] = "https://wago.io/4lDRnMpOt/4",
 			["conditions"] = {
 			},
 			["displayText_format_p_time_precision"] = 1,
@@ -6796,24 +6792,28 @@ WeakAurasSaved = {
 			["fixedWidth"] = 200,
 			["information"] = {
 			},
-			["url"] = "https://wago.io/4lDRnMpOt/4",
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+			},
 		},
 		["dk_rime"] = {
 			["alpha"] = 1,
 			["iconSource"] = -1,
 			["cooldown"] = false,
+			["authorOptions"] = {
+			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["authorOptions"] = {
-			},
 			["xOffset"] = -135.1108810868319,
 			["yOffset"] = 150.8449619565206,
-			["regionType"] = "icon",
 			["anchorPoint"] = "CENTER",
+			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bear_polar.ogg",
@@ -6828,7 +6828,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["cooldownEdge"] = false,
 			["icon"] = true,
 			["triggers"] = {
@@ -6854,9 +6854,14 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["desaturate"] = false,
+			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0,
 			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["id"] = "dk_rime",
+			["internalVersion"] = 52,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -6877,11 +6882,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["id"] = "dk_rime",
-			["internalVersion"] = 52,
-			["frameStrata"] = 1,
-			["width"] = 64,
-			["selfPoint"] = "CENTER",
 			["uid"] = "AioBci3Szp1",
 			["inverse"] = false,
 			["subRegions"] = {
@@ -6943,8 +6943,6 @@ WeakAurasSaved = {
 			["height"] = 64,
 			["conditions"] = {
 			},
-			["information"] = {
-			},
 			["load"] = {
 				["size"] = {
 					["multi"] = {
@@ -6962,6 +6960,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+			},
+			["information"] = {
 			},
 		},
 		["LT NC"] = {
@@ -7010,26 +7010,7 @@ WeakAurasSaved = {
 			},
 			["internalVersion"] = 52,
 			["keepAspectRatio"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["selfPoint"] = "CENTER",
 			["desaturate"] = false,
 			["subRegions"] = {
 				{
@@ -7112,27 +7093,46 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
+			["icon"] = true,
 			["authorOptions"] = {
 			},
-			["icon"] = true,
 			["cooldown"] = false,
 			["zoom"] = 0,
 			["displayIcon"] = "Interface\\Icons\\Spell_Shadow_BurningSpirit",
 			["xOffset"] = 0,
 			["id"] = "LT NC",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
 			["width"] = 64,
 			["frameStrata"] = 1,
-			["uid"] = "VgL45fp3NiR",
-			["inverse"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
+			["inverse"] = false,
+			["uid"] = "VgL45fp3NiR",
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["selfPoint"] = "CENTER",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["ma_hs"] = {
 			["iconSource"] = -1,
@@ -7275,31 +7275,31 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["icon"] = true,
 			["anchorFrameType"] = "SCREEN",
+			["icon"] = true,
 			["cooldown"] = false,
 			["zoom"] = 0,
 			["displayIcon"] = "Interface\\Icons\\Ability_Mage_HotStreak",
 			["xOffset"] = -233.4811871833286,
 			["id"] = "ma_hs",
-			["uid"] = "hDlnPZDhSJ7",
-			["alpha"] = 1,
-			["width"] = 32,
-			["selfPoint"] = "CENTER",
 			["config"] = {
 			},
-			["inverse"] = false,
 			["frameStrata"] = 1,
-			["conditions"] = {
-			},
-			["information"] = {
-			},
+			["width"] = 32,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["uid"] = "hDlnPZDhSJ7",
+			["inverse"] = false,
+			["alpha"] = 1,
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["selfPoint"] = "CENTER",
 		},
 		["sh_FrostR_self"] = {
 			["iconSource"] = -1,
@@ -7324,10 +7324,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FrostR\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FrostR\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -7446,9 +7446,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -7456,7 +7456,7 @@ WeakAurasSaved = {
 			["id"] = "sh_FrostR_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -7472,24 +7472,24 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["sh_shield"] = {
 			["alpha"] = 1,
 			["iconSource"] = -1,
 			["cooldown"] = false,
+			["authorOptions"] = {
+			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["authorOptions"] = {
-			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
-			["regionType"] = "icon",
 			["anchorPoint"] = "CENTER",
+			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -7500,7 +7500,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["width"] = 64,
+			["desaturate"] = false,
 			["cooldownEdge"] = false,
 			["icon"] = true,
 			["triggers"] = {
@@ -7529,9 +7529,14 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["zoom"] = 0,
 			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["id"] = "sh_shield",
+			["internalVersion"] = 52,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -7552,11 +7557,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["id"] = "sh_shield",
-			["internalVersion"] = 52,
-			["frameStrata"] = 1,
-			["desaturate"] = false,
-			["selfPoint"] = "CENTER",
 			["uid"] = "LQMdhT7Zyfd",
 			["inverse"] = false,
 			["subRegions"] = {
@@ -7618,8 +7618,6 @@ WeakAurasSaved = {
 			["height"] = 64,
 			["conditions"] = {
 			},
-			["information"] = {
-			},
 			["load"] = {
 				["use_spellknown"] = true,
 				["talent"] = {
@@ -7639,6 +7637,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+			},
+			["information"] = {
 			},
 		},
 		["sh_FR_self"] = {
@@ -7664,10 +7664,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FR\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FR\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -7786,9 +7786,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -7796,7 +7796,7 @@ WeakAurasSaved = {
 			["id"] = "sh_FR_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -7812,7 +7812,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["sh_WW_self"] = {
 			["iconSource"] = -1,
@@ -7837,10 +7837,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WW\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WW\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -7959,9 +7959,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -7969,7 +7969,7 @@ WeakAurasSaved = {
 			["id"] = "sh_WW_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -7985,7 +7985,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["ma_fof"] = {
 			["iconSource"] = 0,
@@ -8128,31 +8128,31 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["width"] = 32,
 			["icon"] = true,
+			["anchorFrameType"] = "SCREEN",
 			["cooldown"] = false,
 			["zoom"] = 0,
 			["displayIcon"] = "Interface\\Icons\\Ability_Mage_DeepFreeze",
 			["xOffset"] = -199.1107629136822,
 			["id"] = "ma_fof",
+			["uid"] = "GExMZkHM(z)",
+			["alpha"] = 1,
+			["width"] = 32,
+			["selfPoint"] = "CENTER",
 			["config"] = {
 			},
+			["inverse"] = false,
 			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["uid"] = "GExMZkHM(z)",
-			["inverse"] = false,
-			["alpha"] = 1,
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["selfPoint"] = "CENTER",
 		},
 		["pr_PWF_self"] = {
 			["iconSource"] = -1,
@@ -8172,12 +8172,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_PWF\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_PWF\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -8275,37 +8275,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pr_PWF_self",
-			["uid"] = "BRP00000008",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -8326,6 +8295,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pr_PWF_self",
+			["uid"] = "BRP00000008",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["ma_Armor_self"] = {
 			["iconSource"] = -1,
@@ -8345,12 +8345,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_Armor\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_Armor\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -8448,37 +8448,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "ma_Armor_self",
-			["uid"] = "BRP00000003",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -8499,6 +8468,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "ma_Armor_self",
+			["uid"] = "BRP00000003",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["ma_DM_self"] = {
 			["iconSource"] = -1,
@@ -8518,12 +8518,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_DM\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_DM\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -8621,37 +8621,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "ma_DM_self",
-			["uid"] = "BRP00000006",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -8672,6 +8641,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "ma_DM_self",
+			["uid"] = "BRP00000006",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["ma_bf"] = {
 			["iconSource"] = 0,
@@ -8813,13 +8813,13 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
 			["information"] = {
 			},
 			["zoom"] = 0,
@@ -8828,17 +8828,17 @@ WeakAurasSaved = {
 			["authorOptions"] = {
 			},
 			["id"] = "ma_bf",
-			["alpha"] = 1,
 			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["width"] = 32,
-			["icon"] = true,
+			["anchorFrameType"] = "SCREEN",
+			["uid"] = "MVPINNRLttd",
+			["inverse"] = false,
 			["config"] = {
 			},
-			["inverse"] = false,
-			["uid"] = "MVPINNRLttd",
 			["displayIcon"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
 			["cooldown"] = false,
-			["anchorFrameType"] = "SCREEN",
+			["icon"] = true,
 		},
 		["wa_CS_self"] = {
 			["iconSource"] = -1,
@@ -8858,12 +8858,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"wa_CS\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"wa_CS\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -8961,37 +8961,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "wa_CS_self",
-			["uid"] = "BRP00000028",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -9012,6 +8981,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "wa_CS_self",
+			["uid"] = "BRP00000028",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["pr_SP_self"] = {
 			["iconSource"] = -1,
@@ -9031,12 +9031,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_SP\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_SP\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -9134,37 +9134,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pr_SP_self",
-			["uid"] = "BRP00000012",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -9185,6 +9154,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pr_SP_self",
+			["uid"] = "BRP00000012",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["lo_ua"] = {
 			["iconSource"] = -1,
@@ -9202,8 +9202,8 @@ WeakAurasSaved = {
 						["auranames"] = {
 							"Unstable Affliction", -- [1]
 						},
-						["matchesShowOn"] = "showOnMissing",
 						["ownOnly"] = true,
+						["matchesShowOn"] = "showOnMissing",
 						["event"] = "Health",
 						["subeventPrefix"] = "SPELL",
 						["type"] = "aura2",
@@ -9308,26 +9308,25 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
+				["use_alive"] = true,
 				["talent"] = {
 					["single"] = 25,
 					["multi"] = {
 					},
 				},
-				["use_alive"] = true,
-				["spec"] = {
+				["use_combat"] = true,
+				["class"] = {
+					["single"] = "WARLOCK",
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARLOCK",
+				["spec"] = {
 					["multi"] = {
 					},
 				},
 				["use_talent"] = true,
 			},
 			["regionType"] = "icon",
-			["xOffset"] = -292.1475208497306,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\Shotgun.ogg",
@@ -9340,6 +9339,7 @@ WeakAurasSaved = {
 					["do_sound"] = false,
 				},
 			},
+			["selfPoint"] = "CENTER",
 			["cooldown"] = false,
 			["zoom"] = 0,
 			["conditions"] = {
@@ -9351,18 +9351,18 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["id"] = "lo_ua",
-			["selfPoint"] = "CENTER",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
+			["xOffset"] = -292.1475208497306,
+			["frameStrata"] = 1,
 			["width"] = 64,
-			["uid"] = "n7hwaGOJUzL",
-			["inverse"] = false,
+			["anchorFrameType"] = "SCREEN",
 			["config"] = {
 			},
+			["inverse"] = false,
+			["uid"] = "n7hwaGOJUzL",
 			["displayIcon"] = "Interface\\Icons\\Spell_Fire_Fireball",
 			["information"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 		},
 		["sh_MS_self"] = {
 			["iconSource"] = -1,
@@ -9387,10 +9387,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_MS\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_MS\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -9509,9 +9509,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -9519,7 +9519,7 @@ WeakAurasSaved = {
 			["id"] = "sh_MS_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -9535,7 +9535,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["sh_WB_party_raid"] = {
 			["iconSource"] = -1,
@@ -9560,10 +9560,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WB\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WB\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -9682,9 +9682,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -9692,7 +9692,7 @@ WeakAurasSaved = {
 			["id"] = "sh_WB_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -9708,7 +9708,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["pa_BoK_self"] = {
 			["iconSource"] = -1,
@@ -9728,12 +9728,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoK\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoK\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -9831,37 +9831,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_BoK_self",
-			["uid"] = "BRP00000016",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -9882,6 +9851,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_BoK_self",
+			["uid"] = "BRP00000016",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["sh_NR_party_raid"] = {
 			["iconSource"] = -1,
@@ -9906,10 +9906,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_NR\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_NR\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -10028,9 +10028,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -10038,7 +10038,7 @@ WeakAurasSaved = {
 			["id"] = "sh_NR_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -10054,7 +10054,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["sh_NR_self"] = {
 			["iconSource"] = -1,
@@ -10079,10 +10079,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_NR\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_NR\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -10201,9 +10201,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -10211,7 +10211,7 @@ WeakAurasSaved = {
 			["id"] = "sh_NR_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -10227,7 +10227,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["sh_HS_self"] = {
 			["iconSource"] = -1,
@@ -10252,10 +10252,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_HS\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_HS\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -10374,9 +10374,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -10384,7 +10384,7 @@ WeakAurasSaved = {
 			["id"] = "sh_HS_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -10400,7 +10400,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["sh_FrostR_party_raid"] = {
 			["iconSource"] = -1,
@@ -10425,10 +10425,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FrostR\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FrostR\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -10547,9 +10547,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -10557,7 +10557,7 @@ WeakAurasSaved = {
 			["id"] = "sh_FrostR_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -10573,7 +10573,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["sh_FR_party_raid"] = {
 			["iconSource"] = -1,
@@ -10598,10 +10598,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FR\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FR\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -10720,9 +10720,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -10730,7 +10730,7 @@ WeakAurasSaved = {
 			["id"] = "sh_FR_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -10746,7 +10746,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["lo_np"] = {
 			["iconSource"] = 0,
@@ -10893,31 +10893,31 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["icon"] = true,
 			["anchorFrameType"] = "SCREEN",
+			["icon"] = true,
 			["cooldown"] = false,
 			["zoom"] = 0,
 			["displayIcon"] = "Interface\\Icons\\Spell_Shadow_NetherProtection",
 			["xOffset"] = -203.8513794834589,
 			["id"] = "lo_np",
-			["uid"] = "Rb3Z4Fe1yEy",
-			["alpha"] = 1,
-			["width"] = 51,
-			["selfPoint"] = "CENTER",
 			["config"] = {
 			},
-			["inverse"] = false,
 			["frameStrata"] = 1,
-			["conditions"] = {
-			},
-			["information"] = {
-			},
+			["width"] = 51,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["uid"] = "Rb3Z4Fe1yEy",
+			["inverse"] = false,
+			["alpha"] = 1,
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["selfPoint"] = "CENTER",
 		},
 		["sh_FT_party_raid"] = {
 			["iconSource"] = -1,
@@ -10942,10 +10942,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FT\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FT\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -11064,9 +11064,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -11074,7 +11074,7 @@ WeakAurasSaved = {
 			["id"] = "sh_FT_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -11090,7 +11090,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["sh_FT_self"] = {
 			["iconSource"] = -1,
@@ -11115,10 +11115,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FT\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_FT\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -11237,9 +11237,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -11247,7 +11247,7 @@ WeakAurasSaved = {
 			["id"] = "sh_FT_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -11263,7 +11263,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["pr_DS_self"] = {
 			["iconSource"] = -1,
@@ -11283,12 +11283,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_DS\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_DS\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -11386,37 +11386,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pr_DS_self",
-			["uid"] = "BRP00000010",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -11437,6 +11406,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pr_DS_self",
+			["uid"] = "BRP00000010",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["sh_SS_party_raid"] = {
 			["iconSource"] = -1,
@@ -11461,10 +11461,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_SS\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_SS\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -11583,9 +11583,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -11593,7 +11593,7 @@ WeakAurasSaved = {
 			["id"] = "sh_SS_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -11609,7 +11609,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["lo_BP_self"] = {
 			["iconSource"] = -1,
@@ -11629,12 +11629,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_BP\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_BP\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -11732,37 +11732,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "lo_BP_self",
-			["uid"] = "BRP00000039",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -11783,6 +11752,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_BP_self",
+			["uid"] = "BRP00000039",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["pa_BoW_self"] = {
 			["iconSource"] = -1,
@@ -11802,12 +11802,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoW\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoW\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -11905,37 +11905,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_BoW_self",
-			["uid"] = "BRP00000020",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -11956,6 +11925,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_BoW_self",
+			["uid"] = "BRP00000020",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["hu_TSA_party_raid"] = {
 			["iconSource"] = -1,
@@ -11975,12 +11975,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"hu_TSA\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"hu_TSA\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -12078,37 +12078,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "hu_TSA_party_raid",
-			["uid"] = "BRP00000045",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -12129,6 +12098,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "hu_TSA_party_raid",
+			["uid"] = "BRP00000045",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["sh_WF_party_raid"] = {
 			["iconSource"] = -1,
@@ -12153,10 +12153,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WF\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WF\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -12275,9 +12275,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -12285,7 +12285,7 @@ WeakAurasSaved = {
 			["id"] = "sh_WF_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -12301,7 +12301,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["sh_WoA_party_raid"] = {
 			["iconSource"] = -1,
@@ -12326,10 +12326,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WoA\",\"party_raid\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WoA\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -12448,9 +12448,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -12458,7 +12458,7 @@ WeakAurasSaved = {
 			["id"] = "sh_WoA_party_raid",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -12474,13 +12474,13 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
-		["AoH NC"] = {
-			["frameStrata"] = 1,
-			["iconSource"] = 2,
+		["ro_s&d"] = {
+			["alpha"] = 1,
+			["iconSource"] = -1,
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["xOffset"] = -135.7038126775034,
 			["authorOptions"] = {
 			},
 			["color"] = {
@@ -12489,82 +12489,56 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
+			["yOffset"] = 207.5673735696039,
 			["regionType"] = "icon",
-			["icon"] = true,
-			["config"] = {
-			},
-			["anchorFrameType"] = "SCREEN",
-			["cooldownEdge"] = false,
+			["anchorPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sneeze.ogg",
+					["do_sound"] = true,
 				},
 				["init"] = {
 				},
 				["finish"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bear_polar.ogg",
+					["do_sound"] = false,
 				},
 			},
+			["config"] = {
+			},
+			["desaturate"] = false,
+			["cooldownEdge"] = false,
+			["icon"] = true,
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["type"] = "unit",
+						["useName"] = true,
 						["subeventSuffix"] = "_CAST_START",
-						["percentpower_operator"] = ">",
-						["percentpower"] = "90",
-						["event"] = "Power",
-						["use_percentpower"] = true,
+						["event"] = "Health",
 						["subeventPrefix"] = "SPELL",
-						["powertype"] = 0,
 						["spellIds"] = {
 						},
 						["unit"] = "player",
-						["use_unit"] = true,
+						["type"] = "aura2",
 						["names"] = {
 						},
-						["use_powertype"] = true,
+						["auranames"] = {
+							"Slice and Dice", -- [1]
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
 					},
 				}, -- [1]
-				{
-					["trigger"] = {
-						["useName"] = true,
-						["auranames"] = {
-							"Aspect of the Hawk", -- [1]
-						},
-						["debuffType"] = "HELPFUL",
-						["matchesShowOn"] = "showOnMissing",
-						["type"] = "aura2",
-						["unit"] = "player",
-					},
-					["untrigger"] = {
-					},
-				}, -- [2]
-				{
-					["trigger"] = {
-						["useName"] = true,
-						["auranames"] = {
-							"Aspect of the Beast", -- [1]
-						},
-						["unit"] = "player",
-						["matchesShowOn"] = "showOnMissing",
-						["type"] = "aura2",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-					},
-				}, -- [3]
 				["activeTriggerMode"] = -10,
 			},
-			["desaturate"] = false,
+			["anchorFrameType"] = "SCREEN",
 			["internalVersion"] = 52,
 			["keepAspectRatio"] = false,
 			["selfPoint"] = "CENTER",
-			["id"] = "AoH NC",
+			["id"] = "ro_s&d",
 			["zoom"] = 0,
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 64,
 			["animation"] = {
 				["start"] = {
@@ -12586,7 +12560,7 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["uid"] = "d23XulTCYgJ",
+			["uid"] = "Ao70JBh)Hk0",
 			["inverse"] = false,
 			["subRegions"] = {
 				{
@@ -12595,7 +12569,7 @@ WeakAurasSaved = {
 				{
 					["text_shadowXOffset"] = 0,
 					["text_text_format_s_format"] = "none",
-					["text_text"] = "%1f.percentpower",
+					["text_text"] = "%s",
 					["text_shadowColor"] = {
 						0, -- [1]
 						0, -- [2]
@@ -12607,7 +12581,6 @@ WeakAurasSaved = {
 					["text_fixedWidth"] = 64,
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
-					["text_text_format_1f.percentpower_format"] = "none",
 					["type"] = "subtext",
 					["text_color"] = {
 						1, -- [1]
@@ -12617,7 +12590,6 @@ WeakAurasSaved = {
 					},
 					["text_font"] = "Friz Quadrata TT",
 					["text_shadowYOffset"] = 0,
-					["text_text_format_1.percentpower_format"] = "none",
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
 					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
@@ -12628,7 +12600,7 @@ WeakAurasSaved = {
 				{
 					["glowFrequency"] = 0.25,
 					["type"] = "subglow",
-					["glowXOffset"] = 0,
+					["useGlowColor"] = false,
 					["glowType"] = "buttonOverlay",
 					["glowLength"] = 10,
 					["glowYOffset"] = 0,
@@ -12638,8 +12610,8 @@ WeakAurasSaved = {
 						1, -- [3]
 						1, -- [4]
 					},
-					["useGlowColor"] = false,
-					["glow"] = false,
+					["glowXOffset"] = 0,
+					["glow"] = true,
 					["glowScale"] = 1,
 					["glowThickness"] = 1,
 					["glowLines"] = 8,
@@ -12656,11 +12628,10 @@ WeakAurasSaved = {
 					},
 				},
 				["class"] = {
-					["single"] = "HUNTER",
+					["single"] = "ROGUE",
 					["multi"] = {
 					},
 				},
-				["use_combat"] = false,
 				["spec"] = {
 					["multi"] = {
 					},
@@ -12691,12 +12662,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_AI\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_AI\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -12794,6 +12765,26 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -12802,7 +12793,6 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["xOffset"] = 0,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -12815,143 +12805,95 @@ WeakAurasSaved = {
 			["tocversion"] = 30300,
 			["id"] = "ma_AI_party_raid",
 			["uid"] = "BRP00000002",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["authorOptions"] = {
 			},
 			["config"] = {
 			},
 			["inverse"] = false,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
+			["xOffset"] = 0,
 		},
-		["ro_s&d"] = {
-			["alpha"] = 1,
+		["ma_AI_self"] = {
 			["iconSource"] = -1,
-			["cooldown"] = false,
-			["authorOptions"] = {
-			},
-			["xOffset"] = -135.7038126775034,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["yOffset"] = 207.5673735696039,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
-			["regionType"] = "icon",
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sneeze.ogg",
-					["do_sound"] = true,
-				},
-				["init"] = {
-				},
-				["finish"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bear_polar.ogg",
-					["do_sound"] = false,
-				},
-			},
-			["config"] = {
-			},
-			["anchorFrameType"] = "SCREEN",
 			["cooldownEdge"] = false,
 			["icon"] = true,
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
-						["event"] = "Health",
-						["subeventPrefix"] = "SPELL",
-						["spellIds"] = {
-						},
-						["unit"] = "player",
-						["type"] = "aura2",
+						["type"] = "custom",
+						["custom_type"] = "status",
 						["names"] = {
 						},
-						["auranames"] = {
-							"Slice and Dice", -- [1]
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_AI\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
 						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
+						["custom"] = "function() return true end",
 					},
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["width"] = 64,
 			["internalVersion"] = 52,
 			["keepAspectRatio"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
-			["id"] = "ro_s&d",
-			["zoom"] = 0,
-			["frameStrata"] = 1,
-			["desaturate"] = false,
 			["selfPoint"] = "CENTER",
-			["uid"] = "Ao70JBh)Hk0",
-			["inverse"] = false,
+			["desaturate"] = false,
+			["version"] = 1,
 			["subRegions"] = {
 				{
 					["type"] = "subbackground",
 				}, -- [1]
 				{
-					["text_shadowXOffset"] = 0,
-					["text_text_format_s_format"] = "none",
-					["text_text"] = "%s",
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
 					["text_shadowColor"] = {
 						0, -- [1]
 						0, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["text_selfPoint"] = "AUTO",
-					["text_automaticWidth"] = "Auto",
-					["text_fixedWidth"] = 64,
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
 					["anchorYOffset"] = 0,
-					["text_justify"] = "CENTER",
+					["text_justify"] = "LEFT",
 					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -12959,52 +12901,30 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_shadowYOffset"] = 0,
+					["text_anchorYOffset"] = 0,
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
-					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_fontType"] = "OUTLINE",
-				}, -- [2]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["useGlowColor"] = false,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["glowXOffset"] = 0,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 1,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
+					["text_shadowYOffset"] = -1,
 				}, -- [3]
 			},
-			["height"] = 64,
-			["conditions"] = {
-			},
-			["information"] = {
-			},
+			["height"] = 56,
 			["load"] = {
 				["use_class"] = true,
 				["talent"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "ROGUE",
+				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["class"] = {
+					["single"] = "MAGE",
 					["multi"] = {
 					},
 				},
@@ -13013,6 +12933,62 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "ma_AI_self",
+			["uid"] = "BRP00000001",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["lo_DI_self"] = {
 			["iconSource"] = -1,
@@ -13032,12 +13008,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_DI\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_DI\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -13135,37 +13111,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "lo_DI_self",
-			["uid"] = "BRP00000037",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -13186,6 +13131,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_DI_self",
+			["uid"] = "BRP00000037",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["sh_WF_self"] = {
 			["iconSource"] = -1,
@@ -13210,10 +13186,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WF\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WF\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -13332,9 +13308,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -13342,7 +13318,7 @@ WeakAurasSaved = {
 			["id"] = "sh_WF_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -13358,7 +13334,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["hu_Aspect_self"] = {
 			["iconSource"] = -1,
@@ -13378,12 +13354,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"hu_Aspect\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"hu_Aspect\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -13481,37 +13457,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "hu_Aspect_self",
-			["uid"] = "BRP00000043",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -13532,6 +13477,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "hu_Aspect_self",
+			["uid"] = "BRP00000043",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["ro_Poison_self"] = {
 			["iconSource"] = -1,
@@ -13551,12 +13527,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ro_Poison\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ro_Poison\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -13654,37 +13630,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "ro_Poison_self",
-			["uid"] = "BRP00000074",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -13705,6 +13650,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "ro_Poison_self",
+			["uid"] = "BRP00000074",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["sh_ToW_self"] = {
 			["iconSource"] = -1,
@@ -13729,10 +13705,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_ToW\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_ToW\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -13851,9 +13827,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -13861,7 +13837,7 @@ WeakAurasSaved = {
 			["id"] = "sh_ToW_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -13877,7 +13853,7 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["wa_BS_self"] = {
 			["iconSource"] = -1,
@@ -13897,12 +13873,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"wa_BS\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"wa_BS\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -14000,37 +13976,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "wa_BS_self",
-			["uid"] = "BRP00000026",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -14051,6 +13996,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "wa_BS_self",
+			["uid"] = "BRP00000026",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["lo_immolate"] = {
 			["iconSource"] = -1,
@@ -14059,18 +14035,7 @@ WeakAurasSaved = {
 			["yOffset"] = 18.70010437944359,
 			["anchorPoint"] = "CENTER",
 			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\Shotgun.ogg",
-					["do_sound"] = false,
-				},
-				["init"] = {
-				},
-				["finish"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bear_polar.ogg",
-					["do_sound"] = false,
-				},
-			},
+			["icon"] = true,
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -14079,8 +14044,8 @@ WeakAurasSaved = {
 						["auranames"] = {
 							"Immolate", -- [1]
 						},
-						["ownOnly"] = true,
 						["matchesShowOn"] = "showOnMissing",
+						["ownOnly"] = true,
 						["event"] = "Health",
 						["subeventPrefix"] = "SPELL",
 						["type"] = "aura2",
@@ -14181,29 +14146,40 @@ WeakAurasSaved = {
 			["height"] = 64,
 			["load"] = {
 				["use_class"] = true,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
+				["use_alive"] = true,
 				["talent"] = {
 					["multi"] = {
 					},
 				},
+				["use_combat"] = true,
 				["class"] = {
 					["single"] = "WARLOCK",
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
-				["use_alive"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
 			["xOffset"] = -391.7036551133036,
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\Shotgun.ogg",
+					["do_sound"] = false,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bear_polar.ogg",
+					["do_sound"] = false,
+				},
+			},
 			["cooldown"] = false,
 			["zoom"] = 0,
 			["conditions"] = {
@@ -14215,18 +14191,18 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["id"] = "lo_immolate",
-			["icon"] = true,
-			["frameStrata"] = 1,
-			["width"] = 64,
+			["selfPoint"] = "CENTER",
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
+			["uid"] = "(HrEwd89CdS",
+			["inverse"] = false,
 			["config"] = {
 			},
-			["inverse"] = false,
-			["uid"] = "(HrEwd89CdS",
 			["displayIcon"] = "Interface\\Icons\\Spell_Fire_Fireball",
 			["information"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 		},
 		["pa_BoM_party_raid"] = {
 			["iconSource"] = -1,
@@ -14246,12 +14222,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoM\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoM\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -14349,37 +14325,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_BoM_party_raid",
-			["uid"] = "BRP00000019",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -14400,6 +14345,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_BoM_party_raid",
+			["uid"] = "BRP00000019",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["Class Buff Reminders"] = {
 			["grow"] = "DOWN",
@@ -14543,17 +14519,42 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["uid"] = "BRPGroup001",
+			["xOffset"] = 379.2592696338568,
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["internalVersion"] = 52,
+			["limit"] = 5,
 			["animate"] = false,
-			["stagger"] = 0,
+			["uid"] = "BRPGroup001",
 			["scale"] = 1,
+			["fullCircle"] = true,
+			["border"] = false,
+			["borderEdge"] = "Square Full White",
+			["regionType"] = "dynamicgroup",
+			["borderSize"] = 2,
+			["sort"] = "none",
+			["internalVersion"] = 52,
+			["useLimit"] = false,
+			["constantFactor"] = "RADIUS",
+			["arcLength"] = 360,
+			["borderOffset"] = 4,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "Class Buff Reminders",
+			["gridWidth"] = 5,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["gridType"] = "RD",
+			["borderInset"] = 1,
+			["space"] = 0,
+			["stagger"] = 0,
+			["conditions"] = {
+			},
+			["information"] = {
+			},
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -14574,33 +14575,11 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["border"] = false,
-			["borderEdge"] = "Square Full White",
-			["regionType"] = "dynamicgroup",
-			["borderSize"] = 2,
-			["limit"] = 5,
-			["useLimit"] = false,
-			["xOffset"] = 379.2592696338568,
-			["constantFactor"] = "RADIUS",
-			["arcLength"] = 360,
-			["borderOffset"] = 4,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "Class Buff Reminders",
-			["gridWidth"] = 5,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["gridType"] = "RD",
-			["borderInset"] = 1,
-			["sort"] = "none",
-			["space"] = 0,
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["fullCircle"] = true,
 		},
 		["dk_km"] = {
+			["information"] = {
+			},
+			["iconSource"] = -1,
 			["load"] = {
 				["talent"] = {
 					["multi"] = {
@@ -14619,23 +14598,20 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["iconSource"] = -1,
-			["information"] = {
-			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["xOffset"] = -135.7038126775034,
 			["authorOptions"] = {
 			},
+			["xOffset"] = -135.7038126775034,
 			["yOffset"] = 207.5673735696039,
-			["anchorPoint"] = "CENTER",
 			["regionType"] = "icon",
+			["anchorPoint"] = "CENTER",
 			["icon"] = true,
-			["desaturate"] = false,
+			["width"] = 64,
 			["uid"] = "Gq(DdOSZor)",
 			["cooldownEdge"] = false,
 			["actions"] = {
@@ -14673,9 +14649,6 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["selfPoint"] = "CENTER",
-			["zoom"] = 0,
-			["keepAspectRatio"] = false,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -14696,11 +14669,14 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["zoom"] = 0,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
 			["id"] = "dk_km",
 			["internalVersion"] = 52,
 			["frameStrata"] = 1,
-			["width"] = 64,
 			["anchorFrameType"] = "SCREEN",
+			["desaturate"] = false,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -14784,12 +14760,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_DI\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_DI\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -14887,37 +14863,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "lo_DI_party_raid",
-			["uid"] = "BRP00000038",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -14938,6 +14883,1075 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_DI_party_raid",
+			["uid"] = "BRP00000038",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
+		},
+		["sh_Imbue_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["unit"] = "player",
+						["event"] = "Health",
+						["names"] = {
+						},
+						["spellIds"] = {
+						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_Imbue\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["useGlowColor"] = false,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["glowXOffset"] = 0,
+					["glow"] = true,
+					["glowThickness"] = 2,
+					["glowScale"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_shadowYOffset"] = -1,
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_text_format_n_format"] = "none",
+				}, -- [3]
+			},
+			["height"] = 28,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "SHAMAN",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["icon"] = true,
+			["xOffset"] = 0,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_Imbue_self",
+			["config"] = {
+			},
+			["frameStrata"] = 1,
+			["width"] = 28,
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000073",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["selfPoint"] = "CENTER",
+		},
+		["pa_BoS_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoS\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PALADIN",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_BoS_self",
+			["uid"] = "BRP00000022",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
+		},
+		["lo_Armor_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_Armor\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "WARLOCK",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_Armor_self",
+			["uid"] = "BRP00000034",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
+		},
+		["pr_IF_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_IF\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pr_IF_self",
+			["uid"] = "BRP00000014",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
+		},
+		["sh_WB_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["unit"] = "player",
+						["event"] = "Health",
+						["names"] = {
+						},
+						["spellIds"] = {
+						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WB\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["useGlowColor"] = false,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["glowXOffset"] = 0,
+					["glow"] = true,
+					["glowThickness"] = 2,
+					["glowScale"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_shadowYOffset"] = -1,
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_text_format_n_format"] = "none",
+				}, -- [3]
+			},
+			["height"] = 28,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "SHAMAN",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["icon"] = true,
+			["xOffset"] = 0,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "sh_WB_self",
+			["config"] = {
+			},
+			["frameStrata"] = 1,
+			["width"] = 28,
+			["authorOptions"] = {
+			},
+			["uid"] = "BRP00000069",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["selfPoint"] = "CENTER",
+		},
+		["dk_HoW_self"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"dk_HoW\",\"self\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "DEATHKNIGHT",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "dk_HoW_self",
+			["uid"] = "BRP00000030",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["ma_misBarr"] = {
 			["iconSource"] = -1,
@@ -15080,1069 +16094,31 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["icon"] = true,
 			["anchorFrameType"] = "SCREEN",
+			["icon"] = true,
 			["cooldown"] = false,
 			["zoom"] = 0,
 			["displayIcon"] = "Interface\\Icons\\Spell_Nature_StarFall",
 			["xOffset"] = -199.111043027815,
 			["id"] = "ma_misBarr",
-			["uid"] = "iM2rDrfkb4o",
-			["alpha"] = 1,
+			["config"] = {
+			},
+			["frameStrata"] = 1,
 			["width"] = 32,
-			["selfPoint"] = "CENTER",
-			["config"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
+			["uid"] = "iM2rDrfkb4o",
 			["inverse"] = false,
-			["frameStrata"] = 1,
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["pa_BoS_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoS\",\"self\",aura_env) or false end",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PALADIN",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_BoS_self",
-			["uid"] = "BRP00000022",
 			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-		},
-		["lo_Armor_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_Armor\",\"self\",aura_env) or false end",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "WARLOCK",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "lo_Armor_self",
-			["uid"] = "BRP00000034",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-		},
-		["pr_IF_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_IF\",\"self\",aura_env) or false end",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
 			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pr_IF_self",
-			["uid"] = "BRP00000014",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-		},
-		["sh_WB_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["unit"] = "player",
-						["event"] = "Health",
-						["names"] = {
-						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_WB\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["subeventPrefix"] = "SPELL",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["useGlowColor"] = false,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["glowXOffset"] = 0,
-					["glow"] = true,
-					["glowThickness"] = 2,
-					["glowScale"] = 1,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_shadowYOffset"] = -1,
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_text_format_n_format"] = "none",
-				}, -- [3]
-			},
-			["height"] = 28,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "SHAMAN",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "sh_WB_self",
-			["config"] = {
-			},
-			["alpha"] = 1,
-			["width"] = 28,
-			["authorOptions"] = {
-			},
-			["uid"] = "BRP00000069",
-			["inverse"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["icon"] = true,
-		},
-		["dk_HoW_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"dk_HoW\",\"self\",aura_env) or false end",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "DEATHKNIGHT",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "dk_HoW_self",
-			["uid"] = "BRP00000030",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-		},
-		["sh_Imbue_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["unit"] = "player",
-						["event"] = "Health",
-						["names"] = {
-						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_Imbue\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["subeventPrefix"] = "SPELL",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["useGlowColor"] = false,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["glowXOffset"] = 0,
-					["glow"] = true,
-					["glowThickness"] = 2,
-					["glowScale"] = 1,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_shadowYOffset"] = -1,
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_text_format_n_format"] = "none",
-				}, -- [3]
-			},
-			["height"] = 28,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "SHAMAN",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "sh_Imbue_self",
-			["config"] = {
-			},
-			["alpha"] = 1,
-			["width"] = 28,
-			["authorOptions"] = {
-			},
-			["uid"] = "BRP00000073",
-			["inverse"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["icon"] = true,
 		},
 		["pa_BoS_party_raid"] = {
 			["iconSource"] = -1,
@@ -16162,12 +16138,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoS\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoS\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -16265,37 +16241,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_BoS_party_raid",
-			["uid"] = "BRP00000023",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -16316,6 +16261,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_BoS_party_raid",
+			["uid"] = "BRP00000023",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["pa_BoK_party_raid"] = {
 			["iconSource"] = -1,
@@ -16335,12 +16311,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoK\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoK\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -16438,37 +16414,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_BoK_party_raid",
-			["uid"] = "BRP00000017",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -16489,6 +16434,210 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_BoK_party_raid",
+			["uid"] = "BRP00000017",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
+		},
+		["pa_BoW_party_raid"] = {
+			["iconSource"] = -1,
+			["parent"] = "Class Buff Reminders",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["custom_type"] = "status",
+						["names"] = {
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoW\",\"party_raid\",aura_env) or false end",
+						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
+						["check"] = "update",
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+						["custom"] = "function() return true end",
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 2,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%n",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "LEFT",
+					["text_automaticWidth"] = "Fixed",
+					["text_fixedWidth"] = 320,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "LEFT",
+					["type"] = "subtext",
+					["text_anchorXOffset"] = 8,
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_anchorYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "RIGHT",
+					["text_text_format_n_format"] = "none",
+					["text_fontType"] = "OUTLINE",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_shadowYOffset"] = -1,
+				}, -- [3]
+			},
+			["height"] = 56,
+			["load"] = {
+				["use_class"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PALADIN",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pa_BoW_party_raid",
+			["uid"] = "BRP00000021",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["sh_SS_self"] = {
 			["iconSource"] = -1,
@@ -16513,10 +16662,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["names"] = {
 						},
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_SS\",\"self\",aura_env) or false end",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
 						["spellIds"] = {
 						},
+						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"sh_SS\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
@@ -16635,9 +16784,9 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["icon"] = true,
 			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["zoom"] = 0.05,
 			["semver"] = "1.0.0",
@@ -16645,7 +16794,7 @@ WeakAurasSaved = {
 			["id"] = "sh_SS_self",
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 28,
 			["authorOptions"] = {
 			},
@@ -16661,197 +16810,24 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["icon"] = true,
-		},
-		["pa_BoW_party_raid"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pa_BoW\",\"party_raid\",aura_env) or false end",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
 			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["version"] = 1,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-				{
-					["glowFrequency"] = 0.25,
-					["type"] = "subglow",
-					["glowXOffset"] = 0,
-					["glowType"] = "buttonOverlay",
-					["glowLength"] = 10,
-					["glowYOffset"] = 0,
-					["glowColor"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
-				}, -- [3]
-			},
-			["height"] = 56,
-			["load"] = {
-				["use_class"] = true,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PALADIN",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pa_BoW_party_raid",
-			["uid"] = "BRP00000021",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
 		},
 		["sh_maelstorm"] = {
 			["alpha"] = 1,
 			["iconSource"] = -1,
 			["cooldown"] = false,
+			["authorOptions"] = {
+			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["authorOptions"] = {
-			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
-			["regionType"] = "icon",
 			["anchorPoint"] = "CENTER",
+			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -16862,7 +16838,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["width"] = 64,
+			["desaturate"] = false,
 			["cooldownEdge"] = false,
 			["icon"] = true,
 			["triggers"] = {
@@ -16891,9 +16867,14 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 64,
 			["zoom"] = 0,
 			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["id"] = "sh_maelstorm",
+			["internalVersion"] = 52,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -16914,11 +16895,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["id"] = "sh_maelstorm",
-			["internalVersion"] = 52,
-			["frameStrata"] = 1,
-			["desaturate"] = false,
-			["selfPoint"] = "CENTER",
 			["uid"] = "v4qHV8ZdIaB",
 			["inverse"] = false,
 			["subRegions"] = {
@@ -16980,8 +16956,6 @@ WeakAurasSaved = {
 			["height"] = 64,
 			["conditions"] = {
 			},
-			["information"] = {
-			},
 			["load"] = {
 				["use_spellknown"] = false,
 				["talent"] = {
@@ -17003,6 +16977,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["information"] = {
+			},
 		},
 		["ma_DM_party_raid"] = {
 			["iconSource"] = -1,
@@ -17022,12 +16998,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_DM\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_DM\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -17125,6 +17101,26 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -17133,7 +17129,6 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["xOffset"] = 0,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -17146,78 +17141,167 @@ WeakAurasSaved = {
 			["tocversion"] = 30300,
 			["id"] = "ma_DM_party_raid",
 			["uid"] = "BRP00000007",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["authorOptions"] = {
 			},
 			["config"] = {
 			},
 			["inverse"] = false,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 			["cooldown"] = false,
+			["xOffset"] = 0,
+		},
+		["AoH NC"] = {
+			["frameStrata"] = 1,
+			["iconSource"] = 2,
+			["cooldown"] = false,
+			["authorOptions"] = {
+			},
+			["xOffset"] = 0,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["regionType"] = "icon",
+			["anchorPoint"] = "CENTER",
+			["icon"] = true,
+			["config"] = {
+			},
+			["width"] = 64,
+			["cooldownEdge"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "unit",
+						["subeventSuffix"] = "_CAST_START",
+						["percentpower_operator"] = ">",
+						["percentpower"] = "90",
+						["event"] = "Power",
+						["use_percentpower"] = true,
+						["subeventPrefix"] = "SPELL",
+						["powertype"] = 0,
+						["spellIds"] = {
+						},
+						["unit"] = "player",
+						["use_unit"] = true,
+						["names"] = {
+						},
+						["use_powertype"] = true,
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				{
+					["trigger"] = {
+						["useName"] = true,
+						["auranames"] = {
+							"Aspect of the Hawk", -- [1]
+						},
+						["debuffType"] = "HELPFUL",
+						["matchesShowOn"] = "showOnMissing",
+						["type"] = "aura2",
+						["unit"] = "player",
+					},
+					["untrigger"] = {
+					},
+				}, -- [2]
+				{
+					["trigger"] = {
+						["useName"] = true,
+						["auranames"] = {
+							"Aspect of the Beast", -- [1]
+						},
+						["unit"] = "player",
+						["matchesShowOn"] = "showOnMissing",
+						["type"] = "aura2",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [3]
+				["activeTriggerMode"] = -10,
+			},
+			["anchorFrameType"] = "SCREEN",
+			["internalVersion"] = 52,
+			["keepAspectRatio"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
-					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
 				["main"] = {
 					["type"] = "none",
-					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
 				["finish"] = {
 					["type"] = "none",
-					["duration_type"] = "seconds",
 					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
 			},
-		},
-		["ma_AI_self"] = {
-			["iconSource"] = -1,
-			["parent"] = "Class Buff Reminders",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["custom_type"] = "status",
-						["names"] = {
-						},
-						["event"] = "Health",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
-						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
-						["check"] = "update",
-						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_AI\",\"self\",aura_env) or false end",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-						["custom"] = "function() return true end",
-					},
-				}, -- [1]
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 52,
-			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
+			["id"] = "AoH NC",
+			["zoom"] = 0,
+			["alpha"] = 1,
 			["desaturate"] = false,
-			["version"] = 1,
+			["selfPoint"] = "CENTER",
+			["uid"] = "d23XulTCYgJ",
+			["inverse"] = false,
 			["subRegions"] = {
 				{
 					["type"] = "subbackground",
 				}, -- [1]
+				{
+					["text_shadowXOffset"] = 0,
+					["text_text_format_s_format"] = "none",
+					["text_text"] = "%1f.percentpower",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "AUTO",
+					["text_automaticWidth"] = "Auto",
+					["text_fixedWidth"] = 64,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["text_text_format_1f.percentpower_format"] = "none",
+					["type"] = "subtext",
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_shadowYOffset"] = 0,
+					["text_text_format_1.percentpower_format"] = "none",
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_fontType"] = "OUTLINE",
+				}, -- [2]
 				{
 					["glowFrequency"] = 0.25,
 					["type"] = "subglow",
@@ -17227,126 +17311,42 @@ WeakAurasSaved = {
 					["glowYOffset"] = 0,
 					["glowColor"] = {
 						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["useGlowColor"] = false,
-					["glow"] = true,
-					["glowScale"] = 1,
-					["glowThickness"] = 2,
-					["glowLines"] = 8,
-					["glowBorder"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%n",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "LEFT",
-					["text_automaticWidth"] = "Fixed",
-					["text_fixedWidth"] = 320,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "LEFT",
-					["type"] = "subtext",
-					["text_anchorXOffset"] = 8,
-					["text_color"] = {
-						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_anchorYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "RIGHT",
-					["text_text_format_n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_shadowYOffset"] = -1,
+					["useGlowColor"] = false,
+					["glow"] = false,
+					["glowScale"] = 1,
+					["glowThickness"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
 				}, -- [3]
 			},
-			["height"] = 56,
+			["height"] = 64,
+			["conditions"] = {
+			},
+			["information"] = {
+			},
 			["load"] = {
 				["use_class"] = true,
 				["talent"] = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["class"] = {
+					["single"] = "HUNTER",
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MAGE",
+				["use_combat"] = false,
+				["spec"] = {
 					["multi"] = {
 					},
 				},
 				["size"] = {
 					["multi"] = {
 					},
-				},
-			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["information"] = {
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "ma_AI_self",
-			["uid"] = "BRP00000001",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
 				},
 			},
 		},
@@ -17368,12 +17368,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"hu_TSA\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"hu_TSA\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -17471,37 +17471,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "hu_TSA_self",
-			["uid"] = "BRP00000044",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -17522,6 +17491,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "hu_TSA_self",
+			["uid"] = "BRP00000044",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["lo_UB_self"] = {
 			["iconSource"] = -1,
@@ -17541,12 +17541,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_UB\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"lo_UB\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -17644,37 +17644,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "lo_UB_self",
-			["uid"] = "BRP00000035",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -17695,6 +17664,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "lo_UB_self",
+			["uid"] = "BRP00000035",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["ma_ms"] = {
 			["iconSource"] = 0,
@@ -17841,31 +17841,31 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["icon"] = true,
 			["anchorFrameType"] = "SCREEN",
+			["icon"] = true,
 			["cooldown"] = false,
 			["zoom"] = 0,
 			["displayIcon"] = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility",
 			["xOffset"] = -205.6290888132086,
 			["id"] = "ma_ms",
-			["uid"] = "GfxReakqydU",
-			["alpha"] = 1,
-			["width"] = 32,
-			["selfPoint"] = "CENTER",
 			["config"] = {
 			},
-			["inverse"] = false,
 			["frameStrata"] = 1,
-			["conditions"] = {
-			},
-			["information"] = {
-			},
+			["width"] = 32,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["uid"] = "GfxReakqydU",
+			["inverse"] = false,
+			["alpha"] = 1,
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["selfPoint"] = "CENTER",
 		},
 		["wa_CS_party_raid"] = {
 			["iconSource"] = -1,
@@ -17885,12 +17885,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"wa_CS\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"wa_CS\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -17988,37 +17988,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "wa_CS_party_raid",
-			["uid"] = "BRP00000029",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -18039,27 +18008,58 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-		},
-		["pa_ArOfWa"] = {
-			["alpha"] = 1,
-			["iconSource"] = -1,
-			["cooldown"] = false,
-			["xOffset"] = -241.185201192865,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "wa_CS_party_raid",
+			["uid"] = "BRP00000029",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
+		},
+		["pa_ArOfWa"] = {
+			["alpha"] = 1,
+			["iconSource"] = -1,
+			["cooldown"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["xOffset"] = -241.185201192865,
 			["authorOptions"] = {
 			},
 			["yOffset"] = 162.6882575211773,
-			["regionType"] = "icon",
 			["anchorPoint"] = "CENTER",
+			["regionType"] = "icon",
 			["icon"] = true,
 			["config"] = {
 			},
-			["width"] = 20,
+			["desaturate"] = false,
 			["cooldownEdge"] = false,
 			["actions"] = {
 				["start"] = {
@@ -18094,9 +18094,14 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 20,
 			["internalVersion"] = 52,
 			["keepAspectRatio"] = false,
+			["selfPoint"] = "CENTER",
+			["id"] = "pa_ArOfWa",
+			["zoom"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -18117,11 +18122,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["id"] = "pa_ArOfWa",
-			["zoom"] = 0,
-			["frameStrata"] = 1,
-			["desaturate"] = false,
-			["selfPoint"] = "CENTER",
 			["uid"] = "4PfKmv0qPVm",
 			["inverse"] = false,
 			["subRegions"] = {
@@ -18183,8 +18183,6 @@ WeakAurasSaved = {
 			["height"] = 20,
 			["conditions"] = {
 			},
-			["information"] = {
-			},
 			["load"] = {
 				["use_spellknown"] = false,
 				["talent"] = {
@@ -18206,6 +18204,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["information"] = {
+			},
 		},
 		["pr_DS_party_raid"] = {
 			["iconSource"] = -1,
@@ -18225,12 +18225,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_DS\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"pr_DS\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -18328,37 +18328,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "pr_DS_party_raid",
-			["uid"] = "BRP00000011",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -18379,6 +18348,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "pr_DS_party_raid",
+			["uid"] = "BRP00000011",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["ma_AM_self"] = {
 			["iconSource"] = -1,
@@ -18398,12 +18398,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_AM\",\"self\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_AM\",\"self\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -18501,37 +18501,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "ma_AM_self",
-			["uid"] = "BRP00000004",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -18552,6 +18521,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "ma_AM_self",
+			["uid"] = "BRP00000004",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["ma_AM_party_raid"] = {
 			["iconSource"] = -1,
@@ -18571,12 +18571,12 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["customName"] = "function() return aura_env.label or \"Missing buff\" end",
-						["spellIds"] = {
-						},
+						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_AM\",\"party_raid\",aura_env) or false end",
 						["customIcon"] = "function() return aura_env.icon or \"Interface\\\\Icons\\\\INV_Misc_QuestionMark\" end",
 						["check"] = "update",
 						["subeventSuffix"] = "_CAST_START",
-						["custom"] = "function() return BuffReminderPack and BuffReminderPack.Check(\"ma_AM\",\"party_raid\",aura_env) or false end",
+						["spellIds"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -18674,37 +18674,6 @@ WeakAurasSaved = {
 			},
 			["information"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["width"] = 56,
-			["zoom"] = 0.05,
-			["semver"] = "1.0.0",
-			["tocversion"] = 30300,
-			["id"] = "ma_AM_party_raid",
-			["uid"] = "BRP00000005",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -18725,6 +18694,37 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 56,
+			["zoom"] = 0.05,
+			["semver"] = "1.0.0",
+			["tocversion"] = 30300,
+			["id"] = "ma_AM_party_raid",
+			["uid"] = "BRP00000005",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["config"] = {
+			},
+			["inverse"] = false,
+			["alpha"] = 1,
+			["displayIcon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+			["cooldown"] = false,
+			["xOffset"] = 0,
 		},
 		["lo_co"] = {
 			["iconSource"] = -1,
@@ -18747,7 +18747,7 @@ WeakAurasSaved = {
 							"Corruption", -- [1]
 						},
 						["useName"] = true,
-						["matchesShowOn"] = "showOnMissing",
+						["ownOnly"] = true,
 						["event"] = "Health",
 						["subeventPrefix"] = "SPELL",
 						["unit"] = "target",
@@ -18758,7 +18758,7 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["remOperator"] = "<=",
 						["type"] = "aura2",
-						["ownOnly"] = true,
+						["matchesShowOn"] = "showOnMissing",
 						["debuffType"] = "HARMFUL",
 					},
 					["untrigger"] = {
@@ -18848,31 +18848,31 @@ WeakAurasSaved = {
 			["height"] = 64,
 			["load"] = {
 				["use_class"] = true,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
+				["use_alive"] = true,
 				["talent"] = {
 					["single"] = 25,
 					["multi"] = {
 						[25] = true,
 					},
 				},
+				["use_combat"] = true,
 				["class"] = {
 					["single"] = "WARLOCK",
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
-				["use_alive"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["regionType"] = "icon",
-			["width"] = 64,
-			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["information"] = {
 			},
 			["zoom"] = 0,
@@ -18880,10 +18880,13 @@ WeakAurasSaved = {
 			["authorOptions"] = {
 			},
 			["id"] = "lo_co",
+			["uid"] = "(009riTvHPb",
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["selfPoint"] = "CENTER",
 			["config"] = {
 			},
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
+			["inverse"] = false,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\Shotgun.ogg",
@@ -18896,13 +18899,10 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["uid"] = "(009riTvHPb",
-			["inverse"] = false,
-			["xOffset"] = -392.8885378951816,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["xOffset"] = -392.8885378951816,
 		},
 		["BWL Weaknesses TSU"] = {
 			["sparkWidth"] = 10,
@@ -19057,20 +19057,20 @@ WeakAurasSaved = {
 						["custom_hide"] = "custom",
 						["type"] = "custom",
 						["use_absorbMode"] = true,
-						["unevent"] = "auto",
+						["custom_type"] = "stateupdate",
 						["use_unit"] = true,
 						["unit"] = "player",
 						["event"] = "Health",
 						["subeventSuffix"] = "_CAST_START",
 						["events"] = "UNIT_AURA:target, PLAYER_TARGET_CHANGED, CHAT_MSG_ADDON, CLEU:UNIT_DIED, NAME_PLATE_UNIT_ADDED, NAME_PLATE_UNIT_REMOVED",
 						["customName"] = "",
+						["custom"] = "function(allstates, event, ...)\n    if event == \"UNIT_AURA\" or event == \"PLAYER_TARGET_CHANGED\" then\n        local targetGUID = UnitGUID(\"target\")\n        if targetGUID then\n            --have to do 50 different checks so it doesn't trigger on unit death..\n            if (UnitAffectingCombat(\"target\") and UnitHealth(\"target\") > 5000 and UnitExists(\"target\") and not UnitIsDead(\"target\")) or aura_env.config.debug then\n                local npc_id = select(6, strsplit(\"-\", targetGUID))\n                npc_id = tonumber(npc_id)\n                local mobName = aura_env.config.debug and UnitName(\"target\"):sub(1,10)..\"...\" or aura_env.mobID[npc_id]\n                \n                if mobName then\n                    local icon = \"\"\n                    local targetIndex = GetRaidTargetIndex(\"target\")\n                    \n                    if targetIndex then\n                        icon = \"{rt\"..targetIndex..\"}\"\n                    end\n                    \n                    local weakness = \"Unknown\"\n                    for i = 1,32 do\n                        local spellID = select(10, UnitBuff(\"target\", i))\n                        if not spellID then break end\n                        if aura_env.weaknessTable[spellID] then\n                            weakness = aura_env.weaknessTable[spellID]\n                            break\n                        end\n                    end\n                    \n                    for k, v in pairs(allstates) do\n                        allstates[k].targetted = false\n                    end\n                    \n                    aura_env.UpdateState(allstates, targetGUID, mobName, weakness, icon, true)\n                    \n                    local message = aura_env.version..\"@\"..targetGUID..\"@\"..weakness..\"@\"..mobName..\"@\"..icon\n                    C_ChatInfo.SendAddonMessage(\"BWLElemShields\", message, \"RAID\")\n                end\n            elseif allstates[targetGUID] then\n                allstates[targetGUID].show = false\n                allstates[targetGUID].changed = true\n            end\n        else\n            for k, v in pairs(allstates) do\n                allstates[k].targetted = false\n            end\n        end\n    elseif event == \"CHAT_MSG_ADDON\" then\n        local prefix, text, channel, sender = ...\n        if prefix == \"BWLElemShields\" then\n            local sender, realm = strsplit(\"-\", sender, 2)\n            if channel == \"RAID\" and sender ~= WeakAuras.me then\n                local version, GUID, weakness, mobName, icon = strsplit(\"@\", text, 5)\n                if version then\n                    version = tonumber(version)\n                    if aura_env.versionWhitelist[version] then\n                        if weakness == \"DEAD\" then\n                            if allstates[GUID] then\n                                allstates[GUID].show = false\n                                allstates[GUID].changed = true\n                            end\n                        else\n                            aura_env.UpdateState(allstates, GUID, mobName, weakness, icon, nil)\n                        end\n                    end\n                end\n            end\n        end\n    elseif event == \"COMBAT_LOG_EVENT_UNFILTERED\" then\n        local GUID = select(8, ...)\n        if allstates[GUID] then\n            local message = aura_env.version..\"@\"..GUID..\"@DEAD\"\n            C_ChatInfo.SendAddonMessage(\"BWLElemShields\", message, \"RAID\")\n            allstates[GUID].show = false\n            allstates[GUID].changed = true\n        end\n    elseif event == \"NAME_PLATE_UNIT_ADDED\" or event == \"NAME_PLATE_UNIT_REMOVED\" then\n        local nameplate = ...\n        if nameplate then\n            local nameplateGUID = UnitGUID(nameplate)\n            \n            if allstates[nameplateGUID] then\n                allstates[nameplateGUID].nameplate = (event == \"NAME_PLATE_UNIT_ADDED\") and nameplate or nil\n                allstates[nameplateGUID].changed = true\n            end\n        end\n    end\n    \n    return true\nend",
 						["spellIds"] = {
 						},
-						["custom"] = "function(allstates, event, ...)\n    if event == \"UNIT_AURA\" or event == \"PLAYER_TARGET_CHANGED\" then\n        local targetGUID = UnitGUID(\"target\")\n        if targetGUID then\n            --have to do 50 different checks so it doesn't trigger on unit death..\n            if (UnitAffectingCombat(\"target\") and UnitHealth(\"target\") > 5000 and UnitExists(\"target\") and not UnitIsDead(\"target\")) or aura_env.config.debug then\n                local npc_id = select(6, strsplit(\"-\", targetGUID))\n                npc_id = tonumber(npc_id)\n                local mobName = aura_env.config.debug and UnitName(\"target\"):sub(1,10)..\"...\" or aura_env.mobID[npc_id]\n                \n                if mobName then\n                    local icon = \"\"\n                    local targetIndex = GetRaidTargetIndex(\"target\")\n                    \n                    if targetIndex then\n                        icon = \"{rt\"..targetIndex..\"}\"\n                    end\n                    \n                    local weakness = \"Unknown\"\n                    for i = 1,32 do\n                        local spellID = select(10, UnitBuff(\"target\", i))\n                        if not spellID then break end\n                        if aura_env.weaknessTable[spellID] then\n                            weakness = aura_env.weaknessTable[spellID]\n                            break\n                        end\n                    end\n                    \n                    for k, v in pairs(allstates) do\n                        allstates[k].targetted = false\n                    end\n                    \n                    aura_env.UpdateState(allstates, targetGUID, mobName, weakness, icon, true)\n                    \n                    local message = aura_env.version..\"@\"..targetGUID..\"@\"..weakness..\"@\"..mobName..\"@\"..icon\n                    C_ChatInfo.SendAddonMessage(\"BWLElemShields\", message, \"RAID\")\n                end\n            elseif allstates[targetGUID] then\n                allstates[targetGUID].show = false\n                allstates[targetGUID].changed = true\n            end\n        else\n            for k, v in pairs(allstates) do\n                allstates[k].targetted = false\n            end\n        end\n    elseif event == \"CHAT_MSG_ADDON\" then\n        local prefix, text, channel, sender = ...\n        if prefix == \"BWLElemShields\" then\n            local sender, realm = strsplit(\"-\", sender, 2)\n            if channel == \"RAID\" and sender ~= WeakAuras.me then\n                local version, GUID, weakness, mobName, icon = strsplit(\"@\", text, 5)\n                if version then\n                    version = tonumber(version)\n                    if aura_env.versionWhitelist[version] then\n                        if weakness == \"DEAD\" then\n                            if allstates[GUID] then\n                                allstates[GUID].show = false\n                                allstates[GUID].changed = true\n                            end\n                        else\n                            aura_env.UpdateState(allstates, GUID, mobName, weakness, icon, nil)\n                        end\n                    end\n                end\n            end\n        end\n    elseif event == \"COMBAT_LOG_EVENT_UNFILTERED\" then\n        local GUID = select(8, ...)\n        if allstates[GUID] then\n            local message = aura_env.version..\"@\"..GUID..\"@DEAD\"\n            C_ChatInfo.SendAddonMessage(\"BWLElemShields\", message, \"RAID\")\n            allstates[GUID].show = false\n            allstates[GUID].changed = true\n        end\n    elseif event == \"NAME_PLATE_UNIT_ADDED\" or event == \"NAME_PLATE_UNIT_REMOVED\" then\n        local nameplate = ...\n        if nameplate then\n            local nameplateGUID = UnitGUID(nameplate)\n            \n            if allstates[nameplateGUID] then\n                allstates[nameplateGUID].nameplate = (event == \"NAME_PLATE_UNIT_ADDED\") and nameplate or nil\n                allstates[nameplateGUID].changed = true\n            end\n        end\n    end\n    \n    return true\nend",
 						["check"] = "event",
 						["names"] = {
 						},
-						["custom_type"] = "stateupdate",
+						["unevent"] = "auto",
 						["customVariables"] = "{\n    weakness = {\n        display = \"Weakness\",\n        type = \"select\",\n        values = {\n            Unknown = \"Unknown\",\n            Fire = \"Fire\",\n            Frost = \"Frost\",\n            Shadow = \"Shadow\",\n            Nature = \"Nature\",\n            Arcane = \"Arcane\",\n        }\n    },\n    targetted = {\n        display = \"Current Target\",\n        type = \"bool\",\n        test = function(state, needle) \n            return state.targetted == (needle == 1)\n        end\n    },\n    nameplate = {\n        display = \"On Nameplate\",\n        type = \"bool\",\n        test = function(state, needle)\n            return ((state.nameplate ~= nil and aura_env.config.showOnNameplates) == (needle == 1))\n        end\n    }\n}",
 					},
 					["untrigger"] = {
@@ -19098,9 +19098,9 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 					["scaley"] = 1,
 					["alpha"] = 0,
-					["x"] = 0,
-					["y"] = 0,
 					["colorType"] = "custom",
+					["y"] = 0,
+					["x"] = 0,
 					["use_color"] = false,
 					["rotate"] = 0,
 					["colorFunc"] = "",
@@ -19223,8 +19223,8 @@ WeakAurasSaved = {
 			["justify"] = "LEFT",
 			["semver"] = "3.0.2",
 			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["id"] = "BWL Weaknesses TSU",
 			["sparkHidden"] = "NEVER",
+			["id"] = "BWL Weaknesses TSU",
 			["frameStrata"] = 1,
 			["width"] = 170,
 			["selfPoint"] = "BOTTOM",
